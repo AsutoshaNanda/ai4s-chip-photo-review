@@ -20,7 +20,7 @@ You can watch it on [YouTube](https://youtu.be/HXp1MqyvRRE) without login or pay
 
 Researchers must inspect microscope photos before they use organ-on-a-chip samples in more work. This project examines a review aid that places likely poor-quality samples first. A person makes the final decision.
 
-The primary method combines a whole-photo view with nine smaller image tiles. It uses an existing DINOv2 image model without more training. A small trained model calculates the review score. I chose the method with development data, then evaluated the fixed choice on reserved photos. Unsupported image formats go to manual review without a score.
+The final chosen method is experiment X01. It combines a whole-photo view with nine smaller image tiles in a 3×3 grid. It uses an existing DINOv2 image model without more training. A small trained model calculates the review score. I chose the method with development data, then evaluated the fixed choice on reserved photos. Unsupported image formats go to manual review without a score.
 
 On 672 automatically scored final photos, the method gave a ranking score of 0.850. The whole-photo reference gave 0.810 in the same clean rebuild. The paired gain was 0.040, with a 95% range from 0.015 to 0.067. This score measures ranking quality. It does not mean 85% accuracy.
 
@@ -50,10 +50,10 @@ These are separate studies. The delivered photo tool does not operate a physical
 
 | Source | Role in this project | Evaluation scope | Source and usage record |
 |---|---|---|---|
-| Organ-on-a-Chip Image Dataset | Primary sample-quality task | 3,072 photos: 2,397 development and 675 reserved final photos | [Movčana and colleagues, Zenodo 10203721](https://zenodo.org/records/10203721). Record: CC BY 4.0. The paper states CC BY-SA; this difference remains open. |
+| Organ-on-a-Chip Image Dataset | Primary sample-quality task | 3,072 photos: 2,397 development and 675 reserved final photos | [Movčana and colleagues, Zenodo 10203721](https://zenodo.org/records/10203721). Record: CC BY 4.0. The paper states CC BY-SA. The two sources differ. |
 | BBBC039 | Nucleus counting and outlines | 200 images: 150 development and 50 final images | [Broad Bioimage Benchmark Collection](https://bbbc.broadinstitute.org/BBBC039), CC0. |
 | BBBC038 | Outside nucleus test | 670 source images; 43 shared images excluded. Remaining test: 519 gray and 108 color images | [BBBC038](https://bbbc.broadinstitute.org/BBBC038), CC0. |
-| RxRx1 | C01 batch-transfer study | Comparison of features across laboratory batches | [RxRx1](https://www.rxrx.ai/rxrx1). Research record only; exact publication scope remains to be settled. |
+| RxRx1 | C01 batch-transfer study | Comparison of features across laboratory batches | [RxRx1](https://www.rxrx.ai/rxrx1). Research record only. Its data is not in the public repository. |
 | JUMP Cell Painting profiles | C02 batch-correction study | Matched development comparisons on stored profiles | [Cell Painting Gallery](https://registry.opendata.aws/cellpainting-gallery/), CC0 1.0 for gallery data. |
 | Allen Cell DIC and lamin B1 images | C03 image-translation study | Input-only depth choice; direct and translated measurement routes | [Allen Cell](https://www.allencell.org/). Research and non-commercial terms are recorded; redistribution is not cleared. |
 | Droplet model equations | R01-R04 simulation studies | Practice simulator with declared response assumptions | [Pärnamets et al., 2022](https://doi.org/10.1109/ACCESS.2022.3226623). This project did not collect physical control data. |
@@ -301,7 +301,7 @@ The corrected C02 comparison uses the same ten training batches for every candid
 
 The C03 reference masks come from a measurement of real fluorescence images. They are not manual nucleus annotations.
 
-These negative and mixed results changed the project scope. I did not add either rescaling or predicted fluorescence to the primary photo tool. C01 and C03 appear here as numerical research records. I have not included their images or data in this report's figure package. Their final publication scope remains to be settled.
+These negative and mixed results changed the project scope. I did not add either rescaling or predicted fluorescence to the primary photo tool. C01 and C03 appear here as numerical research records. I have not included their images or data in this report's figure package. Their data is also not in the public repository.
 
 #### 6.2 Learned droplet control
 
@@ -470,7 +470,7 @@ The tables below give the reason, result and resulting decision for each ID. The
 
 | ID | Why I ran it | Result and evidence scope | Decision |
 |---|---|---|---|
-| C01 | Do tests of laboratory-batch transfer in RxRx1. | New-batch accuracy 86% versus within-batch 97%; prior exposure possible. | Limited research record; publication scope pending. |
+| C01 | Do tests of laboratory-batch transfer in RxRx1. | New-batch accuracy 86% versus within-batch 97%; prior exposure possible. | Limited research record. Data not published. |
 | C02 | Compare biological matching and batch removal in the same tests. | Corrected protocol: matching 0.006 to 0.059; batch identification 0.404 to 0.860. | Reject successful batch removal. |
 | C03 | Find if predicted fluorescence improves measurements. | Corrected input-only protocol: count error 12.09 versus direct measurement 7.255. | Prefer direct measurement. |
 | C04 | Obtain a genuine outside-laboratory chip test. | Blocked: no suitable labeled dataset found in the recorded search. | No outside-laboratory claim. |
@@ -489,13 +489,13 @@ The tables below give the reason, result and resulting decision for each ID. The
 
 | ID | Why I did it | Recorded outcome | Decision or open work |
 |---|---|---|---|
-| G01 | Establish data integrity, model origin and software versions. | Checksums, decoding and duplicate checks recorded. Model files and versions recorded. | Finish exact credits and publication choices. |
+| G01 | Establish data integrity, model origin and software versions. | Checksums, decoding and duplicate checks recorded. Model files and versions recorded. | Credits and license terms are in Section 9. |
 | G02 | Prevent invalid splits and scoring. | Image scoring checks pass. Final IDs are locked. RL evaluation repairs and checks completed. | Protect opened final data from more selection. |
 | G03 | Measure feasible compute and cost. | A100 and T4 timings recorded. Mac rate unverified. Historical billing readings conflict. | Report only measured task-specific times and qualified costs. |
 | F01 | Confirm fixed choices on reserved data. | Photo and nucleus final comparisons completed. Repaired RL scenarios also completed. | Supported within the stated datasets and simulator. |
 | F02 | Estimate the value of ordered review. | Saved-prediction review curves completed. | A timed human study is necessary for time-saving claims. |
 | F03 | Do a reproduction test in a fresh environment. | Chip pipeline, one B03 split and four cleanup repeats completed. | Do not claim complete retraining of every study. |
-| F04 | Assemble the submission package. | Scorer, local demo, report records, video script and video exist. | Public code and video are linked. Team details and registration are confirmed. Rights and submission remain open. |
+| F04 | Assemble the submission package. | Scorer, local demo, report records, video script and video exist. | Public code and video are linked. Team details and registration are confirmed. |
 
 ### Appendix B. Additional work and later checks
 
@@ -513,8 +513,8 @@ These 13 E-items overlap the original experiments. They are not 13 new independe
 | E08 | Explain the changed whole-photo baseline. | Clean AUC 0.810 versus earlier 0.801. Cause not isolated; clipping explanation withdrawn. | Use the consistent clean comparison. |
 | E09 | Demonstrate a usable photo scorer. | Rebuilt 17-photo demo: 12 scored, five manual. Rank order preserved. | Show operation. Do not treat it as new accuracy evidence. |
 | E10 | Identify exact models and versions. | Model hashes, package versions and training-feature origin recorded. | Preserve the metadata. |
-| E11 | Do a check of source and publication terms. | Rights records exist. JUMP gallery data is CC0; chip record and paper differ. C01/C03 choices remain open. | Complete the rights and credit decisions before release. |
+| E11 | Do a check of source and publication terms. | Rights records exist. JUMP gallery data is CC0; chip record and paper differ. C01/C03 data is not published. | Keep data, code and model terms separate. |
 | E12 | Do checks of paths and reported numbers. | Checks of named paths and selected calculations completed. Cloud file comparisons also match within their recorded scope. | Keep existence checks separate from scientific validation. |
-| E13 | Prepare the documents. | Decision ledger, results tables, README, report, video script and video exist. | Finish public deliverables. |
+| E13 | Prepare the documents. | Decision ledger, results tables, README, report, video script and video exist. | Public deliverables are linked. |
 | F05 | Align the scorer with the install file and test it. | Rebuilt under scikit-learn 1.9.1. Normal fresh-install demonstration completed. | Claim the ordinary tested install path only. |
 | F06 | Attempt an additional strict installation check. | Job failed with an empty downloaded log. | Mark the test as failed. Do not count it as passed. |
