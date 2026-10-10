@@ -1,0 +1,17 @@
+[2026-10-06T10:59:57] run 20261006-105952_B02_unet_fg_seed0_combined started
+[2026-10-06T10:59:57] B02 best_count: count MAE 4.45 (bias -1.63); pooled F1 0.25/0.50/0.75/0.90 0.932/0.907/0.847/0.704; joined 2165 split 891 missed 59 false 561
+[2026-10-06T10:59:57] B02 best_outline: count MAE 7.91 (bias -7.71); pooled F1 0.25/0.50/0.75/0.90 0.937/0.918/0.865/0.725; joined 2106 split 855 missed 499 false 71
+[2026-10-06T10:59:57] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00       9.307  -7.440   0.894   0.839
+           2.00       9.707  -8.347   0.882   0.817
+           3.00       9.933  -8.853   0.853   0.760
+brightness 0.50       8.887  -8.767   0.908   0.855
+           0.75       8.207  -8.100   0.918   0.868
+           1.25       7.767  -7.447   0.914   0.863
+           1.50       7.740  -7.273   0.910   0.858
+noise_sd   0.02       8.380  -8.300   0.909   0.853
+           0.05      12.327 -12.193   0.853   0.773
+           0.10      62.707 -62.693   0.361   0.261
+[2026-10-06T10:59:57] run finished: status=measured, wall_seconds=4.95

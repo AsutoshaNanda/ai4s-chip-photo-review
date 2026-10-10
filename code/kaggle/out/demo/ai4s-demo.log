@@ -1,0 +1,70 @@
+[{"stream_name":"stdout","time":10.055810422,"data":"[16:46:39] code ready: ['final_config.json', 'inference.py', 'requirements.txt', 'runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":105.173452311,"data":"[16:48:14] extracted 17 demo photos\n"}
+,{"stream_name":"stdout","time":119.15762884,"data":"{\n"}
+,{"stream_name":"stdout","time":119.157676072,"data":" \"candidate\": \"fixed_3x3\",\n"}
+,{"stream_name":"stdout","time":119.157682927,"data":" \"train_photos\": 2397,\n"}
+,{"stream_name":"stdout","time":119.157688078,"data":" \"C\": 0.001,\n"}
+,{"stream_name":"stdout","time":119.157692507,"data":" \"yes_no_cutoff_from_inner_cv\": 0.5717643744686834,\n"}
+,{"stream_name":"stdout","time":119.157696905,"data":" \"automatic_formats\": [\n"}
+,{"stream_name":"stdout","time":119.157701142,"data":"  \"L/2056x1542\",\n"}
+,{"stream_name":"stdout","time":119.157705257,"data":"  \"RGB/2048x1536\"\n"}
+,{"stream_name":"stdout","time":119.157709477,"data":" ],\n"}
+,{"stream_name":"stdout","time":119.15771754,"data":" \"thin_support_formats\": [\n"}
+,{"stream_name":"stdout","time":119.157720816,"data":"  \"RGB/640x480\"\n"}
+,{"stream_name":"stdout","time":119.157723677,"data":" ],\n"}
+,{"stream_name":"stdout","time":119.157726373,"data":" \"small_rule\": \"manual_review\",\n"}
+,{"stream_name":"stdout","time":119.157729172,"data":" \"feature_model\": \"vit_large_patch14_dinov2.lvd142m\",\n"}
+,{"stream_name":"stdout","time":119.157749704,"data":" \"long_side\": 518,\n"}
+,{"stream_name":"stdout","time":119.157753852,"data":" \"tiles\": \"3x3, native resolution, mean+max\",\n"}
+,{"stream_name":"stdout","time":119.157792808,"data":" \"training_set_note\": \"all 2,397 development photos; the 675 locked final photos were not used\"\n"}
+,{"stream_name":"stdout","time":119.157797926,"data":"}\n"}
+,{"stream_name":"stdout","time":119.157802309,"data":" \n"}
+,{"stream_name":"stdout","time":166.072253087,"data":"                                     photo        format         route    p_bad  rank\n"}
+,{"stream_name":"stdout","time":166.072298529,"data":" /kaggle/working/demo_photos/230424_19.png   L/2056x1542     automatic 0.859225   1.0\n"}
+,{"stream_name":"stdout","time":166.072302923,"data":" /kaggle/working/demo_photos/230320_70.png   L/2056x1542     automatic 0.826816   2.0\n"}
+,{"stream_name":"stdout","time":166.072306275,"data":"  /kaggle/working/demo_photos/220706_6.png RGB/2048x1536     automatic 0.777029   3.0\n"}
+,{"stream_name":"stdout","time":166.072309423,"data":" /kaggle/working/demo_photos/230411_12.png   L/2056x1542     automatic 0.692794   4.0\n"}
+,{"stream_name":"stdout","time":166.072312503,"data":"  /kaggle/working/demo_photos/230424_3.png   L/2056x1542     automatic 0.658763   5.0\n"}
+,{"stream_name":"stdout","time":166.072315601,"data":"/kaggle/working/demo_photos/230320_133.png   L/2056x1542     automatic 0.223613   6.0\n"}
+,{"stream_name":"stdout","time":166.072318536,"data":" /kaggle/working/demo_photos/230320_33.png   L/2056x1542     automatic 0.107706   7.0\n"}
+,{"stream_name":"stdout","time":166.072321589,"data":" /kaggle/working/demo_photos/230320_21.png   L/2056x1542     automatic 0.084544   8.0\n"}
+,{"stream_name":"stdout","time":166.072324616,"data":"  /kaggle/working/demo_photos/220610_5.png RGB/2048x1536     automatic 0.071298   9.0\n"}
+,{"stream_name":"stdout","time":166.072327575,"data":" /kaggle/working/demo_photos/221010_80.png RGB/2048x1536     automatic 0.054693  10.0\n"}
+,{"stream_name":"stdout","time":166.072330529,"data":" /kaggle/working/demo_photos/230320_45.png   L/2056x1542     automatic 0.030263  11.0\n"}
+,{"stream_name":"stdout","time":166.072333453,"data":" /kaggle/working/demo_photos/221010_69.png RGB/2048x1536     automatic 0.013049  12.0\n"}
+,{"stream_name":"stdout","time":166.072347167,"data":" /kaggle/working/demo_photos/230206_25.png   RGB/640x480 manual_review      NaN   NaN\n"}
+,{"stream_name":"stdout","time":166.072350033,"data":" /kaggle/working/demo_photos/230206_26.png   RGB/640x480 manual_review      NaN   NaN\n"}
+,{"stream_name":"stdout","time":166.072352467,"data":" /kaggle/working/demo_photos/230329_10.png RGB/1536x2048 manual_review      NaN   NaN\n"}
+,{"stream_name":"stdout","time":166.072354867,"data":" /kaggle/working/demo_photos/230329_11.png RGB/1536x2048 manual_review      NaN   NaN\n"}
+,{"stream_name":"stdout","time":166.072357279,"data":" /kaggle/working/demo_photos/230329_12.png RGB/1536x2048 manual_review      NaN   NaN\n"}
+,{"stream_name":"stdout","time":166.072359783,"data":"\n"}
+,{"stream_name":"stdout","time":166.072362065,"data":"12 photos scored automatically; 5 sent to manual review. Wrote /kaggle/working/demo_ranking.csv\n"}
+,{"stream_name":"stdout","time":166.072364559,"data":" Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":166.072371585,"data":"/kaggle/working/code/scripts/a_views.py:64: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)\n"}
+,{"stream_name":"stdout","time":166.072380052,"data":"  x = torch.stack([torch.from_numpy(np.ascontiguousarray(arrays[j])) for j in chunk]).float().div(255)[:, None].to(self.dev)\n"}
+,{"stream_name":"stdout","time":166.072382654,"data":"\n"}
+,{"stream_name":"stdout","time":166.084623541,"data":"                                     photo        format         route    p_bad  rank   image_id  label_bad       role cell_type\n"}
+,{"stream_name":"stdout","time":166.084647156,"data":" /kaggle/working/demo_photos/230424_19.png   L/2056x1542     automatic 0.859225   1.0  230424_19          1 final_test     HPMEC\n"}
+,{"stream_name":"stdout","time":166.084654716,"data":" /kaggle/working/demo_photos/230320_70.png   L/2056x1542     automatic 0.826816   2.0  230320_70          1 final_test     HPMEC\n"}
+,{"stream_name":"stdout","time":166.084659452,"data":"  /kaggle/working/demo_photos/220706_6.png RGB/2048x1536     automatic 0.777029   3.0   220706_6          1 final_test     HSAEC\n"}
+,{"stream_name":"stdout","time":166.084665979,"data":" /kaggle/working/demo_photos/230411_12.png   L/2056x1542     automatic 0.692794   4.0  230411_12          1 final_test     HUVEC\n"}
+,{"stream_name":"stdout","time":166.084671012,"data":"  /kaggle/working/demo_photos/230424_3.png   L/2056x1542     automatic 0.658763   5.0   230424_3          1 final_test     HPMEC\n"}
+,{"stream_name":"stdout","time":166.08467635,"data":"/kaggle/working/demo_photos/230320_133.png   L/2056x1542     automatic 0.223613   6.0 230320_133          1 final_test     HPMEC\n"}
+,{"stream_name":"stdout","time":166.084680767,"data":" /kaggle/working/demo_photos/230320_33.png   L/2056x1542     automatic 0.107706   7.0  230320_33          0 final_test      A549\n"}
+,{"stream_name":"stdout","time":166.08468578,"data":" /kaggle/working/demo_photos/230320_21.png   L/2056x1542     automatic 0.084544   8.0  230320_21          0 final_test     HPMEC\n"}
+,{"stream_name":"stdout","time":166.084690273,"data":"  /kaggle/working/demo_photos/220610_5.png RGB/2048x1536     automatic 0.071298   9.0   220610_5          0 final_test      CACO\n"}
+,{"stream_name":"stdout","time":166.08469464,"data":" /kaggle/working/demo_photos/221010_80.png RGB/2048x1536     automatic 0.054693  10.0  221010_80          0 final_test     HUVEC\n"}
+,{"stream_name":"stdout","time":166.084708514,"data":" /kaggle/working/demo_photos/230320_45.png   L/2056x1542     automatic 0.030263  11.0  230320_45          0 final_test      A549\n"}
+,{"stream_name":"stdout","time":166.084720096,"data":" /kaggle/working/demo_photos/221010_69.png RGB/2048x1536     automatic 0.013049  12.0  221010_69          0 final_test     HUVEC\n"}
+,{"stream_name":"stdout","time":166.084723368,"data":" /kaggle/working/demo_photos/230206_25.png   RGB/640x480 manual_review      NaN   NaN  230206_25          0   practice      A549\n"}
+,{"stream_name":"stdout","time":166.084726146,"data":" /kaggle/working/demo_photos/230206_26.png   RGB/640x480 manual_review      NaN   NaN  230206_26          0   practice      A549\n"}
+,{"stream_name":"stdout","time":166.084729918,"data":" /kaggle/working/demo_photos/230329_10.png RGB/1536x2048 manual_review      NaN   NaN  230329_10          0 final_test      CACO\n"}
+,{"stream_name":"stdout","time":166.08473271,"data":" /kaggle/working/demo_photos/230329_11.png RGB/1536x2048 manual_review      NaN   NaN  230329_11          1 final_test      CACO\n"}
+,{"stream_name":"stdout","time":166.084735493,"data":" /kaggle/working/demo_photos/230329_12.png RGB/1536x2048 manual_review      NaN   NaN  230329_12          1 final_test      CACO\n"}
+,{"stream_name":"stderr","time":168.266930904,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":168.266958183,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":168.530577788,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":168.530605014,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":169.299488596,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":170.440119668,"data":"[NbConvertApp] Writing 326903 bytes to __results__.html\n"}
+]

@@ -1,0 +1,21 @@
+{
+  "documents": [
+    "/usr/local/lib/python3.13/dist-packages/instanseg/bioimageio_models/single_channel_nuclei/0.1.2/single_channel_nuclei_README.md",
+    "/usr/local/lib/python3.13/dist-packages/instanseg/bioimageio_models/single_channel_nuclei/0.1.2/rdf.yaml"
+  ],
+  "word_hits": {
+    "BBBC039": [],
+    "BBBC038": [
+      "/usr/local/lib/python3.13/dist-packages/instanseg/bioimageio_models/single_channel_nuclei/0.1.2/single_channel_nuclei_README.md"
+    ],
+    "DSB": [
+      "/usr/local/lib/python3.13/dist-packages/instanseg/bioimageio_models/single_channel_nuclei/0.1.2/single_channel_nuclei_README.md",
+      "/usr/local/lib/python3.13/dist-packages/instanseg/bioimageio_models/single_channel_nuclei/0.1.2/rdf.yaml"
+    ],
+    "Data Science Bowl": [],
+    "2018 Data": [],
+    "U2OS": [],
+    "U-2 OS": []
+  },
+  "verdict": "possible prior exposure: BBBC038, DSB"
+}

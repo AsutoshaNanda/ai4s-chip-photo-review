@@ -1,0 +1,15 @@
+{
+  "id": "itsasup/ai4s-a12-heatmaps",
+  "title": "ai4s-a12-heatmaps",
+  "code_file": "a12_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["itsasup/ai4s-a12-bundle"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

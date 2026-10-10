@@ -1,0 +1,21 @@
+[2026-10-07T01:24:09] run 20261007-012406_B07_bbbc038_outside_posts_v2 started
+[2026-10-07T01:24:09] 627 BBBC038 images after removing 43 copies of BBBC039 photos (gap 0.9999 -> 0.8352)
+[2026-10-07T01:26:09] B02 fold 0 done
+[2026-10-07T01:27:45] B02 fold 1 done
+[2026-10-07T01:29:17] B02 fold 2 done
+[2026-10-07T01:30:50] B02 fold 3 done
+[2026-10-07T01:32:33] B02 fold 4 done
+[2026-10-07T01:33:21] B03 fold 0 done
+[2026-10-07T01:34:13] B03 fold 1 done
+[2026-10-07T01:34:59] B03 fold 2 done
+[2026-10-07T01:35:47] B03 fold 3 done
+[2026-10-07T01:36:34] B03 fold 4 done
+[2026-10-07T01:36:35] B02_best_count|grey          images  519 | count MAE   21.31 (sd over folds 4.62) bias  +15.35 | F1@0.50 0.568 F1@0.75 0.409
+[2026-10-07T01:36:35] B02_best_count|colour        images  108 | count MAE   39.25 (sd over folds 12.28) bias  +24.86 | F1@0.50 0.005 F1@0.75 0.000
+[2026-10-07T01:36:35] B02_best_outline|grey        images  519 | count MAE   12.91 (sd over folds 3.83) bias   +1.00 | F1@0.50 0.656 F1@0.75 0.502
+[2026-10-07T01:36:35] B02_best_outline|colour      images  108 | count MAE   32.57 (sd over folds 12.58) bias   +1.57 | F1@0.50 0.006 F1@0.75 0.000
+[2026-10-07T01:36:35] B03_best_count|grey          images  519 | count MAE   14.19 (sd over folds 5.25) bias   +9.32 | F1@0.50 0.600 F1@0.75 0.362
+[2026-10-07T01:36:36] B03_best_count|colour        images  108 | count MAE   31.19 (sd over folds 12.82) bias  +12.16 | F1@0.50 0.002 F1@0.75 0.000
+[2026-10-07T01:36:36] B03_best_outline|grey        images  519 | count MAE    9.75 (sd over folds 1.21) bias   -0.38 | F1@0.50 0.690 F1@0.75 0.513
+[2026-10-07T01:36:36] B03_best_outline|colour      images  108 | count MAE   25.84 (sd over folds 6.71) bias   -9.33 | F1@0.50 0.004 F1@0.75 0.000
+[2026-10-07T01:36:36] run finished: status=measured, wall_seconds=750.05

@@ -1,0 +1,31 @@
+{
+  "original_IDs": 36,
+  "research_IDs": 29,
+  "research_IDs_with_results": 28,
+  "blocked_research_IDs": [
+    "C04"
+  ],
+  "extra_work_items": 13,
+  "later_jobs": [
+    "F05",
+    "F06"
+  ],
+  "total_unique_ledger_rows": 51,
+  "project_summary_words": 224,
+  "figure_count": 8,
+  "em_dashes": 0,
+  "report_words_including_tables_and_appendices": 6971,
+  "no_new_training": true,
+  "ASD_STE100": "Guided style only; full compliance not certified",
+  "kaggle_saved": true,
+  "submitted": false,
+  "kaggle_title": "AI4S: Chip Photo Review with Local Image Tiles",
+  "kaggle_url": "https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien/writeups/ai4s-writeup",
+  "rendered_tables": 19,
+  "rendered_figures": 8,
+  "all_figures_loaded": true,
+  "hosted_markdown_matches_local_source": true,
+  "evidence_zip_uploaded": false,
+  "local_report_sha256": "ccf38dee9afb8f56d9fcaf0dca0ab1acca56a1c5068a8bd8fe03350ebcdf511b",
+  "hosted_report_sha256": "e409d8be2f006201fbb74ecbf1cb374db1ad4c24c17e4cedb06c401cb22bbe87"
+}

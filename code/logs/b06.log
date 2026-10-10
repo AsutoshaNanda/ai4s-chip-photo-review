@@ -1,0 +1,11 @@
+[2026-10-06T11:00:09] run 20261006-110006_B06_warning_flags started
+[2026-10-06T11:00:09] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+/Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/skimage/_shared/utils.py:386: UserWarning: Only one label was provided to `remove_small_objects`. Did you mean to use a boolean array?
+  return func(*args, **kwargs)
+[2026-10-06T11:02:38] B06 warning scores for B02_best_count (area under 'error left' curve; lower = better; random 0.500):
+[2026-10-06T11:02:38]    blur_warning                             area 0.576; minus random 95% [-0.020, +0.184]
+[2026-10-06T11:02:38]    disagree_B01_best_count                  area 0.504; minus random 95% [-0.051, +0.083]
+[2026-10-06T11:02:38]    disagree_B03_best_count                  area 0.410; minus random 95% [-0.173, -0.002]
+[2026-10-06T11:02:38]    brightness_warning                       area 0.447; minus random 95% [-0.122, +0.016]
+[2026-10-06T11:02:38]    perfect_order_ceiling                    area 0.232; minus random 95% [-0.320, -0.213]
+[2026-10-06T11:02:38] run finished: status=measured, wall_seconds=152.57

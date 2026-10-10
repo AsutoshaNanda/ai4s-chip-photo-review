@@ -1,0 +1,8 @@
+- OS: Linux-4.19.0-gvisor-x86_64-with-glibc2.36 # 1 SMP Sun Jan 10 15:06:54 PST 2016
+- Python: 3.12.10
+- Stable-Baselines3: 2.9.0
+- PyTorch: 2.14.1+cu130
+- GPU Enabled: False
+- Numpy: 2.5.3
+- Cloudpickle: 3.1.2
+- Gymnasium: 1.4.0

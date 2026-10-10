@@ -1,0 +1,17 @@
+{
+  "status": "PASS for script factual and scope checks; render verification is still required",
+  "scene_count": 12,
+  "narration_words": 544,
+  "minimum_scene_total_seconds": 268,
+  "maximum_video_seconds": 300,
+  "script_sha256": "8fc0cb9b6a1a9d4236fac2a69a76e9f929ef691944fcc48832c593918e742ab1",
+  "recorded_demo_label": true,
+  "primary_AUC_matches": true,
+  "nucleus_settings_separated": true,
+  "RL_simulator_only": true,
+  "worst_RL_episode_disclosed": true,
+  "F06_failure_disclosed": true,
+  "no_human_time_saving_claim": true,
+  "public_code_pending_user": true,
+  "no_new_experiments": true
+}

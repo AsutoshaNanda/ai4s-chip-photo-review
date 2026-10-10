@@ -1,0 +1,33 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-IcwFyYWUf6OYgl6wGTWHiA
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+[2026-10-06 04:48:12 UTC] lane cpu8_044811_c408ea: 2 jobs; used before launch $9.50; cap $20.0; job limit 60 min
+[2026-10-06 04:48:13 UTC] START scripts/a_views.py --exp A04 --smoke
+[2026-10-06 05:04:54 UTC] OK: scripts/a_views.py --exp A04 --smoke | 16.7 min | session total about $10.19
+
+[2026-10-06 05:04:56 UTC] START scripts/a12_heatmaps.py --smoke --folds 0
+[2026-10-06 05:05:10 UTC] CRASHED (exit 1) -> moving to next job: scripts/a12_heatmaps.py --smoke --folds 0 | 0.2 min | session total about $10.19
+[2026-10-06T10:35:08] run 20261006-103503_A12_heatmaps_folds0_smoke started
+Traceback (most recent call last):
+  File "/root/code/scripts/a12_heatmaps.py", line 191, in <module>
+    main()
+  File "/root/code/scripts/a12_heatmaps.py", line 92, in main
+    Xall = np.load(a02 / f"features_practice_{tag}.npy").astype(np.float32)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/code/runs/20261006-012654_A02_frozen_features/features_practice_resnet18@224.npy'
+
+[2026-10-06 05:05:11 UTC] lane finished; session total about $10.19
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-IcwFyYWUf6OYgl6wGTWHiA

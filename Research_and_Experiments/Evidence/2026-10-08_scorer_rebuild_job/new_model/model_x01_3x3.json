@@ -1,0 +1,28 @@
+{
+ "candidate": "fixed_3x3",
+ "train_photos": 2397,
+ "C": 0.001,
+ "yes_no_cutoff_from_inner_cv": 0.45117202401161194,
+ "automatic_formats": [
+  "L/2056x1542",
+  "RGB/2048x1536"
+ ],
+ "thin_support_formats": [
+  "RGB/640x480"
+ ],
+ "small_rule": "manual_review",
+ "feature_model": "vit_large_patch14_dinov2.lvd142m",
+ "long_side": 518,
+ "tiles": "3x3 grid cut from the grey photo after it is resized to long side 1036 px; each tile is fed at its own size (rounded to a multiple of 14), not resized to 518; mean+max pooled",
+ "training_set_note": "all 2,397 development photos; the 675 locked final photos were not used",
+ "trained_with_features_from": "20261007-203642_F03_chip_features_clean",
+ "software": {
+  "python": "3.13.15",
+  "scikit-learn": "1.9.1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6",
+  "joblib": "1.6.0",
+  "note": "load this scorer only with the same scikit-learn version (see requirements.txt); other versions are not supported by the library"
+ }
+}

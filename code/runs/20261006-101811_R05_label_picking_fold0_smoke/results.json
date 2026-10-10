@@ -1,0 +1,192 @@
+{
+  "theta": [
+    0.005215836694936639,
+    0.04859068372142463,
+    0.034282131445534055,
+    -0.019023026106574144,
+    -8.645512703084134e-19
+  ],
+  "train_seconds": 0.7189797920000274,
+  "summary": [
+    {
+      "strategy": "random",
+      "groups": 4,
+      "photos_mean": 456.0,
+      "photos_std": NaN,
+      "auc_mean": 0.82,
+      "auc_std": NaN,
+      "log_loss_mean": 0.589,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "random",
+      "groups": 6,
+      "photos_mean": 568.0,
+      "photos_std": NaN,
+      "auc_mean": 0.771,
+      "auc_std": NaN,
+      "log_loss_mean": 0.745,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "random",
+      "groups": 10,
+      "photos_mean": 694.0,
+      "photos_std": NaN,
+      "auc_mean": 0.791,
+      "auc_std": NaN,
+      "log_loss_mean": 0.635,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "random",
+      "groups": 16,
+      "photos_mean": 922.0,
+      "photos_std": NaN,
+      "auc_mean": 0.836,
+      "auc_std": NaN,
+      "log_loss_mean": 0.52,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "random",
+      "groups": 25,
+      "photos_mean": 1375.0,
+      "photos_std": NaN,
+      "auc_mean": 0.816,
+      "auc_std": NaN,
+      "log_loss_mean": 0.537,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "random",
+      "groups": 39,
+      "photos_mean": 2062.0,
+      "photos_std": NaN,
+      "auc_mean": 0.767,
+      "auc_std": NaN,
+      "log_loss_mean": 0.637,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 4,
+      "photos_mean": 456.0,
+      "photos_std": NaN,
+      "auc_mean": 0.82,
+      "auc_std": NaN,
+      "log_loss_mean": 0.589,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 6,
+      "photos_mean": 674.0,
+      "photos_std": NaN,
+      "auc_mean": 0.738,
+      "auc_std": NaN,
+      "log_loss_mean": 0.973,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 10,
+      "photos_mean": 1198.0,
+      "photos_std": NaN,
+      "auc_mean": 0.707,
+      "auc_std": NaN,
+      "log_loss_mean": 0.986,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 16,
+      "photos_mean": 1453.0,
+      "photos_std": NaN,
+      "auc_mean": 0.756,
+      "auc_std": NaN,
+      "log_loss_mean": 0.708,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 25,
+      "photos_mean": 1646.0,
+      "photos_std": NaN,
+      "auc_mean": 0.747,
+      "auc_std": NaN,
+      "log_loss_mean": 0.74,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 39,
+      "photos_mean": 2062.0,
+      "photos_std": NaN,
+      "auc_mean": 0.767,
+      "auc_std": NaN,
+      "log_loss_mean": 0.636,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 4,
+      "photos_mean": 456.0,
+      "photos_std": NaN,
+      "auc_mean": 0.82,
+      "auc_std": NaN,
+      "log_loss_mean": 0.589,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 6,
+      "photos_mean": 474.0,
+      "photos_std": NaN,
+      "auc_mean": 0.821,
+      "auc_std": NaN,
+      "log_loss_mean": 0.61,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 10,
+      "photos_mean": 656.0,
+      "photos_std": NaN,
+      "auc_mean": 0.775,
+      "auc_std": NaN,
+      "log_loss_mean": 0.771,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 16,
+      "photos_mean": 849.0,
+      "photos_std": NaN,
+      "auc_mean": 0.78,
+      "auc_std": NaN,
+      "log_loss_mean": 0.73,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 25,
+      "photos_mean": 1371.0,
+      "photos_std": NaN,
+      "auc_mean": 0.708,
+      "auc_std": NaN,
+      "log_loss_mean": 0.835,
+      "log_loss_std": NaN
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 39,
+      "photos_mean": 2062.0,
+      "photos_std": NaN,
+      "auc_mean": 0.768,
+      "auc_std": NaN,
+      "log_loss_mean": 0.636,
+      "log_loss_std": NaN
+    }
+  ]
+}

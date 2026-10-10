@@ -1,0 +1,5 @@
+{
+  "images": 627,
+  "removed_copies": 43,
+  "copy_rule": "largest gap in best-match scores: 0.9999 vs 0.8352"
+}

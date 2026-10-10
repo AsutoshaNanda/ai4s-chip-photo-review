@@ -1,0 +1,14 @@
+[2026-10-06T10:12:24] run 20261006-101216_A04_crop_vs_edges_smoke started
+[2026-10-06T10:12:33] features whole: 200 images in 2.1 s
+[2026-10-06T10:13:34] features centre_0.25: 200 images in 2.0 s
+[2026-10-06T10:13:49] features edges_0.25: 200 images in 2.2 s
+[2026-10-06T10:13:52] features centre_0.5: 200 images in 1.7 s
+[2026-10-06T10:13:55] features edges_0.5: 200 images in 1.9 s
+[2026-10-06T10:13:59] features centre_0.75: 200 images in 1.8 s
+[2026-10-06T10:14:02] features edges_0.75: 200 images in 1.9 s
+[2026-10-06T10:14:05] features shift_x-0.2: 200 images in 1.7 s
+[2026-10-06T10:14:09] features shift_y-0.2: 200 images in 1.7 s
+[2026-10-06T10:14:11] features shift_x-0.1: 200 images in 1.7 s
+[2026-10-06T10:14:15] features shift_y-0.1: 200 images in 1.7 s
+[2026-10-06T10:14:18] features shift_x-0.05: 200 images in 1.8 s
+[2026-10-06T10:14:21] features shift_y-0.05: 200 images in 1.7 s

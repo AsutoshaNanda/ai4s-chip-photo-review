@@ -1,0 +1,40 @@
+[2026-10-06T10:36:00] run 20261006-103553_A04_crop_vs_edges started
+[2026-10-06T10:38:18] features whole: 2397 images in 16.4 s
+[2026-10-06T10:40:13] features centre_0.25: 2397 images in 13.3 s
+[2026-10-06T10:41:46] features edges_0.25: 2397 images in 16.6 s
+[2026-10-06T10:42:57] features centre_0.5: 2397 images in 14.1 s
+[2026-10-06T10:44:11] features edges_0.5: 2397 images in 15.7 s
+[2026-10-06T10:45:18] features centre_0.75: 2397 images in 14.9 s
+[2026-10-06T10:46:35] features edges_0.75: 2397 images in 15.3 s
+[2026-10-06T10:47:38] features shift_x-0.2: 2397 images in 13.9 s
+[2026-10-06T10:48:37] features shift_y-0.2: 2397 images in 13.4 s
+[2026-10-06T10:49:28] features shift_x-0.1: 2397 images in 13.4 s
+[2026-10-06T10:50:16] features shift_y-0.1: 2397 images in 13.4 s
+[2026-10-06T10:51:03] features shift_x-0.05: 2397 images in 13.3 s
+[2026-10-06T10:51:50] features shift_y-0.05: 2397 images in 13.4 s
+[2026-10-06T10:52:38] features shift_x0.05: 2397 images in 13.4 s
+[2026-10-06T10:53:26] features shift_y0.05: 2397 images in 13.3 s
+[2026-10-06T10:54:15] features shift_x0.1: 2397 images in 13.4 s
+[2026-10-06T10:55:03] features shift_y0.1: 2397 images in 13.4 s
+[2026-10-06T10:55:50] features shift_x0.2: 2397 images in 13.3 s
+[2026-10-06T10:56:38] features shift_y0.2: 2397 images in 13.3 s
+[2026-10-06T10:57:20] centre_0.25                                AUC 0.822 [0.77, 0.867] AP 0.803 logloss 0.510 | within format {'L/2056x1542': 0.813, 'RGB/2048x1536': 0.735, 'RGB/640x480': 0.605}
+[2026-10-06T10:57:27] centre_0.5                                 AUC 0.840 [0.798, 0.878] AP 0.813 logloss 0.490 | within format {'L/2056x1542': 0.822, 'RGB/2048x1536': 0.804, 'RGB/640x480': 0.547}
+[2026-10-06T10:57:33] centre_0.75                                AUC 0.839 [0.794, 0.881] AP 0.804 logloss 0.493 | within format {'L/2056x1542': 0.815, 'RGB/2048x1536': 0.816, 'RGB/640x480': 0.543}
+[2026-10-06T10:57:40] edges_only_outside_0.25                    AUC 0.834 [0.792, 0.877] AP 0.808 logloss 0.494 | within format {'L/2056x1542': 0.796, 'RGB/2048x1536': 0.829, 'RGB/640x480': 0.759}
+[2026-10-06T10:57:47] edges_only_outside_0.5                     AUC 0.826 [0.778, 0.878] AP 0.784 logloss 0.509 | within format {'L/2056x1542': 0.774, 'RGB/2048x1536': 0.833, 'RGB/640x480': 0.809}
+[2026-10-06T10:57:54] edges_only_outside_0.75                    AUC 0.821 [0.772, 0.873] AP 0.775 logloss 0.515 | within format {'L/2056x1542': 0.768, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.595}
+[2026-10-06T10:58:01] train_centre_0.5_test_shift_x+0.05         AUC 0.836 [0.792, 0.877] AP 0.805 logloss 0.498 | within format {'L/2056x1542': 0.813, 'RGB/2048x1536': 0.81, 'RGB/640x480': 0.5}
+[2026-10-06T10:58:07] train_centre_0.5_test_shift_x+0.10         AUC 0.844 [0.802, 0.881] AP 0.814 logloss 0.485 | within format {'L/2056x1542': 0.823, 'RGB/2048x1536': 0.816, 'RGB/640x480': 0.533}
+[2026-10-06T10:58:14] train_centre_0.5_test_shift_x+0.20         AUC 0.839 [0.791, 0.881] AP 0.806 logloss 0.507 | within format {'L/2056x1542': 0.815, 'RGB/2048x1536': 0.802, 'RGB/640x480': 0.576}
+[2026-10-06T10:58:21] train_centre_0.5_test_shift_x-0.05         AUC 0.834 [0.79, 0.873] AP 0.806 logloss 0.498 | within format {'L/2056x1542': 0.816, 'RGB/2048x1536': 0.795, 'RGB/640x480': 0.576}
+[2026-10-06T10:58:28] train_centre_0.5_test_shift_x-0.10         AUC 0.844 [0.806, 0.879] AP 0.818 logloss 0.486 | within format {'L/2056x1542': 0.826, 'RGB/2048x1536': 0.807, 'RGB/640x480': 0.553}
+[2026-10-06T10:58:35] train_centre_0.5_test_shift_x-0.20         AUC 0.828 [0.791, 0.866] AP 0.798 logloss 0.519 | within format {'L/2056x1542': 0.802, 'RGB/2048x1536': 0.787, 'RGB/640x480': 0.514}
+[2026-10-06T10:58:41] train_centre_0.5_test_shift_y+0.05         AUC 0.837 [0.795, 0.875] AP 0.812 logloss 0.493 | within format {'L/2056x1542': 0.818, 'RGB/2048x1536': 0.8, 'RGB/640x480': 0.568}
+[2026-10-06T10:58:48] train_centre_0.5_test_shift_y+0.10         AUC 0.835 [0.792, 0.872] AP 0.811 logloss 0.496 | within format {'L/2056x1542': 0.815, 'RGB/2048x1536': 0.796, 'RGB/640x480': 0.416}
+[2026-10-06T10:58:55] train_centre_0.5_test_shift_y+0.20         AUC 0.829 [0.784, 0.869] AP 0.796 logloss 0.510 | within format {'L/2056x1542': 0.808, 'RGB/2048x1536': 0.789, 'RGB/640x480': 0.436}
+[2026-10-06T10:59:02] train_centre_0.5_test_shift_y-0.05         AUC 0.841 [0.798, 0.88] AP 0.818 logloss 0.487 | within format {'L/2056x1542': 0.821, 'RGB/2048x1536': 0.806, 'RGB/640x480': 0.642}
+[2026-10-06T10:59:09] train_centre_0.5_test_shift_y-0.10         AUC 0.844 [0.802, 0.881] AP 0.818 logloss 0.484 | within format {'L/2056x1542': 0.825, 'RGB/2048x1536': 0.81, 'RGB/640x480': 0.634}
+[2026-10-06T10:59:16] train_centre_0.5_test_shift_y-0.20         AUC 0.837 [0.795, 0.876] AP 0.809 logloss 0.494 | within format {'L/2056x1542': 0.818, 'RGB/2048x1536': 0.806, 'RGB/640x480': 0.654}
+[2026-10-06T10:59:22] whole                                      AUC 0.843 [0.803, 0.884] AP 0.812 logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T10:59:22] run finished: status=measured, wall_seconds=1409.79

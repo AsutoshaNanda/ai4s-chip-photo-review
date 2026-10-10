@@ -1,0 +1,18 @@
+[2026-10-06T10:49:31] run 20261006-104927_B02_unet_fg_seed0_folds4 started
+[2026-10-06T10:58:53] fold 4: trained 162 s, steps 3500, post {'thr': 0.5, 'min_distance': 10.0, 'min_size': 50.0, 'count_mae': 8.090909090909092, 'mean_f1_levels': 0.8904528181214325}
+[2026-10-06T10:58:53] B02 best_count: count MAE 3.54 (bias -1.38); pooled F1 0.25/0.50/0.75/0.90 0.936/0.913/0.857/0.716; joined 321 split 120 missed 2 false 91
+[2026-10-06T10:58:53] B02 best_outline: count MAE 8.38 (bias -8.29); pooled F1 0.25/0.50/0.75/0.90 0.937/0.921/0.875/0.736; joined 316 split 113 missed 83 false 3
+[2026-10-06T10:58:53] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00       8.292  -8.208   0.922   0.879
+           2.00       8.792  -8.708   0.921   0.868
+           3.00       8.375  -7.958   0.908   0.844
+brightness 0.50       8.125  -8.125   0.924   0.882
+           0.75       7.833  -7.833   0.924   0.881
+           1.25       7.750  -7.750   0.924   0.881
+           1.50       7.500  -7.250   0.918   0.872
+noise_sd   0.02       8.292  -8.292   0.925   0.885
+           0.05       9.083  -9.083   0.920   0.875
+           0.10      16.792 -16.792   0.825   0.716
+[2026-10-06T10:58:53] run finished: status=measured, wall_seconds=565.62

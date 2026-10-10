@@ -1,0 +1,10 @@
+{
+  "version": "v2: equal clean-up step for both routes, step cap 12000, models saved",
+  "device": "mps",
+  "crop": 192,
+  "batch": 16,
+  "check_every": 200,
+  "patience_checks": 6,
+  "max_steps": 12000,
+  "seed": 20261006
+}

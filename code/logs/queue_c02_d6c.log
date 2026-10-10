@@ -1,0 +1,101 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-Vyy70cITJSnvn7QbVlxGme
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+[2026-10-06 05:10:05 UTC] lane cpu32_051005_17d022: 5 jobs; used before launch $9.50; cap $20.0; job limit 60 min
+[2026-10-06 05:10:08 UTC] START scripts/c02_jump.py --fold 0
+[2026-10-06 05:16:46 UTC] CRASHED (exit 1) -> moving to next job: scripts/c02_jump.py --fold 0 | 6.6 min | session total about $11.93
+.987 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:45:49] fold 0 sphering_eps0.01       batch info 0.982 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:46:16] fold 0 sphering_eps0.1        batch info 0.968 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:46:42] fold 0 sphering_eps1          batch info 0.943 (chance 0.333) | replicate mAP nan (0 queries)  <- chosen on training batches
+[2026-10-06T10:46:42] fold 0: inner choice {0.0001: 0.1685992048290769, 0.001: 0.03613706369185204, 0.01: 0.09943049891706864, 0.1: 0.13980458937626328, 1.0: 0.197455927793592} -> eps 1
+[2026-10-06T10:46:42] C02 summary over the folds run here (held-out batches):
+                batch_info     batch_chance     replicate_mAP    
+                      mean std         mean std          mean std
+method                                                           
+raw                 0.7530 NaN       0.3335 NaN           NaN NaN
+sphering_chosen     0.9429 NaN       0.3335 NaN           NaN NaN
+[2026-10-06T10:46:42] full curve over eps:
+                    batch_info  replicate_mAP
+method                                       
+raw                     0.7530            NaN
+sphering_eps0.0001      0.9923            NaN
+sphering_eps0.001       0.9874            NaN
+sphering_eps0.01        0.9817            NaN
+sphering_eps0.1         0.9678            NaN
+sphering_eps1           0.9429            NaN
+Traceback (most recent call last):
+  File "/root/code/scripts/c02_jump.py", line 170, in <module>
+    main()
+  File "/root/code/scripts/c02_jump.py", line 164, in main
+    run.save_json("results.json", {"summary": summ.reset_index().to_dict(orient="records"), "inner_note":
+  File "/root/code/src/ai4s/runlog.py", line 137, in save_json
+    json.dump(obj, f, indent=2, default=str)
+  File "/usr/local/lib/python3.12/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/local/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/local/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/local/lib/python3.12/json/encoder.py", line 377, in _iterencode_dict
+    raise TypeError(f'keys must be str, int, float, bool or None, '
+TypeError: keys must be str, int, float, bool or None, not tuple
+
+[2026-10-06 05:16:48 UTC] START scripts/c02_jump.py --fold 1
+Stopping app - user stopped from CLI.
+Runner terminated.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py:198 in main    │
+│                                                                              │
+│   197 │   fn = {"cpu32": cpu32, "cpu8": cpu8, "a100": a100}[lane]            │
+│ ❱ 198 │   fn.remote([j.strip() for j in jobs.split(";") if j.strip()], sessi │
+│   199                                                                        │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_object.py:49 in wrapped                                               │
+│                                                                              │
+│    48 │   │   await self.hydrate()                                           │
+│ ❱  49 │   │   return await method(self, *args, **kwargs)                     │
+│    50                                                                        │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:2067 in remote                                           │
+│                                                                              │
+│   2066 │   │                                                                 │
+│ ❱ 2067 │   │   return await self._call_function(args, kwargs)                │
+│   2068                                                                       │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:2004 in _call_function                                   │
+│                                                                              │
+│   2003 │   │                                                                 │
+│ ❱ 2004 │   │   return await invocation.run_function()                        │
+│   2005                                                                       │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:496 in run_function                                      │
+│                                                                              │
+│    495 │   │   │   if await_response.output.result.status in TERMINAL_STATUS │
+│ ❱  496 │   │   │   │   return await _process_result(                         │
+│    497 │   │   │   │   │   await_response.output.result, await_response.outp │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_utils/function_utils.py:574 in _process_result                        │
+│                                                                              │
+│   573 │   │                                                                  │
+│ ❱ 574 │   │   raise RemoteError(result.exception)                            │
+│   575                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RemoteError

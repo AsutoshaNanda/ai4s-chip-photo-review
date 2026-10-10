@@ -1,0 +1,37 @@
+{
+  "whole": {
+    "seconds": 15.440454805999998,
+    "images": 2397,
+    "calls": 1
+  },
+  "hflip": {
+    "seconds": 16.338833107000013,
+    "images": 2397,
+    "calls": 1
+  },
+  "vflip": {
+    "seconds": 14.84041646099999,
+    "images": 2397,
+    "calls": 1
+  },
+  "rot90": {
+    "seconds": 16.66903074199999,
+    "images": 2397,
+    "calls": 1
+  },
+  "rot270": {
+    "seconds": 16.656743906999992,
+    "images": 2397,
+    "calls": 1
+  },
+  "bright_x0.8": {
+    "seconds": 14.503433908000005,
+    "images": 2397,
+    "calls": 1
+  },
+  "bright_x1.25": {
+    "seconds": 14.601508894999995,
+    "images": 2397,
+    "calls": 1
+  }
+}

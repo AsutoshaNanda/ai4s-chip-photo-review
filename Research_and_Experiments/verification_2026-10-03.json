@@ -1,0 +1,19 @@
+{
+  "checked": "2026-10-03",
+  "kind": "documentation_and_coverage_check",
+  "original_plans": 30,
+  "extra_entries": 6,
+  "total_entries": 36,
+  "E0_to_E6_mapped": true,
+  "all_current_windows_start_on_or_after_3_Oct": true,
+  "local_links_checked": 134,
+  "local_anchors_checked": 8,
+  "markdown_files_checked": 33,
+  "source_entries": 36,
+  "snapshot_files": 31,
+  "all_19_original_resource_hashes_preserved_in_snapshot": true,
+  "snapshot_sha256": "70d221aa5d5e991da3dbe728abc37028fcfb9af6ea413273ebd5b04bbf88a9f1",
+  "model_training_performed_by_this_update": false,
+  "new_model_performance_results": false,
+  "errors": []
+}

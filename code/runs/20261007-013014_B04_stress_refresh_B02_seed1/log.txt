@@ -1,0 +1,31 @@
+[2026-10-07T01:31:01] run 20261007-013014_B04_stress_refresh_B02_seed1 started
+[2026-10-07T02:05:42] fold 0 done (33 images x 11 conditions)
+[2026-10-07T02:35:27] fold 1 done (33 images x 11 conditions)
+[2026-10-07T02:47:27] fold 2 done (21 images x 11 conditions)
+[2026-10-07T03:10:28] fold 3 done (39 images x 11 conditions)
+[2026-10-07T03:24:08] fold 4 done (24 images x 11 conditions)
+[2026-10-07T03:24:08] stress curves (every level; clean first):
+     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075
+  best_count blur_sigma   1.00     150      8.713  -1.620                    297   0.885   0.819
+  best_count blur_sigma   2.00     150      8.820  -5.740                    105   0.871   0.801
+  best_count blur_sigma   3.00     150     10.107  -8.120                    114   0.846   0.757
+  best_count brightness   0.50     150      6.547  -4.507                    121   0.891   0.818
+  best_count brightness   0.75     150      4.947  -2.880                     82   0.897   0.831
+  best_count brightness   1.25     150      4.920  -2.267                     89   0.902   0.842
+  best_count brightness   1.50     150      5.020  -2.207                     89   0.888   0.828
+  best_count      clean   0.00     150      4.820  -2.767                     82   0.902   0.841
+  best_count   noise_sd   0.02     150      8.160   1.707                    260   0.890   0.828
+  best_count   noise_sd   0.05     150     40.353  34.113                    235   0.669   0.561
+  best_count   noise_sd   0.10     150    110.907  -0.280                    283   0.093   0.056
+best_outline blur_sigma   1.00     150     12.007 -10.407                    111   0.892   0.842
+best_outline blur_sigma   2.00     150     12.913 -11.967                    115   0.876   0.817
+best_outline blur_sigma   3.00     150     13.880 -13.227                    117   0.853   0.775
+best_outline brightness   0.50     150     11.833 -11.820                    144   0.908   0.858
+best_outline brightness   0.75     150     10.633 -10.633                    105   0.917   0.867
+best_outline brightness   1.25     150     10.327 -10.300                    105   0.911   0.863
+best_outline brightness   1.50     150     10.440 -10.387                    107   0.910   0.862
+best_outline      clean   0.00     150     10.413 -10.413                    109   0.920   0.871
+best_outline   noise_sd   0.02     150     10.693 -10.693                    105   0.914   0.862
+best_outline   noise_sd   0.05     150     14.000 -12.907                    165   0.804   0.711
+best_outline   noise_sd   0.10     150     92.280 -92.280                    224   0.187   0.123
+[2026-10-07T03:24:08] run finished: status=measured, wall_seconds=6834.7

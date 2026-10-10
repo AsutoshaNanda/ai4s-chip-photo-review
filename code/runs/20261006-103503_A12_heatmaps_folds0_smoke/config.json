@@ -1,0 +1,14 @@
+{
+  "model": "resnet18.tv_in1k@224",
+  "grids": [
+    4,
+    8
+  ],
+  "fills": [
+    "median",
+    "blur"
+  ],
+  "deletion_steps": 8,
+  "a02_run": "20261006-012654_A02_frozen_features",
+  "smoke": true
+}

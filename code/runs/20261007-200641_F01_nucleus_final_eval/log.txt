@@ -1,0 +1,16 @@
+[2026-10-07T20:06:56] run 20261007-200641_F01_nucleus_final_eval started
+[2026-10-07T20:13:29] FINAL B02_seed0_best_count: count MAE 4.31 (sd over fold models 0.19), F1@0.50 0.904, F1@0.75 0.847
+[2026-10-07T20:19:55] FINAL B02_seed0_best_outline: count MAE 9.34 (sd over fold models 0.60), F1@0.50 0.919, F1@0.75 0.876
+[2026-10-07T20:26:22] FINAL B02_seed1_best_count: count MAE 4.36 (sd over fold models 0.22), F1@0.50 0.904, F1@0.75 0.844
+[2026-10-07T20:32:49] FINAL B02_seed1_best_outline: count MAE 9.60 (sd over fold models 0.74), F1@0.50 0.920, F1@0.75 0.878
+[2026-10-07T20:39:04] FINAL B03_seed0_best_count: count MAE 4.90 (sd over fold models 0.37), F1@0.50 0.933, F1@0.75 0.880
+[2026-10-07T20:46:07] FINAL B03_seed0_best_outline: count MAE 9.90 (sd over fold models 1.19), F1@0.50 0.935, F1@0.75 0.901
+[2026-10-07T20:52:59] FINAL B03_seed1_best_count: count MAE 5.27 (sd over fold models 0.78), F1@0.50 0.935, F1@0.75 0.876
+[2026-10-07T20:59:38] FINAL B03_seed1_best_outline: count MAE 10.18 (sd over fold models 1.17), F1@0.50 0.934, F1@0.75 0.899
+[2026-10-07T21:06:17] FINAL B02_noisetrain_seed0_best_count: count MAE 4.63 (sd over fold models 0.23), F1@0.50 0.904, F1@0.75 0.840
+[2026-10-07T21:12:44] FINAL B02_noisetrain_seed0_best_outline: count MAE 11.22 (sd over fold models 2.68), F1@0.50 0.913, F1@0.75 0.872
+[2026-10-07T21:18:58] FINAL B03_noisetrain_seed0_best_count: count MAE 5.92 (sd over fold models 0.77), F1@0.50 0.938, F1@0.75 0.873
+[2026-10-07T21:25:15] FINAL B03_noisetrain_seed0_best_outline: count MAE 10.92 (sd over fold models 2.93), F1@0.50 0.929, F1@0.75 0.896
+[2026-10-07T21:25:43] FINAL B01_best_count: count MAE 4.93, F1@0.75 0.803
+[2026-10-07T21:26:10] FINAL B01_best_outline: count MAE 11.36, F1@0.75 0.855
+[2026-10-07T21:26:11] run finished: status=measured, wall_seconds=4769.42

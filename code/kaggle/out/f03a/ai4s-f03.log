@@ -1,0 +1,26 @@
+[{"stream_name":"stdout","time":2.002563079,"data":"[14:45:07] step code: {'step': 'code', 'seconds': 1.0, 'ok': True, 'note': \"code copied: ['final_config.json', 'runs', 'scripts', 'splits', 'src']; runs/ empty\"}\n"}
+,{"stream_name":"stderr","time":2.145661444,"data":"Error: Command '['/tmp/f03env/bin/python3', '-m', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stdout","time":2.156555669,"data":"[14:45:07] STEP FAILED venv: Command '['/usr/bin/python3', '-m', 'venv', '/tmp/f03env']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stdout","time":2.156852316,"data":"[14:45:07] step venv: {'step': 'venv', 'seconds': 0.2, 'ok': False, 'error': \"CalledProcessError: Command '['/usr/bin/python3', '-m', 'venv', '/tmp/f03env']' returned non-zero exit status 1.\"}\n"}
+,{"stream_name":"stderr","time":2.159668479,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":2.16046504,"data":"  File \"/kaggle/src/script.py\", line 156, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":2.160476643,"data":"    main()\n"}
+,{"stream_name":"stderr","time":2.16047935,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":2.1604817020000002,"data":"  File \"/kaggle/src/script.py\", line 131, in main\n"}
+,{"stream_name":"stderr","time":2.1604842,"data":"    step(\"venv\", venv)\n"}
+,{"stream_name":"stderr","time":2.160486569,"data":"    ~~~~^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":2.160488705,"data":"  File \"/kaggle/src/script.py\", line 40, in step\n"}
+,{"stream_name":"stderr","time":2.160490987,"data":"    out = fn()\n"}
+,{"stream_name":"stderr","time":2.16049308,"data":"  File \"/kaggle/src/script.py\", line 62, in venv\n"}
+,{"stream_name":"stderr","time":2.160495295,"data":"    subprocess.check_call([sys.executable, \"-m\", \"venv\", str(VENV)])\n"}
+,{"stream_name":"stderr","time":2.160497645,"data":"    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":2.160499933,"data":"  File \"/usr/lib/python3.13/subprocess.py\", line 419, in check_call\n"}
+,{"stream_name":"stderr","time":2.160502209,"data":"    raise CalledProcessError(retcode, cmd)\n"}
+,{"stream_name":"stderr","time":2.16050442,"data":"subprocess.CalledProcessError: Command '['/usr/bin/python3', '-m', 'venv', '/tmp/f03env']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":4.277995871,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4.278020536,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4.589497243,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4.589522198,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6.046420459,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6.99474001,"data":"[NbConvertApp] Writing 314203 bytes to __results__.html\n"}
+]

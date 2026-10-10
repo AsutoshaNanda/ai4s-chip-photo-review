@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "whole": {
+      "weighted_bin_gap": 0.04489340881374874,
+      "bin_count": 10,
+      "photos": 672,
+      "smallest_bin": 67,
+      "largest_bin": 68
+    },
+    "fixed_3x3": {
+      "weighted_bin_gap": 0.037068646233384774,
+      "bin_count": 10,
+      "photos": 672,
+      "smallest_bin": 67,
+      "largest_bin": 68
+    },
+    "training": [
+      {
+        "method": "Output layer only",
+        "auc": 0.8452286684987811,
+        "paired_difference": 0.0019450337416774266,
+        "range_95_low": -0.017090479571955152,
+        "range_95_high": 0.023522286065162695,
+        "frozen_reference_auc": 0.8432836347571037
+      },
+      {
+        "method": "Last model block",
+        "auc": 0.8193899256285719,
+        "paired_difference": -0.023893709128531726,
+        "range_95_low": -0.054296812416178716,
+        "range_95_high": -1.9687003684081634e-05,
+        "frozen_reference_auc": 0.8432836347571037
+      }
+    ]
+  },
+  "source_sha256": {
+    "code/runs/20261007-205052_F03_chip_final_eval_clean/results.json": "9b832fe4ae8563e67d2cce7da2017ab7b36781b55dd28ed6fea55e9aa6fcd2e6",
+    "code/runs/20261007-205052_F03_chip_final_eval_clean/final_predictions.csv": "f3b1fe9d5bc95827453b4fca9fd5bd5026ede66e14c7664c0b8dac94578e3650",
+    "code/runs/20261007-191149_A02_light_retrain_full/results.json": "916f9cff9b52ee94b8f98007a1a92f3ce0ef06aab232677bf22f1fffafea9f43"
+  },
+  "new_training": false
+}

@@ -1,0 +1,92 @@
+{
+  "hflip_whole": {
+    "seconds": 124.72673497799997,
+    "images": 2397,
+    "calls": 1
+  },
+  "hflip_tiles_3x3": {
+    "seconds": 509.01392774399983,
+    "images": 21573,
+    "calls": 1
+  },
+  "hflip_tiles_5x5": {
+    "seconds": 503.3617980889999,
+    "images": 59925,
+    "calls": 1
+  },
+  "vflip_whole": {
+    "seconds": 141.28669574900005,
+    "images": 2397,
+    "calls": 1
+  },
+  "vflip_tiles_3x3": {
+    "seconds": 514.2959137209996,
+    "images": 21573,
+    "calls": 1
+  },
+  "vflip_tiles_5x5": {
+    "seconds": 504.05360074600003,
+    "images": 59925,
+    "calls": 1
+  },
+  "rot90_whole": {
+    "seconds": 140.67319145199963,
+    "images": 2397,
+    "calls": 1
+  },
+  "rot90_tiles_3x3": {
+    "seconds": 514.7429320799997,
+    "images": 21573,
+    "calls": 1
+  },
+  "rot90_tiles_5x5": {
+    "seconds": 504.24789103800003,
+    "images": 59925,
+    "calls": 1
+  },
+  "rot270_whole": {
+    "seconds": 140.70421191700007,
+    "images": 2397,
+    "calls": 1
+  },
+  "rot270_tiles_3x3": {
+    "seconds": 512.7210100130005,
+    "images": 21573,
+    "calls": 1
+  },
+  "rot270_tiles_5x5": {
+    "seconds": 504.8736455590006,
+    "images": 59925,
+    "calls": 1
+  },
+  "bright_x0.8_whole": {
+    "seconds": 140.76368302899937,
+    "images": 2397,
+    "calls": 1
+  },
+  "bright_x0.8_tiles_3x3": {
+    "seconds": 516.3446187509999,
+    "images": 21573,
+    "calls": 1
+  },
+  "bright_x0.8_tiles_5x5": {
+    "seconds": 505.49423691299944,
+    "images": 59925,
+    "calls": 1
+  },
+  "bright_x1.25_whole": {
+    "seconds": 140.9220510039995,
+    "images": 2397,
+    "calls": 1
+  },
+  "bright_x1.25_tiles_3x3": {
+    "seconds": 516.0554596750007,
+    "images": 21573,
+    "calls": 1
+  },
+  "bright_x1.25_tiles_5x5": {
+    "seconds": 501.4651658060002,
+    "images": 59925,
+    "calls": 1
+  }
+}

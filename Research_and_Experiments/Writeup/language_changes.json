@@ -1,0 +1,239 @@
+{
+  "replacements": [
+    {
+      "before": "It uses a frozen DINOv2 image model and a small trained scorer.",
+      "after": "It uses an existing DINOv2 image model without more training. A small trained model calculates the review score.",
+      "count": 1
+    },
+    {
+      "before": "7. Apply the saved scorer and sort photos by descending score.",
+      "after": "7. Apply the saved scorer.\n8. Sort the photos by descending score.",
+      "count": 1
+    },
+    {
+      "before": "1. Obtain the project package and the saved scorer from the public link when it is available.",
+      "after": "1. When the public link is available, download the project package and the saved scorer.",
+      "count": 1
+    },
+    {
+      "before": "We checked file integrity, image decoding and duplicate overlap.",
+      "after": "We did checks of file integrity, image decoding and duplicate overlap.",
+      "count": 1
+    },
+    {
+      "before": "Later clean rebuilds checked reproduction with the same choice.",
+      "after": "Later clean rebuilds tested reproduction with the same choice.",
+      "count": 1
+    },
+    {
+      "before": "No physical chip was tested.",
+      "after": "We did not test a physical chip.",
+      "count": 1
+    },
+    {
+      "before": "The scorer was rebuilt with 2,397 development photos under scikit-learn 1.9.1.",
+      "after": "We rebuilt the scorer with 2,397 development photos under scikit-learn 1.9.1.",
+      "count": 1
+    },
+    {
+      "before": "The rule was written before the light-retraining results were known.",
+      "after": "We wrote the rule before we knew the light-retraining results.",
+      "count": 1
+    },
+    {
+      "before": "Both groups need more independent examples before a strong reliability claim.",
+      "after": "More independent examples are necessary for the two groups before a strong reliability claim.",
+      "count": 1
+    },
+    {
+      "before": "The first run also needs access to the model download.",
+      "after": "The model download must be accessible for the first run.",
+      "count": 1
+    },
+    {
+      "before": "Public access and the final package still need checking.",
+      "after": "Public access and the final package still require a check.",
+      "count": 1
+    },
+    {
+      "before": "The favourable average does not remove important exceptions:",
+      "after": "The lower average error does not remove these exceptions:",
+      "count": 1
+    },
+    {
+      "before": "At strong added noise, the retained outline models fall to strict scores",
+      "after": "At strong added noise, the retained outline models decrease to strict scores",
+      "count": 1
+    },
+    {
+      "before": "its strict score falls to 0.806",
+      "after": "its strict score decreases to 0.806",
+      "count": 1
+    },
+    {
+      "before": "R01 checks the published steady-state equations used by the simulator.",
+      "after": "R01 tests the published steady-state equations that the simulator uses.",
+      "count": 1
+    },
+    {
+      "before": "Check whether image features transfer across batches.",
+      "after": "Test whether image features transfer across batches.",
+      "count": 1
+    },
+    {
+      "before": "Check whether edges and camera format supply shortcuts.",
+      "after": "Test whether edges and camera format supply shortcuts.",
+      "count": 1
+    },
+    {
+      "before": "Check reproduction in a fresh environment.",
+      "after": "Test reproduction in a fresh environment.",
+      "count": 1
+    },
+    {
+      "before": "Check shared failures behind disagreement warnings.",
+      "after": "Test shared failures behind disagreement warnings.",
+      "count": 1
+    },
+    {
+      "before": "Check source and publication terms.",
+      "after": "Do a check of source and publication terms.",
+      "count": 1
+    },
+    {
+      "before": "Check paths and reported numbers.",
+      "after": "Do checks of paths and reported numbers.",
+      "count": 1
+    },
+    {
+      "before": "The current report covers the recorded work.",
+      "after": "The current report describes the recorded work.",
+      "count": 1
+    },
+    {
+      "before": "These results use different settings.",
+      "after": "The count and outline results use different settings.",
+      "count": 1
+    },
+    {
+      "before": "A match needs at least 0.75 overlap.",
+      "after": "A match requires at least 0.75 overlap.",
+      "count": 1
+    },
+    {
+      "before": "On 108 colour images, the strict outline score is zero for every tested setting.",
+      "after": "On 108 colour images, all tested strict outline scores are below 0.001. Several values round to 0.000 without being exactly zero.",
+      "count": 1
+    },
+    {
+      "before": "Colour nucleus strict score reaches zero; models share errors",
+      "after": "Colour nucleus strict scores are below 0.001; models share errors",
+      "count": 1
+    },
+    {
+      "before": "Colour strict-outline score is zero.",
+      "after": "Colour strict-outline scores are below 0.001.",
+      "count": 1
+    },
+    {
+      "before": "This draft is not certified as fully compliant with its dictionary and grammar rules.",
+      "after": "We revised the text after a partial language review on 9 October 2026. Full compliance with the dictionary and grammar rules remains unverified.",
+      "count": 1
+    },
+    {
+      "before": "- Add the public code link and verify access without login or payment.",
+      "after": "- Add the public code link.\n- Make sure that the public code is accessible without login or payment.",
+      "count": 1
+    },
+    {
+      "before": "- Choose the code licence and complete resource credits.",
+      "after": "- Choose the code licence.\n- Add missing resource credits.",
+      "count": 1
+    },
+    {
+      "before": "- Settle chip-image licence wording and final C01/C03 publication scope.",
+      "after": "- Resolve the chip-image licence wording.\n- Decide the final C01/C03 publication scope.",
+      "count": 1
+    },
+    {
+      "before": "- Check the exact public installation instructions and account for F06's failed strict test.",
+      "after": "- Test the exact public installation instructions.\n- Resolve the failed F06 test before you claim that the strict installation path passes.",
+      "count": 1
+    },
+    {
+      "before": "| Training seed | A number that controls random choices during training. Different seeds test repeatability. | No preferred value. |",
+      "after": "| Training seed | A number that controls random choices during training. Different seeds test repeatability. | No preferred value. |\n\nThe project uses these technical terms consistently:\n\n| Project term | Meaning in this report |\n|---|---|\n| Frozen model | An image model whose weights do not change during the experiment. |\n| Feature | A numerical description that an image model produces. |\n| Scorer | The small trained model that converts image features to a review score. |\n| Tile | One rectangular part of a prepared image. |\n| Nucleus | The part of a cell that contains most of its DNA. The plural is nuclei. |\n| Foreground | Image regions that the model identifies as nuclei. |\n| Reference mask | An image that marks the reference object regions. |\n| Model weight | A stored number that determines how a model calculates an output. |\n| Plate | A laboratory container with multiple sample wells. |\n| RL | Reinforcement learning: training that uses feedback from actions. |\n| CPU / GPU | A general computer processor / a processor suited to many parallel calculations. |\n| RGB | An image with red, green and blue color channels. |\n| CSV | A text file that stores a table as comma-separated values. |\n| DIC | Differential interference contrast, a microscope imaging method. |",
+      "count": 1
+    },
+    {
+      "before": "### 4. Primary photo results",
+      "after": "![Development scores before and after group exclusion, and scores for the three camera formats.](figures/09_validation_and_formats.png)\n\n*Figure 9. The corrected test reduces the apparent scores. The tile method remains better in that test. Small photos remain a separate failure. The two panels use development data. They do not show new final tests.*\n\n### 4. Primary photo results",
+      "count": 1
+    },
+    {
+      "before": "Disagreement between B02 and B03 gives only a partial warning.",
+      "after": "![Actual B03 outline-setting examples with reference and predicted boundaries.](figures/12_b03_outline_examples.png)\n\n*Figure 12. Unchanged B03 development output at the outline settings. The source gallery selects the six largest count errors, not the largest outline errors. Green marks reference outlines. Magenta marks predictions. This selection illustrates limitations and is not a random sample. Images and masks: BBBC039, CC0.*\n\nDisagreement between B02 and B03 gives only a partial warning.",
+      "count": 1
+    },
+    {
+      "before": "No timed review study tested that assumption.",
+      "after": "No timed review study tested that assumption.\n\n![Final nucleus review curves and development error shares from shared model failures.](figures/10_review_and_shared_failures.png)\n\n*Figure 10. The left panel uses the 50 final images. It assumes that a person corrects each reviewed count. The right panel uses 150 development images. Shared errors limit a warning based on disagreement. Perfect knowledge is a reference, not an available review method.*",
+      "count": 1
+    },
+    {
+      "before": "InstanSeg performs better in the recorded development comparison.",
+      "after": "![Nucleus count and outline performance on development, outside gray, and outside color images.](figures/11_outside_nucleus_test.png)\n\n*Figure 11. The left panel uses count settings. The right panel uses outline settings. The outside color scores are below 0.001. The datasets are separate tests. Differences between their scores do not isolate the cause of failure.*\n\nInstanSeg gives better results in the recorded development comparison.",
+      "count": 1
+    },
+    {
+      "before": "The corrected C02 comparison uses the same ten training batches for every candidate strength.",
+      "after": "![Biological matching and batch identification in C02, plus direct and predicted-image measurement in C03.](figures/13_supporting_route_comparisons.png)\n\n*Figure 13. C02 improves biological matching but increases batch identification. C03 gives higher count error after fluorescence prediction. The graph shows the saved direct error as 7.255. The panels describe separate tasks and do not form a combined score.*\n\nThe corrected C02 comparison uses the same ten training batches for every candidate strength.",
+      "count": 1
+    },
+    {
+      "before": "R05 asks a different question using real chip-photo data:",
+      "after": "![Ordinary and staged control training, with a heat map of input and noise stress tests.](figures/14_rl_training_and_inputs.png)\n\n*Figure 14. The left panel uses harder simulator ranges. The right panel uses training ranges. Numbers show mean diameter error in micrometers. Each value averages five saved training seeds within 50 scenarios. These are related simulator comparisons, not independent physical tests.*\n\nR05 asks a different question using real chip-photo data:",
+      "count": 1
+    }
+  ],
+  "word_map": {
+    "grey": "gray",
+    "colour": "color",
+    "colours": "colors",
+    "labelled": "labeled",
+    "labelling": "labeling",
+    "licence": "license",
+    "licences": "licenses",
+    "programme": "program",
+    "centre": "center",
+    "micrometre": "micrometer",
+    "micrometres": "micrometers",
+    "metre": "meter",
+    "favourable": "favorable",
+    "main": "primary",
+    "both": "the two",
+    "however": "but",
+    "further": "more",
+    "people": "persons"
+  },
+  "figure_number_mapping": {
+    "1": 1,
+    "9": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 7,
+    "7": 8,
+    "12": 9,
+    "10": 10,
+    "11": 11,
+    "13": 12,
+    "8": 13,
+    "14": 14
+  },
+  "numeric_corrections": [
+    "C03 direct count error: exact saved value 7.255",
+    "B07 color strict scores: below 0.001, not all exactly zero"
+  ]
+}

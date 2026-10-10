@@ -1,0 +1,40 @@
+[
+  {
+    "pipeline": "A chip photos",
+    "examples": 16,
+    "prep_seconds": 10.433715881000001,
+    "prep_s_per_photo": 0.6521072425625001,
+    "train_pass_seconds": 1.7662638490000013,
+    "predict_s_per_photo": 0.012032906343749872,
+    "reload_identical": true,
+    "max_abs_diff": 0.0,
+    "model_file_mb": 44.789835,
+    "model": "resnet18.tv_in1k (pretrained) at 448x336"
+  },
+  {
+    "pipeline": "pilot_nuclei",
+    "error": "RuntimeError('Input type (double) and bias type (float) should be the same')"
+  },
+  {
+    "pipeline": "R droplet control (cpu)",
+    "env_steps": 4096,
+    "train_seconds": 7.238415234000001,
+    "steps_per_s": 565.8697197641313,
+    "reload_identical": true,
+    "max_abs_diff": 0.0,
+    "model_file_mb": 0.172174
+  },
+  {
+    "pipeline": "R droplet control (cuda)",
+    "env_steps": 4096,
+    "train_seconds": 12.501928109000005,
+    "steps_per_s": 327.6294635746092,
+    "reload_identical": true,
+    "max_abs_diff": 0.0,
+    "model_file_mb": 0.172686
+  },
+  {
+    "peak_gpu_memory_gb": 0.76,
+    "gpu": "NVIDIA A100-SXM4-40GB"
+  }
+]

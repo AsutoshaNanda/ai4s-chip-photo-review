@@ -1,0 +1,8 @@
+[2026-10-06T00:32:36] run 20261006-003232_A01_simple_baselines started
+[2026-10-06T00:32:38] photo stats from cache /Users/puchku-home/Study/Comps/AI4S/data/ooc/features/photo_stats_v1.parquet
+[2026-10-06T00:32:45] details_only: AUC 0.639359620930144, AP(bad) 0.5237527453733919, log loss 0.6429, Brier 0.2274, review area 0.578128625528527
+[2026-10-06T00:32:48] format_only: AUC 0.5758601975239636, AP(bad) 0.47271883504427037, log loss 0.6561, Brier 0.2325, review area 0.5429536369627914
+[2026-10-06T00:32:50] majority: AUC 0.4104755169936384, AP(bad) 0.39178520232454184, log loss 0.6939, Brier 0.2503, review area 0.45098354371986077
+[2026-10-06T00:32:52] photo_stats: AUC 0.6953086294287275, AP(bad) 0.6241369822828275, log loss 0.6363, Brier 0.2216, review area 0.6092294310286347
+[2026-10-06T00:32:55] photo_stats_fixed_size: AUC 0.6779204794550518, AP(bad) 0.5934139683185675, log loss 0.6535, Brier 0.2289, review area 0.5995234048856317
+[2026-10-06T00:32:55] run finished: status=measured, wall_seconds=22.87

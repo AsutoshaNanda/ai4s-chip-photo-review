@@ -1,0 +1,91 @@
+run_id,plan_id,name,status,started,finished,seconds,machine,notes
+20261005-233339_G01_bbbc039_check,G01,bbbc039_check,rejected,2026-10-05T23:33:39,2026-10-05T23:34:28,48.89,asu.local,"SUPERSEDED: used a yes/no mask reading that merges touching nuclei (19,565 vs 23,615 objects); see 20261005-233524"
+20261005-233524_G01_bbbc039_check,G01,bbbc039_check,measured,2026-10-05T23:35:24,2026-10-05T23:36:12,48.37,asu.local,G01 BBBC039 file and mask-decoding checks
+20261005-233829_G02_scoring_tests,G02,scoring_tests,measured,2026-10-05T23:38:29,2026-10-05T23:38:39,9.7,asu.local,0 failing tests
+20261006-000039_G02_bbbc039_splits,G02,bbbc039_splits,measured,2026-10-06T00:00:39,2026-10-06T00:00:47,8.4,asu.local,BBBC039 final test locked (provider test); 5 plate-grouped practice folds
+20261005-234900_B01_threshold_watershed,B01,threshold_watershed,measured,2026-10-05T23:49:00,2026-10-06T00:13:22,1461.4,asu.local,"B01 tuned on training, reported on validation; test locked"
+g03_kaggle_t4,G03,g03_kaggle_t4,measured,2026-10-05,2026-10-05/06,285.6,kaggle:Tesla T4+Tesla T4,"Kaggle speed test, machine_shape NvidiaTeslaT4"
+g03_kaggle_l4,G03,g03_kaggle_l4,measured,2026-10-05,2026-10-05/06,300.8,kaggle:Tesla T4+Tesla T4,Requested NvidiaL4 via metadata; actually ran on 2x T4 (L4 not available)
+g03_kaggle_l4_v2,G03,g03_kaggle_l4_v2,measured,2026-10-05,2026-10-05/06,297.1,kaggle:Tesla T4+Tesla T4,Requested NvidiaL4 via --accelerator; actually ran on 2x T4 (L4 not available)
+20261006-002338_G01_ooc_check,G01,ooc_check,measured,2026-10-06T00:23:38,2026-10-06T00:24:23,45.5,asu.local,G01 OOC archive/metadata/pixel checks
+20261006-002426_G02_ooc_splits,G02,ooc_splits,measured,2026-10-06T00:24:26,2026-10-06T00:24:31,4.57,asu.local,final test locked; practice folds built
+20261006-002438_A01_simple_baselines,A01,simple_baselines,superseded,2026-10-06T00:24:38,2026-10-06T00:26:45,126.05,asu.local,SUPERSEDED by 20261006-003232 (adds camera-format shortcut checks and within-format results)
+20261006-003232_A01_simple_baselines,A01,simple_baselines,measured,2026-10-06T00:32:32,2026-10-06T00:32:55,22.87,asu.local,A01 on practice folds; final test untouched
+20261006-003501_R01_droplet_model_check,R01,droplet_model_check,measured,2026-10-06T00:35:01,2026-10-06T00:35:10,9.06,asu.local,model reproduces eqs. 4-8; env runs for all input sets
+20261005-192521_G03_real_data_pilot,G03,real_data_pilot,superseded,2026-10-05T19:25:21,2026-10-05T19:26:07,45.65,modal:a100:NVIDIA A100-SXM4-40GB,SUPERSEDED by 20261006-005904 (nuclei part had a number-type bug; run name used UTC clock)
+20261006-005904_G03_real_data_pilot,G03,real_data_pilot,measured,2026-10-06T00:59:04,2026-10-06T00:59:26,22.62,modal:a100:NVIDIA A100-SXM4-40GB,run on Modal (a100) via cloud/modal_run.py
+20261006-094732_B02_unet_fg_seed0,B02,unet_fg_seed0,running,2026-10-06T09:47:32,,,asu.local,
+20261006-010137_A02_frozen_features,A02,frozen_features,stopped,2026-10-06T01:01:37,,,modal,"Stopped by us on 5-6 Oct night (relaunch/restart), not a crash; superseded by a later run"
+20261006-010429_B01_cv_threshold_watershed,B01,cv_threshold_watershed,stopped,2026-10-06T01:04:29,,,modal,"Stopped by us on 5-6 Oct night (relaunch/restart), not a crash; superseded by a later run"
+20261006-010513_A02_frozen_features,A02,frozen_features,stopped,2026-10-06T01:05:13,,,modal,"Stopped by us on 5-6 Oct night (relaunch/restart), not a crash; superseded by a later run"
+20261006-010632_A02_frozen_features,A02,frozen_features,stopped,2026-10-06T01:06:32,,,modal,"Stopped by us on 5-6 Oct night (relaunch/restart), not a crash; superseded by a later run"
+20261006-011158_R02_pi_vs_ppo,R02,pi_vs_ppo,measured,2026-10-06T01:11:58,2026-10-06T01:20:08,489.7,modal,R02: practice environment; see config for conditions
+20261006-012018_R03_staged_vs_ordinary_ppo,R03,staged_vs_ordinary_ppo,stopped,2026-10-06T01:20:18,,,modal,"Stopped by us on 5-6 Oct night (relaunch/restart), not a crash; superseded by a later run"
+20261006-012340_A02_frozen_features,A02,frozen_features,stopped,2026-10-06T01:23:40,,,modal,"Stopped by us on 5-6 Oct night (relaunch/restart), not a crash; superseded by a later run"
+20261006-012654_A02_frozen_features,A02,frozen_features,measured,2026-10-06T01:26:54,2026-10-06T01:31:15,260.91,modal,A02 frozen features on practice folds; final test untouched
+20261006-013213_A03_unseen_cell_types,A03,unseen_cell_types,measured,2026-10-06T01:32:13,2026-10-06T01:33:42,89.39,modal,A03 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013353_A06_class_weighting,A06,class_weighting,measured,2026-10-06T01:33:53,2026-10-06T01:35:40,107.34,modal,A06 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013554_A07_photos_plus_details,A07,photos_plus_details,measured,2026-10-06T01:35:54,2026-10-06T01:38:16,141.5,modal,A07 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013826_A08_calibration,A08,calibration,measured,2026-10-06T01:38:26,2026-10-06T01:38:36,10.35,modal,A08 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013846_A09_review_order,A09,review_order,measured,2026-10-06T01:38:46,2026-10-06T01:38:55,9.26,modal,A09 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013905_A10_two_models_guard,A10,two_models_guard,measured,2026-10-06T01:39:05,2026-10-06T01:39:17,11.86,modal,A10 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013926_A11_label_efficiency,A11,label_efficiency,measured,2026-10-06T01:39:26,2026-10-06T01:40:13,47.2,modal,A11 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-012739_R03_staged_vs_ordinary_ppo,R03,staged_vs_ordinary_ppo,measured,,,297.75,modal,missing from Modal registry (simultaneous write); added from run folder
+20261006-013244_R04_input_sets,R04,input_sets,measured,,,311.87,modal,missing from Modal registry (simultaneous write); added from run folder
+20261006-101811_R05_label_picking_fold0_smoke,R05,label_picking_fold0_smoke,measured,2026-10-06T10:18:11,2026-10-06T10:18:18,6.65,asu.local,"R05 fold 0; practice only, final test hidden"
+20261006-101832_R05_label_picking_fold3,R05,label_picking_fold3,measured,2026-10-06T10:18:32,2026-10-06T10:19:12,39.54,asu.local,"R05 fold 3; practice only, final test hidden"
+20261006-101832_R05_label_picking_fold4,R05,label_picking_fold4,measured,2026-10-06T10:18:32,2026-10-06T10:19:13,40.69,asu.local,"R05 fold 4; practice only, final test hidden"
+20261006-101832_R05_label_picking_fold2,R05,label_picking_fold2,measured,2026-10-06T10:18:32,2026-10-06T10:19:15,42.54,asu.local,"R05 fold 2; practice only, final test hidden"
+20261006-101832_R05_label_picking_fold1,R05,label_picking_fold1,measured,2026-10-06T10:18:32,2026-10-06T10:19:15,42.79,asu.local,"R05 fold 1; practice only, final test hidden"
+20261006-101832_R05_label_picking_fold0,R05,label_picking_fold0,measured,2026-10-06T10:18:32,2026-10-06T10:19:21,48.53,asu.local,"R05 fold 0; practice only, final test hidden"
+20261006-101938_R05_label_picking_fold3,R05,label_picking_fold3,measured,2026-10-06T10:19:38,2026-10-06T10:24:53,314.81,asu.local,"R05 fold 3; practice only, final test hidden"
+20261006-101938_R05_label_picking_fold4,R05,label_picking_fold4,measured,2026-10-06T10:19:38,2026-10-06T10:25:13,334.62,asu.local,"R05 fold 4; practice only, final test hidden"
+20261006-101938_R05_label_picking_fold2,R05,label_picking_fold2,measured,2026-10-06T10:19:38,2026-10-06T10:25:15,337.19,asu.local,"R05 fold 2; practice only, final test hidden"
+20261006-101938_R05_label_picking_fold1,R05,label_picking_fold1,measured,2026-10-06T10:19:38,2026-10-06T10:25:25,347.14,asu.local,"R05 fold 1; practice only, final test hidden"
+20261006-101938_R05_label_picking_fold0,R05,label_picking_fold0,measured,2026-10-06T10:19:38,2026-10-06T10:26:13,394.47,asu.local,"R05 fold 0; practice only, final test hidden"
+20261006-102841_C01_rxrx1_batches,C01,rxrx1_batches,measured,2026-10-06T10:28:41,2026-10-06T10:29:04,23.78,asu.local,C01 RxRx1 embeddings; provider split; research use only
+20261006-103241_B03_unet_boundary_seed0_combined,B03,unet_boundary_seed0_combined,measured,2026-10-06T10:32:41,2026-10-06T10:32:46,5.18,asu.local,B03 combined from 5 per-fold runs; test locked
+20261006-102723_G01_bbbc038_check,G01,bbbc038_check,measured,2026-10-06T10:27:23,2026-10-06T10:34:47,444.13,asu.local,BBBC038 file check + overlap scores vs all 200 BBBC039 images (no cut-off assumed)
+20261006-105952_B02_unet_fg_seed0_combined,B02,unet_fg_seed0_combined,measured,2026-10-06T10:59:52,2026-10-06T10:59:57,4.95,asu.local,B02 combined from 5 per-fold runs; test locked
+20261006-110006_B06_warning_flags,B06,warning_flags,measured,2026-10-06T11:00:06,2026-10-06T11:02:38,152.57,asu.local,"B06 on saved B01-B03 fold settings/models; methods ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']"
+20261006-110006_B05_crowding_tiny_nuclei,B05,crowding_tiny_nuclei,measured,2026-10-06T11:00:06,2026-10-06T11:03:20,194.64,asu.local,"B05 on saved B01-B03 fold settings/models; methods ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']"
+20261006-110006_B07_bbbc038_outside,B07,bbbc038_outside,measured,2026-10-06T11:00:06,2026-10-06T11:07:45,458.98,asu.local,B07 on 627 BBBC038 images (copies removed); methods unchanged
+20261006-094916_B01_cv_threshold_watershed,B01,cv_threshold_watershed,stopped,2026-10-06T09:49:16,,,modal,"Stopped (crash fix, relaunch, or the $20 Modal money stop on 6 Oct); see logs/modal_queue"
+20261006-100315_B02_unet_fg_seed0,B02,unet_fg_seed0,measured,2026-10-06T10:03:15,2026-10-06T10:08:01,286.07,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-101000_B03_unet_boundary_seed0_folds0,B03,unet_boundary_seed0_folds0,stopped,2026-10-06T10:10:00,,,modal,"Stopped (crash fix, relaunch, or the $20 Modal money stop on 6 Oct); see logs/modal_queue"
+20261006-101058_B02_unet_fg_seed0_folds0,B02,unet_fg_seed0_folds0,measured,2026-10-06T10:10:58,2026-10-06T10:20:18,559.41,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-102026_B02_unet_fg_seed0_folds1,B02,unet_fg_seed0_folds1,measured,2026-10-06T10:20:26,2026-10-06T10:29:40,553.2,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-102947_B02_unet_fg_seed0_folds2,B02,unet_fg_seed0_folds2,measured,2026-10-06T10:29:47,2026-10-06T10:40:37,649.8,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-104046_B02_unet_fg_seed0_folds3,B02,unet_fg_seed0_folds3,stopped,2026-10-06T10:40:46,,,modal,"Stopped (crash fix, relaunch, or the $20 Modal money stop on 6 Oct); see logs/modal_queue"
+20261006-104650_C02_jump_batch_rescaling_fold1,C02,jump_batch_rescaling_fold1,stopped,2026-10-06T10:46:50,,,modal,"Stopped (crash fix, relaunch, or the $20 Modal money stop on 6 Oct); see logs/modal_queue"
+20261006-104800_C02_jump_batch_rescaling_fold0,C02,jump_batch_rescaling_fold0,measured,2026-10-06T10:48:00,2026-10-06T11:06:41,1120.36,modal,C02 JUMP ORF raw vs sphering learned on training batches
+20261006-110655_C02_jump_batch_rescaling_fold1,C02,jump_batch_rescaling_fold1,stopped,2026-10-06T11:06:55,,,modal,"Stopped (crash fix, relaunch, or the $20 Modal money stop on 6 Oct); see logs/modal_queue"
+20261006-100550_B01_cv_threshold_watershed,B01,cv_threshold_watershed,measured,,,1230.15,see env.json,added from run folder
+20261006-101329_B03_unet_boundary_seed0_folds1,B03,unet_boundary_seed0_folds1,measured,,,247.29,see env.json,added from run folder
+20261006-101435_A05_safe_changes_frozen_smoke,A05,safe_changes_frozen_smoke,measured,,,144.41,see env.json,added from run folder
+20261006-101747_B03_unet_boundary_seed0_folds2,B03,unet_boundary_seed0_folds2,measured,,,261.82,see env.json,added from run folder
+20261006-101827_A04_crop_vs_edges_smoke,A04,crop_vs_edges_smoke,measured,,,261.08,see env.json,added from run folder
+20261006-102033_X01_whole_plus_patches_smoke,X01,whole_plus_patches_smoke,measured,,,208.0,see env.json,added from run folder
+20261006-102219_B03_unet_boundary_seed0_folds3,B03,unet_boundary_seed0_folds3,measured,,,236.22,see env.json,added from run folder
+20261006-102436_A05_safe_changes_frozen,A05,safe_changes_frozen,measured,,,485.62,see env.json,added from run folder
+20261006-102626_B03_unet_boundary_seed0_folds4,B03,unet_boundary_seed0_folds4,measured,,,217.73,see env.json,added from run folder
+20261006-103251_X01_whole_plus_patches,X01,whole_plus_patches,measured,,,243.39,see env.json,added from run folder
+20261006-103553_A04_crop_vs_edges,A04,crop_vs_edges,measured,,,1409.79,see env.json,added from run folder
+20261006-103556_A12_heatmaps_folds0_smoke,A12,heatmaps_folds0_smoke,measured,,,43.24,see env.json,added from run folder
+20261006-103702_C03_allen_fetch,C03,allen_fetch,measured,,,708.22,see env.json,added from run folder
+20261006-103711_A12_heatmaps_folds0,A12,heatmaps_folds0,measured,,,1150.46,see env.json,added from run folder
+20261006-103757_X01_whole_plus_patches_grids4-5-6,X01,whole_plus_patches_grids4-5-6,measured,,,665.26,see env.json,added from run folder
+20261006-104927_B02_unet_fg_seed0_folds4,B02,unet_fg_seed0_folds4,measured,,,565.62,see env.json,added from run folder
+20261006-105217_C03_allen_inspect,C03,allen_inspect,measured,,,39.72,see env.json,added from run folder
+20261006-105432_C03_allen_channels,C03,allen_channels,measured,,,50.38,see env.json,added from run folder
+20261006-105637_C03_allen_prep,C03,allen_prep,measured,,,111.86,see env.json,added from run folder
+20261006-110158_C03_dic_to_lamin,C03,dic_to_lamin,measured,2026-10-06T11:01:58,2026-10-06T12:08:50,4012.07,asu.local,"C03 DIC->lamin, 4 well-held-out folds; research use only"
+20261006-155036_C03_dic_to_lamin_v2,C03,dic_to_lamin_v2,running,2026-10-06T15:50:36,,,asu.local,
+20261006-155516_B03_unet_boundary_repost_v2,B03,unet_boundary_repost_v2,measured,2026-10-06T15:55:16,2026-10-06T15:59:21,245.49,asu.local,B03 wider clean-up search on saved fold models
+20261006-155925_B02_unet_fg_repost_v2,B02,unet_fg_repost_v2,running,2026-10-06T15:59:25,,,asu.local,
+20261006-212616_A02_light_retrain_timing,A02,light_retrain_timing,measured,2026-10-06T21:26:16,2026-10-06T21:27:20,63.96,modal:a100:NVIDIA A100-SXM4-40GB,run on Modal (a100) via cloud/modal_run.py
+20261006-212404_A03_unseen_cell_types_groups_excluded,A03,unseen_cell_types_groups_excluded,measured,2026-10-06T21:24:04,2026-10-06T21:28:16,252.4,modal:cpu8:cpu,run on Modal (cpu8) via cloud/modal_run.py
+20261006-212929_B03_unet_boundary_seed1,B03,unet_boundary_seed1,measured,2026-10-06T21:29:29,2026-10-06T21:50:28,1258.37,modal:a100:NVIDIA A100-SXM4-40GB,run on Modal (a100) via cloud/modal_run.py
+20261006-212925_X01_small_photos_and_formats,X01,small_photos_and_formats,measured,2026-10-06T21:29:25,2026-10-06T21:56:25,1620.51,modal:cpu8:cpu,run on Modal (cpu8) via cloud/modal_run.py
+20261007-124801_B06_shared_failures,B06,shared_failures,measured,2026-10-07T12:48:01,2026-10-07T12:48:09,8.12,asu.local,B02/B03 shared failures; saved per-image results only
+20261007-210501_F03_compare_clean_vs_saved,F03,compare_clean_vs_saved,measured,2026-10-07T21:05:01,2026-10-07T21:05:06,4.73,asu.local,clean rebuild vs saved records

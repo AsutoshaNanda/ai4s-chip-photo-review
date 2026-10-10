@@ -1,0 +1,31 @@
+[{"stream_name":"stdout","time":7.218944122,"data":"[14:36:30] code ready: ['final_config.json', 'runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":8.794581174,"data":"[14:36:32] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":12.42204512,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 68.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.251695058,"data":"[14:36:39] installed scikit-image==0.26.0\n"}
+,{"stream_name":"stdout","time":4788.924194375,"data":"[15:56:12] lane0 finished with exit code 0 after 4773 s\n"}
+,{"stream_name":"stdout","time":4788.924486649,"data":"=== scripts/f01_final.py --part nucleus\n"}
+,{"stream_name":"stdout","time":4788.924500188,"data":"[2026-10-07T20:06:56] run 20261007-200641_F01_nucleus_final_eval started\n"}
+,{"stream_name":"stdout","time":4788.92450549,"data":"[2026-10-07T20:13:29] FINAL B02_seed0_best_count: count MAE 4.31 (sd over fold models 0.19), F1@0.50 0.904, F1@0.75 0.847\n"}
+,{"stream_name":"stdout","time":4788.924518123,"data":"[2026-10-07T20:19:55] FINAL B02_seed0_best_outline: count MAE 9.34 (sd over fold models 0.60), F1@0.50 0.919, F1@0.75 0.876\n"}
+,{"stream_name":"stdout","time":4788.924523024,"data":"[2026-10-07T20:26:22] FINAL B02_seed1_best_count: count MAE 4.36 (sd over fold models 0.22), F1@0.50 0.904, F1@0.75 0.844\n"}
+,{"stream_name":"stdout","time":4788.924527811,"data":"[2026-10-07T20:32:49] FINAL B02_seed1_best_outline: count MAE 9.60 (sd over fold models 0.74), F1@0.50 0.920, F1@0.75 0.878\n"}
+,{"stream_name":"stdout","time":4788.924532204,"data":"[2026-10-07T20:39:04] FINAL B03_seed0_best_count: count MAE 4.90 (sd over fold models 0.37), F1@0.50 0.933, F1@0.75 0.880\n"}
+,{"stream_name":"stdout","time":4788.924536604,"data":"[2026-10-07T20:46:07] FINAL B03_seed0_best_outline: count MAE 9.90 (sd over fold models 1.19), F1@0.50 0.935, F1@0.75 0.901\n"}
+,{"stream_name":"stdout","time":4788.924541169,"data":"[2026-10-07T20:52:59] FINAL B03_seed1_best_count: count MAE 5.27 (sd over fold models 0.78), F1@0.50 0.935, F1@0.75 0.876\n"}
+,{"stream_name":"stdout","time":4788.924545352,"data":"[2026-10-07T20:59:38] FINAL B03_seed1_best_outline: count MAE 10.18 (sd over fold models 1.17), F1@0.50 0.934, F1@0.75 0.899\n"}
+,{"stream_name":"stdout","time":4788.924549615,"data":"[2026-10-07T21:06:17] FINAL B02_noisetrain_seed0_best_count: count MAE 4.63 (sd over fold models 0.23), F1@0.50 0.904, F1@0.75 0.840\n"}
+,{"stream_name":"stdout","time":4788.924554495,"data":"[2026-10-07T21:12:44] FINAL B02_noisetrain_seed0_best_outline: count MAE 11.22 (sd over fold models 2.68), F1@0.50 0.913, F1@0.75 0.872\n"}
+,{"stream_name":"stdout","time":4788.924558904,"data":"[2026-10-07T21:18:58] FINAL B03_noisetrain_seed0_best_count: count MAE 5.92 (sd over fold models 0.77), F1@0.50 0.938, F1@0.75 0.873\n"}
+,{"stream_name":"stdout","time":4788.924563478,"data":"[2026-10-07T21:25:15] FINAL B03_noisetrain_seed0_best_outline: count MAE 10.92 (sd over fold models 2.93), F1@0.50 0.929, F1@0.75 0.896\n"}
+,{"stream_name":"stdout","time":4788.924567691,"data":"[2026-10-07T21:25:43] FINAL B01_best_count: count MAE 4.93, F1@0.75 0.803\n"}
+,{"stream_name":"stdout","time":4788.924571881,"data":"[2026-10-07T21:26:10] FINAL B01_best_outline: count MAE 11.36, F1@0.75 0.855\n"}
+,{"stream_name":"stdout","time":4788.924576255,"data":"[2026-10-07T21:26:11] run finished: status=measured, wall_seconds=4769.42\n"}
+,{"stream_name":"stdout","time":4788.924580787,"data":"\n"}
+,{"stream_name":"stdout","time":4788.964708934,"data":"[15:56:12] kept new runs: ['20261007-200641_F01_nucleus_final_eval']\n"}
+,{"stream_name":"stderr","time":4791.236474984,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4791.236518053,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4791.526717766,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4791.526740111,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4792.307907897,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4793.350180683,"data":"[NbConvertApp] Writing 293047 bytes to __results__.html\n"}
+]

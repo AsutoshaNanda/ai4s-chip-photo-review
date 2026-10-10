@@ -1,0 +1,57 @@
+[{"stream_name":"stdout","time":18.431911394,"data":"[08:47:27] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":21.429451796,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.9/66.9 kB 1.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.707284981,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 28.1/28.1 MB 71.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.573531238,"data":"[08:47:33] installed czifile==2026.8.16,imagecodecs==2026.8.16\n"}
+,{"stream_name":"stdout","time":8277.800483223,"data":"[11:05:06] lane0 finished with exit code 0 after 8253 s\n"}
+,{"stream_name":"stdout","time":8277.804322611,"data":"7T15:32:02] DICLAMINB_100X_20170815_13_210_1-Scene-21-P21-B04.czi: z* 38, planes 5, nuclei at z* 26\n"}
+,{"stream_name":"stdout","time":8277.804339935,"data":"[2026-10-07T15:32:06] DICLAMINB_100X_20170815_13_210_2-Scene-01-P22-B04.czi: z* 34, planes 5, nuclei at z* 25\n"}
+,{"stream_name":"stdout","time":8277.804345047,"data":"[2026-10-07T15:32:09] DICLAMINB_100X_20170815_13_210_2-Scene-02-P23-B04.czi: z* 31, planes 5, nuclei at z* 28\n"}
+,{"stream_name":"stdout","time":8277.804349616,"data":"[2026-10-07T15:32:13] DICLAMINB_100X_20170815_13_210_2-Scene-03-P24-B04.czi: z* 41, planes 5, nuclei at z* 17\n"}
+,{"stream_name":"stdout","time":8277.804353909,"data":"[2026-10-07T15:32:15] DICLAMINB_100X_20170815_13_210_2-Scene-04-P25-B04.czi: z* 34, planes 5, nuclei at z* 21\n"}
+,{"stream_name":"stdout","time":8277.804358296,"data":"[2026-10-07T15:32:19] DICLAMINB_100X_20170815_13_210_2-Scene-05-P26-B04.czi: z* 49, planes 5, nuclei at z* 12\n"}
+,{"stream_name":"stdout","time":8277.804368091,"data":"[2026-10-07T15:32:22] DICLAMINB_100X_20170815_13_210_2-Scene-06-P27-B04.czi: z* 49, planes 5, nuclei at z* 14\n"}
+,{"stream_name":"stdout","time":8277.804371369,"data":"[2026-10-07T15:32:25] DICLAMINB_100X_20170815_13_210_2-Scene-07-P28-B04.czi: z* 33, planes 5, nuclei at z* 21\n"}
+,{"stream_name":"stdout","time":8277.804374249,"data":"[2026-10-07T15:32:29] DICLAMINB_100X_20170815_13_210_2-Scene-08-P29-B04.czi: z* 35, planes 5, nuclei at z* 28\n"}
+,{"stream_name":"stdout","time":8277.804377125,"data":"[2026-10-07T15:32:32] DICLAMINB_100X_20170815_13_210_2-Scene-09-P30-B04.czi: z* 36, planes 5, nuclei at z* 31\n"}
+,{"stream_name":"stdout","time":8277.804380131,"data":"[2026-10-07T15:32:36] DICLAMINB_100X_20170815_13_210_2-Scene-10-P31-B04.czi: z* 39, planes 5, nuclei at z* 24\n"}
+,{"stream_name":"stdout","time":8277.804382903,"data":"[2026-10-07T15:32:39] DICLAMINB_100X_20170815_13_210_2-Scene-11-P32-B05.czi: z* 35, planes 5, nuclei at z* 31\n"}
+,{"stream_name":"stdout","time":8277.804385846,"data":"[2026-10-07T15:32:42] DICLAMINB_100X_20170815_13_210_2-Scene-12-P33-B05.czi: z* 32, planes 5, nuclei at z* 25\n"}
+,{"stream_name":"stdout","time":8277.804388713,"data":"[2026-10-07T15:32:45] DICLAMINB_100X_20170815_13_210_2-Scene-13-P34-B05.czi: z* 31, planes 5, nuclei at z* 26\n"}
+,{"stream_name":"stdout","time":8277.804391569,"data":"[2026-10-07T15:32:49] DICLAMINB_100X_20170815_13_210_2-Scene-14-P35-B05.czi: z* 38, planes 5, nuclei at z* 20\n"}
+,{"stream_name":"stdout","time":8277.804394342,"data":"[2026-10-07T15:32:52] DICLAMINB_100X_20170815_13_210_2-Scene-15-P36-B05.czi: z* 37, planes 5, nuclei at z* 22\n"}
+,{"stream_name":"stdout","time":8277.804397226,"data":"[2026-10-07T15:32:56] DICLAMINB_100X_20170815_13_210_2-Scene-16-P37-B05.czi: z* 36, planes 5, nuclei at z* 24\n"}
+,{"stream_name":"stdout","time":8277.804400002,"data":"[2026-10-07T15:32:59] DICLAMINB_100X_20170815_13_210_2-Scene-17-P38-B05.czi: z* 30, planes 5, nuclei at z* 23\n"}
+,{"stream_name":"stdout","time":8277.804403509,"data":"[2026-10-07T15:33:02] DICLAMINB_100X_20170815_13_210_2-Scene-18-P39-B05.czi: z* 38, planes 5, nuclei at z* 20\n"}
+,{"stream_name":"stdout","time":8277.804414205,"data":"[2026-10-07T15:33:06] DICLAMINB_100X_20170815_13_210_2-Scene-19-P40-B05.czi: z* 28, planes 5, nuclei at z* 24\n"}
+,{"stream_name":"stdout","time":8277.804416797,"data":"[2026-10-07T15:33:40] saved /tmp/ai4s/data/allen/c03_slices.npz (0.10 GB); wells {np.str_('B02'): np.int64(7), np.str_('B03'): np.int64(12), np.str_('B04'): np.int64(12), np.str_('B05'): np.int64(9)}\n"}
+,{"stream_name":"stdout","time":8277.804420197,"data":"[2026-10-07T15:33:40] run finished: status=measured, wall_seconds=171.13\n"}
+,{"stream_name":"stdout","time":8277.804422389,"data":"=== scripts/c03_translate.py --slices c03_slices.npz\n"}
+,{"stream_name":"stdout","time":8277.804424584,"data":"[2026-10-07T15:33:46] run 20261007-153344_C03_dic_to_lamin_v3 started\n"}
+,{"stream_name":"stdout","time":8277.804427047,"data":"[2026-10-07T15:49:58] fold 0: clean-up min size chosen on check well B03: {'A': 0, 'B': 576}; ranges {'A': {'searched': [0, 115, 230, 346, 461, 576, 692, 807, 922, 1038, 1153], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 115, 230, 346, 461, 576, 692, 807, 922, 1038, 1153], 'on_upper_edge_after_extension': False}}\n"}
+,{"stream_name":"stdout","time":8277.80443013,"data":"[2026-10-07T15:49:58] fold 0 (test well B02, check well B03): trained in 967 s; steps A 3200 B 1600\n"}
+,{"stream_name":"stdout","time":8277.804432389,"data":"[2026-10-07T16:03:31] fold 1: clean-up min size chosen on check well B04: {'A': 0, 'B': 796}; ranges {'A': {'searched': [0, 113, 227, 341, 455, 568, 682, 796, 910, 1023, 1137], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 113, 227, 341, 455, 568, 682, 796, 910, 1023, 1137], 'on_upper_edge_after_extension': False}}\n"}
+,{"stream_name":"stdout","time":8277.804434999,"data":"[2026-10-07T16:03:31] fold 1 (test well B03, check well B04): trained in 811 s; steps A 2600 B 1400\n"}
+,{"stream_name":"stdout","time":8277.804437237,"data":"[2026-10-07T16:15:40] fold 2: clean-up min size chosen on check well B05: {'A': 0, 'B': 1015}; ranges {'A': {'searched': [0, 101, 203, 304, 406, 507, 609, 710, 812, 913, 1015], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 101, 203, 304, 406, 507, 609, 710, 812, 913, 1015, 1117], 'on_upper_edge_after_extension': False}}\n"}
+,{"stream_name":"stdout","time":8277.804439862,"data":"[2026-10-07T16:15:40] fold 2 (test well B04, check well B05): trained in 726 s; steps A 2200 B 1400\n"}
+,{"stream_name":"stdout","time":8277.804442573,"data":"[2026-10-07T16:35:01] fold 3: clean-up min size chosen on check well B02: {'A': 0, 'B': 516}; ranges {'A': {'searched': [0, 103, 206, 309, 413, 516, 619, 723, 826, 929, 1033], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 103, 206, 309, 413, 516, 619, 723, 826, 929, 1033], 'on_upper_edge_after_extension': False}}\n"}
+,{"stream_name":"stdout","time":8277.804445211,"data":"[2026-10-07T16:35:01] fold 3 (test well B05, check well B02): trained in 1157 s; steps A 4400 B 1400\n"}
+,{"stream_name":"stdout","time":8277.804447541,"data":"[2026-10-07T16:35:03] all_planes   A_no_cleanup       planes  200 | count MAE 9.16 bias -9.00 | F1 0.50/0.75 0.455/0.286 | joined 1579 split 675 missed 1352 false 153 | pixel corr 0.550\n"}
+,{"stream_name":"stdout","time":8277.80444992,"data":"[2026-10-07T16:35:03] all_planes   A_predict_picture  planes  200 | count MAE 9.16 bias -9.00 | F1 0.50/0.75 0.455/0.286 | joined 1579 split 675 missed 1352 false 153 | pixel corr 0.550\n"}
+,{"stream_name":"stdout","time":8277.804452379,"data":"[2026-10-07T16:35:03] all_planes   B_direct           planes  200 | count MAE 5.74 bias -1.86 | F1 0.50/0.75 0.468/0.279 | joined 1775 split 1137 missed 592 false 720\n"}
+,{"stream_name":"stdout","time":8277.804454736,"data":"[2026-10-07T16:35:03] all_planes   B_no_cleanup       planes  200 | count MAE 21.88 bias +21.86 | F1 0.50/0.75 0.341/0.199 | joined 1753 split 2767 missed 168 false 3763\n"}
+,{"stream_name":"stdout","time":8277.804459366,"data":"[2026-10-07T16:35:04] all_planes: route A minus route B count MAE, 95% over stacks: [2.2, 4.59]\n"}
+,{"stream_name":"stdout","time":8277.804461761,"data":"[2026-10-07T16:35:04] zstar_plane  A_no_cleanup       planes   40 | count MAE 8.22 bias -7.97 | F1 0.50/0.75 0.477/0.290 | joined 311 split 141 missed 239 false 36 | pixel corr 0.559\n"}
+,{"stream_name":"stdout","time":8277.804464108,"data":"[2026-10-07T16:35:04] zstar_plane  A_predict_picture  planes   40 | count MAE 8.22 bias -7.97 | F1 0.50/0.75 0.477/0.290 | joined 311 split 141 missed 239 false 36 | pixel corr 0.559\n"}
+,{"stream_name":"stdout","time":8277.804466469,"data":"[2026-10-07T16:35:04] zstar_plane  B_direct           planes   40 | count MAE 5.22 bias -1.27 | F1 0.50/0.75 0.479/0.285 | joined 348 split 236 missed 111 false 147\n"}
+,{"stream_name":"stdout","time":8277.80446879,"data":"[2026-10-07T16:35:04] zstar_plane  B_no_cleanup       planes   40 | count MAE 21.60 bias +21.60 | F1 0.50/0.75 0.350/0.205 | joined 344 split 551 missed 36 false 741\n"}
+,{"stream_name":"stdout","time":8277.804471135,"data":"[2026-10-07T16:35:05] zstar_plane: route A minus route B count MAE, 95% over stacks: [1.62, 4.22]\n"}
+,{"stream_name":"stdout","time":8277.80447357,"data":"[2026-10-07T16:35:05] run finished: status=measured, wall_seconds=3680.81\n"}
+,{"stream_name":"stdout","time":8277.804475814,"data":"\n"}
+,{"stream_name":"stdout","time":8278.246556648,"data":"[11:05:07] kept new runs: ['20261007-141733_C03_allen_fetch', '20261007-142247_C03_allen_prep_inputonly', '20261007-142534_C03_dic_to_lamin_v3_inputonly', '20261007-153049_C03_allen_prep', '20261007-153344_C03_dic_to_lamin_v3']\n"}
+,{"stream_name":"stderr","time":8280.60577331,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":8280.605799305,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":8281.613097615,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":8281.613123557,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":8282.769733309,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":8283.641293386,"data":"[NbConvertApp] Writing 293384 bytes to __results__.html\n"}
+]

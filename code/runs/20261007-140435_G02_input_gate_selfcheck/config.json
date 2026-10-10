@@ -1,0 +1,6 @@
+{
+  "small_rule": "manual_review",
+  "thin_formats": [
+    "RGB/640x480"
+  ]
+}

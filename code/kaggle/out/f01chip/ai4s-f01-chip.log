@@ -1,0 +1,26 @@
+[{"stream_name":"stdout","time":29.280185078,"data":"[14:36:44] code ready: ['final_config.json', 'runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":461.65278985,"data":"[14:43:56] zenodo download 6.71 GB in 432 s, MD5 ok=True\n"}
+,{"stream_name":"stdout","time":498.768734582,"data":"[14:44:34] prepared 675 practice photos (of 675 listed) in 37 s\n"}
+,{"stream_name":"stdout","time":743.962579671,"data":"[14:48:39] gpu0 finished with exit code 0 after 245 s\n"}
+,{"stream_name":"stdout","time":743.962968235,"data":"[2026-10-07T20:14:59] run 20261007-201435_F01_chip_features started\n"}
+,{"stream_name":"stdout","time":743.962984296,"data":"[2026-10-07T20:15:46] features final_whole: 675 images in 32.1 s\n"}
+,{"stream_name":"stdout","time":743.962990886,"data":"[2026-10-07T20:17:41] features final_tiles_3x3: 6075 images in 115.2 s\n"}
+,{"stream_name":"stdout","time":743.96299629,"data":"[2026-10-07T20:17:41] run finished: status=measured, wall_seconds=186.38\n"}
+,{"stream_name":"stdout","time":743.963003555,"data":"[2026-10-07T20:17:53] run 20261007-201747_F01_chip_final_eval started\n"}
+,{"stream_name":"stdout","time":743.963008914,"data":"[2026-10-07T20:18:00] whole: classifier fitted on 2397 practice photos, C=0.001\n"}
+,{"stream_name":"stdout","time":743.963016092,"data":"[2026-10-07T20:18:11] fixed_3x3: classifier fitted on 2397 practice photos, C=0.001\n"}
+,{"stream_name":"stdout","time":743.963022061,"data":"[2026-10-07T20:18:14] FINAL [automatic_only] whole: AUC 0.8012 [0.732, 0.891]; AP 0.753; log loss 0.538; review area 0.675 (random 0.499); per type {'A549': 0.747, 'CACO': 0.842, 'HPMEC': 0.776, 'HSAEC': 0.763, 'HUVEC': 1.0, 'NHBE': 0.821}\n"}
+,{"stream_name":"stdout","time":743.963029496,"data":"[2026-10-07T20:18:17] FINAL [automatic_only] fixed_3x3: AUC 0.8497 [0.778, 0.918]; AP 0.820; log loss 0.485; review area 0.703 (random 0.499); per type {'A549': 0.765, 'CACO': 0.88, 'HPMEC': 0.839, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}\n"}
+,{"stream_name":"stdout","time":743.963036329,"data":"[2026-10-07T20:18:24] FINAL [automatic_only] paired fixed_3x3 minus whole: {'difference': 0.04855161899230431, 'range_95': [0.010489677655454962, 0.08601999066824137]}\n"}
+,{"stream_name":"stdout","time":743.963042306,"data":"[2026-10-07T20:18:27] FINAL [all_photos] whole: AUC 0.8013 [0.733, 0.891]; AP 0.753; log loss 0.538; review area 0.674 (random 0.501); per type {'A549': 0.747, 'CACO': 0.835, 'HPMEC': 0.776, 'HSAEC': 0.763, 'HUVEC': 1.0, 'NHBE': 0.821}\n"}
+,{"stream_name":"stdout","time":743.963048405,"data":"[2026-10-07T20:18:31] FINAL [all_photos] fixed_3x3: AUC 0.8500 [0.78, 0.917]; AP 0.821; log loss 0.485; review area 0.702 (random 0.501); per type {'A549': 0.765, 'CACO': 0.877, 'HPMEC': 0.839, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}\n"}
+,{"stream_name":"stdout","time":743.963054838,"data":"[2026-10-07T20:18:37] FINAL [all_photos] paired fixed_3x3 minus whole: {'difference': 0.04874431481115282, 'range_95': [0.010574825523429584, 0.08644186678071157]}\n"}
+,{"stream_name":"stdout","time":743.963060602,"data":"[2026-10-07T20:18:37] run finished: status=measured, wall_seconds=49.97\n"}
+,{"stream_name":"stdout","time":743.963071772,"data":"\n"}
+,{"stream_name":"stderr","time":746.513969502,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":746.514006536,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":746.806639042,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":746.806665499,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":747.729695503,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":748.890105523,"data":"[NbConvertApp] Writing 300699 bytes to __results__.html\n"}
+]

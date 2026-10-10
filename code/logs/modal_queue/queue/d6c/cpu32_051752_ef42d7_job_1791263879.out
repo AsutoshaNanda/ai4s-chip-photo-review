@@ -1,0 +1,25 @@
+[2026-10-06T10:48:14] run 20261006-104800_C02_jump_batch_rescaling_fold0 started
+[2026-10-06T10:48:30] 81660 wells, 3636 usable features (of 3636), 12 batches, pert types {'trt': 76050, 'negcon': 3680, 'poscon': 1930}
+[2026-10-06T10:57:40] fold 0 raw                    batch info 0.444 (chance 0.088) | replicate mAP 0.0087 (1491 queries)
+[2026-10-06T10:59:27] fold 0 sphering_eps0.0001     batch info 0.985 (chance 0.088) | replicate mAP 0.0174 (1491 queries)
+[2026-10-06T11:01:14] fold 0 sphering_eps0.001      batch info 0.976 (chance 0.088) | replicate mAP 0.0274 (1491 queries)
+[2026-10-06T11:03:01] fold 0 sphering_eps0.01       batch info 0.962 (chance 0.088) | replicate mAP 0.0324 (1491 queries)
+[2026-10-06T11:04:48] fold 0 sphering_eps0.1        batch info 0.929 (chance 0.088) | replicate mAP 0.0335 (1491 queries)
+[2026-10-06T11:06:41] fold 0 sphering_eps1          batch info 0.851 (chance 0.088) | replicate mAP 0.0295 (1491 queries)  <- chosen on training batches
+[2026-10-06T11:06:41] fold 0: inner choice {0.0001: 0.028757429250583853, 0.001: 0.04083055741954004, 0.01: 0.030364656838006574, 0.1: 0.05434931886683679, 1.0: 0.08222934282215984} -> eps 1
+[2026-10-06T11:06:41] C02 summary over the folds run here (held-out batches):
+                batch_info     batch_chance     replicate_mAP    
+                      mean std         mean std          mean std
+method                                                           
+raw                 0.4438 NaN       0.0878 NaN        0.0087 NaN
+sphering_chosen     0.8506 NaN       0.0878 NaN        0.0295 NaN
+[2026-10-06T11:06:41] full curve over eps:
+                    batch_info  replicate_mAP
+method                                       
+raw                     0.4438         0.0087
+sphering_eps0.0001      0.9851         0.0174
+sphering_eps0.001       0.9756         0.0274
+sphering_eps0.01        0.9616         0.0324
+sphering_eps0.1         0.9289         0.0335
+sphering_eps1           0.8506         0.0295
+[2026-10-06T11:06:41] run finished: status=measured, wall_seconds=1120.36

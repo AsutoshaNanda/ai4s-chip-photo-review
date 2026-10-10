@@ -1,0 +1,4 @@
+[2026-10-06T10:54:46] run 20261006-105432_C03_allen_channels started
+[2026-10-06T10:55:22] channel names (metadata order): ['CMDRP_2', 'CMDRP', 'EGFP_2', 'EGFP', 'H3342_2', 'H3342', '63X_DIC']
+[2026-10-06T10:55:22] 99.9th percentile minus median at middle z, mean over stacks: {'ch0': 68.1, 'ch1': 5276.2, 'ch2': 39.9, 'ch3': 77.1, 'ch4': 24.9, 'ch5': 25.1, 'ch6': 1553.8}
+[2026-10-06T10:55:22] run finished: status=measured, wall_seconds=50.38

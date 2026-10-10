@@ -1,0 +1,11 @@
+{
+  "slices": "c03_slices_inputonly.npz",
+  "version": "v3: input-only depth option, clean-up range extended at the upper edge; v2 settings otherwise",
+  "device": "cuda",
+  "crop": 192,
+  "batch": 16,
+  "check_every": 200,
+  "patience_checks": 6,
+  "max_steps": 12000,
+  "seed": 20261006
+}

@@ -1,0 +1,48 @@
+[2026-10-07T01:36:43] run 20261007-013640_B05_tiny_nuclei_diagnosis_seed0 started
+[2026-10-07T01:37:05] B02 fold 0 done
+[2026-10-07T01:37:27] B02 fold 1 done
+[2026-10-07T01:37:40] B02 fold 2 done
+[2026-10-07T01:38:05] B02 fold 3 done
+[2026-10-07T01:38:20] B02 fold 4 done
+[2026-10-07T01:38:31] B03 fold 0 done
+[2026-10-07T01:38:43] B03 fold 1 done
+[2026-10-07T01:38:49] B03 fold 2 done
+[2026-10-07T01:39:03] B03 fold 3 done
+[2026-10-07T01:39:11] B03 fold 4 done
+[2026-10-07T01:39:11] small nuclei by first failing stage at overlap 0.5:
+stage@0.5         clean-up/outline: kept but overlap below level  clean-up: merged with a neighbour  clean-up: removed by minimum-size rule  found  prediction: probability never reaches threshold
+method                                                                                                                                                                                             
+B02_best_count                                               249                                612                                      51    777                                              125
+B02_best_outline                                              68                                688                                     409    589                                               60
+B03_best_count                                               266                                190                                       0    785                                              573
+B03_best_outline                                              89                                367                                     326    676                                              356
+[2026-10-07T01:39:11] preparation and prediction signals, medians, found vs missed at 0.5:
+                            prepared_contrast  raw_contrast  share_clipped_to_0  max_prob_inside   area
+method           found@0.5                                                                             
+B02_best_count   False                 0.1455      164.6446                 0.0           0.9893   23.0
+                 True                  0.2282      249.1650                 0.0           1.0000   89.0
+B02_best_outline False                 0.1499      167.9885                 0.0           0.9892   22.0
+                 True                  0.2468      264.1968                 0.0           1.0000  102.0
+B03_best_count   False                 0.1360      152.7730                 0.0           0.8739   21.0
+                 True                  0.2507      264.3977                 0.0           0.9994   95.0
+B03_best_outline False                 0.1433      162.0954                 0.0           0.8938   21.0
+                 True                  0.2531      264.5707                 0.0           0.9996  102.0
+[2026-10-07T01:39:11] small nuclei by first failing stage at overlap 0.75:
+stage@0.75        clean-up/outline: kept but overlap below level  clean-up: merged with a neighbour  clean-up: removed by minimum-size rule  found  prediction: probability never reaches threshold
+method                                                                                                                                                                                             
+B02_best_count                                               453                                625                                      51    560                                              125
+B02_best_outline                                             150                                702                                     409    493                                               60
+B03_best_count                                               543                                224                                       0    474                                              573
+B03_best_outline                                             208                                398                                     326    526                                              356
+[2026-10-07T01:39:11] preparation and prediction signals, medians, found vs missed at 0.75:
+                             prepared_contrast  raw_contrast  share_clipped_to_0  max_prob_inside   area
+method           found@0.75                                                                             
+B02_best_count   False                  0.1488      170.9205                 0.0           0.9927   24.0
+                 True                   0.2472      261.7768                 0.0           1.0000  101.0
+B02_best_outline False                  0.1523      172.9038                 0.0           0.9926   24.0
+                 True                   0.2569      269.5141                 0.0           1.0000  105.0
+B03_best_count   False                  0.1502      170.8863                 0.0           0.9354   25.0
+                 True                   0.2669      274.2344                 0.0           0.9998  109.0
+B03_best_outline False                  0.1484      167.0667                 0.0           0.9267   24.0
+                 True                   0.2627      277.6482                 0.0           0.9998  105.0
+[2026-10-07T01:39:11] run finished: status=measured, wall_seconds=151.29

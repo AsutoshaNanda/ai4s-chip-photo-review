@@ -1,0 +1,40 @@
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-japBmcwcsL6OxSFwltaOT6
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_run.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+{
+ "returncode": 0,
+ "seconds": 1629.4,
+ "new_runs": [
+  "20261006-212925_X01_small_photos_and_formats"
+ ]
+}
+---- stdout (tail) ----
+format {'L/2056x1542': 0.855, 'RGB/2048x1536': 0.869, 'RGB/640x480': 0.537} | worst 0.537 | s/photo {'L/2056x1542': 0.0279, 'RGB/2048x1536': 0.0279, 'RGB/640x480': 0.0279}
+[2026-10-06T21:38:30] sizeaware_3x3              AUC 0.878 logloss 0.434 | per format {'L/2056x1542': 0.858, 'RGB/2048x1536': 0.867, 'RGB/640x480': 0.617} | worst 0.617 | s/photo {'L/2056x1542': 0.0279, 'RGB/2048x1536': 0.0279, 'RGB/640x480': 0.0093}
+[2026-10-06T21:39:49] fixed_4x4                  AUC 0.875 logloss 0.436 | per format {'L/2056x1542': 0.853, 'RGB/2048x1536': 0.859, 'RGB/640x480': 0.539} | worst 0.539 | s/photo {'L/2056x1542': 0.0442, 'RGB/2048x1536': 0.0442, 'RGB/640x480': 0.0442}
+[2026-10-06T21:41:10] sizeaware_4x4              AUC 0.880 logloss 0.429 | per format {'L/2056x1542': 0.856, 'RGB/2048x1536': 0.86, 'RGB/640x480': 0.693} | worst 0.693 | s/photo {'L/2056x1542': 0.0442, 'RGB/2048x1536': 0.0442, 'RGB/640x480': 0.0093}
+[2026-10-06T21:42:04] fixed_5x5                  AUC 0.877 logloss 0.434 | per format {'L/2056x1542': 0.86, 'RGB/2048x1536': 0.851, 'RGB/640x480': 0.529} | worst 0.529 | s/photo {'L/2056x1542': 0.0651, 'RGB/2048x1536': 0.0651, 'RGB/640x480': 0.0651}
+[2026-10-06T21:43:21] sizeaware_5x5              AUC 0.882 logloss 0.427 | per format {'L/2056x1542': 0.863, 'RGB/2048x1536': 0.851, 'RGB/640x480': 0.498} | worst 0.498 | s/photo {'L/2056x1542': 0.0651, 'RGB/2048x1536': 0.0651, 'RGB/640x480': 0.0163}
+[2026-10-06T21:44:40] fixed_6x6                  AUC 0.876 logloss 0.434 | per format {'L/2056x1542': 0.863, 'RGB/2048x1536': 0.851, 'RGB/640x480': 0.516} | worst 0.516 | s/photo {'L/2056x1542': 0.0907, 'RGB/2048x1536': 0.0907, 'RGB/640x480': 0.0907}
+[2026-10-06T21:46:00] sizeaware_6x6              AUC 0.881 logloss 0.427 | per format {'L/2056x1542': 0.865, 'RGB/2048x1536': 0.847, 'RGB/640x480': 0.438} | worst 0.438 | s/photo {'L/2056x1542': 0.0907, 'RGB/2048x1536': 0.0907, 'RGB/640x480': 0.0163}
+[2026-10-06T21:47:18] smallwhole_2x2             AUC 0.865 logloss 0.451 | per format {'L/2056x1542': 0.838, 'RGB/2048x1536': 0.858, 'RGB/640x480': 0.741} | worst 0.741 | s/photo {'L/2056x1542': 0.0163, 'RGB/2048x1536': 0.0163, 'RGB/640x480': 0.007}
+[2026-10-06T21:48:35] smallwhole_3x3             AUC 0.877 logloss 0.434 | per format {'L/2056x1542': 0.855, 'RGB/2048x1536': 0.869, 'RGB/640x480': 0.741} | worst 0.741 | s/photo {'L/2056x1542': 0.0279, 'RGB/2048x1536': 0.0279, 'RGB/640x480': 0.007}
+[2026-10-06T21:49:52] smallwhole_4x4             AUC 0.875 logloss 0.435 | per format {'L/2056x1542': 0.853, 'RGB/2048x1536': 0.859, 'RGB/640x480': 0.741} | worst 0.741 | s/photo {'L/2056x1542': 0.0442, 'RGB/2048x1536': 0.0442, 'RGB/640x480': 0.007}
+[2026-10-06T21:51:10] smallwhole_5x5             AUC 0.879 logloss 0.432 | per format {'L/2056x1542': 0.86, 'RGB/2048x1536': 0.851, 'RGB/640x480': 0.741} | worst 0.741 | s/photo {'L/2056x1542': 0.0651, 'RGB/2048x1536': 0.0651, 'RGB/640x480': 0.007}
+[2026-10-06T21:52:28] smallwhole_6x6             AUC 0.879 logloss 0.429 | per format {'L/2056x1542': 0.863, 'RGB/2048x1536': 0.851, 'RGB/640x480': 0.741} | worst 0.741 | s/photo {'L/2056x1542': 0.0907, 'RGB/2048x1536': 0.0907, 'RGB/640x480': 0.007}
+[2026-10-06T21:53:46] formatbal_whole            AUC 0.845 logloss 0.481 | per format {'L/2056x1542': 0.816, 'RGB/2048x1536': 0.825, 'RGB/640x480': 0.654} | worst 0.654 | s/photo {'L/2056x1542': 0.007, 'RGB/2048x1536': 0.007, 'RGB/640x480': 0.007}
+[2026-10-06T21:55:06] formatbal_fixed_3x3        AUC 0.872 logloss 0.443 | per format {'L/2056x1542': 0.853, 'RGB/2048x1536': 0.864, 'RGB/640x480': 0.475} | worst 0.475 | s/photo {'L/2056x1542': 0.0279, 'RGB/2048x1536': 0.0279, 'RGB/640x480': 0.0279}
+[2026-10-06T21:56:25] formatbal_fixed_5x5        AUC 0.873 logloss 0.443 | per format {'L/2056x1542': 0.854, 'RGB/2048x1536': 0.852, 'RGB/640x480': 0.444} | worst 0.444 | s/photo {'L/2056x1542': 0.0651, 'RGB/2048x1536': 0.0651, 'RGB/640x480': 0.0651}
+[2026-10-06T21:56:25] run finished: status=measured, wall_seconds=1620.51
+
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-japBmcwcsL6OxSFwltaOT6

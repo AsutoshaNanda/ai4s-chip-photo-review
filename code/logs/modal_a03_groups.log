@@ -1,0 +1,49 @@
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-Chyh7qu47FEg1B6FfN6Yps
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_run.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+{
+ "returncode": 0,
+ "seconds": 277.9,
+ "new_runs": [
+  "20261006-212404_A03_unseen_cell_types_groups_excluded"
+ ]
+}
+---- stdout (tail) ----
+[2026-10-06T21:24:13] run 20261006-212404_A03_unseen_cell_types_groups_excluded started
+[2026-10-06T21:25:09] alignment check (original 5 folds) whole                        AUC 0.8433
+[2026-10-06T21:25:29] alignment check (original 5 folds) whole_plus_patches_3x3       AUC 0.8751
+[2026-10-06T21:25:37] alignment check (original 5 folds) whole_plus_patches_5x5       AUC 0.8775
+[2026-10-06T21:25:37] saved X01 run 20261006-103251_X01_whole_plus_patches whole_plus_patches_3x3       AUC 0.8751
+[2026-10-06T21:25:37] saved X01 run 20261006-103251_X01_whole_plus_patches whole                        AUC 0.8433
+[2026-10-06T21:25:37] saved X01 run 20261006-103757_X01_whole_plus_patches_grids4-5-6 whole_plus_patches_5x5       AUC 0.8775
+[2026-10-06T21:25:37] saved X01 run 20261006-103757_X01_whole_plus_patches_grids4-5-6 whole                        AUC 0.8433
+[2026-10-06T21:25:37] A549: test 629 photos (194 bad / 435 good, 18 groups); training left 1098 photos (574 bad / 524 good) vs 1768 under the earlier rule
+[2026-10-06T21:25:37] CACO: test 271 photos (181 bad / 90 good, 13 groups); training left 1735 photos (655 bad / 1080 good) vs 2126 under the earlier rule
+[2026-10-06T21:25:37] HPMEC: test 1170 photos (540 bad / 630 good, 24 groups); training left 462 photos (256 bad / 206 good) vs 1227 under the earlier rule
+[2026-10-06T21:25:37] HSAEC: test 193 photos (64 bad / 129 good, 16 groups); training left 2106 photos (979 bad / 1127 good) vs 2204 under the earlier rule
+[2026-10-06T21:25:37] HUVEC: test 56 photos (53 bad / 3 good, 2 groups); training left 2237 photos (919 bad / 1318 good) vs 2341 under the earlier rule
+[2026-10-06T21:25:37] NHBE: test 78 photos (27 bad / 51 good, 5 groups); training left 1980 photos (906 bad / 1074 good) vs 2319 under the earlier rule
+[2026-10-06T21:26:02] groups_excluded          whole                        pooled AUC 0.756 | per type {'A549': 0.768, 'CACO': 0.897, 'HPMEC': 0.836, 'HSAEC': 0.821, 'HUVEC': 0.981, 'NHBE': 0.877}
+[2026-10-06T21:26:02] groups_excluded          whole_plus_patches_3x3       pooled AUC 0.799 | per type {'A549': 0.805, 'CACO': 0.894, 'HPMEC': 0.868, 'HSAEC': 0.884, 'HUVEC': 1.0, 'NHBE': 0.834}
+[2026-10-06T21:26:02] groups_excluded          whole_plus_patches_5x5       pooled AUC 0.812 | per type {'A549': 0.781, 'CACO': 0.89, 'HPMEC': 0.864, 'HSAEC': 0.855, 'HUVEC': 0.994, 'NHBE': 0.818}
+[2026-10-06T21:26:28] groups_excluded          whole_plus_patches_3x3 minus whole (pooled): {'difference': 0.043016580777477276, 'n_groups': 46, 'range_95': [0.008322321542713538, 0.08267384164890028], 'bootstrap_values_used': 1000}
+[2026-10-06T21:26:55] groups_excluded          whole_plus_patches_5x5 minus whole (pooled): {'difference': 0.05588019834262803, 'n_groups': 46, 'range_95': [0.0021830522869814325, 0.11243542891467699], 'bootstrap_values_used': 1000}
+[2026-10-06T21:27:22] shared_groups_original   whole                        pooled AUC 0.860 | per type {'A549': 0.796, 'CACO': 0.896, 'HPMEC': 0.866, 'HSAEC': 0.826, 'HUVEC': 0.987, 'NHBE': 0.919}
+[2026-10-06T21:27:22] shared_groups_original   whole_plus_patches_3x3       pooled AUC 0.886 | per type {'A549': 0.813, 'CACO': 0.901, 'HPMEC': 0.897, 'HSAEC': 0.89, 'HUVEC': 1.0, 'NHBE': 0.919}
+[2026-10-06T21:27:22] shared_groups_original   whole_plus_patches_5x5       pooled AUC 0.875 | per type {'A549': 0.794, 'CACO': 0.892, 'HPMEC': 0.884, 'HSAEC': 0.87, 'HUVEC': 0.994, 'NHBE': 0.865}
+[2026-10-06T21:27:49] shared_groups_original   whole_plus_patches_3x3 minus whole (pooled): {'difference': 0.02577240282241633, 'n_groups': 46, 'range_95': [0.005665173021736686, 0.044727909887465465], 'bootstrap_values_used': 1000}
+[2026-10-06T21:28:16] shared_groups_original   whole_plus_patches_5x5 minus whole (pooled): {'difference': 0.01540006577545161, 'n_groups': 46, 'range_95': [-0.0056469050608345586, 0.033926261876355876], 'bootstrap_values_used': 1000}
+[2026-10-06T21:28:16] run finished: status=measured, wall_seconds=252.4
+
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-Chyh7qu47FEg1B6FfN6Yps

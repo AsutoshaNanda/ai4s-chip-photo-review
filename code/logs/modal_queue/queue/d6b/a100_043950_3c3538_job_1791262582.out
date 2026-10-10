@@ -1,0 +1,18 @@
+[2026-10-06T10:26:31] run 20261006-102626_B03_unet_boundary_seed0_folds4 started
+[2026-10-06T10:30:04] fold 4: trained 170 s, steps 3750, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 8.212121212121213, 'mean_f1_levels': 0.9023522590842937}
+[2026-10-06T10:30:04] B03 best_count: count MAE 5.21 (bias -5.04); pooled F1 0.25/0.50/0.75/0.90 0.957/0.935/0.894/0.742; joined 239 split 26 missed 41 false 31
+[2026-10-06T10:30:04] B03 best_outline: count MAE 8.92 (bias -8.92); pooled F1 0.25/0.50/0.75/0.90 0.953/0.942/0.908/0.755; joined 254 split 6 missed 94 false 10
+[2026-10-06T10:30:04] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00       9.375  -9.375   0.941   0.908
+           2.00      11.083 -11.083   0.925   0.886
+           3.00      14.375 -14.375   0.888   0.835
+brightness 0.50       9.208  -9.208   0.945   0.899
+           0.75       9.167  -9.167   0.946   0.905
+           1.25       9.000  -9.000   0.943   0.910
+           1.50       9.042  -9.042   0.942   0.910
+noise_sd   0.02       8.958  -8.958   0.945   0.909
+           0.05      12.875 -12.875   0.889   0.817
+           0.10      88.625 -88.625   0.192   0.108
+[2026-10-06T10:30:04] run finished: status=measured, wall_seconds=217.73

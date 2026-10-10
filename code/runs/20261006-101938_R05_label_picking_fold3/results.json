@@ -1,0 +1,192 @@
+{
+  "theta": [
+    0.49615961197964314,
+    0.30443680005108303,
+    0.7971423154189257,
+    -0.37857541012748924,
+    1.5341591752427548e-17
+  ],
+  "train_seconds": 301.981709875,
+  "summary": [
+    {
+      "strategy": "random",
+      "groups": 4,
+      "photos_mean": 214.4,
+      "photos_std": 112.891,
+      "auc_mean": 0.679,
+      "auc_std": 0.089,
+      "log_loss_mean": 1.072,
+      "log_loss_std": 0.251
+    },
+    {
+      "strategy": "random",
+      "groups": 6,
+      "photos_mean": 300.2,
+      "photos_std": 86.265,
+      "auc_mean": 0.755,
+      "auc_std": 0.04,
+      "log_loss_mean": 0.793,
+      "log_loss_std": 0.103
+    },
+    {
+      "strategy": "random",
+      "groups": 10,
+      "photos_mean": 588.4,
+      "photos_std": 104.016,
+      "auc_mean": 0.8,
+      "auc_std": 0.038,
+      "log_loss_mean": 0.842,
+      "log_loss_std": 0.303
+    },
+    {
+      "strategy": "random",
+      "groups": 15,
+      "photos_mean": 841.6,
+      "photos_std": 215.117,
+      "auc_mean": 0.794,
+      "auc_std": 0.053,
+      "log_loss_mean": 0.955,
+      "log_loss_std": 0.353
+    },
+    {
+      "strategy": "random",
+      "groups": 23,
+      "photos_mean": 1272.8,
+      "photos_std": 162.833,
+      "auc_mean": 0.809,
+      "auc_std": 0.032,
+      "log_loss_mean": 0.912,
+      "log_loss_std": 0.22
+    },
+    {
+      "strategy": "random",
+      "groups": 36,
+      "photos_mean": 1944.0,
+      "photos_std": 0.0,
+      "auc_mean": 0.809,
+      "auc_std": 0.0,
+      "log_loss_mean": 0.91,
+      "log_loss_std": 0.0
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 4,
+      "photos_mean": 214.4,
+      "photos_std": 112.891,
+      "auc_mean": 0.679,
+      "auc_std": 0.089,
+      "log_loss_mean": 1.072,
+      "log_loss_std": 0.251
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 6,
+      "photos_mean": 589.8,
+      "photos_std": 71.991,
+      "auc_mean": 0.758,
+      "auc_std": 0.03,
+      "log_loss_mean": 1.062,
+      "log_loss_std": 0.253
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 10,
+      "photos_mean": 1067.6,
+      "photos_std": 78.354,
+      "auc_mean": 0.768,
+      "auc_std": 0.021,
+      "log_loss_mean": 1.214,
+      "log_loss_std": 0.154
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 15,
+      "photos_mean": 1466.0,
+      "photos_std": 64.066,
+      "auc_mean": 0.807,
+      "auc_std": 0.011,
+      "log_loss_mean": 0.973,
+      "log_loss_std": 0.09
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 23,
+      "photos_mean": 1739.8,
+      "photos_std": 13.989,
+      "auc_mean": 0.824,
+      "auc_std": 0.006,
+      "log_loss_mean": 0.877,
+      "log_loss_std": 0.024
+    },
+    {
+      "strategy": "rl_greedy",
+      "groups": 36,
+      "photos_mean": 1944.0,
+      "photos_std": 0.0,
+      "auc_mean": 0.809,
+      "auc_std": 0.0,
+      "log_loss_mean": 0.91,
+      "log_loss_std": 0.0
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 4,
+      "photos_mean": 214.4,
+      "photos_std": 112.891,
+      "auc_mean": 0.679,
+      "auc_std": 0.089,
+      "log_loss_mean": 1.072,
+      "log_loss_std": 0.251
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 6,
+      "photos_mean": 254.6,
+      "photos_std": 134.027,
+      "auc_mean": 0.694,
+      "auc_std": 0.087,
+      "log_loss_mean": 1.123,
+      "log_loss_std": 0.421
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 10,
+      "photos_mean": 399.0,
+      "photos_std": 252.544,
+      "auc_mean": 0.763,
+      "auc_std": 0.059,
+      "log_loss_mean": 0.821,
+      "log_loss_std": 0.134
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 15,
+      "photos_mean": 638.6,
+      "photos_std": 417.34,
+      "auc_mean": 0.806,
+      "auc_std": 0.042,
+      "log_loss_mean": 0.982,
+      "log_loss_std": 0.575
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 23,
+      "photos_mean": 1270.2,
+      "photos_std": 197.982,
+      "auc_mean": 0.83,
+      "auc_std": 0.01,
+      "log_loss_mean": 0.88,
+      "log_loss_std": 0.075
+    },
+    {
+      "strategy": "uncertainty",
+      "groups": 36,
+      "photos_mean": 1944.0,
+      "photos_std": 0.0,
+      "auc_mean": 0.809,
+      "auc_std": 0.0,
+      "log_loss_mean": 0.91,
+      "log_loss_std": 0.0
+    }
+  ]
+}

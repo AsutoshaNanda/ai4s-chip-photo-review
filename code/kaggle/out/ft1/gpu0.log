@@ -1,0 +1,7 @@
+[2026-10-07T09:55:35] run 20261007-095523_A02_light_retrain_full_folds0 started
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-10-07T09:57:48] cached last-block inputs for 2397 photos in 116.6 s; shapes [(392, 518)]; GPU memory used 6.46 GB
+[2026-10-07T10:32:29] fold 0 head_only: best learning speed 0.001 is at the edge of [1e-06, 1e-05, 0.0001, 0.001]; adding 0.01
+[2026-10-07T10:45:55] fold 0 head_only: lr 0.001, passes 13, 2887 s
+[2026-10-07T12:18:05] fold 0 last_block: lr 1e-05, passes 5, 5530 s
+[2026-10-07T12:18:05] run finished: status=measured, wall_seconds=8562.18

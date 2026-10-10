@@ -1,0 +1,20 @@
+{
+  "model": "single_channel_nuclei",
+  "start_pixel_sizes_um": [
+    0.125,
+    0.177,
+    0.25,
+    0.354,
+    0.5,
+    0.707,
+    1.0,
+    1.414,
+    2.0,
+    2.828
+  ],
+  "checks": {
+    "stardist_2D_versatile_fluo": "DSB2018 subset; BBBC038 contains copies of BBBC039 photos (G01) -> likely exposure",
+    "cellpose_sam": "training data CC-BY-NC -> fails licence check",
+    "instanseg": "Apache-2.0 code and weights -> passes licence; training data read from model README below"
+  }
+}

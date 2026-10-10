@@ -1,0 +1,178 @@
+{
+  "info": {
+    "python": "3.12.10",
+    "torch": "2.14.1+cu130",
+    "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+    "cpu_count": 20,
+    "machine": "x86_64",
+    "timm": "1.0.30",
+    "device": "cuda",
+    "gpus": [
+      "Tesla T4"
+    ],
+    "gpu_mem_gb": [
+      15.6
+    ],
+    "ram_gb": 364.3,
+    "disk_free_gb": 9223372036.8,
+    "nvidia_smi": "Tesla T4, 15360 MiB, 610.57.04",
+    "package_installs": {
+      "timm": "present",
+      "stable_baselines3": "present",
+      "gymnasium": "present",
+      "psutil": "present"
+    },
+    "device_used": "cuda"
+  },
+  "jobs": [
+    {
+      "job": "frozen_features:resnet18@224",
+      "batch": 64,
+      "items_per_s": 1945.61,
+      "s_per_step": 0.0329,
+      "peak_mem_gb": 0.33,
+      "precision": "fp16"
+    },
+    {
+      "job": "train_step:resnet18@224",
+      "batch": 64,
+      "items_per_s": 749.66,
+      "s_per_step": 0.0854,
+      "peak_mem_gb": 1.07,
+      "precision": "fp16"
+    },
+    {
+      "job": "frozen_features:resnet18@448",
+      "batch": 64,
+      "items_per_s": 528.02,
+      "s_per_step": 0.1212,
+      "peak_mem_gb": 1.55,
+      "precision": "fp16"
+    },
+    {
+      "job": "train_step:resnet18@448",
+      "batch": 64,
+      "items_per_s": 185.67,
+      "s_per_step": 0.3447,
+      "peak_mem_gb": 3.58,
+      "precision": "fp16"
+    },
+    {
+      "job": "frozen_features:efficientnet_b0@224",
+      "batch": 64,
+      "items_per_s": 1476.69,
+      "s_per_step": 0.0433,
+      "peak_mem_gb": 0.46,
+      "precision": "fp16"
+    },
+    {
+      "job": "train_step:efficientnet_b0@224",
+      "batch": 64,
+      "items_per_s": 433.78,
+      "s_per_step": 0.1475,
+      "peak_mem_gb": 2.99,
+      "precision": "fp16"
+    },
+    {
+      "job": "frozen_features:efficientnet_b0@448",
+      "batch": 64,
+      "items_per_s": 477.45,
+      "s_per_step": 0.134,
+      "peak_mem_gb": 1.73,
+      "precision": "fp16"
+    },
+    {
+      "job": "train_step:efficientnet_b0@448",
+      "batch": 64,
+      "items_per_s": 114.87,
+      "s_per_step": 0.5572,
+      "peak_mem_gb": 11.6,
+      "precision": "fp16"
+    },
+    {
+      "job": "frozen_features:convnext_tiny@224",
+      "batch": 64,
+      "items_per_s": 730.88,
+      "s_per_step": 0.0876,
+      "peak_mem_gb": 0.71,
+      "precision": "fp16"
+    },
+    {
+      "job": "train_step:convnext_tiny@224",
+      "batch": 64,
+      "items_per_s": 248.6,
+      "s_per_step": 0.2574,
+      "peak_mem_gb": 4.45,
+      "precision": "fp16"
+    },
+    {
+      "job": "frozen_features:convnext_tiny@448",
+      "batch": 64,
+      "items_per_s": 185.72,
+      "s_per_step": 0.3446,
+      "peak_mem_gb": 2.44,
+      "precision": "fp16"
+    },
+    {
+      "job": "train_step:convnext_tiny@448",
+      "batch": 32,
+      "items_per_s": 64.95,
+      "s_per_step": 0.4927,
+      "peak_mem_gb": 15.46,
+      "precision": "fp16"
+    },
+    {
+      "job": "frozen_features:vit_large_patch14_dinov2.lvd142m@224",
+      "batch": 64,
+      "items_per_s": 106.19,
+      "s_per_step": 0.6027,
+      "peak_mem_gb": 2.41,
+      "precision": "fp16"
+    },
+    {
+      "job": "train_step:vit_large_patch14_dinov2.lvd142m@224",
+      "batch": 32,
+      "items_per_s": 30.75,
+      "s_per_step": 1.0406,
+      "peak_mem_gb": 15.06,
+      "precision": "fp16"
+    },
+    {
+      "job": "frozen_features:vit_large_patch14_dinov2.lvd142m@518",
+      "batch": 64,
+      "items_per_s": 15.88,
+      "s_per_step": 4.0291,
+      "peak_mem_gb": 4.92,
+      "precision": "fp16"
+    },
+    {
+      "job": "unet_train_step@256",
+      "batch": 64,
+      "items_per_s": 111.48,
+      "s_per_step": 0.5741,
+      "peak_mem_gb": 6.15,
+      "precision": "fp16"
+    },
+    {
+      "job": "unet_predict@528x704",
+      "batch": 64,
+      "items_per_s": 58.42,
+      "s_per_step": 1.0955,
+      "peak_mem_gb": 10.78,
+      "precision": "fp16"
+    },
+    {
+      "job": "ppo_pendulum@cpu",
+      "env_steps": 8192,
+      "seconds": 7.7,
+      "steps_per_s": 1064.3
+    },
+    {
+      "job": "ppo_pendulum@cuda",
+      "env_steps": 8192,
+      "seconds": 15.11,
+      "steps_per_s": 542.1
+    }
+  ],
+  "total_seconds": 195.5
+}

@@ -1,0 +1,28 @@
+{
+  "body_figures": 16,
+  "new_graphs": 2,
+  "replaced_workflow": true,
+  "thumbnail_created": true,
+  "video_duration_seconds": 273.938,
+  "kaggle_upload_status": "Blocked by browser automatic approval review; not uploaded in this revision",
+  "github_status": "User will create the repository later",
+  "figure_number_mapping": {
+    "1": 1,
+    "16": 2,
+    "2": 3,
+    "3": 4,
+    "15": 5,
+    "4": 6,
+    "5": 7,
+    "6": 8,
+    "7": 9,
+    "8": 10,
+    "9": 11,
+    "10": 12,
+    "11": 13,
+    "12": 14,
+    "13": 15,
+    "14": 16
+  },
+  "canonical_ID_rows_preserved": 51
+}

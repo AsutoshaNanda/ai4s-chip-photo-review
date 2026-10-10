@@ -1,0 +1,3 @@
+[2026-10-07T20:52:00] run 20261007-205157_F03_practice_folds_check_clean started
+[2026-10-07T20:53:05] clean-rebuild 5-fold practice AUC: {'whole': 0.8432659911273716, 'fixed_3x3': 0.8751240347170173}
+[2026-10-07T20:53:05] run finished: status=measured, wall_seconds=67.44

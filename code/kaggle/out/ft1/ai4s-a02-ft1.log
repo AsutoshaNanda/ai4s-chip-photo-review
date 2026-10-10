@@ -1,0 +1,27 @@
+[{"stream_name":"stdout","time":16.592688982,"data":"[04:20:35] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":199.904640672,"data":"[04:23:38] zenodo download 6.71 GB in 183 s, MD5 ok=True\n"}
+,{"stream_name":"stdout","time":293.58361444,"data":"[04:25:12] prepared 2397 practice photos (of 2397 listed) in 94 s\n"}
+,{"stream_name":"stdout","time":8868.434681504,"data":"[06:48:07] gpu0 finished with exit code 0 after 8575 s\n"}
+,{"stream_name":"stdout","time":8868.435094568,"data":"[2026-10-07T09:55:35] run 20261007-095523_A02_light_retrain_full_folds0 started\n"}
+,{"stream_name":"stdout","time":8868.435107696,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":8868.435114159,"data":"[2026-10-07T09:57:48] cached last-block inputs for 2397 photos in 116.6 s; shapes [(392, 518)]; GPU memory used 6.46 GB\n"}
+,{"stream_name":"stdout","time":8868.435119891,"data":"[2026-10-07T10:32:29] fold 0 head_only: best learning speed 0.001 is at the edge of [1e-06, 1e-05, 0.0001, 0.001]; adding 0.01\n"}
+,{"stream_name":"stdout","time":8868.43512548,"data":"[2026-10-07T10:45:55] fold 0 head_only: lr 0.001, passes 13, 2887 s\n"}
+,{"stream_name":"stdout","time":8868.435130154,"data":"[2026-10-07T12:18:05] fold 0 last_block: lr 1e-05, passes 5, 5530 s\n"}
+,{"stream_name":"stdout","time":8868.435134545,"data":"[2026-10-07T12:18:05] run finished: status=measured, wall_seconds=8562.18\n"}
+,{"stream_name":"stdout","time":8868.435139207,"data":"\n"}
+,{"stream_name":"stdout","time":8868.435156344,"data":"[06:48:07] gpu1 finished with exit code 0 after 8575 s\n"}
+,{"stream_name":"stdout","time":8868.435355697,"data":"[2026-10-07T09:55:35] run 20261007-095523_A02_light_retrain_full_folds1 started\n"}
+,{"stream_name":"stdout","time":8868.435365113,"data":"[2026-10-07T09:57:48] cached last-block inputs for 2397 photos in 116.8 s; shapes [(392, 518)]; GPU memory used 6.46 GB\n"}
+,{"stream_name":"stdout","time":8868.435369765,"data":"[2026-10-07T10:29:55] fold 1 head_only: best learning speed 0.001 is at the edge of [1e-06, 1e-05, 0.0001, 0.001]; adding 0.01\n"}
+,{"stream_name":"stdout","time":8868.435374238,"data":"[2026-10-07T10:39:41] fold 1 head_only: lr 0.001, passes 5, 2513 s\n"}
+,{"stream_name":"stdout","time":8868.435378356,"data":"[2026-10-07T12:03:46] fold 1 last_block: lr 1e-05, passes 5, 5045 s\n"}
+,{"stream_name":"stdout","time":8868.435382491,"data":"[2026-10-07T12:03:46] run finished: status=measured, wall_seconds=7703.0\n"}
+,{"stream_name":"stdout","time":8868.435387084,"data":"\n"}
+,{"stream_name":"stderr","time":8870.751456114,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":8870.751525778,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":8871.025136549,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":8871.025164416,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":8871.861668451,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":8872.946227091,"data":"[NbConvertApp] Writing 300790 bytes to __results__.html\n"}
+]

@@ -1,0 +1,225 @@
+{
+  "steps": [
+    {
+      "step": "code",
+      "seconds": 2.5,
+      "ok": true,
+      "note": "code copied: ['final_config.json', 'runs', 'scripts', 'splits', 'src']; runs/ empty"
+    },
+    {
+      "step": "venv",
+      "seconds": 263.6,
+      "ok": true,
+      "note": "installed; versions: 2.5.3 3.0.6 1.9.1 0.26.0 2.14.1+cu130 1.0.30 Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'"
+    },
+    {
+      "step": "download",
+      "seconds": 572.5,
+      "ok": true,
+      "note": "6.71 GB, MD5 ok"
+    },
+    {
+      "step": "prep",
+      "seconds": 120.2,
+      "ok": true,
+      "note": "prepared 3072 photos of 3072 listed (practice + final); format table rebuilt from file headers"
+    },
+    {
+      "step": "chip_features",
+      "seconds": 849.7,
+      "ok": true,
+      "note": " in 33.6 s\n[2026-10-07T20:39:52] features final_tiles_3x3: 6075 images in 136.7 s\n[2026-10-07T20:42:16] features practice_whole: 2397 images in 141.5 s\n[2026-10-07T20:50:48] features practice_tiles_3x3: 21573 images in 511.6 s\n[2026-10-07T20:50:48] run finished: status=measured, wall_seconds=845.59\n"
+    },
+    {
+      "step": "chip_eval",
+      "seconds": 64.1,
+      "ok": true,
+      "note": "7, 'HPMEC': 0.838, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}\n[2026-10-07T20:51:53] FINAL [all_photos] paired fixed_3x3 minus whole: {'difference': 0.03982778147302579, 'range_95': [0.015346441127220332, 0.06676884266081853]}\n[2026-10-07T20:51:53] run finished: status=measured, wall_seconds=61.28\n"
+    },
+    {
+      "step": "practice_check",
+      "seconds": 71.8,
+      "ok": true,
+      "note": "[2026-10-07T20:52:00] run 20261007-205157_F03_practice_folds_check_clean started\n[2026-10-07T20:53:05] clean-rebuild 5-fold practice AUC: {'whole': 0.8432659911273716, 'fixed_3x3': 0.8751240347170173}\n[2026-10-07T20:53:05] run finished: status=measured, wall_seconds=67.44\n"
+    },
+    {
+      "step": "nucleus_fold0_retrain",
+      "seconds": 589.7,
+      "ok": true,
+      "note": "82   0.935   0.894\n           1.50      11.152 -11.152   0.933   0.890\nnoise_sd   0.02      11.758 -11.758   0.932   0.887\n           0.05      13.182 -13.182   0.911   0.857\n           0.10      78.303 -78.303   0.211   0.100\n[2026-10-07T21:02:55] run finished: status=measured, wall_seconds=583.97\n"
+    }
+  ],
+  "final_chip": {
+    "automatic_only|whole": {
+      "roc_auc": {
+        "clean": 0.8097684042398723,
+        "saved": 0.8011652388558154,
+        "difference": 0.008603165384056921
+      },
+      "avg_precision_bad": {
+        "clean": 0.7608437874544879,
+        "saved": 0.7525185567251998,
+        "difference": 0.008325230729288036
+      },
+      "brier": {
+        "clean": 0.17638180839186451,
+        "saved": 0.17824403498172717,
+        "difference": -0.0018622265898626533
+      },
+      "log_loss": {
+        "clean": 0.5413424331608442,
+        "saved": 0.5378490699229161,
+        "difference": 0.0034933632379280377
+      },
+      "review_area": {
+        "clean": 0.6795984238765927,
+        "saved": 0.6746311200536552,
+        "difference": 0.00496730382293753
+      }
+    },
+    "automatic_only|fixed_3x3": {
+      "roc_auc": {
+        "clean": 0.849598881951503,
+        "saved": 0.8497168578481197,
+        "difference": -0.00011797589661666219
+      },
+      "avg_precision_bad": {
+        "clean": 0.8200144309476227,
+        "saved": 0.8202056123318713,
+        "difference": -0.00019118138424856213
+      },
+      "brier": {
+        "clean": 0.1521117391857389,
+        "saved": 0.1520572077802013,
+        "difference": 5.453140553760005e-05
+      },
+      "log_loss": {
+        "clean": 0.48537581652227973,
+        "saved": 0.48522551019256166,
+        "difference": 0.00015030632971807512
+      },
+      "review_area": {
+        "clean": 0.7025957830315224,
+        "saved": 0.702663900067069,
+        "difference": -6.811703554665538e-05
+      }
+    },
+    "all_photos|whole": {
+      "roc_auc": {
+        "clean": 0.8100652560806801,
+        "saved": 0.8012655724737987,
+        "difference": 0.008799683606881437
+      },
+      "avg_precision_bad": {
+        "clean": 0.7619650617512472,
+        "saved": 0.7529757515600685,
+        "difference": 0.008989310191178768
+      },
+      "brier": {
+        "clean": 0.1763291511321101,
+        "saved": 0.17832112945677858,
+        "difference": -0.001991978324668492
+      },
+      "log_loss": {
+        "clean": 0.5411659737349421,
+        "saved": 0.5380508788350532,
+        "difference": 0.003115094899888926
+      },
+      "review_area": {
+        "clean": 0.6794301994301994,
+        "saved": 0.6743589743589744,
+        "difference": 0.005071225071225038
+      }
+    },
+    "all_photos|fixed_3x3": {
+      "roc_auc": {
+        "clean": 0.8498930375537059,
+        "saved": 0.8500098872849515,
+        "difference": -0.00011684973124559406
+      },
+      "avg_precision_bad": {
+        "clean": 0.8208447102789973,
+        "saved": 0.8210325676484864,
+        "difference": -0.00018785736948911946
+      },
+      "brier": {
+        "clean": 0.15210609404285907,
+        "saved": 0.15205372639376577,
+        "difference": 5.236764909330449e-05
+      },
+      "log_loss": {
+        "clean": 0.48536648036039287,
+        "saved": 0.48522135600193433,
+        "difference": 0.0001451243584585371
+      },
+      "review_area": {
+        "clean": 0.7023828023828024,
+        "saved": 0.7024501424501425,
+        "difference": -6.734006734010478e-05
+      }
+    }
+  },
+  "practice_folds": {
+    "whole": {
+      "clean": 0.8432659911273716,
+      "saved_record": 0.8433,
+      "difference": -3.4008872628499276e-05
+    },
+    "fixed_3x3": {
+      "clean": 0.8751240347170173,
+      "saved_record": 0.8751,
+      "difference": 2.403471701728499e-05
+    }
+  },
+  "nucleus_fold0_retrain": {
+    "saved_run": "20261006-101000_B03_unet_boundary_seed0_folds0",
+    "clean_run": "20261007-205311_B03_unet_boundary_seed0_folds0",
+    "comparison": {
+      "best_count": {
+        "count_mae": {
+          "clean": 5.818181818181818,
+          "saved": 6.393939393939394,
+          "difference": -0.5757575757575752
+        },
+        "count_bias": {
+          "clean": -5.333333333333333,
+          "saved": -5.909090909090909,
+          "difference": 0.5757575757575761
+        },
+        "pooled_f1@0.50": {
+          "clean": 0.9242344244984161,
+          "saved": 0.9262935027127167,
+          "difference": -0.0020590782143006248
+        },
+        "pooled_f1@0.75": {
+          "clean": 0.8753959873284055,
+          "saved": 0.8765383088527193,
+          "difference": -0.0011423215243138163
+        }
+      },
+      "best_outline": {
+        "count_mae": {
+          "clean": 11.484848484848484,
+          "saved": 11.515151515151516,
+          "difference": -0.030303030303031164
+        },
+        "count_bias": {
+          "clean": -11.484848484848484,
+          "saved": -11.515151515151516,
+          "difference": 0.030303030303031164
+        },
+        "pooled_f1@0.50": {
+          "clean": 0.931778109317781,
+          "saved": 0.9319045035268584,
+          "difference": -0.00012639420907734067
+        },
+        "pooled_f1@0.75": {
+          "clean": 0.8919028889190289,
+          "saved": 0.8920238741182854,
+          "difference": -0.00012098519925651807
+        }
+      }
+    },
+    "note": "GPU training is not bit-identical; differences are reported, not judged"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "final_test_ids_sha256": "85f99f0ff56ae7a425787c56c267ad9c149049e2e9a3e0ec4c2f63905de230f1",
+  "final_test_n": 675,
+  "practice_n": 2397,
+  "chosen_candidate": {
+    "fold": 0,
+    "n": 675,
+    "share": 0.2197265625,
+    "cell_types_with_both_classes": 6,
+    "cell_types_present": 6
+  }
+}

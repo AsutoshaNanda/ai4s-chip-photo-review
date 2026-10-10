@@ -1,0 +1,14 @@
+{
+  "seed0": {
+    "images": 150,
+    "spearman_abs_errors": 0.3698117049256442,
+    "images_both_wrong_same_direction": 83,
+    "share_of_b02_error_in_shared_failures": 0.7810650887573964
+  },
+  "seed1": {
+    "images": 150,
+    "spearman_abs_errors": 0.25581713116123805,
+    "images_both_wrong_same_direction": 76,
+    "share_of_b02_error_in_shared_failures": 0.7053941908713693
+  }
+}

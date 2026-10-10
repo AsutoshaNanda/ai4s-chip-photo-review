@@ -1,0 +1,13 @@
+[2026-10-06T01:12:11] run 20261006-011158_R02_pi_vs_ppo started
+[2026-10-06T01:12:29] rule-based controllers tuned on TRAIN (400 random gain sets each): {'PI': ((0.7897643135128506, 0.0015433763702665017, 0.08886204259167776, 0.006563258260940721), -681.7145574323633), 'FF+PI': ((0.19624902767645913, 0.002569279500854639, 0.016006765493717816, 0.0012172494267610142), -768.8242210386701)}
+[2026-10-06T01:20:08] PI     test_TRAIN: diameter error mean 1.45 um (p95 2.08), rate error 0.152, out-of-range share 0.065
+[2026-10-06T01:20:08] PI     test_UNTOUCHED: diameter error mean 2.14 um (p95 3.02), rate error 0.257, out-of-range share 0.086
+[2026-10-06T01:20:08] FF+PI  test_TRAIN: diameter error mean 1.19 um (p95 2.17), rate error 0.140, out-of-range share 0.123
+[2026-10-06T01:20:08] FF+PI  test_UNTOUCHED: diameter error mean 1.89 um (p95 3.23), rate error 0.232, out-of-range share 0.144
+[2026-10-06T01:20:08] 
+                       d_err_mean_mean        rate_err_mean_mean        violation_share_mean       
+                                  mean    std               mean    std                 mean    std
+variant condition                                                                                  
+PPO_all test_TRAIN               1.131  0.057              0.079  0.002                0.004  0.001
+        test_UNTOUCHED           1.437  0.052              0.103  0.005                0.009  0.005
+[2026-10-06T01:20:08] run finished: status=measured, wall_seconds=489.7

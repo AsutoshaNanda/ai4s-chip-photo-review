@@ -1,0 +1,9 @@
+[2026-10-07T02:00:44] run 20261007-020025_B06_warning_flags_posts_v2 started
+[2026-10-07T02:00:46] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+[2026-10-07T02:27:25] B06 warning scores for B02_best_count (area under 'error left' curve; lower = better; random 0.499):
+[2026-10-07T02:27:25]    blur_warning                             area 0.579; minus random 95% [-0.020, +0.185]
+[2026-10-07T02:27:25]    disagree_B01_best_count                  area 0.522; minus random 95% [-0.040, +0.100]
+[2026-10-07T02:27:25]    disagree_B03_best_count                  area 0.388; minus random 95% [-0.202, -0.009]
+[2026-10-07T02:27:25]    brightness_warning                       area 0.429; minus random 95% [-0.140, +0.005]
+[2026-10-07T02:27:25]    perfect_order_ceiling                    area 0.218; minus random 95% [-0.330, -0.228]
+[2026-10-07T02:27:25] run finished: status=measured, wall_seconds=1619.3

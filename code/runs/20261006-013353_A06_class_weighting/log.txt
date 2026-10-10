@@ -1,0 +1,10 @@
+[2026-10-06T01:33:58] run 20261006-013353_A06_class_weighting started
+[2026-10-06T01:34:46] A06 weighting=None | resnet18@224              AUC 0.717 [0.649, 0.787] logloss 0.610 | within format {'L/2056x1542': 0.626, 'RGB/2048x1536': 0.686, 'RGB/640x480': 0.525}
+[2026-10-06T01:35:03] A06 weighting=balanced | resnet18@224          AUC 0.726 [0.666, 0.793] logloss 0.608 | within format {'L/2056x1542': 0.643, 'RGB/2048x1536': 0.695, 'RGB/640x480': 0.409}
+[2026-10-06T01:35:09] A06 weighting=None | resnet18@448              AUC 0.768 [0.726, 0.822] logloss 0.568 | within format {'L/2056x1542': 0.691, 'RGB/2048x1536': 0.768, 'RGB/640x480': 0.646}
+[2026-10-06T01:35:16] A06 weighting=balanced | resnet18@448          AUC 0.777 [0.736, 0.831] logloss 0.566 | within format {'L/2056x1542': 0.705, 'RGB/2048x1536': 0.772, 'RGB/640x480': 0.65}
+[2026-10-06T01:35:22] A06 weighting=None | vit_large_patch14_dinov2@224 AUC 0.761 [0.706, 0.825] logloss 0.575 | within format {'L/2056x1542': 0.69, 'RGB/2048x1536': 0.75, 'RGB/640x480': 0.71}
+[2026-10-06T01:35:29] A06 weighting=balanced | vit_large_patch14_dinov2@224 AUC 0.769 [0.716, 0.83] logloss 0.572 | within format {'L/2056x1542': 0.703, 'RGB/2048x1536': 0.755, 'RGB/640x480': 0.728}
+[2026-10-06T01:35:34] A06 weighting=None | vit_large_patch14_dinov2@518 AUC 0.843 [0.803, 0.884] logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T01:35:40] A06 weighting=balanced | vit_large_patch14_dinov2@518 AUC 0.847 [0.808, 0.887] logloss 0.486 | within format {'L/2056x1542': 0.815, 'RGB/2048x1536': 0.835, 'RGB/640x480': 0.737}
+[2026-10-06T01:35:40] run finished: status=measured, wall_seconds=107.34

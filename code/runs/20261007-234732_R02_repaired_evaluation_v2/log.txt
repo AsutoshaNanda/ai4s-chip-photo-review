@@ -1,0 +1,22 @@
+[2026-10-07T23:48:16] run 20261007-234732_R02_repaired_evaluation_v2 started
+[2026-10-07T23:48:16] 47 saved policies / controllers; 50 scenarios each
+[2026-10-08T00:14:31] R02 PPO_all / R03 ordinary / R04 inputs_all identical networks: {'seed0': {'weights_identical': True, 'input_scaling_identical': True}, 'seed1': {'weights_identical': True, 'input_scaling_identical': True}, 'seed2': {'weights_identical': True, 'input_scaling_identical': True}, 'seed3': {'weights_identical': True, 'input_scaling_identical': True}, 'seed4': {'weights_identical': True, 'input_scaling_identical': True}}
+[2026-10-08T00:14:31] R02         PPO_all          minus PI               [TRAIN    ] diameter error: 1.008 vs 1.382  diff -0.374 [-0.431, -0.312]  A better in 94% of scenarios
+[2026-10-08T00:14:31] R02         PPO_all          minus PI               [UNTOUCHED] diameter error: 1.333 vs 2.062  diff -0.729 [-0.816, -0.633]  A better in 98% of scenarios
+[2026-10-08T00:14:31] R02         PPO_all          minus FF+PI            [TRAIN    ] diameter error: 1.008 vs 1.175  diff -0.167 [-0.257, -0.080]  A better in 70% of scenarios
+[2026-10-08T00:14:31] R02         PPO_all          minus FF+PI            [UNTOUCHED] diameter error: 1.333 vs 1.946  diff -0.613 [-0.723, -0.503]  A better in 96% of scenarios
+[2026-10-08T00:14:31] R03         staged           minus ordinary         [TRAIN    ] diameter error: 1.084 vs 1.008  diff +0.076 [+0.059, +0.093]  A better in 6% of scenarios
+[2026-10-08T00:14:31] R03         staged           minus ordinary         [UNTOUCHED] diameter error: 1.401 vs 1.333  diff +0.068 [+0.048, +0.089]  A better in 16% of scenarios
+[2026-10-08T00:14:31] R03         nominal_only     minus ordinary         [TRAIN    ] diameter error: 1.170 vs 1.008  diff +0.162 [+0.123, +0.197]  A better in 14% of scenarios
+[2026-10-08T00:14:31] R03         nominal_only     minus ordinary         [UNTOUCHED] diameter error: 1.568 vs 1.333  diff +0.235 [+0.184, +0.280]  A better in 6% of scenarios
+[2026-10-08T00:14:31] R04         inputs_minimal   minus inputs_camera    [TRAIN    ] diameter error: 1.302 vs 1.402  diff -0.100 [-0.158, -0.049]  A better in 60% of scenarios
+[2026-10-08T00:14:31] R04         inputs_minimal   minus inputs_camera    [UNTOUCHED] diameter error: 1.729 vs 1.738  diff -0.010 [-0.060, +0.037]  A better in 40% of scenarios
+[2026-10-08T00:14:31] R04         inputs_pumps     minus inputs_camera    [TRAIN    ] diameter error: 1.401 vs 1.402  diff -0.001 [-0.041, +0.039]  A better in 52% of scenarios
+[2026-10-08T00:14:31] R04         inputs_pumps     minus inputs_camera    [UNTOUCHED] diameter error: 1.682 vs 1.738  diff -0.056 [-0.090, -0.020]  A better in 72% of scenarios
+[2026-10-08T00:14:31] R04         inputs_history   minus inputs_camera    [TRAIN    ] diameter error: 1.007 vs 1.402  diff -0.395 [-0.450, -0.342]  A better in 100% of scenarios
+[2026-10-08T00:14:31] R04         inputs_history   minus inputs_camera    [UNTOUCHED] diameter error: 1.431 vs 1.738  diff -0.307 [-0.370, -0.249]  A better in 94% of scenarios
+[2026-10-08T00:14:31] R04         inputs_all       minus inputs_camera    [TRAIN    ] diameter error: 1.008 vs 1.402  diff -0.394 [-0.436, -0.352]  A better in 98% of scenarios
+[2026-10-08T00:14:31] R04         inputs_all       minus inputs_camera    [UNTOUCHED] diameter error: 1.333 vs 1.738  diff -0.405 [-0.457, -0.355]  A better in 98% of scenarios
+[2026-10-08T00:14:31] R04         inputs_all       minus inputs_minimal   [TRAIN    ] diameter error: 1.008 vs 1.302  diff -0.293 [-0.344, -0.239]  A better in 92% of scenarios
+[2026-10-08T00:14:31] R04         inputs_all       minus inputs_minimal   [UNTOUCHED] diameter error: 1.333 vs 1.729  diff -0.396 [-0.448, -0.336]  A better in 98% of scenarios
+[2026-10-08T00:14:31] run finished: status=measured, wall_seconds=1618.69

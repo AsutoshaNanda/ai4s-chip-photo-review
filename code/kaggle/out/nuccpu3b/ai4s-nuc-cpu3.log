@@ -1,0 +1,201 @@
+[{"stream_name":"stdout","time":18.872470245,"data":"[06:22:24] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":24.874885849,"data":"[06:22:30] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":29.436755625,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 84.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":34.219089933,"data":"[06:22:39] installed scikit-image==0.26.0\n"}
+,{"stream_name":"stdout","time":12688.41613899,"data":"[09:53:33] lane0 finished with exit code 0 after 12654 s\n"}
+,{"stream_name":"stdout","time":12688.420007506,"data":"=== scripts/b_repost.py --exp B02 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":12688.420065706,"data":"[2026-10-07T11:53:07] run 20261007-115248_B02_unet_fg_noisetrain_repost_v2 started\n"}
+,{"stream_name":"stdout","time":12688.420073797,"data":"[2026-10-07T11:53:17] fold models: {0: '20261007-011404_B02_unet_fg_noisetrain_seed0', 1: '20261007-011404_B02_unet_fg_noisetrain_seed0', 2: '20261007-011404_B02_unet_fg_noisetrain_seed0', 3: '20261007-011404_B02_unet_fg_noisetrain_seed0', 4: '20261007-011404_B02_unet_fg_noisetrain_seed0'}\n"}
+,{"stream_name":"stdout","time":12688.420082497,"data":"[2026-10-07T12:39:02] fold 0: picks {best_count: thr 0.3, md 8, ms 10, best_outline: thr 0.6, md 12, ms 200}; on range edge: {'best_count': ['thr'], 'best_outline': ['min_size']}\n"}
+,{"stream_name":"stdout","time":12688.420088574,"data":"[2026-10-07T13:02:25] fold 1: picks {best_count: thr 0.4, md 10, ms 0, best_outline: thr 0.5, md 12, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.420094845,"data":"[2026-10-07T13:38:09] fold 2: picks {best_count: thr 0.6, md 8, ms 10, best_outline: thr 0.5, md 12, ms 100}; on range edge: {'best_count': [], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.420100566,"data":"[2026-10-07T14:00:46] fold 3: picks {best_count: thr 0.3, md 8, ms 10, best_outline: thr 0.5, md 12, ms 25}; on range edge: {'best_count': ['thr'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.420106542,"data":"[2026-10-07T14:21:12] fold 4: picks {best_count: thr 0.9, md 10, ms 0, best_outline: thr 0.6, md 10, ms 50}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.420112315,"data":"[2026-10-07T14:21:12] B02 v2 best_count: count MAE 5.27 (bias -1.57); pooled F1 0.25/0.50/0.75/0.90 0.928/0.901/0.834/0.650; joined 2017 split 1428 missed 240 false 397\n"}
+,{"stream_name":"stdout","time":12688.420118085,"data":"[2026-10-07T14:21:12] B02 v2 best_outline: count MAE 11.91 (bias -11.81); pooled F1 0.25/0.50/0.75/0.90 0.928/0.909/0.862/0.732; joined 2419 split 512 missed 747 false 57\n"}
+,{"stream_name":"stdout","time":12688.42012391,"data":"[2026-10-07T14:21:12] run finished: status=measured, wall_seconds=8904.66\n"}
+,{"stream_name":"stdout","time":12688.420129171,"data":"=== scripts/b04_refresh.py --exp B02 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":12688.42013477,"data":"[2026-10-07T14:21:23] run 20261007-142119_B04_stress_refresh_B02_noisetrain_seed0 started\n"}
+,{"stream_name":"stdout","time":12688.420140263,"data":"[2026-10-07T14:35:10] fold 0 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420145968,"data":"[2026-10-07T14:48:50] fold 1 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420153648,"data":"[2026-10-07T14:57:07] fold 2 done (21 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420159751,"data":"[2026-10-07T15:13:29] fold 3 done (39 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420165572,"data":"[2026-10-07T15:23:30] fold 4 done (24 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420251037,"data":"[2026-10-07T15:23:30] stress curves (every level; clean first):\n"}
+,{"stream_name":"stdout","time":12688.420258105,"data":"     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075\n"}
+,{"stream_name":"stdout","time":12688.420261721,"data":"  best_count blur_sigma   1.00     150      6.247  -2.540                     98   0.881   0.813\n"}
+,{"stream_name":"stdout","time":12688.420264906,"data":"  best_count blur_sigma   2.00     150      7.687  -5.407                    106   0.867   0.790\n"}
+,{"stream_name":"stdout","time":12688.420268028,"data":"  best_count blur_sigma   3.00     150      9.800  -8.160                    112   0.846   0.729\n"}
+,{"stream_name":"stdout","time":12688.420271273,"data":"  best_count brightness   0.50     150      7.360  -5.427                    141   0.871   0.804\n"}
+,{"stream_name":"stdout","time":12688.420274393,"data":"  best_count brightness   0.75     150      5.613  -2.800                     91   0.890   0.821\n"}
+,{"stream_name":"stdout","time":12688.420277667,"data":"  best_count brightness   1.25     150      5.373  -0.880                     90   0.890   0.824\n"}
+,{"stream_name":"stdout","time":12688.42028075,"data":"  best_count brightness   1.50     150      5.887  -0.033                    131   0.887   0.819\n"}
+,{"stream_name":"stdout","time":12688.420283995,"data":"  best_count      clean   0.00     150      5.273  -1.567                     92   0.892   0.825\n"}
+,{"stream_name":"stdout","time":12688.420287077,"data":"  best_count   noise_sd   0.02     150      5.253  -1.560                     92   0.891   0.823\n"}
+,{"stream_name":"stdout","time":12688.420290177,"data":"  best_count   noise_sd   0.05     150      5.360  -2.000                     94   0.891   0.822\n"}
+,{"stream_name":"stdout","time":12688.42029327,"data":"  best_count   noise_sd   0.10     150      5.240  -2.107                     96   0.885   0.811\n"}
+,{"stream_name":"stdout","time":12688.420296557,"data":"best_outline blur_sigma   1.00     150     12.847 -12.713                    112   0.898   0.851\n"}
+,{"stream_name":"stdout","time":12688.420299646,"data":"best_outline blur_sigma   2.00     150     14.307 -13.920                    117   0.879   0.824\n"}
+,{"stream_name":"stdout","time":12688.420302953,"data":"best_outline blur_sigma   3.00     150     15.960 -15.427                    115   0.860   0.782\n"}
+,{"stream_name":"stdout","time":12688.420306762,"data":"best_outline brightness   0.50     150     14.087 -14.087                    152   0.897   0.850\n"}
+,{"stream_name":"stdout","time":12688.420310128,"data":"best_outline brightness   0.75     150     12.700 -12.633                    109   0.900   0.853\n"}
+,{"stream_name":"stdout","time":12688.420313225,"data":"best_outline brightness   1.25     150     11.693 -11.587                    106   0.904   0.860\n"}
+,{"stream_name":"stdout","time":12688.420316392,"data":"best_outline brightness   1.50     150     11.433 -11.273                    105   0.902   0.856\n"}
+,{"stream_name":"stdout","time":12688.420320246,"data":"best_outline      clean   0.00     150     11.907 -11.813                    104   0.905   0.860\n"}
+,{"stream_name":"stdout","time":12688.420323684,"data":"best_outline   noise_sd   0.02     150     11.880 -11.787                    108   0.903   0.856\n"}
+,{"stream_name":"stdout","time":12688.420327168,"data":"best_outline   noise_sd   0.05     150     12.213 -12.120                    110   0.903   0.856\n"}
+,{"stream_name":"stdout","time":12688.420330298,"data":"best_outline   noise_sd   0.10     150     12.727 -12.673                    114   0.899   0.851\n"}
+,{"stream_name":"stdout","time":12688.420333637,"data":"[2026-10-07T15:23:30] run finished: status=measured, wall_seconds=3731.08\n"}
+,{"stream_name":"stdout","time":12688.42034121,"data":"\n"}
+,{"stream_name":"stdout","time":12688.420344292,"data":"[09:53:33] lane1 finished with exit code 0 after 12654 s\n"}
+,{"stream_name":"stdout","time":12688.420579782,"data":"=== scripts/b_repost.py --exp B03 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":12688.420587212,"data":"[2026-10-07T11:53:07] run 20261007-115247_B03_unet_boundary_noisetrain_repost_v2 started\n"}
+,{"stream_name":"stdout","time":12688.42059236,"data":"[2026-10-07T11:53:22] fold models: {0: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 1: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 2: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 3: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 4: '20261007-025559_B03_unet_boundary_noisetrain_seed0'}\n"}
+,{"stream_name":"stdout","time":12688.420598083,"data":"[2026-10-07T12:00:26] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 200}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': ['min_size']}\n"}
+,{"stream_name":"stdout","time":12688.420603493,"data":"[2026-10-07T12:06:06] fold 1: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 10}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.42060866,"data":"[2026-10-07T12:13:34] fold 2: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.420623492,"data":"[2026-10-07T12:20:00] fold 3: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.420628713,"data":"[2026-10-07T12:26:44] fold 4: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":12688.420634183,"data":"[2026-10-07T12:26:44] B03 v2 best_count: count MAE 6.48 (bias -5.81); pooled F1 0.25/0.50/0.75/0.90 0.952/0.934/0.867/0.386; joined 1009 split 444 missed 698 false 124\n"}
+,{"stream_name":"stdout","time":12688.420639474,"data":"[2026-10-07T12:26:44] B03 v2 best_outline: count MAE 11.96 (bias -11.55); pooled F1 0.25/0.50/0.75/0.90 0.938/0.923/0.886/0.735; joined 1964 split 76 missed 814 false 116\n"}
+,{"stream_name":"stdout","time":12688.420644835,"data":"[2026-10-07T12:26:44] run finished: status=measured, wall_seconds=2036.55\n"}
+,{"stream_name":"stdout","time":12688.420649711,"data":"=== scripts/b04_refresh.py --exp B03 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":12688.420654673,"data":"[2026-10-07T12:27:01] run 20261007-122654_B04_stress_refresh_B03_noisetrain_seed0 started\n"}
+,{"stream_name":"stdout","time":12688.420659545,"data":"[2026-10-07T12:52:57] fold 0 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420664945,"data":"[2026-10-07T13:13:10] fold 1 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420669681,"data":"[2026-10-07T13:25:24] fold 2 done (21 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420674798,"data":"[2026-10-07T13:49:07] fold 3 done (39 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420679505,"data":"[2026-10-07T14:03:23] fold 4 done (24 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":12688.420682668,"data":"[2026-10-07T14:03:23] stress curves (every level; clean first):\n"}
+,{"stream_name":"stdout","time":12688.420685813,"data":"     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075\n"}
+,{"stream_name":"stdout","time":12688.420689161,"data":"  best_count blur_sigma   1.00     150      7.387  -6.987                     80   0.927   0.865\n"}
+,{"stream_name":"stdout","time":12688.420697586,"data":"  best_count blur_sigma   2.00     150     10.193  -9.993                    115   0.916   0.864\n"}
+,{"stream_name":"stdout","time":12688.420700986,"data":"  best_count blur_sigma   3.00     150     13.707 -13.627                    147   0.892   0.832\n"}
+,{"stream_name":"stdout","time":12688.420704091,"data":"  best_count brightness   0.50     150      9.207  -9.087                    161   0.907   0.770\n"}
+,{"stream_name":"stdout","time":12688.420707223,"data":"  best_count brightness   0.75     150      7.933  -7.613                    125   0.920   0.839\n"}
+,{"stream_name":"stdout","time":12688.420734393,"data":"  best_count brightness   1.25     150      5.487  -4.447                     56   0.933   0.875\n"}
+,{"stream_name":"stdout","time":12688.42074379,"data":"  best_count brightness   1.50     150      5.073  -3.407                     56   0.933   0.882\n"}
+,{"stream_name":"stdout","time":12688.420748759,"data":"  best_count      clean   0.00     150      6.480  -5.813                     67   0.930   0.863\n"}
+,{"stream_name":"stdout","time":12688.420759718,"data":"  best_count   noise_sd   0.02     150      6.340  -5.700                     64   0.929   0.863\n"}
+,{"stream_name":"stdout","time":12688.420764713,"data":"  best_count   noise_sd   0.05     150      6.240  -5.720                     68   0.925   0.856\n"}
+,{"stream_name":"stdout","time":12688.420769793,"data":"  best_count   noise_sd   0.10     150      6.107  -5.253                     75   0.915   0.835\n"}
+,{"stream_name":"stdout","time":12688.420774732,"data":"best_outline blur_sigma   1.00     150     13.127 -12.540                    102   0.911   0.873\n"}
+,{"stream_name":"stdout","time":12688.420779708,"data":"best_outline blur_sigma   2.00     150     16.353 -16.113                    112   0.884   0.839\n"}
+,{"stream_name":"stdout","time":12688.420784848,"data":"best_outline blur_sigma   3.00     150     20.713 -20.647                    139   0.843   0.785\n"}
+,{"stream_name":"stdout","time":12688.42078981,"data":"best_outline brightness   0.50     150     14.987 -14.867                    161   0.899   0.853\n"}
+,{"stream_name":"stdout","time":12688.420794597,"data":"best_outline brightness   0.75     150     13.360 -13.107                    112   0.909   0.870\n"}
+,{"stream_name":"stdout","time":12688.420799473,"data":"best_outline brightness   1.25     150     11.507 -10.987                     89   0.922   0.889\n"}
+,{"stream_name":"stdout","time":12688.420805168,"data":"best_outline brightness   1.50     150     11.353 -10.727                     91   0.921   0.889\n"}
+,{"stream_name":"stdout","time":12688.420809732,"data":"best_outline      clean   0.00     150     11.960 -11.547                     95   0.918   0.882\n"}
+,{"stream_name":"stdout","time":12688.42081345,"data":"best_outline   noise_sd   0.02     150     11.907 -11.547                     96   0.918   0.882\n"}
+,{"stream_name":"stdout","time":12688.420818085,"data":"best_outline   noise_sd   0.05     150     12.127 -11.767                     99   0.915   0.877\n"}
+,{"stream_name":"stdout","time":12688.420823272,"data":"best_outline   noise_sd   0.10     150     12.493 -12.120                    101   0.912   0.871\n"}
+,{"stream_name":"stdout","time":12688.420828583,"data":"[2026-10-07T14:03:23] run finished: status=measured, wall_seconds=5789.7\n"}
+,{"stream_name":"stdout","time":12688.420833462,"data":"\n"}
+,{"stream_name":"stdout","time":12688.420903613,"data":"[09:53:33] lane2 finished with exit code 0 after 12654 s\n"}
+,{"stream_name":"stdout","time":12688.421451963,"data":"  0.288             0.251           0.917           0.868     10.807    2413    514     562     27\n"}
+,{"stream_name":"stdout","time":12688.421487795,"data":" 100.0             0.171             0.155           0.911           0.864     12.480    2420    494     782      6\n"}
+,{"stream_name":"stdout","time":12688.421494228,"data":" 200.0             0.001             0.000           0.896           0.852     16.240    2427    415    1299      2\n"}
+,{"stream_name":"stdout","time":12688.421499632,"data":"[2026-10-07T12:45:07] B02 best_outline, only thr changed (others at each fold's retained value):\n"}
+,{"stream_name":"stdout","time":12688.421504555,"data":" value  small_found@0.50  small_found@0.75  pooled_f1@0.50  pooled_f1@0.75  count_mae  joined  split  missed  false\n"}
+,{"stream_name":"stdout","time":12688.421509631,"data":"   0.3             0.330             0.265           0.911           0.859     10.393    2714    491     372    102\n"}
+,{"stream_name":"stdout","time":12688.421514692,"data":"   0.4             0.327             0.271           0.914           0.863     10.113    2572    515     418     87\n"}
+,{"stream_name":"stdout","time":12688.421519618,"data":"   0.5             0.326             0.276           0.917           0.868     10.133    2482    498     462     73\n"}
+,{"stream_name":"stdout","time":12688.421524812,"data":"   0.6             0.324             0.274           0.919           0.869      9.993    2337    516     525     65\n"}
+,{"stream_name":"stdout","time":12688.421529841,"data":"   0.7             0.321             0.271           0.919           0.869      9.680    2212    554     570     61\n"}
+,{"stream_name":"stdout","time":12688.421534801,"data":"   0.8             0.317             0.262           0.921           0.869      9.420    2051    554     618     56\n"}
+,{"stream_name":"stdout","time":12688.421539483,"data":"   0.9             0.305             0.234           0.918           0.861      9.207    1846    599     699     39\n"}
+,{"stream_name":"stdout","time":12688.4215453,"data":"[2026-10-07T12:45:07] B03 best_count, only min_size changed (others at each fold's retained value):\n"}
+,{"stream_name":"stdout","time":12688.421548755,"data":" value  small_found@0.50  small_found@0.75  pooled_f1@0.50  pooled_f1@0.75  count_mae  joined  split  missed  false\n"}
+,{"stream_name":"stdout","time":12688.421553262,"data":"   0.0             0.432             0.262           0.928           0.872      4.667    1094    645     506    184\n"}
+,{"stream_name":"stdout","time":12688.421558155,"data":"  10.0             0.421             0.261           0.932           0.877      5.540    1108    558     608    154\n"}
+,{"stream_name":"stdout","time":12688.421563172,"data":"  25.0             0.384             0.259           0.936           0.884      7.080    1134    391     724     78\n"}
+,{"stream_name":"stdout","time":12688.42156798,"data":"  50.0             0.309             0.233           0.936           0.889      8.880    1158    279     890     32\n"}
+,{"stream_name":"stdout","time":12688.421573713,"data":" 100.0             0.142             0.124           0.930           0.889     11.700    1190    167    1220     15\n"}
+,{"stream_name":"stdout","time":12688.421644675,"data":" 200.0             0.002             0.000           0.912           0.879     16.913    1261     58    1903     10\n"}
+,{"stream_name":"stdout","time":12688.421649665,"data":"[2026-10-07T12:45:07] B03 best_count, only thr changed (others at each fold's retained value):\n"}
+,{"stream_name":"stdout","time":12688.421655067,"data":" value  small_found@0.50  small_found@0.75  pooled_f1@0.50  pooled_f1@0.75  count_mae  joined  split  missed  false\n"}
+,{"stream_name":"stdout","time":12688.421659915,"data":"  0.30             0.534             0.331           0.846           0.771     14.160    4555    107      72    498\n"}
+,{"stream_name":"stdout","time":12688.421671308,"data":"  0.40             0.538             0.342           0.874           0.806     11.360    3758    133     101    447\n"}
+,{"stream_name":"stdout","time":12688.421676369,"data":"  0.50             0.533             0.339           0.898           0.836      9.040    3036    159     139    404\n"}
+,{"stream_name":"stdout","time":12688.421681367,"data":"  0.60             0.513             0.336           0.912           0.855      7.400    2460    205     190    346\n"}
+,{"stream_name":"stdout","time":12688.421686458,"data":"  0.70             0.490             0.327           0.922           0.872      6.093    1933    256     269    312\n"}
+,{"stream_name":"stdout","time":12688.421691575,"data":"  0.75             0.476             0.316           0.925           0.876      5.740    1754    298     312    290\n"}
+,{"stream_name":"stdout","time":12688.421696647,"data":"  0.80             0.469             0.311           0.927           0.880      5.313    1544    373     366    271\n"}
+,{"stream_name":"stdout","time":12688.421701744,"data":"  0.85             0.454             0.299           0.930           0.882      5.287    1363    418     424    218\n"}
+,{"stream_name":"stdout","time":12688.421706775,"data":"  0.90             0.433             0.271           0.928           0.874      5.007    1128    627     520    199\n"}
+,{"stream_name":"stdout","time":12688.421711833,"data":"  0.95             0.404             0.214           0.923           0.850      4.653     846    974     660    128\n"}
+,{"stream_name":"stdout","time":12688.421736268,"data":"[2026-10-07T12:45:07] B03 best_outline, only min_size changed (others at each fold's retained value):\n"}
+,{"stream_name":"stdout","time":12688.421748967,"data":" value  small_found@0.50  small_found@0.75  pooled_f1@0.50  pooled_f1@0.75  count_mae  joined  split  missed  false\n"}
+,{"stream_name":"stdout","time":12688.421754137,"data":"   0.0             0.477             0.313           0.926           0.877      5.727    1741    298     317    282\n"}
+,{"stream_name":"stdout","time":12688.421759087,"data":"  10.0             0.450             0.311           0.931           0.884      7.380    1783    236     471    212\n"}
+,{"stream_name":"stdout","time":12688.421764972,"data":"  25.0             0.389             0.299           0.934           0.891      9.520    1815    135     621    102\n"}
+,{"stream_name":"stdout","time":12688.421769835,"data":"  50.0             0.317             0.261           0.933           0.893     11.140    1831     87     765     34\n"}
+,{"stream_name":"stdout","time":12688.421774752,"data":" 100.0             0.164             0.146           0.925           0.890     13.387    1858     60    1047     12\n"}
+,{"stream_name":"stdout","time":12688.421779045,"data":" 200.0             0.001             0.000           0.908           0.877     17.627    1894     26    1641      6\n"}
+,{"stream_name":"stdout","time":12688.421784037,"data":"[2026-10-07T12:45:07] B03 best_outline, only thr changed (others at each fold's retained value):\n"}
+,{"stream_name":"stdout","time":12688.421789089,"data":" value  small_found@0.50  small_found@0.75  pooled_f1@0.50  pooled_f1@0.75  count_mae  joined  split  missed  false\n"}
+,{"stream_name":"stdout","time":12688.421794135,"data":"  0.30             0.367             0.283           0.849           0.785     19.533    4600     37     455    129\n"}
+,{"stream_name":"stdout","time":12688.421799085,"data":"  0.40             0.362             0.290           0.877           0.821     16.747    3819     51     510    116\n"}
+,{"stream_name":"stdout","time":12688.421804033,"data":"  0.50             0.368             0.292           0.902           0.851     14.167    3086     69     554    104\n"}
+,{"stream_name":"stdout","time":12688.421809152,"data":"  0.60             0.368             0.299           0.917           0.870     12.293    2528     79     595     95\n"}
+,{"stream_name":"stdout","time":12688.421819555,"data":"  0.70             0.373             0.299           0.929           0.887     10.420    2007    112     629     92\n"}
+,{"stream_name":"stdout","time":12688.421824426,"data":"  0.75             0.374             0.292           0.932           0.891      9.873    1833    134     649     84\n"}
+,{"stream_name":"stdout","time":12688.421829198,"data":"  0.80             0.377             0.292           0.935           0.895      9.227    1624    172     676     80\n"}
+,{"stream_name":"stdout","time":12688.421834043,"data":"  0.85             0.377             0.285           0.937           0.895      8.480    1409    231     705     73\n"}
+,{"stream_name":"stdout","time":12688.421838972,"data":"  0.90             0.367             0.260           0.936           0.887      7.700    1178    382     762     76\n"}
+,{"stream_name":"stdout","time":12688.421843807,"data":"  0.95             0.351             0.208           0.931           0.862      6.547     881    655     863     40\n"}
+,{"stream_name":"stdout","time":12688.421848599,"data":"[2026-10-07T12:45:07] run finished: status=measured, wall_seconds=3139.13\n"}
+,{"stream_name":"stdout","time":12688.421853343,"data":"\n"}
+,{"stream_name":"stdout","time":12688.421859613,"data":"[09:53:33] lane3 finished with exit code 0 after 12654 s\n"}
+,{"stream_name":"stdout","time":12688.421912443,"data":"   raw ECE(10 bins) 0.022 brier 0.149 logloss 0.451 | Platt logloss 0.468 ECE 0.023 | isotonic logloss 0.477 ECE 0.026\n"}
+,{"stream_name":"stdout","time":12688.421928012,"data":"[2026-10-07T11:53:08] A08 fixed_3x3                    raw ECE(10 bins) 0.025 brier 0.141 logloss 0.437 | Platt logloss 0.449 ECE 0.023 | isotonic logloss 0.471 ECE 0.033\n"}
+,{"stream_name":"stdout","time":12688.421933757,"data":"[2026-10-07T11:53:08] A08 fixed_4x4                    raw ECE(10 bins) 0.024 brier 0.141 logloss 0.436 | Platt logloss 0.450 ECE 0.027 | isotonic logloss 0.465 ECE 0.024\n"}
+,{"stream_name":"stdout","time":12688.421939146,"data":"[2026-10-07T11:53:08] A08 fixed_5x5                    raw ECE(10 bins) 0.019 brier 0.140 logloss 0.434 | Platt logloss 0.448 ECE 0.016 | isotonic logloss 0.460 ECE 0.028\n"}
+,{"stream_name":"stdout","time":12688.421944598,"data":"[2026-10-07T11:53:09] A08 fixed_6x6                    raw ECE(10 bins) 0.033 brier 0.141 logloss 0.434 | Platt logloss 0.446 ECE 0.020 | isotonic logloss 0.455 ECE 0.030\n"}
+,{"stream_name":"stdout","time":12688.421949961,"data":"[2026-10-07T11:53:09] A08 formatbal_fixed_3x3          raw ECE(10 bins) 0.030 brier 0.144 logloss 0.443 | Platt logloss 0.453 ECE 0.024 | isotonic logloss 0.471 ECE 0.036\n"}
+,{"stream_name":"stdout","time":12688.421955413,"data":"[2026-10-07T11:53:09] A08 formatbal_fixed_5x5          raw ECE(10 bins) 0.025 brier 0.142 logloss 0.443 | Platt logloss 0.457 ECE 0.031 | isotonic logloss 0.467 ECE 0.038\n"}
+,{"stream_name":"stdout","time":12688.421960673,"data":"[2026-10-07T11:53:09] A08 formatbal_whole              raw ECE(10 bins) 0.027 brier 0.158 logloss 0.481 | Platt logloss 0.496 ECE 0.026 | isotonic logloss 0.522 ECE 0.035\n"}
+,{"stream_name":"stdout","time":12688.421965908,"data":"[2026-10-07T11:53:10] A08 sizeaware_2x2                raw ECE(10 bins) 0.017 brier 0.148 logloss 0.449 | Platt logloss 0.465 ECE 0.027 | isotonic logloss 0.474 ECE 0.034\n"}
+,{"stream_name":"stdout","time":12688.421971175,"data":"[2026-10-07T11:53:10] A08 sizeaware_3x3                raw ECE(10 bins) 0.025 brier 0.140 logloss 0.434 | Platt logloss 0.445 ECE 0.020 | isotonic logloss 0.459 ECE 0.026\n"}
+,{"stream_name":"stdout","time":12688.42197652,"data":"[2026-10-07T11:53:10] A08 sizeaware_4x4                raw ECE(10 bins) 0.016 brier 0.139 logloss 0.429 | Platt logloss 0.442 ECE 0.018 | isotonic logloss 0.453 ECE 0.020\n"}
+,{"stream_name":"stdout","time":12688.421987809,"data":"[2026-10-07T11:53:10] A08 sizeaware_5x5                raw ECE(10 bins) 0.020 brier 0.137 logloss 0.427 | Platt logloss 0.441 ECE 0.013 | isotonic logloss 0.454 ECE 0.033\n"}
+,{"stream_name":"stdout","time":12688.421993796,"data":"[2026-10-07T11:53:10] A08 sizeaware_6x6                raw ECE(10 bins) 0.027 brier 0.138 logloss 0.427 | Platt logloss 0.439 ECE 0.019 | isotonic logloss 0.454 ECE 0.037\n"}
+,{"stream_name":"stdout","time":12688.421999108,"data":"[2026-10-07T11:53:11] A08 smallwhole_2x2               raw ECE(10 bins) 0.024 brier 0.149 logloss 0.451 | Platt logloss 0.469 ECE 0.023 | isotonic logloss 0.478 ECE 0.033\n"}
+,{"stream_name":"stdout","time":12688.422004753,"data":"[2026-10-07T11:53:11] A08 smallwhole_3x3               raw ECE(10 bins) 0.023 brier 0.140 logloss 0.434 | Platt logloss 0.448 ECE 0.023 | isotonic logloss 0.469 ECE 0.037\n"}
+,{"stream_name":"stdout","time":12688.422008382,"data":"[2026-10-07T11:53:11] A08 smallwhole_4x4               raw ECE(10 bins) 0.025 brier 0.141 logloss 0.435 | Platt logloss 0.450 ECE 0.030 | isotonic logloss 0.465 ECE 0.026\n"}
+,{"stream_name":"stdout","time":12688.422011688,"data":"[2026-10-07T11:53:11] A08 smallwhole_5x5               raw ECE(10 bins) 0.019 brier 0.139 logloss 0.432 | Platt logloss 0.446 ECE 0.018 | isotonic logloss 0.459 ECE 0.028\n"}
+,{"stream_name":"stdout","time":12688.422014963,"data":"[2026-10-07T11:53:12] A08 smallwhole_6x6               raw ECE(10 bins) 0.027 brier 0.139 logloss 0.429 | Platt logloss 0.441 ECE 0.022 | isotonic logloss 0.451 ECE 0.041\n"}
+,{"stream_name":"stdout","time":12688.422018399,"data":"[2026-10-07T11:53:12] A08 whole                        raw ECE(10 bins) 0.031 brier 0.160 logloss 0.486 | Platt logloss 0.505 ECE 0.027 | isotonic logloss 0.532 ECE 0.065\n"}
+,{"stream_name":"stdout","time":12688.422021677,"data":"[2026-10-07T11:53:12] A08 frozen_LR_reference          raw ECE(10 bins) 0.031 brier 0.160 logloss 0.486 | Platt logloss 0.505 ECE 0.027 | isotonic logloss 0.532 ECE 0.066\n"}
+,{"stream_name":"stdout","time":12688.42202503,"data":"[2026-10-07T11:53:15] A09 fixed_2x2                    review area 0.704; minus simple photo-stats order 95% [0.049, 0.15]\n"}
+,{"stream_name":"stdout","time":12688.422028332,"data":"[2026-10-07T11:53:19] A09 fixed_3x3                    review area 0.710; minus simple photo-stats order 95% [0.055, 0.154]\n"}
+,{"stream_name":"stdout","time":12688.422031653,"data":"[2026-10-07T11:53:22] A09 fixed_4x4                    review area 0.709; minus simple photo-stats order 95% [0.057, 0.151]\n"}
+,{"stream_name":"stdout","time":12688.422034805,"data":"[2026-10-07T11:53:25] A09 fixed_5x5                    review area 0.711; minus simple photo-stats order 95% [0.057, 0.153]\n"}
+,{"stream_name":"stdout","time":12688.42203805,"data":"[2026-10-07T11:53:29] A09 fixed_6x6                    review area 0.710; minus simple photo-stats order 95% [0.056, 0.151]\n"}
+,{"stream_name":"stdout","time":12688.422041707,"data":"[2026-10-07T11:53:33] A09 formatbal_fixed_3x3          review area 0.708; minus simple photo-stats order 95% [0.053, 0.152]\n"}
+,{"stream_name":"stdout","time":12688.422045199,"data":"[2026-10-07T11:53:36] A09 formatbal_fixed_5x5          review area 0.709; minus simple photo-stats order 95% [0.054, 0.151]\n"}
+,{"stream_name":"stdout","time":12688.422048355,"data":"[2026-10-07T11:53:40] A09 formatbal_whole              review area 0.693; minus simple photo-stats order 95% [0.04, 0.136]\n"}
+,{"stream_name":"stdout","time":12688.422051669,"data":"[2026-10-07T11:53:43] A09 sizeaware_2x2                review area 0.705; minus simple photo-stats order 95% [0.049, 0.152]\n"}
+,{"stream_name":"stdout","time":12688.42205483,"data":"[2026-10-07T11:53:46] A09 sizeaware_3x3                review area 0.711; minus simple photo-stats order 95% [0.056, 0.156]\n"}
+,{"stream_name":"stdout","time":12688.422061946,"data":"[2026-10-07T11:53:50] A09 sizeaware_4x4                review area 0.712; minus simple photo-stats order 95% [0.06, 0.153]\n"}
+,{"stream_name":"stdout","time":12688.422065462,"data":"[2026-10-07T11:53:54] A09 sizeaware_5x5                review area 0.713; minus simple photo-stats order 95% [0.059, 0.156]\n"}
+,{"stream_name":"stdout","time":12688.422068637,"data":"[2026-10-07T11:53:57] A09 sizeaware_6x6                review area 0.713; minus simple photo-stats order 95% [0.06, 0.156]\n"}
+,{"stream_name":"stdout","time":12688.422071857,"data":"[2026-10-07T11:54:00] A09 smallwhole_2x2               review area 0.704; minus simple photo-stats order 95% [0.049, 0.151]\n"}
+,{"stream_name":"stdout","time":12688.422075052,"data":"[2026-10-07T11:54:04] A09 smallwhole_3x3               review area 0.711; minus simple photo-stats order 95% [0.056, 0.156]\n"}
+,{"stream_name":"stdout","time":12688.422080074,"data":"[2026-10-07T11:54:07] A09 smallwhole_4x4               review area 0.710; minus simple photo-stats order 95% [0.058, 0.151]\n"}
+,{"stream_name":"stdout","time":12688.422084902,"data":"[2026-10-07T11:54:11] A09 smallwhole_5x5               review area 0.712; minus simple photo-stats order 95% [0.057, 0.154]\n"}
+,{"stream_name":"stdout","time":12688.422089638,"data":"[2026-10-07T11:54:14] A09 smallwhole_6x6               review area 0.712; minus simple photo-stats order 95% [0.059, 0.153]\n"}
+,{"stream_name":"stdout","time":12688.422094955,"data":"[2026-10-07T11:54:18] A09 whole                        review area 0.692; minus simple photo-stats order 95% [0.036, 0.137]\n"}
+,{"stream_name":"stdout","time":12688.422098603,"data":"[2026-10-07T11:54:22] A09 frozen_LR_reference          review area 0.692; minus simple photo-stats order 95% [0.036, 0.137]\n"}
+,{"stream_name":"stdout","time":12688.422101813,"data":"[2026-10-07T11:54:22] A09 random order review area 0.500; simple photo-stats 0.609\n"}
+,{"stream_name":"stdout","time":12688.422104942,"data":"[2026-10-07T11:54:28] run finished: status=measured, wall_seconds=104.66\n"}
+,{"stream_name":"stdout","time":12688.422108025,"data":"\n"}
+,{"stream_name":"stdout","time":12688.606226483,"data":"[09:53:33] kept new runs: ['20261007-115244_A08_reliability_review_and_overlap', '20261007-115247_B03_unet_boundary_noisetrain_repost_v2', '20261007-115248_B02_unet_fg_noisetrain_repost_v2', '20261007-115248_B05_tiny_nuclei_stage_sweep_seed0', '20261007-122654_B04_stress_refresh_B03_noisetrain_seed0', '20261007-142119_B04_stress_refresh_B02_noisetrain_seed0']\n"}
+,{"stream_name":"stderr","time":12691.761086102,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12691.76114606,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":12692.203273571,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":12692.203310575,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12693.268255176,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12694.720154983,"data":"[NbConvertApp] Writing 293882 bytes to __results__.html\n"}
+]

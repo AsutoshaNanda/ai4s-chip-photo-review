@@ -1,0 +1,17 @@
+{
+  "a02_run": "20261006-012654_A02_frozen_features",
+  "feature_sets": [
+    "resnet18@224",
+    "resnet18@448",
+    "vit_large_patch14_dinov2@224",
+    "vit_large_patch14_dinov2@518"
+  ],
+  "best_by_oof_log_loss": "vit_large_patch14_dinov2@518",
+  "oof_log_loss": {
+    "resnet18@224": 0.6099565445061562,
+    "resnet18@448": 0.5681670564298911,
+    "vit_large_patch14_dinov2@224": 0.5745935178467981,
+    "vit_large_patch14_dinov2@518": 0.48577072232396085
+  },
+  "photos": "practice only"
+}

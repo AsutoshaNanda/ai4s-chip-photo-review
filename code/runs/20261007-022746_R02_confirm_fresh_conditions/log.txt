@@ -1,0 +1,22 @@
+[2026-10-07T02:27:52] run 20261007-022746_R02_confirm_fresh_conditions started
+[2026-10-07T02:28:16] saved PPO policies: ['PPO_all_seed0', 'PPO_all_seed1', 'PPO_all_seed2', 'PPO_all_seed3', 'PPO_all_seed4']
+[2026-10-07T02:28:48] PPO seed 0 evaluated
+[2026-10-07T02:29:20] PPO seed 1 evaluated
+[2026-10-07T02:29:51] PPO seed 2 evaluated
+[2026-10-07T02:30:23] PPO seed 3 evaluated
+[2026-10-07T02:30:54] PPO seed 4 evaluated
+[2026-10-07T02:30:54] TRAIN_range: PPO (mean of 5 seeds) minus PI, diameter error: mean -0.319 um, PPO better in 94% of fresh episodes; worst +0.198
+[2026-10-07T02:30:54] TRAIN_range: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean -0.203 um, PPO better in 64% of fresh episodes; worst +0.426
+[2026-10-07T02:30:54] UNTOUCHED: PPO (mean of 5 seeds) minus PI, diameter error: mean -0.612 um, PPO better in 96% of fresh episodes; worst +0.299
+[2026-10-07T02:30:54] UNTOUCHED: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean -0.466 um, PPO better in 82% of fresh episodes; worst +0.808
+[2026-10-07T02:30:54] fresh-condition results (mean and worst episode):
+                       d_err_mean        rate_err_mean        violation_share       
+                             mean    max          mean    max            mean    max
+controller condition                                                                
+FF+PI      TRAIN_range      1.322  3.231         0.177  0.439           0.117  0.550
+           UNTOUCHED        1.950  4.141         0.263  0.580           0.072  0.427
+PI         TRAIN_range      1.437  2.349         0.167  0.303           0.053  0.277
+           UNTOUCHED        2.096  3.937         0.270  0.492           0.049  0.380
+PPO_all    TRAIN_range      1.118  2.375         0.085  0.288           0.003  0.097
+           UNTOUCHED        1.484  3.350         0.126  0.454           0.005  0.173
+[2026-10-07T02:30:54] run finished: status=measured, wall_seconds=187.9

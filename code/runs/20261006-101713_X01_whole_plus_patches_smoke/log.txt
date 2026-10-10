@@ -1,0 +1,2 @@
+[2026-10-06T10:17:21] run 20261006-101713_X01_whole_plus_patches_smoke started
+[2026-10-06T10:17:25] features whole: 200 images in 2.4 s

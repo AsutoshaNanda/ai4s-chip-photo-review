@@ -1,0 +1,1 @@
+Outside color images had strict outline scores below 0.001.

@@ -1,0 +1,22 @@
+{
+  "hide_4_median": {
+    "seconds": 377.98236743400514,
+    "images": 7248,
+    "calls": 453
+  },
+  "hide_8_median": {
+    "seconds": 1507.2011244169944,
+    "images": 28992,
+    "calls": 453
+  },
+  "delete_important_first": {
+    "seconds": 181.384976353998,
+    "images": 3624,
+    "calls": 453
+  },
+  "delete_random": {
+    "seconds": 181.4471013380014,
+    "images": 3624,
+    "calls": 453
+  }
+}

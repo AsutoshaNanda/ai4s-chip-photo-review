@@ -1,0 +1,38 @@
+{
+  "part": "nucleus",
+  "frozen_config": {
+    "frozen_at": "2026-10-07T19:36:31",
+    "rule": "scripts/freeze_choice.py docstring",
+    "chip": {
+      "candidate": "fixed_3x3",
+      "small_rule": "manual_review",
+      "whole_features": "vit_large_patch14_dinov2.lvd142m@518 (A02)",
+      "grid": 3,
+      "classifier": "logistic regression, grouped inner CV (as A02/X01)"
+    },
+    "nucleus": {
+      "models": [
+        "B02",
+        "B03"
+      ],
+      "seeds": [
+        0,
+        1
+      ],
+      "posts": "v2",
+      "settings": [
+        "best_count",
+        "best_outline"
+      ],
+      "extra_row": {
+        "variant": "_noisetrain",
+        "seed": 0
+      }
+    },
+    "final_sets": {
+      "chip": "ooc_splits role final_test (675 photos)",
+      "nucleus": "bbbc039_splits role final_test (50 images)"
+    }
+  },
+  "note": "locked final test opened once for this frozen config"
+}

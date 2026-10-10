@@ -1,0 +1,74 @@
+{
+  "final_test_composition": {
+    "good": {
+      "A549": 102,
+      "CACO": 19,
+      "HPMEC": 168,
+      "HSAEC": 34,
+      "HUVEC": 12,
+      "NHBE": 54
+    },
+    "bad": {
+      "A549": 44,
+      "CACO": 56,
+      "HPMEC": 124,
+      "HSAEC": 17,
+      "HUVEC": 39,
+      "NHBE": 6
+    }
+  },
+  "practice_composition": {
+    "good": {
+      "A549": 435,
+      "CACO": 90,
+      "HPMEC": 630,
+      "HSAEC": 129,
+      "HUVEC": 3,
+      "NHBE": 51
+    },
+    "bad": {
+      "A549": 194,
+      "CACO": 181,
+      "HPMEC": 540,
+      "HSAEC": 64,
+      "HUVEC": 53,
+      "NHBE": 27
+    }
+  },
+  "practice_fold_sizes": {
+    "0": 335,
+    "1": 518,
+    "2": 521,
+    "3": 453,
+    "4": 570
+  },
+  "practice_fold_bad_share": {
+    "0": 0.245,
+    "1": 0.431,
+    "2": 0.461,
+    "3": 0.453,
+    "4": 0.542
+  },
+  "final_test_groups": [
+    "220502",
+    "220608",
+    "220610",
+    "220706",
+    "220715",
+    "220721",
+    "221010",
+    "221123",
+    "230314",
+    "230320",
+    "230329",
+    "230411",
+    "230424"
+  ],
+  "n_groups_final": 13,
+  "n_groups_practice": 46,
+  "published_split_of_final_test": {
+    "train": 477,
+    "test": 138,
+    "val": 60
+  }
+}

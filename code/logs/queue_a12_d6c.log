@@ -1,0 +1,62 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-2yACeRJT11bkq7u5p4f5Pr
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+[2026-10-06 05:07:05 UTC] lane a100_050705_9f0e9d: 5 jobs; used before launch $9.50; cap $20.0; job limit 60 min
+[2026-10-06 05:07:06 UTC] START scripts/a12_heatmaps.py --folds 0
+[2026-10-06 05:26:23 UTC] OK: scripts/a12_heatmaps.py --folds 0 | 19.3 min | session total about $13.27
+
+[2026-10-06 05:26:25 UTC] START scripts/a12_heatmaps.py --folds 1
+Stopping app - user stopped from CLI.
+Runner terminated.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py:198 in main    │
+│                                                                              │
+│   197 │   fn = {"cpu32": cpu32, "cpu8": cpu8, "a100": a100}[lane]            │
+│ ❱ 198 │   fn.remote([j.strip() for j in jobs.split(";") if j.strip()], sessi │
+│   199                                                                        │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_object.py:49 in wrapped                                               │
+│                                                                              │
+│    48 │   │   await self.hydrate()                                           │
+│ ❱  49 │   │   return await method(self, *args, **kwargs)                     │
+│    50                                                                        │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:2067 in remote                                           │
+│                                                                              │
+│   2066 │   │                                                                 │
+│ ❱ 2067 │   │   return await self._call_function(args, kwargs)                │
+│   2068                                                                       │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:2004 in _call_function                                   │
+│                                                                              │
+│   2003 │   │                                                                 │
+│ ❱ 2004 │   │   return await invocation.run_function()                        │
+│   2005                                                                       │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:496 in run_function                                      │
+│                                                                              │
+│    495 │   │   │   if await_response.output.result.status in TERMINAL_STATUS │
+│ ❱  496 │   │   │   │   return await _process_result(                         │
+│    497 │   │   │   │   │   await_response.output.result, await_response.outp │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_utils/function_utils.py:574 in _process_result                        │
+│                                                                              │
+│   573 │   │                                                                  │
+│ ❱ 574 │   │   raise RemoteError(result.exception)                            │
+│   575                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RemoteError

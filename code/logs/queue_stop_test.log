@@ -1,0 +1,22 @@
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-Jrkcj2YlQ6OjdgW2jrcxE3
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function a100.
+└── ✓ Created Function cpu8.
+[2026-10-05 20:09:35 UTC] lane cpu8_200933_8a0532: 2 jobs; used before launch $19.99; cap $20.0; job limit 60 min
+[2026-10-05 20:09:38 UTC] START scripts/_queue_test_sleep.py 300
+[2026-10-05 20:10:47 UTC] KILLED (money: about $20.00 of $30 used (stop at $20, i.e. $10 left) [cpu8_200933_8a0532 at 20:10:43 UTC]): scripts/_queue_test_sleep.py 300 | 1.1 min | session total about $20.00
+sleeping 0/300
+sleeping 30/300
+sleeping 60/300
+
+[2026-10-05 20:10:50 UTC] lane finished; session total about $20.00
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-Jrkcj2YlQ6OjdgW2jrcxE3

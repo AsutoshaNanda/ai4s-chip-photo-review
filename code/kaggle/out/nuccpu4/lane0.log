@@ -1,0 +1,18 @@
+=== scripts/input_gate.py
+[2026-10-07T14:04:58] run 20261007-140435_G02_input_gate_selfcheck started
+[2026-10-07T14:04:58] support per format in the development data:
+               photos  bad  groups
+photo_format                      
+L/2056x1542      1597  887      12
+RGB/2048x1536     713  166      33
+RGB/640x480        87    6       3
+[2026-10-07T14:04:58] chip photos by role, format and route:
+      role  photo_format         route  photos
+final_test   L/2056x1542     automatic     451
+final_test RGB/1536x2048 manual_review       3
+final_test RGB/2048x1536     automatic     221
+  practice   L/2056x1542     automatic    1597
+  practice RGB/2048x1536     automatic     713
+  practice   RGB/640x480 manual_review      87
+[2026-10-07T14:05:04] BBBC038 outside images by route: {'automatic': 562, 'manual_review': 108}
+[2026-10-07T14:05:04] run finished: status=measured, wall_seconds=28.68

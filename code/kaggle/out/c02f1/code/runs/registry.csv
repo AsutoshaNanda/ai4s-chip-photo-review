@@ -1,0 +1,2 @@
+run_id,plan_id,name,status,started,finished,seconds,machine,notes
+20261006-161337_C02_jump_batch_rescaling_fold1,C02,jump_batch_rescaling_fold1,measured,2026-10-06T16:13:37,2026-10-06T17:09:50,3372.52,f8d9a8bb5d8f,C02 JUMP ORF raw vs sphering learned on training batches

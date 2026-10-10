@@ -1,0 +1,10 @@
+[2026-10-06T10:32:56] run 20261006-103251_X01_whole_plus_patches started
+[2026-10-06T10:33:20] features whole: 2397 images in 15.3 s
+[2026-10-06T10:35:00] features tiles_2x2: 9588 images in 54.6 s
+[2026-10-06T10:36:16] features tiles_3x3: 21573 images in 52.8 s
+[2026-10-06T10:36:36] patches_2x2_only                           AUC 0.861 [0.822, 0.897] AP 0.839 logloss 0.458 | within format {'L/2056x1542': 0.833, 'RGB/2048x1536': 0.846, 'RGB/640x480': 0.66}
+[2026-10-06T10:36:40] patches_3x3_only                           AUC 0.872 [0.831, 0.903] AP 0.860 logloss 0.440 | within format {'L/2056x1542': 0.855, 'RGB/2048x1536': 0.858, 'RGB/640x480': 0.486}
+[2026-10-06T10:36:45] whole                                      AUC 0.843 [0.803, 0.884] AP 0.812 logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T10:36:49] whole_plus_patches_2x2                     AUC 0.865 [0.828, 0.901] AP 0.844 logloss 0.451 | within format {'L/2056x1542': 0.838, 'RGB/2048x1536': 0.858, 'RGB/640x480': 0.632}
+[2026-10-06T10:36:54] whole_plus_patches_3x3                     AUC 0.875 [0.838, 0.906] AP 0.858 logloss 0.437 | within format {'L/2056x1542': 0.855, 'RGB/2048x1536': 0.869, 'RGB/640x480': 0.537}
+[2026-10-06T10:36:54] run finished: status=measured, wall_seconds=243.39

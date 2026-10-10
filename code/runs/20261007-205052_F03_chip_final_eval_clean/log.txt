@@ -1,0 +1,10 @@
+[2026-10-07T20:50:56] run 20261007-205052_F03_chip_final_eval_clean started
+[2026-10-07T20:51:07] whole: classifier fitted on 2397 practice photos, C=0.00316228
+[2026-10-07T20:51:16] fixed_3x3: classifier fitted on 2397 practice photos, C=0.001
+[2026-10-07T20:51:21] FINAL [automatic_only] whole: AUC 0.8098 [0.741, 0.889]; AP 0.761; log loss 0.541; review area 0.680 (random 0.499); per type {'A549': 0.745, 'CACO': 0.818, 'HPMEC': 0.791, 'HSAEC': 0.744, 'HUVEC': 1.0, 'NHBE': 0.88}
+[2026-10-07T20:51:25] FINAL [automatic_only] fixed_3x3: AUC 0.8496 [0.778, 0.917]; AP 0.820; log loss 0.485; review area 0.703 (random 0.499); per type {'A549': 0.766, 'CACO': 0.88, 'HPMEC': 0.838, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}
+[2026-10-07T20:51:34] FINAL [automatic_only] paired fixed_3x3 minus whole: {'difference': 0.03983047771163073, 'range_95': [0.015207559727948367, 0.06717156433604538]}
+[2026-10-07T20:51:39] FINAL [all_photos] whole: AUC 0.8101 [0.741, 0.888]; AP 0.762; log loss 0.541; review area 0.679 (random 0.501); per type {'A549': 0.745, 'CACO': 0.805, 'HPMEC': 0.791, 'HSAEC': 0.744, 'HUVEC': 1.0, 'NHBE': 0.88}
+[2026-10-07T20:51:44] FINAL [all_photos] fixed_3x3: AUC 0.8499 [0.78, 0.917]; AP 0.821; log loss 0.485; review area 0.702 (random 0.501); per type {'A549': 0.766, 'CACO': 0.877, 'HPMEC': 0.838, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}
+[2026-10-07T20:51:53] FINAL [all_photos] paired fixed_3x3 minus whole: {'difference': 0.03982778147302579, 'range_95': [0.015346441127220332, 0.06676884266081853]}
+[2026-10-07T20:51:53] run finished: status=measured, wall_seconds=61.28

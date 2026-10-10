@@ -1,0 +1,6 @@
+[2026-10-06T01:38:51] run 20261006-013846_A09_review_order started
+[2026-10-06T01:38:52] A09 order=vit_large_patch14_dinov2@518 review area 0.692; difference vs vit_large_patch14_dinov2@518 95%: [0.0, 0.0]
+[2026-10-06T01:38:53] A09 order=resnet18@448         review area 0.650; difference vs vit_large_patch14_dinov2@518 95%: [-0.065, -0.02]
+[2026-10-06T01:38:54] A09 order=average              review area 0.687; difference vs vit_large_patch14_dinov2@518 95%: [-0.012, 0.004]
+[2026-10-06T01:38:55] A09 order=proposed             review area 0.682; difference vs vit_large_patch14_dinov2@518 95%: [-0.016, -0.002]
+[2026-10-06T01:38:55] run finished: status=measured, wall_seconds=9.26

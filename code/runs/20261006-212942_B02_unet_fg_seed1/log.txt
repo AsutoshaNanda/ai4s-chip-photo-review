@@ -1,0 +1,5 @@
+[2026-10-06T21:29:47] run 20261006-212942_B02_unet_fg_seed1 started
+[2026-10-06T21:40:05] fold 0: trained 226 s, steps 5000, post {'thr': 0.7, 'min_distance': 10.0, 'min_size': 50.0, 'count_mae': 10.303030303030303, 'mean_f1_levels': 0.8622000861382036}
+[2026-10-06T21:48:30] fold 1: trained 238 s, steps 5250, post {'thr': 0.6, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 5.666666666666667, 'mean_f1_levels': 0.8877474934671404}
+[2026-10-06T21:59:06] fold 2: trained 198 s, steps 4500, post {'thr': 0.5, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 8.025641025641026, 'mean_f1_levels': 0.8776218655004504}
+[2026-10-06T22:08:02] fold 3: trained 236 s, steps 5250, post {'thr': 0.5, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 6.416666666666667, 'mean_f1_levels': 0.8896073914557782}

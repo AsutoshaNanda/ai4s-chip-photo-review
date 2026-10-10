@@ -1,0 +1,4 @@
+{
+  "device": "cuda",
+  "examples": 16
+}

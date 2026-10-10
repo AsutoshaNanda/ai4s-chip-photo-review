@@ -1,0 +1,63 @@
+=== scripts/b_unet.py --target fg --seed 0 --train_noise_max 0.1
+[2026-10-07T01:14:14] run 20261007-011404_B02_unet_fg_noisetrain_seed0 started
+[2026-10-07T01:30:26] fold 0: trained 545 s, steps 3000, post {'thr': 0.7, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 9.818181818181818, 'mean_f1_levels': 0.8247447946810967}
+[2026-10-07T01:53:16] fold 1: trained 1073 s, steps 6000, post {'thr': 0.6, 'min_distance': 10.0, 'min_size': 10.0, 'count_mae': 3.7142857142857144, 'mean_f1_levels': 0.8849624194090361}
+[2026-10-07T02:08:29] fold 2: trained 451 s, steps 2500, post {'thr': 0.7, 'min_distance': 10.0, 'min_size': 50.0, 'count_mae': 9.025641025641026, 'mean_f1_levels': 0.8696704045159389}
+[2026-10-07T02:31:28] fold 3: trained 1072 s, steps 6000, post {'thr': 0.5, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 6.583333333333333, 'mean_f1_levels': 0.8903765281866672}
+[2026-10-07T02:55:54] fold 4: trained 1077 s, steps 6000, post {'thr': 0.6, 'min_distance': 10.0, 'min_size': 50.0, 'count_mae': 7.757575757575758, 'mean_f1_levels': 0.8907719266947576}
+[2026-10-07T02:55:55] B02 best_count: count MAE 5.11 (bias -1.45); pooled F1 0.25/0.50/0.75/0.90 0.928/0.901/0.835/0.672; joined 2077 split 1413 missed 192 false 417
+[2026-10-07T02:55:55] B02 best_outline: count MAE 7.55 (bias -7.09); pooled F1 0.25/0.50/0.75/0.90 0.936/0.915/0.863/0.717; joined 2084 split 837 missed 469 false 136
+[2026-10-07T02:55:55] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00       8.187  -7.427   0.900   0.844
+           2.00      10.067  -9.413   0.883   0.820
+           3.00      12.060 -11.313   0.871   0.791
+brightness 0.50       9.833  -9.567   0.896   0.841
+           0.75       8.280  -7.933   0.908   0.855
+           1.25       7.107  -6.507   0.913   0.861
+           1.50       7.047  -6.153   0.909   0.858
+noise_sd   0.02       7.460  -7.033   0.912   0.860
+           0.05       7.867  -7.453   0.911   0.859
+           0.10       8.187  -7.747   0.906   0.851
+[2026-10-07T02:55:55] run finished: status=measured, wall_seconds=6110.84
+=== scripts/b_unet.py --target boundary --seed 0 --train_noise_max 0.1
+[2026-10-07T02:56:01] run 20261007-025559_B03_unet_boundary_noisetrain_seed0 started
+[2026-10-07T03:13:04] fold 0: trained 970 s, steps 5250, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 11.545454545454545, 'mean_f1_levels': 0.8529525812149772}
+[2026-10-07T03:24:53] fold 1: trained 670 s, steps 3750, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 10.0, 'count_mae': 8.0, 'mean_f1_levels': 0.8983366353349954}
+[2026-10-07T03:36:54] fold 2: trained 676 s, steps 3750, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 13.102564102564102, 'mean_f1_levels': 0.880197741525077}
+[2026-10-07T03:55:31] fold 3: trained 1073 s, steps 6000, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 8.125, 'mean_f1_levels': 0.9064347817512135}
+[2026-10-07T04:09:38] fold 4: trained 808 s, steps 4500, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 9.484848484848484, 'mean_f1_levels': 0.8925579908482286}
+[2026-10-07T04:09:38] B03 best_count: count MAE 8.67 (bias -8.08); pooled F1 0.25/0.50/0.75/0.90 0.944/0.924/0.879/0.734; joined 2100 split 103 missed 384 false 267
+[2026-10-07T04:09:38] B03 best_outline: count MAE 10.65 (bias -10.11); pooled F1 0.25/0.50/0.75/0.90 0.942/0.926/0.885/0.740; joined 2108 split 70 missed 563 false 164
+[2026-10-07T04:09:38] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00      11.760 -11.107   0.915   0.874
+           2.00      15.347 -15.093   0.884   0.836
+           3.00      20.140 -20.073   0.840   0.778
+brightness 0.50      13.540 -13.407   0.906   0.855
+           0.75      11.940 -11.660   0.915   0.872
+           1.25      10.173  -9.507   0.926   0.891
+           1.50      10.060  -9.287   0.925   0.887
+noise_sd   0.02      10.520 -10.053   0.922   0.884
+           0.05      10.847 -10.420   0.920   0.880
+           0.10      11.180 -10.807   0.917   0.872
+[2026-10-07T04:09:38] run finished: status=measured, wall_seconds=4419.21
+=== scripts/b_modern.py
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.0/127.0 kB 1.2 MB/s eta 0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 24.3 MB/s eta 0:00:00
+[2026-10-07T04:09:51] run 20261007-040948_B02_modern_instanseg started
+[2026-10-07T04:09:51] instanseg version unknown
+[2026-10-07T04:09:56] model documents found: 2; exposure check: possible prior exposure: BBBC038, DSB
+Reached maximum number of iterations - this is not expected!
+[2026-10-07T04:12:02] fold 0: pixel size best count 0.500 um, best outline 0.500 um
+[2026-10-07T04:13:15] fold 1: pixel size best count 0.500 um, best outline 0.500 um
+[2026-10-07T04:15:27] fold 2: pixel size best count 0.500 um, best outline 0.500 um
+[2026-10-07T04:16:50] fold 3: pixel size best count 0.707 um, best outline 0.500 um
+Reached maximum number of iterations - this is not expected!
+[2026-10-07T04:18:41] fold 4: pixel size best count 0.707 um, best outline 0.500 um
+[2026-10-07T04:18:41] InstanSeg best_count: count MAE 3.97 (bias -0.98); pooled F1 0.25/0.50/0.75/0.90 0.956/0.946/0.903/0.654; joined 625 split 983 missed 517 false 198
+[2026-10-07T04:18:41] InstanSeg best_outline: count MAE 4.03 (bias -2.11); pooled F1 0.25/0.50/0.75/0.90 0.957/0.950/0.913/0.728; joined 666 split 823 missed 544 false 166
+[2026-10-07T04:18:41] time per image (median) 0.105 s; peak GPU memory 5.310731264
+[2026-10-07T04:18:41] run finished: status=measured, wall_seconds=532.91

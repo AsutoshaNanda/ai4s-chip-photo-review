@@ -1,0 +1,1 @@
+Accepted images become gray images with a long side of 1,036 pixels.

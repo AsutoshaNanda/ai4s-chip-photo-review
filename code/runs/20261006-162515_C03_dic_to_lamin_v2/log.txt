@@ -1,0 +1,20 @@
+[2026-10-06T16:25:18] run 20261006-162515_C03_dic_to_lamin_v2 started
+[2026-10-06T16:35:44] fold 0: clean-up min size chosen on check well B03: {'A': 0, 'B': 461} (grid [0, 115, 230, 346, 461, 576, 692, 807, 922, 1038, 1153])
+[2026-10-06T16:35:44] fold 0 (test well B02, check well B03): trained in 622 s; steps A 2200 B 1600
+[2026-10-06T16:46:11] fold 1: clean-up min size chosen on check well B04: {'A': 0, 'B': 910} (grid [0, 113, 227, 341, 455, 568, 682, 796, 910, 1023, 1137])
+[2026-10-06T16:46:11] fold 1 (test well B03, check well B04): trained in 624 s; steps A 2400 B 1400
+[2026-10-06T16:59:47] fold 2: clean-up min size chosen on check well B05: {'A': 0, 'B': 1015} (grid [0, 101, 203, 304, 406, 507, 609, 710, 812, 913, 1015])
+[2026-10-06T16:59:47] fold 2 (test well B04, check well B05): trained in 813 s; steps A 3000 B 2000
+[2026-10-06T17:09:34] fold 3: clean-up min size chosen on check well B02: {'A': 0, 'B': 413} (grid [0, 103, 206, 309, 413, 516, 619, 723, 826, 929, 1033])
+[2026-10-06T17:09:34] fold 3 (test well B05, check well B02): trained in 583 s; steps A 2200 B 1400
+[2026-10-06T17:09:37] all_planes   A_no_cleanup       planes  200 | count MAE 8.48 bias -8.36 | F1 0.50/0.75 0.474/0.307 | joined 1576 split 649 missed 1269 false 198 | pixel corr 0.552
+[2026-10-06T17:09:37] all_planes   A_predict_picture  planes  200 | count MAE 8.48 bias -8.36 | F1 0.50/0.75 0.474/0.307 | joined 1576 split 649 missed 1269 false 198 | pixel corr 0.552
+[2026-10-06T17:09:37] all_planes   B_direct           planes  200 | count MAE 6.50 bias -2.24 | F1 0.50/0.75 0.474/0.287 | joined 1756 split 1026 missed 620 false 763
+[2026-10-06T17:09:37] all_planes   B_no_cleanup       planes  200 | count MAE 22.84 bias +22.43 | F1 0.50/0.75 0.342/0.202 | joined 1727 split 2743 missed 176 false 3889
+[2026-10-06T17:09:37] all_planes: route A minus route B count MAE, 95% over stacks: [0.84, 3.09]
+[2026-10-06T17:09:37] zstar_plane  A_no_cleanup       planes   40 | count MAE 7.75 bias -7.55 | F1 0.50/0.75 0.476/0.306 | joined 304 split 128 missed 235 false 51 | pixel corr 0.559
+[2026-10-06T17:09:37] zstar_plane  A_predict_picture  planes   40 | count MAE 7.75 bias -7.55 | F1 0.50/0.75 0.476/0.306 | joined 304 split 128 missed 235 false 51 | pixel corr 0.559
+[2026-10-06T17:09:37] zstar_plane  B_direct           planes   40 | count MAE 5.88 bias -1.57 | F1 0.50/0.75 0.476/0.298 | joined 344 split 218 missed 120 false 158
+[2026-10-06T17:09:37] zstar_plane  B_no_cleanup       planes   40 | count MAE 23.02 bias +23.02 | F1 0.50/0.75 0.340/0.209 | joined 335 split 534 missed 35 false 802
+[2026-10-06T17:09:38] zstar_plane: route A minus route B count MAE, 95% over stacks: [0.45, 3.25]
+[2026-10-06T17:09:38] run finished: status=measured, wall_seconds=2662.53

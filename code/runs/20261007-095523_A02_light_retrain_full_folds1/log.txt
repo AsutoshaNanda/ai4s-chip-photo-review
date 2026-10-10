@@ -1,0 +1,6 @@
+[2026-10-07T09:55:35] run 20261007-095523_A02_light_retrain_full_folds1 started
+[2026-10-07T09:57:48] cached last-block inputs for 2397 photos in 116.8 s; shapes [(392, 518)]; GPU memory used 6.46 GB
+[2026-10-07T10:29:55] fold 1 head_only: best learning speed 0.001 is at the edge of [1e-06, 1e-05, 0.0001, 0.001]; adding 0.01
+[2026-10-07T10:39:41] fold 1 head_only: lr 0.001, passes 5, 2513 s
+[2026-10-07T12:03:46] fold 1 last_block: lr 1e-05, passes 5, 5045 s
+[2026-10-07T12:03:46] run finished: status=measured, wall_seconds=7703.0

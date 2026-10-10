@@ -1,0 +1,227 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.198
+This is AI4S Chip Photo Review, a research tool for microscope photos of
+organ-on-a-chip samples.
+
+2
+00:00:06.198 --> 00:00:09.771
+It places likely poor-quality samples earlier in a review list.
+
+3
+00:00:09.771 --> 00:00:11.335
+A person makes the decision.
+
+4
+00:00:18.000 --> 00:00:20.090
+The tool first checks the image format.
+
+5
+00:00:20.090 --> 00:00:24.504
+Small or unfamiliar formats go to manual review without an automatic score.
+
+6
+00:00:24.504 --> 00:00:29.307
+Accepted images become gray images with a long side of 1,036 pixels.
+
+7
+00:00:29.307 --> 00:00:33.535
+Frozen DINOv2 features combine a whole-photo view with nine tiles.
+
+8
+00:00:33.535 --> 00:00:36.213
+A small trained model produces the review score.
+
+9
+00:00:42.000 --> 00:00:44.286
+This is the command that runs the photo tool.
+
+10
+00:00:44.286 --> 00:00:49.963
+The table contains actual saved output from a verified fresh Kaggle
+installation on October eighth.
+
+11
+00:00:49.963 --> 00:00:52.227
+Twelve photos received scores and ranks.
+
+12
+00:00:52.227 --> 00:00:56.907
+Five photos went to manual review, including small and unfamiliar formats.
+
+13
+00:00:56.907 --> 00:01:01.619
+The output includes the filename, format, route, score, and rank.
+
+14
+00:01:01.619 --> 00:01:05.333
+This CPU demonstration took 402.8 seconds.
+
+15
+00:01:18.000 --> 00:01:21.135
+The top row shows the first four photos in the review list.
+
+16
+00:01:21.135 --> 00:01:22.924
+The bottom row shows the last four.
+
+17
+00:01:22.924 --> 00:01:25.592
+This small demonstration illustrates operation.
+
+18
+00:01:25.592 --> 00:01:27.331
+It is not an accuracy estimate.
+
+19
+00:01:40.000 --> 00:01:45.666
+The primary result uses 672 reserved photos scored automatically by both
+methods.
+
+20
+00:01:45.666 --> 00:01:53.538
+The ranking score, called AUC, was 0.850 with tiles and 0.810 with the whole
+photo alone.
+
+21
+00:01:53.538 --> 00:02:02.014
+The paired increase was 0.040, with a 95 percent range from 0.015 to 0.067.
+
+22
+00:02:02.014 --> 00:02:06.956
+AUC measures ranking quality. It does not mean 85 percent accuracy.
+
+23
+00:02:06.956 --> 00:02:09.808
+Review curves do not measure human time savings.
+
+24
+00:02:10.625 --> 00:02:14.888
+Scores decreased when related filename groups were also excluded from
+training.
+
+25
+00:02:14.888 --> 00:02:18.362
+We withdrew the earlier claim of no loss on unseen cell types.
+
+26
+00:02:18.362 --> 00:02:21.578
+The tile method still ranked better in the corrected comparison.
+
+27
+00:02:21.578 --> 00:02:25.493
+Small photos remained a weakness, so they go to manual review.
+
+28
+00:02:25.493 --> 00:02:29.901
+Extra training and heat-map explanations did not justify stronger claims.
+
+29
+00:02:34.625 --> 00:02:37.693
+Separate nucleus studies used fifty reserved images.
+
+30
+00:02:37.693 --> 00:02:43.491
+B02 reduced average count error from 4.93 to 4.31 nuclei per image.
+
+31
+00:02:43.491 --> 00:02:50.732
+At different settings, B03 increased the strict outline score from 0.855 to
+0.901.
+
+32
+00:02:50.732 --> 00:02:55.642
+The images share plates with development images, so this is not a new-
+laboratory test.
+
+33
+00:02:56.458 --> 00:02:58.957
+Strong artificial noise caused large errors.
+
+34
+00:02:58.957 --> 00:03:03.067
+Training with noise helped under that noise type, but made clean counting
+worse.
+
+35
+00:03:03.067 --> 00:03:08.412
+Only about forty-three percent of the smallest tenth of nuclei were found at
+the looser overlap level.
+
+36
+00:03:08.412 --> 00:03:13.190
+Outside color images had strict outline scores below 0.001.
+
+37
+00:03:13.190 --> 00:03:15.188
+The models also shared mistakes.
+
+38
+00:03:18.458 --> 00:03:21.990
+We also compared controllers in a repaired droplet simulator.
+
+39
+00:03:21.990 --> 00:03:32.364
+On harder conditions, learned control had mean size error of 1.333
+micrometers, versus 1.946 and 2.062 for two rule controllers.
+
+40
+00:03:32.364 --> 00:03:38.206
+One learned-control episode still spent 25.3 percent of steps outside the
+operating range.
+
+41
+00:03:38.206 --> 00:03:40.047
+No physical chip was operated.
+
+42
+00:03:40.875 --> 00:03:45.574
+A fresh Kaggle setup reproduced the photo pipeline and one nucleus training
+split.
+
+43
+00:03:45.574 --> 00:03:48.276
+It did not rebuild every model or supporting study.
+
+44
+00:03:48.276 --> 00:03:52.061
+The rebuilt scorer completed the ordinary fresh-install demonstration.
+
+45
+00:03:52.061 --> 00:03:56.019
+The additional strict cloud test failed with no useful diagnostic log.
+
+46
+00:03:56.019 --> 00:03:57.863
+That failure remains in the report.
+
+47
+00:04:02.875 --> 00:04:06.277
+The measured benefit is better review order on the stated dataset.
+
+48
+00:04:06.277 --> 00:04:12.165
+Human time savings, transfer to another chip laboratory, and physical
+control remain unproven.
+
+49
+00:04:12.165 --> 00:04:16.717
+The next steps are independently labeled chip data and a timed study with
+researchers.
+
+50
+00:04:16.717 --> 00:04:19.674
+A person stays responsible for sample decisions.
+
+51
+00:04:22.875 --> 00:04:26.358
+The write-up contains the full experiment record and source credits.
+
+52
+00:04:26.358 --> 00:04:30.167
+The full write-up contains the reproduction instructions and resource links.
+
+53
+00:04:30.167 --> 00:04:33.094
+Thank you for reviewing AI4S Chip Photo Review.

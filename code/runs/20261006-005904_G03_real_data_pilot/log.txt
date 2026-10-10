@@ -1,0 +1,6 @@
+[2026-10-06T00:59:09] run 20261006-005904_G03_real_data_pilot started
+[2026-10-06T00:59:12] {"pipeline": "A chip photos", "examples": 16, "prep_seconds": 0.41900503899999997, "prep_s_per_photo": 0.026187814937499998, "train_pass_seconds": 1.3318773579999998, "predict_s_per_photo": 0.008446547031249974, "reload_identical": true, "max_abs_diff": 0.0, "model_file_mb": 44.789835, "model": "resnet18.tv_in1k (pretrained) at 448x336"}
+[2026-10-06T00:59:13] {"pipeline": "B nuclei", "examples": 16, "prep_seconds": 0.3449451289999992, "prep_s_per_image": 0.02155907056249995, "train_pass_seconds": 0.46416388299999767, "predict_s_per_image": 0.014606724250000092, "reload_identical": true, "max_abs_diff": 0.0, "model_file_mb": 7.756651, "model": "small U-Net (from scratch) on 512x688 crops"}
+[2026-10-06T00:59:26] {"pipeline": "R droplet control (cpu)", "env_steps": 4096, "train_seconds": 4.1104609409999995, "steps_per_s": 996.4819174278588, "reload_identical": true, "max_abs_diff": 0.0, "model_file_mb": 0.172174}
+[2026-10-06T00:59:26] {"pipeline": "R droplet control (cuda)", "env_steps": 4096, "train_seconds": 8.677321517, "steps_per_s": 472.03506196876583, "reload_identical": true, "max_abs_diff": 0.0, "model_file_mb": 0.172686}
+[2026-10-06T00:59:26] run finished: status=measured, wall_seconds=22.62

@@ -1,0 +1,2 @@
+[2026-10-06T23:09:38] run 20261006-230901_B05_crowding_tiny_nuclei_posts_v2 started
+[2026-10-06T23:09:39] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']

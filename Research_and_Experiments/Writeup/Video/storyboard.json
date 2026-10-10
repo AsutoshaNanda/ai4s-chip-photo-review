@@ -1,0 +1,194 @@
+{
+  "title": "AI4S: Chip Photo Review with Local Image Tiles",
+  "category": "Model & Algorithm",
+  "target_seconds": 268,
+  "maximum_seconds": 300,
+  "voice": "Samantha",
+  "speech_rate": 155,
+  "evidence_cutoff": "2026-10-08",
+  "mode": "Narrated demonstration of recorded, verified outputs. No live execution is implied.",
+  "scenes": [
+    {
+      "id": "01_title",
+      "title": "A review aid for chip samples",
+      "minimum_seconds": 18,
+      "asset": "figures/kaggle_card_thumbnail.png",
+      "layout": "wide",
+      "takeaway": "Research use. A person makes the sample-quality decision.",
+      "source": "Project method and expert good/bad sample-quality labels.",
+      "sentences": [
+        "This is AI4S Chip Photo Review, a research tool for microscope photos of organ-on-a-chip samples.",
+        "It places likely poor-quality samples earlier in a review list.",
+        "A person makes the decision."
+      ]
+    },
+    {
+      "id": "02_workflow",
+      "title": "One whole photo, plus nine local tiles",
+      "minimum_seconds": 24,
+      "asset": "figures/01_workflow_redesigned.png",
+      "layout": "portrait",
+      "points": ["Supported formats receive a score.", "Small or unfamiliar formats go to manual review.", "DINOv2 image features stay fixed.", "A small trained model produces the review score."],
+      "takeaway": "The tiles come from the prepared image, not the original camera resolution.",
+      "source": "code/inference.py and model_x01_3x3.json",
+      "sentences": [
+        "The tool first checks the image format.",
+        "Small or unfamiliar formats go to manual review without an automatic score.",
+        "Accepted images become gray images with a long side of 1,036 pixels.",
+        "Frozen DINOv2 features combine a whole-photo view with nine tiles.",
+        "A small trained model produces the review score."
+      ]
+    },
+    {
+      "id": "03_recorded_output",
+      "title": "Recorded operation: 17 input photos",
+      "minimum_seconds": 36,
+      "layout": "csv",
+      "takeaway": "Recorded F05 output, 8 October 2026. CPU inference took 402.8 seconds.",
+      "source": "F05 ranking_fresh.csv and job_report.json",
+      "sentences": [
+        "This is the command that runs the photo tool.",
+        "The table contains actual saved output from a verified fresh Kaggle installation on October eighth.",
+        "Twelve photos received scores and ranks.",
+        "Five photos went to manual review, including small and unfamiliar formats.",
+        "The output includes the filename, format, route, score, and rank.",
+        "This CPU demonstration took 402.8 seconds."
+      ]
+    },
+    {
+      "id": "04_demo_photos",
+      "title": "What the review list looks like",
+      "minimum_seconds": 22,
+      "asset": "figures/04_real_demo.png",
+      "layout": "wide",
+      "takeaway": "The first four and last four scored photos are shown. This is an illustration.",
+      "source": "Images: Movčana et al., Organ-on-a-Chip Image Dataset, Zenodo 10203721.",
+      "sentences": [
+        "The top row shows the first four photos in the review list.",
+        "The bottom row shows the last four.",
+        "This small demonstration illustrates operation.",
+        "It is not an accuracy estimate."
+      ]
+    },
+    {
+      "id": "05_primary_result",
+      "title": "Reserved photos: a measured ranking increase",
+      "minimum_seconds": 30,
+      "asset": "figures/02_chip_final.png",
+      "layout": "wide",
+      "takeaway": "Same 672 photos. AUC 0.850 vs 0.810. Paired increase 0.040.",
+      "source": "F03 clean final evaluation; filename-group uncertainty ranges.",
+      "sentences": [
+        "The primary result uses 672 reserved photos scored automatically by both methods.",
+        "The ranking score, called AUC, was 0.850 with tiles and 0.810 with the whole photo alone.",
+        "The paired increase was 0.040, with a 95 percent range from 0.015 to 0.067.",
+        "AUC measures ranking quality. It does not mean 85 percent accuracy.",
+        "Review curves do not measure human time savings."
+      ]
+    },
+    {
+      "id": "06_validation",
+      "title": "Corrections changed the decisions",
+      "minimum_seconds": 24,
+      "asset": "figures/09_validation_and_formats.png",
+      "layout": "wide",
+      "takeaway": "Related filename groups are clues, not verified physical chip identifiers.",
+      "source": "Corrected A03 and X01 format tests; development data only.",
+      "sentences": [
+        "Scores decreased when related filename groups were also excluded from training.",
+        "We withdrew the earlier claim of no loss on unseen cell types.",
+        "The tile method still ranked better in the corrected comparison.",
+        "Small photos remained a weakness, so they go to manual review.",
+        "Extra training and heat-map explanations did not justify stronger claims."
+      ]
+    },
+    {
+      "id": "07_nuclei",
+      "title": "Nuclei: separate settings for separate goals",
+      "minimum_seconds": 20,
+      "asset": "figures/05_nucleus_final.png",
+      "layout": "wide",
+      "takeaway": "50 reserved nucleus images. Counting and outline results use different settings.",
+      "source": "F01 nucleus results; these images share plates with development images.",
+      "sentences": [
+        "Separate nucleus studies used fifty reserved images.",
+        "B02 reduced average count error from 4.93 to 4.31 nuclei per image.",
+        "At different settings, B03 increased the strict outline score from 0.855 to 0.901.",
+        "The images share plates with development images, so this is not a new-laboratory test."
+      ]
+    },
+    {
+      "id": "08_limits_nuclei",
+      "title": "Stress tests exposed important limits",
+      "minimum_seconds": 22,
+      "asset": "figures/06_nucleus_limits.png",
+      "layout": "wide",
+      "takeaway": "Only about 43% of the smallest tenth of nuclei were found at overlap 0.50.",
+      "source": "B04/B05 development records. B07 color-image scores are below 0.001.",
+      "sentences": [
+        "Strong artificial noise caused large errors.",
+        "Training with noise helped under that noise type, but made clean counting worse.",
+        "Only about forty-three percent of the smallest tenth of nuclei were found at the looser overlap level.",
+        "Outside color images had strict outline scores below 0.001.",
+        "The models also shared mistakes."
+      ]
+    },
+    {
+      "id": "09_control",
+      "title": "Separate study: simulated droplet control",
+      "minimum_seconds": 20,
+      "asset": "figures/08_rl_simulator.png",
+      "layout": "wide",
+      "takeaway": "Simulator only. Worst learned-control episode: 25.3% of steps outside the operating range.",
+      "source": "Repaired R02 evaluation: 50 new scenarios and five saved training seeds.",
+      "sentences": [
+        "We also compared controllers in a repaired droplet simulator.",
+        "On harder conditions, learned control had mean size error of 1.333 micrometers, versus 1.946 and 2.062 for two rule controllers.",
+        "One learned-control episode still spent 25.3 percent of steps outside the operating range.",
+        "No physical chip was operated."
+      ]
+    },
+    {
+      "id": "10_reproduction",
+      "title": "Reproduction checks have a stated scope",
+      "minimum_seconds": 22,
+      "layout": "reproduction",
+      "takeaway": "Rebuilt scorer: scikit-learn 1.9.1. F06 did not pass the additional strict test.",
+      "source": "F03 clean rebuild, F05 fresh install, and F06 error record.",
+      "sentences": [
+        "A fresh Kaggle setup reproduced the photo pipeline and one nucleus training split.",
+        "It did not rebuild every model or supporting study.",
+        "The rebuilt scorer completed the ordinary fresh-install demonstration.",
+        "The additional strict cloud test failed with no useful diagnostic log.",
+        "That failure remains in the report."
+      ]
+    },
+    {
+      "id": "11_next",
+      "title": "Measured results and the next validation",
+      "minimum_seconds": 20,
+      "layout": "limits",
+      "takeaway": "The contribution is a tested review method with clear limits and human control.",
+      "source": "Decision ledger and current write-up; future tests are proposals, not results.",
+      "sentences": [
+        "The measured benefit is better review order on the stated dataset.",
+        "Human time savings, transfer to another chip laboratory, and physical control remain unproven.",
+        "The next steps are independently labeled chip data and a timed study with researchers.",
+        "A person stays responsible for sample decisions."
+      ]
+    },
+    {
+      "id": "12_credits",
+      "title": "Sources, credits, and full experiment record",
+      "minimum_seconds": 10,
+      "layout": "credits",
+      "takeaway": "Full methods, all experiments, and limitations are in the Kaggle write-up.",
+      "source": "Synthetic narration. Recorded outputs. No fabricated measurements or microscopy images.",
+      "sentences": [
+        "The write-up contains the full experiment record and source credits.",
+        "The full write-up contains the reproduction instructions and resource links.",
+        "Thank you for reviewing AI4S Chip Photo Review."
+      ]
+    }
+  ]
+}

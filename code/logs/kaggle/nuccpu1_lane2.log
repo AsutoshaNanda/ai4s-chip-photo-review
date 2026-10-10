@@ -1,0 +1,64 @@
+=== scripts/b_analysis.py --exp B05 --posts v2 --seed 0
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-06T23:09:38] run 20261006-230901_B05_crowding_tiny_nuclei_posts_v2 started
+[2026-10-06T23:09:39] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+Traceback (most recent call last):
+  File "/kaggle/working/code/scripts/b_analysis.py", line 238, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/code/scripts/b_analysis.py", line 232, in main
+    res = b05(run, prac, preds) if a.exp == "B05" else b06(run, prac, preds)
+          ~~~^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/code/scripts/b_analysis.py", line 107, in b05
+    lab = fn(s, k)
+  File "/kaggle/working/code/scripts/b_analysis.py", line 59, in <lambda>
+    preds[f"B01_{name}"] = (lambda stem, k, name=name: T.segment(B.read_image(stem), **chosen[str(k)][name]))
+                                                       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/code/scripts/b01_threshold_watershed.py", line 43, in segment
+    fg = remove_small_objects(fg, max_size=min_size)
+TypeError: remove_small_objects() got an unexpected keyword argument 'max_size'. Did you mean 'min_size'?
+=== scripts/b_analysis.py --exp B06 --posts v2 --seed 0
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-06T23:10:06] run 20261006-230950_B06_warning_flags_posts_v2 started
+[2026-10-06T23:10:07] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+Traceback (most recent call last):
+  File "/kaggle/working/code/scripts/b_analysis.py", line 238, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/code/scripts/b_analysis.py", line 232, in main
+    res = b05(run, prac, preds) if a.exp == "B05" else b06(run, prac, preds)
+                                                       ~~~^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/code/scripts/b_analysis.py", line 178, in b06
+    r[f"disagree_{o}"] = abs(int(S._relabel(preds[o](s, k)).max()) - r["n_pred"])
+                                            ~~~~~~~~^^^^^^
+  File "/kaggle/working/code/scripts/b_analysis.py", line 59, in <lambda>
+    preds[f"B01_{name}"] = (lambda stem, k, name=name: T.segment(B.read_image(stem), **chosen[str(k)][name]))
+                                                       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/code/scripts/b01_threshold_watershed.py", line 43, in segment
+    fg = remove_small_objects(fg, max_size=min_size)
+TypeError: remove_small_objects() got an unexpected keyword argument 'max_size'. Did you mean 'min_size'?
+=== scripts/r02_confirm.py
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-06T23:10:38] run 20261006-231032_R02_confirm_fresh_conditions started
+[2026-10-06T23:11:11] TRAIN_range: PPO (mean of 5 seeds) minus PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan
+[2026-10-06T23:11:11] TRAIN_range: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan
+[2026-10-06T23:11:11] UNTOUCHED: PPO (mean of 5 seeds) minus PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan
+[2026-10-06T23:11:11] UNTOUCHED: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan
+[2026-10-06T23:11:11] fresh-condition results (mean and worst episode):
+                       d_err_mean        rate_err_mean        violation_share       
+                             mean    max          mean    max            mean    max
+controller condition                                                                
+FF+PI      TRAIN_range      1.322  3.231         0.177  0.439           0.117  0.550
+           UNTOUCHED        1.950  4.141         0.263  0.580           0.072  0.427
+PI         TRAIN_range      1.437  2.349         0.167  0.303           0.053  0.277
+           UNTOUCHED        2.096  3.937         0.270  0.492           0.049  0.380
+[2026-10-06T23:11:11] run finished: status=measured, wall_seconds=39.24

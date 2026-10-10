@@ -1,0 +1,4 @@
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/09_control_00.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/09_control_01.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/09_control_02.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/09_control_03.aiff'

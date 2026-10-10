@@ -1,0 +1,22 @@
+{
+  "status": "PASS: script facts, duration, codecs, subtitles, complete decode, audio levels and sampled frames checked",
+  "duration_seconds": 273.938,
+  "size_bytes": 6515566,
+  "width": 1920,
+  "height": 1080,
+  "subtitle_entries": 53,
+  "audio": "AAC, synthetic Samantha narration",
+  "video": "H.264",
+  "under_five_minutes": true,
+  "under_kaggle_100mb": true,
+  "sha256": "a0632f9aef5ef65e4a0650fadbba9c5e98693d621655a4540e403f3e1f1c3ca3",
+  "script_sha256": "8fc0cb9b6a1a9d4236fac2a69a76e9f929ef691944fcc48832c593918e742ab1",
+  "audio_mean_db": -19.5,
+  "audio_peak_db": -4.4,
+  "audio_samples": 26265168,
+  "subtitle_timing_check": "53 entries ordered; last ends 273.094 seconds, before video end",
+  "visual_review": "12 scene overview frames extracted; detailed frame checks include workflow, CSV output, photo sheet, primary results, control and credits",
+  "full_human_audio_listening": false,
+  "public_upload_completed": false,
+  "public_access_verified": false
+}

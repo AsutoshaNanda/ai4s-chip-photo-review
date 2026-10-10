@@ -1,0 +1,18 @@
+[{"stream_name":"stdout","time":22.767964456,"data":"[09:46:43] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":650.862192107,"data":"[09:57:11] zenodo download 6.71 GB in 628 s, MD5 ok=True\n"}
+,{"stream_name":"stdout","time":744.701546428,"data":"[09:58:45] prepared 2397 practice photos (of 2397 listed) in 94 s\n"}
+,{"stream_name":"stdout","time":7725.514175439,"data":"[11:55:06] gpu0 finished with exit code 0 after 6980 s\n"}
+,{"stream_name":"stdout","time":7725.514719948,"data":"[2026-10-07T15:29:06] run 20261007-152855_A02_light_retrain_full_folds4 started\n"}
+,{"stream_name":"stdout","time":7725.514731958,"data":"[2026-10-07T15:31:10] cached last-block inputs for 2397 photos in 109.3 s; shapes [(392, 518)]; GPU memory used 6.46 GB\n"}
+,{"stream_name":"stdout","time":7725.514735364,"data":"[2026-10-07T16:00:24] fold 4 head_only: best learning speed 0.001 is at the edge of [1e-06, 1e-05, 0.0001, 0.001]; adding 0.01\n"}
+,{"stream_name":"stdout","time":7725.514738533,"data":"[2026-10-07T16:09:33] fold 4 head_only: lr 0.001, passes 6, 2303 s\n"}
+,{"stream_name":"stdout","time":7725.514741476,"data":"[2026-10-07T17:25:02] fold 4 last_block: lr 0.0001, passes 2, 4529 s\n"}
+,{"stream_name":"stdout","time":7725.514744365,"data":"[2026-10-07T17:25:02] run finished: status=measured, wall_seconds=6967.48\n"}
+,{"stream_name":"stdout","time":7725.514747227,"data":"\n"}
+,{"stream_name":"stderr","time":7727.800629878,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7727.800662678,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7728.016890143,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7728.016916689,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7728.751924505,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7729.620043879,"data":"[NbConvertApp] Writing 300578 bytes to __results__.html\n"}
+]

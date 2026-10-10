@@ -1,0 +1,1 @@
+A small trained model produces the review score.

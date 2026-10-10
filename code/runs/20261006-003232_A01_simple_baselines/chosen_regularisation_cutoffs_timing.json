@@ -1,0 +1,162 @@
+[
+  {
+    "fold": 0,
+    "method": "details_only",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.44200455465944594,
+    "fit_seconds": 0.10663008299889043,
+    "predict_seconds_per_photo": 3.3149253768123575e-06
+  },
+  {
+    "fold": 0,
+    "method": "photo_stats",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.48360384881177015,
+    "fit_seconds": 0.3841698329997598,
+    "predict_seconds_per_photo": 3.6217641726539317e-06
+  },
+  {
+    "fold": 0,
+    "method": "photo_stats_fixed_size",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.42095875716314884,
+    "fit_seconds": 0.35014062499976717,
+    "predict_seconds_per_photo": 3.858955221688514e-06
+  },
+  {
+    "fold": 0,
+    "method": "format_only",
+    "C": 0.03162277660168379,
+    "cutoff_from_training_fold": 0.5533247436655168,
+    "fit_seconds": 0.06290787499892758,
+    "predict_seconds_per_photo": 1.6756208940172819e-06
+  },
+  {
+    "fold": 1,
+    "method": "details_only",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.4841792525108603,
+    "fit_seconds": 0.08527925000089454,
+    "predict_seconds_per_photo": 2.3438706509741994e-06
+  },
+  {
+    "fold": 1,
+    "method": "photo_stats",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.44479394952129625,
+    "fit_seconds": 0.4363322920034989,
+    "predict_seconds_per_photo": 2.3124189195618694e-06
+  },
+  {
+    "fold": 1,
+    "method": "photo_stats_fixed_size",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.42616979198705496,
+    "fit_seconds": 0.3292744999998831,
+    "predict_seconds_per_photo": 2.5745656465595538e-06
+  },
+  {
+    "fold": 1,
+    "method": "format_only",
+    "C": 0.03162277660168379,
+    "cutoff_from_training_fold": 0.5125044183848632,
+    "fit_seconds": 0.06419912500132341,
+    "predict_seconds_per_photo": 1.1833976766788563e-06
+  },
+  {
+    "fold": 2,
+    "method": "details_only",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.4596891718473382,
+    "fit_seconds": 0.07667316599690821,
+    "predict_seconds_per_photo": 2.824616124192092e-06
+  },
+  {
+    "fold": 2,
+    "method": "photo_stats",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.3985155873199448,
+    "fit_seconds": 0.39375891700183274,
+    "predict_seconds_per_photo": 2.3288541164422578e-06
+  },
+  {
+    "fold": 2,
+    "method": "photo_stats_fixed_size",
+    "C": 0.00031622776601683794,
+    "cutoff_from_training_fold": 0.4129329239053317,
+    "fit_seconds": 0.32657537500199396,
+    "predict_seconds_per_photo": 1.7880671702311043e-06
+  },
+  {
+    "fold": 2,
+    "method": "format_only",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.4537474504341917,
+    "fit_seconds": 0.05924041699472582,
+    "predict_seconds_per_photo": 1.1966564291918332e-06
+  },
+  {
+    "fold": 3,
+    "method": "details_only",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.39133370725384575,
+    "fit_seconds": 0.0906094160018256,
+    "predict_seconds_per_photo": 2.5916114729874363e-06
+  },
+  {
+    "fold": 3,
+    "method": "photo_stats",
+    "C": 0.03162277660168379,
+    "cutoff_from_training_fold": 0.3815194177564221,
+    "fit_seconds": 0.3606109579995973,
+    "predict_seconds_per_photo": 2.4924569551999503e-06
+  },
+  {
+    "fold": 3,
+    "method": "photo_stats_fixed_size",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.4367194132879299,
+    "fit_seconds": 0.33719600000040373,
+    "predict_seconds_per_photo": 2.641097123880622e-06
+  },
+  {
+    "fold": 3,
+    "method": "format_only",
+    "C": 3.1622776601683795,
+    "cutoff_from_training_fold": 0.5102216939050779,
+    "fit_seconds": 0.059747999999672174,
+    "predict_seconds_per_photo": 1.371046357965981e-06
+  },
+  {
+    "fold": 4,
+    "method": "details_only",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.38805771871940425,
+    "fit_seconds": 0.08050412499869708,
+    "predict_seconds_per_photo": 2.106066664023194e-06
+  },
+  {
+    "fold": 4,
+    "method": "photo_stats",
+    "C": 0.03162277660168379,
+    "cutoff_from_training_fold": 0.41253067628873336,
+    "fit_seconds": 0.4208834579985705,
+    "predict_seconds_per_photo": 1.7046789524325154e-06
+  },
+  {
+    "fold": 4,
+    "method": "photo_stats_fixed_size",
+    "C": 0.03162277660168379,
+    "cutoff_from_training_fold": 0.4218829154422846,
+    "fit_seconds": 0.35482937499909895,
+    "predict_seconds_per_photo": 2.1461999909788894e-06
+  },
+  {
+    "fold": 4,
+    "method": "format_only",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.4294834272884168,
+    "fit_seconds": 0.06089862500084564,
+    "predict_seconds_per_photo": 1.2158631554420777e-06
+  }
+]

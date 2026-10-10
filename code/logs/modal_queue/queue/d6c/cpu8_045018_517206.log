@@ -1,0 +1,5 @@
+[2026-10-06 04:50:19 UTC] lane cpu8_045018_517206: 1 jobs; used before launch $9.50; cap $20.0; job limit 60 min
+[2026-10-06 04:50:22 UTC] START scripts/a_views.py --exp X01 --smoke
+[2026-10-06 04:54:08 UTC] OK: scripts/a_views.py --exp X01 --smoke | 3.7 min | session total about $9.54
+
+[2026-10-06 04:54:11 UTC] lane finished; session total about $9.54

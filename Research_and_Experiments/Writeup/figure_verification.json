@@ -1,0 +1,80 @@
+{
+  "checks": {
+    "whole": {
+      "auc_recomputed": 0.8097684042398722,
+      "review_area_recomputed": 0.6795984238765927
+    },
+    "fixed_3x3": {
+      "auc_recomputed": 0.8495988819515028,
+      "review_area_recomputed": 0.7025957830315225
+    },
+    "B02_seed0_best_count": {
+      "count_mae_recomputed": 4.308000000000001,
+      "distinct_images": 50
+    },
+    "B03_seed0_best_outline": {
+      "count_mae_recomputed": 9.896,
+      "distinct_images": 50
+    },
+    "R02_harder_means": {
+      "PPO_all": 1.3331477101392766,
+      "PI": 2.0619280728105176,
+      "FF+PI": 1.9456548168092704
+    },
+    "R02_worst_episode": {
+      "PPO_all": {
+        "diameter_error": 2.825664966004863,
+        "outside_range_share": 0.2533333333333333
+      },
+      "PI": {
+        "diameter_error": 3.212671720796386,
+        "outside_range_share": 0.38
+      },
+      "FF+PI": {
+        "diameter_error": 4.418820177950637,
+        "outside_range_share": 0.49
+      }
+    },
+    "HUVEC": {
+      "cell_type": "HUVEC",
+      "photos": 51,
+      "bad": 39,
+      "good": 12,
+      "whole_auc": 1.0,
+      "x01_auc": 1.0
+    },
+    "figures": [
+      "01_workflow.png",
+      "02_chip_final.png",
+      "03_chip_subgroups.png",
+      "04_real_demo.png",
+      "05_nucleus_final.png",
+      "06_nucleus_limits.png",
+      "07_real_nucleus_failures.png",
+      "08_rl_simulator.png",
+      "09_validation_and_formats.png",
+      "10_review_and_shared_failures.png",
+      "11_outside_nucleus_test.png",
+      "12_b03_outline_examples.png",
+      "13_supporting_route_comparisons.png",
+      "14_rl_training_and_inputs.png",
+      "nucleus_failure_examples.png"
+    ]
+  },
+  "source_sha256": {
+    "code/runs/20261007-205052_F03_chip_final_eval_clean/results.json": "9b832fe4ae8563e67d2cce7da2017ab7b36781b55dd28ed6fea55e9aa6fcd2e6",
+    "code/runs/20261007-205052_F03_chip_final_eval_clean/final_predictions.csv": "f3b1fe9d5bc95827453b4fca9fd5bd5026ede66e14c7664c0b8dac94578e3650",
+    "code/runs/20261007-205052_F03_chip_final_eval_clean/catch_curves.csv": "c8a63c4335bd01e687896ffe06a7a86c15fb74824f459dad764b8431c06baa53",
+    "code/runs/20261007-200641_F01_nucleus_final_eval/results.json": "8e1544e8c9a38c941a953db8f58f85f76f708234123bbe6b8a8db8bc0602785a",
+    "code/runs/20261007-200641_F01_nucleus_final_eval/final_per_image.csv": "11660948936170697ba22745f14c26ea7b6ddbb74e50cd944cb1b2bcb8b2edf8",
+    "code/runs/20261007-234732_R02_repaired_evaluation_v2/episodes.csv": "7226afa402413a58f1cde0fcea103e09d86d287a400aa008ccc608eba7d34c1a",
+    "code/runs/20261007-234732_R02_repaired_evaluation_v2/paired_differences.csv": "17554af521a373677fc6362fe42a84c25d6b401431702330c011c3e4b2c28ec1",
+    "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/sheet_fresh.png": "91e6e884242fab4125b66a1c1182d6b0b9ccb571ed0bacc2311cbf42ed8a6c70",
+    "code/runs/20261007-011404_B04_stress_refresh_B02_seed0/stress_summary.csv": "a12f589add28937d557818d13595e85fc4820fde1a2ebaee9742e6a606697221",
+    "code/runs/20261007-012125_B04_stress_refresh_B03_seed0/stress_summary.csv": "2e4cda1ba3d617b816b2359935bd55042386070a35eaf23044bf2c99b9f34be4",
+    "code/runs/20261007-142119_B04_stress_refresh_B02_noisetrain_seed0/stress_summary.csv": "50ea452a631552e8739557762b93bad4586d9ef4651446c787ca5716e60d7833",
+    "code/runs/20261007-122654_B04_stress_refresh_B03_noisetrain_seed0/stress_summary.csv": "9083f4d3fcf5604dd162b2c803fe8d68b5be7420400cee3a8d44207a9c93fc1b",
+    "code/runs/20261007-013014_B05_crowding_tiny_nuclei_posts_v2/B05_found_by_size_decile.csv": "6f9509362d00bc57ca41627954c353d3ea68595d25a0c1dc291b07696d4efb7d",
+    "code/runs/20261007-013014_B05_crowding_tiny_nuclei_posts_v2/B05_gallery/B02_best_count.png": "9cc15c9d33e87b5e710d3b2b30d0e543654e34b420dbb771113c1c8b6b3f34dc"
+  }
+}

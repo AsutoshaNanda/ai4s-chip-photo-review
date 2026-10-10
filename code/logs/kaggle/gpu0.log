@@ -1,0 +1,6 @@
+[2026-10-06T23:01:56] run 20261006-230146_A02_light_retrain_timing started
+[2026-10-06T23:04:08] cached last-block inputs for 2397 photos in 115.0 s; shapes [(392, 518)]; GPU memory used 6.46 GB
+[2026-10-06T23:04:09] equality check: largest relative difference between full model and cached path = 1.01e-03
+[2026-10-06T23:04:22] head_only: 4.41 s per pass over 2062 photos; peak GPU memory 7.3 GB
+[2026-10-06T23:05:01] last_block: 13.06 s per pass over 2062 photos; peak GPU memory 8.4 GB
+[2026-10-06T23:05:01] run finished: status=measured, wall_seconds=195.41

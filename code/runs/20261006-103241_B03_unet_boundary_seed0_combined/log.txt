@@ -1,0 +1,17 @@
+[2026-10-06T10:32:46] run 20261006-103241_B03_unet_boundary_seed0_combined started
+[2026-10-06T10:32:46] B03 best_count: count MAE 6.10 (bias -5.74); pooled F1 0.25/0.50/0.75/0.90 0.946/0.923/0.873/0.731; joined 1935 split 255 missed 270 false 308
+[2026-10-06T10:32:46] B03 best_outline: count MAE 10.42 (bias -10.42); pooled F1 0.25/0.50/0.75/0.90 0.944/0.929/0.887/0.745; joined 2009 split 112 missed 628 false 92
+[2026-10-06T10:32:46] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00      13.173  -9.787   0.897   0.853
+           2.00      13.400 -13.107   0.850   0.784
+           3.00      17.033 -16.607   0.763   0.681
+brightness 0.50      13.580 -13.567   0.907   0.856
+           0.75      11.513 -11.513   0.925   0.881
+           1.25      10.227 -10.200   0.927   0.889
+           1.50      10.273 -10.233   0.925   0.887
+noise_sd   0.02      11.960 -11.947   0.907   0.865
+           0.05      20.653 -16.120   0.705   0.626
+           0.10      95.393 -95.393   0.144   0.078
+[2026-10-06T10:32:46] run finished: status=measured, wall_seconds=5.18

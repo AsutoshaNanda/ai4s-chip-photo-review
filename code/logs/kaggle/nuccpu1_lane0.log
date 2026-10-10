@@ -1,0 +1,15 @@
+=== scripts/b_repost.py --exp B02 --seed 1
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-06T23:09:38] run 20261006-230901_B02_unet_fg_repost_v2_seed1 started
+[2026-10-06T23:09:44] fold models: {0: '20261006-212942_B02_unet_fg_seed1', 1: '20261006-212942_B02_unet_fg_seed1', 2: '20261006-212942_B02_unet_fg_seed1', 3: '20261006-212942_B02_unet_fg_seed1', 4: '20261006-212942_B02_unet_fg_seed1'}
+[2026-10-06T23:38:43] fold 0: picks {best_count: thr 0.8, md 8, ms 10, best_outline: thr 0.7, md 12, ms 50}; on range edge: {'best_count': [], 'best_outline': []}
+[2026-10-06T23:58:08] fold 1: picks {best_count: thr 0.6, md 12, ms 0, best_outline: thr 0.5, md 12, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}
+[2026-10-07T00:27:04] fold 2: picks {best_count: thr 0.9, md 8, ms 10, best_outline: thr 0.5, md 12, ms 25}; on range edge: {'best_count': ['thr'], 'best_outline': []}
+[2026-10-07T00:41:06] fold 3: picks {best_count: thr 0.5, md 10, ms 0, best_outline: thr 0.6, md 12, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}
+[2026-10-07T00:59:21] fold 4: picks {best_count: thr 0.9, md 10, ms 0, best_outline: thr 0.6, md 10, ms 50}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-07T00:59:21] B02 v2 best_count: count MAE 4.82 (bias -2.77); pooled F1 0.25/0.50/0.75/0.90 0.933/0.905/0.842/0.652; joined 1909 split 1107 missed 274 false 349
+[2026-10-07T00:59:21] B02 v2 best_outline: count MAE 10.41 (bias -10.41); pooled F1 0.25/0.50/0.75/0.90 0.935/0.917/0.866/0.728; joined 2392 split 508 missed 545 false 66
+[2026-10-07T00:59:21] run finished: status=measured, wall_seconds=6619.26

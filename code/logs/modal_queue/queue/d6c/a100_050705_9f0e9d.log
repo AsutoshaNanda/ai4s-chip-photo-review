@@ -1,0 +1,5 @@
+[2026-10-06 05:07:05 UTC] lane a100_050705_9f0e9d: 5 jobs; used before launch $9.50; cap $20.0; job limit 60 min
+[2026-10-06 05:07:06 UTC] START scripts/a12_heatmaps.py --folds 0
+[2026-10-06 05:26:23 UTC] OK: scripts/a12_heatmaps.py --folds 0 | 19.3 min | session total about $13.27
+
+[2026-10-06 05:26:25 UTC] START scripts/a12_heatmaps.py --folds 1

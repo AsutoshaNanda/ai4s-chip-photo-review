@@ -1,0 +1,120 @@
+{
+ "date_IST": "2026-10-08",
+ "kind": "scorer rebuild under declared versions and fresh-install test (F05); strict re-test of final files (F06) FAILED to run",
+ "environment": {
+  "platform": "Linux-6.18.48+-x86_64-with-glibc2.39",
+  "python_kaggle": "3.13.15",
+  "cpu_count": 4,
+  "pins_installed": {
+   "numpy": "2.5.3",
+   "pandas": "3.0.6",
+   "scipy": "1.18.1",
+   "scikit-learn": "1.9.1",
+   "scikit-image": "0.26.0",
+   "tifffile": "2026.9.20",
+   "pillow": "12.3.0",
+   "openpyxl": "3.1.5",
+   "matplotlib": "3.11.2",
+   "pyarrow": "25.0.1",
+   "torch": "2.14.1",
+   "torchvision": "0.29.1",
+   "timm": "1.0.30",
+   "joblib": "1.6.0",
+   "psutil": "7.2.2",
+   "gymnasium": "1.4.0",
+   "stable-baselines3": "2.9.0"
+  },
+  "all_pins_match": true
+ },
+ "steps": {
+  "1_pip_install": {
+   "exit": 0,
+   "seconds": 1420.6
+  },
+  "1_pip_check": {
+   "exit": 0,
+   "seconds": 0.6
+  },
+  "1_pin_check": {
+   "exit": 0,
+   "seconds": 0.1
+  },
+  "1_pip_freeze": {
+   "exit": 0,
+   "seconds": 0.4
+  },
+  "1_torch_device": {
+   "exit": 0,
+   "seconds": 2.6
+  },
+  "2_control_old_model": {
+   "exit": 0,
+   "seconds": 2.2
+  },
+  "3_train": {
+   "exit": 0,
+   "seconds": 17.0
+  },
+  "4_load_new_model_strict": {
+   "exit": 0,
+   "seconds": 2.0
+  },
+  "6_inference_cpu": {
+   "exit": 0,
+   "seconds": 402.8
+  }
+ },
+ "controls": {
+  "dash_W_flag_ignored": true,
+  "old_scorer_warning_lines_printed": 3,
+  "new_scorer_version_warning_text_in_inference_stderr": false
+ },
+ "new_scorer": {
+  "sha256": {
+   "model_x01_3x3.joblib": "d2ea4b71c41b33718ba2a5d1a446a1cdff37cdaf037632b724759321d5083434",
+   "model_x01_3x3.json": "dca3a46dde6efe6c35cb6829547d7d6c4d3eec83400a13d8b0467f9cfc9cd43e"
+  },
+  "mac_strict_load_ok": true,
+  "n_automatic": 672,
+  "n_bad": 284,
+  "sklearn": "1.9.1",
+  "new_auc": 0.849598881951503,
+  "clean_run_auc": 0.849598881951503,
+  "new_vs_clean_max_abs_score_diff": 7.422307135573902e-08,
+  "new_vs_clean_mean_abs_score_diff": 1.0780911132380136e-08,
+  "new_vs_clean_rank_order_identical": true,
+  "new_score_range_ok": true,
+  "new_C": 0.001,
+  "new_json_C": 0.001,
+  "new_json_cutoff": 0.45117202401161194,
+  "clean_run_C": 0.001,
+  "clean_run_cutoff": 0.4511718153953552,
+  "old_load_warnings": [
+   "InconsistentVersionWarning"
+  ],
+  "old_auc": 0.8496624074342966,
+  "new_vs_old_max_abs_score_diff": 0.0008176528806922434,
+  "new_vs_old_mean_abs_score_diff": 0.00012628098328946918,
+  "old_json_C": 0.001,
+  "old_json_cutoff": 0.5717643744686834
+ },
+ "demo_vs_earlier_demo": {
+  "photos": 17,
+  "scored": 12,
+  "routes_identical": true,
+  "max_abs_diff": 0.001208008774830488,
+  "mean_abs_diff": 0.0002709130299495214,
+  "rank_order_identical": true
+ },
+ "tested_files_unchanged_since_F05": {
+  "requirements.txt": true,
+  "inference.py": true,
+  "scripts/a_views.py": true,
+  "scripts/train_final_model.py": true
+ },
+ "package_files_in_tested_copy": 85,
+ "F06": {
+  "status": "ERROR, empty log, no output files; ran about 95 min before ending (18:44 to 20:19 IST); cause unknown; strict re-test NOT completed"
+ },
+ "old_scorer_backup_sha256": "ba95efe014b9fb3b658d18e057b0a51b86be8d78e225b2767f336873a342ed24"
+}

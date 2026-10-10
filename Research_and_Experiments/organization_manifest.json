@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-26",
+  "original_files": [
+    {
+      "original": "01_overview.md",
+      "current": "Resources/01_overview.md",
+      "original_sha256": "3b6efa6094de600b61dcc2cee90648d506c682c8ae22a54315a078037131948a"
+    },
+    {
+      "original": "02_rules_and_dates.md",
+      "current": "Resources/02_rules_and_dates.md",
+      "original_sha256": "6ebd0e4827a30cab91829757824b7ba25a8656ad6d0e60e994e6b3e7ba497163"
+    },
+    {
+      "original": "03_data.md",
+      "current": "Resources/03_data.md",
+      "original_sha256": "5f9834418e04ccfff033919ab1850fe89973299fd3da0cc8a80086c4b4171ff4"
+    },
+    {
+      "original": "04_what_to_read.md",
+      "current": "Resources/04_what_to_read.md",
+      "original_sha256": "ef18f4417138314e0724ee48b57dae80356010907d7b078cdc0c1593c3fde1d2"
+    },
+    {
+      "original": "05_what_to_build.md",
+      "current": "Resources/05_what_to_build.md",
+      "original_sha256": "d120301f1b7d6ad9c2d581ad2a08bf7aff367147033ce2868fdae9e34f544e4a"
+    },
+    {
+      "original": "06_experiments.md",
+      "current": "Resources/06_experiments.md",
+      "original_sha256": "e5e913d098f6b7887332b0a1aa24f25a109f0b670d92b5b0f9cf95384ef3803e"
+    },
+    {
+      "original": "07_similar_competitions.md",
+      "current": "Resources/07_similar_competitions.md",
+      "original_sha256": "51bbdcc8d5eb59168c89392f2235378becca08a4f0329c2df8a84212c834535e"
+    },
+    {
+      "original": "08_tools_and_free_compute.md",
+      "current": "Resources/08_tools_and_free_compute.md",
+      "original_sha256": "335d3d0e31252087e602dde485e1ad32c4d02da4afffc0d57c74f12b008beaad"
+    },
+    {
+      "original": "09_current_discussions.md",
+      "current": "Resources/09_current_discussions.md",
+      "original_sha256": "167ce13026ae63ce02eca79d31abbe7bc25f356fa363e9b2ab6cd1b1063be0dd"
+    },
+    {
+      "original": "10_current_notebooks.md",
+      "current": "Resources/10_current_notebooks.md",
+      "original_sha256": "cd67313371d27df24092c1a0a9b9bbacede0f759953489e1f23773caa8c93923"
+    },
+    {
+      "original": "11_work_schedule.md",
+      "current": "Resources/11_work_schedule.md",
+      "original_sha256": "59b015574bcd5cb0e5a6604659061facbecc31a503d4b5404884ceb1fde684e3"
+    },
+    {
+      "original": "12_submission_checklist.md",
+      "current": "Resources/12_submission_checklist.md",
+      "original_sha256": "ff56aa651e8ac0ff94cdc16f617f20bff91701773981a65e6526bc745c9b67f2"
+    },
+    {
+      "original": "13_evidence_and_decisions.md",
+      "current": "Resources/13_evidence_and_decisions.md",
+      "original_sha256": "ad86a68d60b2607704709bfb025467f5d30004aa0a47009498bac153bb84f8fb"
+    },
+    {
+      "original": "14_experiment_log.md",
+      "current": "Resources/14_experiment_log.md",
+      "original_sha256": "3ce6e62c61bea883498383705ab166e701452a1879edd08bb0d66831312061f5"
+    },
+    {
+      "original": "15_open_questions.md",
+      "current": "Resources/15_open_questions.md",
+      "original_sha256": "1d7346c14c01b36c017f802dd6ccdd2c6737d0cf598655887c47e53a428025d9"
+    },
+    {
+      "original": "16_writeup_template.md",
+      "current": "Resources/16_writeup_template.md",
+      "original_sha256": "4637cf90001ebf136c8c3ea72687760b53cf4589d0704713bfb1fc34c4eb64f2"
+    },
+    {
+      "original": "17_glossary.md",
+      "current": "Resources/17_glossary.md",
+      "original_sha256": "5dd0bf93d8da5c2e787e10d346e87106c466796c40fe8d148c9b24b2f6dacdce"
+    },
+    {
+      "original": "18_sources.md",
+      "current": "Resources/18_sources.md",
+      "original_sha256": "7f296b0db7f2db6dfef8ee1794b69419a574f9b53ffade394cfce6f8f82a8d90"
+    },
+    {
+      "original": "README.md",
+      "current": "Resources/README.md",
+      "original_sha256": "76634d1901803049ab4a4b4abacdadfd585336a15e903407473cdd211bab05db"
+    }
+  ]
+}

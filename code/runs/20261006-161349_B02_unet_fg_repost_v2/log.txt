@@ -1,0 +1,9 @@
+[2026-10-06T16:14:01] run 20261006-161349_B02_unet_fg_repost_v2 started
+[2026-10-06T16:31:44] fold 0: picks {best_count: thr 0.9, md 8, ms 10, best_outline: thr 0.6, md 12, ms 50}; on range edge: {'best_count': ['thr'], 'best_outline': []}
+[2026-10-06T16:43:37] fold 1: picks {best_count: thr 0.5, md 10, ms 0, best_outline: thr 0.6, md 12, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}
+[2026-10-06T17:03:51] fold 2: picks {best_count: thr 0.7, md 10, ms 0, best_outline: thr 0.6, md 12, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}
+[2026-10-06T17:16:44] fold 3: picks {best_count: thr 0.3, md 10, ms 0, best_outline: thr 0.4, md 12, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-06T17:33:50] fold 4: picks {best_count: thr 0.8, md 10, ms 0, best_outline: thr 0.5, md 10, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}
+[2026-10-06T17:33:50] B02 v2 best_count: count MAE 4.51 (bias -1.83); pooled F1 0.25/0.50/0.75/0.90 0.933/0.907/0.845/0.668; joined 1935 split 1098 missed 185 false 422
+[2026-10-06T17:33:50] B02 v2 best_outline: count MAE 10.01 (bias -9.97); pooled F1 0.25/0.50/0.75/0.90 0.936/0.917/0.867/0.733; joined 2421 split 518 missed 483 false 71
+[2026-10-06T17:33:50] run finished: status=measured, wall_seconds=4800.5

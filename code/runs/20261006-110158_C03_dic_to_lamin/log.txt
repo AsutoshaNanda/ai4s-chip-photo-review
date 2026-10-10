@@ -1,0 +1,12 @@
+[2026-10-06T11:02:03] run 20261006-110158_C03_dic_to_lamin started
+[2026-10-06T11:17:06] fold 0 (test well B02, check well B03): trained in 901 s; steps A 2400 B 1600
+[2026-10-06T11:31:09] fold 1 (test well B03, check well B04): trained in 842 s; steps A 2400 B 1400
+[2026-10-06T11:55:38] fold 2 (test well B04, check well B05): trained in 1466 s; steps A 6000 B 1400
+[2026-10-06T12:08:48] fold 3 (test well B05, check well B02): trained in 788 s; steps A 2600 B 1400
+[2026-10-06T12:08:49] all_planes   A_predict_picture  planes  200 | count MAE 8.45 bias -8.35 | F1 0.50/0.75 0.488/0.318 | joined 1531 split 645 missed 1271 false 157 | pixel corr 0.557
+[2026-10-06T12:08:49] all_planes   B_direct           planes  200 | count MAE 22.45 bias +22.45 | F1 0.50/0.75 0.349/0.201 | joined 1478 split 3050 missed 240 false 3574
+[2026-10-06T12:08:49] all_planes: route A minus route B count MAE, 95% over stacks: [-16.57, -11.41]
+[2026-10-06T12:08:50] zstar_plane  A_predict_picture  planes   40 | count MAE 7.45 bias -7.30 | F1 0.50/0.75 0.520/0.332 | joined 306 split 131 missed 221 false 38 | pixel corr 0.564
+[2026-10-06T12:08:50] zstar_plane  B_direct           planes   40 | count MAE 22.07 bias +22.07 | F1 0.50/0.75 0.346/0.212 | joined 295 split 603 missed 49 false 703
+[2026-10-06T12:08:50] zstar_plane: route A minus route B count MAE, 95% over stacks: [-17.75, -11.58]
+[2026-10-06T12:08:50] run finished: status=measured, wall_seconds=4012.07

@@ -1,0 +1,22 @@
+[2026-10-06T10:03:20] run 20261006-100315_B02_unet_fg_seed0 started
+[2026-10-06T10:04:19] fold 0: trained 23 s, steps 500, post {'thr': 0.5, 'min_distance': 10.0, 'min_size': 10.0, 'count_mae': 7.0, 'mean_f1_levels': 0.8903422950777296}
+[2026-10-06T10:05:12] fold 1: trained 22 s, steps 500, post {'thr': 0.4, 'min_distance': 10.0, 'min_size': 10.0, 'count_mae': 5.0, 'mean_f1_levels': 0.8994919827979039}
+[2026-10-06T10:06:10] fold 2: trained 22 s, steps 500, post {'thr': 0.6, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 5.0, 'mean_f1_levels': 0.8972229689891497}
+[2026-10-06T10:07:06] fold 3: trained 21 s, steps 500, post {'thr': 0.4, 'min_distance': 10.0, 'min_size': 10.0, 'count_mae': 6.0, 'mean_f1_levels': 0.9052608087484515}
+[2026-10-06T10:08:01] fold 4: trained 21 s, steps 500, post {'thr': 0.5, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 3.3333333333333335, 'mean_f1_levels': 0.9391266166182177}
+[2026-10-06T10:08:01] B02 best_count: count MAE 4.07 (bias 1.40); pooled F1 0.25/0.50/0.75/0.90 0.934/0.909/0.850/0.718; joined 144 split 171 missed 17 false 28
+[2026-10-06T10:08:01] B02 best_outline: count MAE 4.33 (bias -3.93); pooled F1 0.25/0.50/0.75/0.90 0.945/0.926/0.882/0.751; joined 165 split 90 missed 30 false 14
+[2026-10-06T10:08:01] B04 stress tests (best-outline settings):
+                  count_mae   bias  f1_050  f1_075
+stress     level                                  
+blur_sigma 1.00       4.667 -4.267   0.928   0.882
+           2.00       6.267 -6.267   0.924   0.872
+           3.00       8.067 -7.933   0.910   0.807
+brightness 0.50       5.267 -5.000   0.915   0.839
+           0.75       4.733 -4.200   0.926   0.879
+           1.25       3.933 -3.267   0.929   0.885
+           1.50       3.867 -3.067   0.930   0.879
+noise_sd   0.02       4.000 -3.600   0.925   0.877
+           0.05       4.400 -4.133   0.929   0.884
+           0.10       5.267  0.467   0.873   0.786
+[2026-10-06T10:08:01] run finished: status=measured, wall_seconds=286.07

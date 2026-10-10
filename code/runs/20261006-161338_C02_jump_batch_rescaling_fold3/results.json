@@ -1,0 +1,23 @@
+{
+  "summary": [
+    {
+      "method": "raw",
+      "batch_info_mean": 0.3711,
+      "batch_info_std": NaN,
+      "batch_chance_mean": 0.0799,
+      "batch_chance_std": NaN,
+      "replicate_mAP_mean": 0.007,
+      "replicate_mAP_std": NaN
+    },
+    {
+      "method": "sphering_chosen",
+      "batch_info_mean": 0.9795,
+      "batch_info_std": NaN,
+      "batch_chance_mean": 0.0799,
+      "batch_chance_std": NaN,
+      "replicate_mAP_mean": 0.0385,
+      "replicate_mAP_std": NaN
+    }
+  ],
+  "inner_note": "eps chosen per fold by leave-one-training-batch-out on 4 seeded training batches; queries search all other training batches"
+}

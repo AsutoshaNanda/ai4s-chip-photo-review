@@ -1,0 +1,103 @@
+[{"stream_name":"stdout","time":3.554768062,"data":"[14:50:45] step code: {'step': 'code', 'seconds': 2.5, 'ok': True, 'note': \"code copied: ['final_config.json', 'runs', 'scripts', 'splits', 'src']; runs/ empty\"}\n"}
+,{"stream_name":"stdout","time":3.722141588,"data":"[14:50:45] python -m venv failed (Error: Command '['/tmp/f03env/bin/python3', '-m', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1.); using virtualenv\n"}
+,{"stream_name":"stdout","time":7.305384146,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 52.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.344117237,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 470.6/470.6 kB 21.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":10.857047769,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stderr","time":10.857100446,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":267.15523251,"data":"[14:55:09] step venv: {'step': 'venv', 'seconds': 263.6, 'ok': True, 'note': \"installed; versions: 2.5.3 3.0.6 1.9.1 0.26.0 2.14.1+cu130 1.0.30 Error in sitecustomize; set PYTHONVERBOSE for traceback:\\nModuleNotFoundError: No module named 'wrapt'\"}\n"}
+,{"stream_name":"stdout","time":839.666538243,"data":"[15:04:41] step download: {'step': 'download', 'seconds': 572.5, 'ok': True, 'note': '6.71 GB, MD5 ok'}\n"}
+,{"stream_name":"stdout","time":959.857884807,"data":"[15:06:41] step prep: {'step': 'prep', 'seconds': 120.2, 'ok': True, 'note': 'prepared 3072 photos of 3072 listed (practice + final); format table rebuilt from file headers'}\n"}
+,{"stream_name":"stdout","time":1809.537707391,"data":"[2026-10-07T20:36:48] run 20261007-203642_F03_chip_features_clean started\n"}
+,{"stream_name":"stdout","time":1809.537752419,"data":"[2026-10-07T20:37:36] features final_whole: 675 images in 33.6 s\n"}
+,{"stream_name":"stdout","time":1809.537757017,"data":"[2026-10-07T20:39:52] features final_tiles_3x3: 6075 images in 136.7 s\n"}
+,{"stream_name":"stdout","time":1809.537760041,"data":"[2026-10-07T20:42:16] features practice_whole: 2397 images in 141.5 s\n"}
+,{"stream_name":"stdout","time":1809.537763053,"data":"[2026-10-07T20:50:48] features practice_tiles_3x3: 21573 images in 511.6 s\n"}
+,{"stream_name":"stdout","time":1809.537766032,"data":"[2026-10-07T20:50:48] run finished: status=measured, wall_seconds=845.59\n"}
+,{"stream_name":"stdout","time":1809.537768852,"data":" Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1809.537771556,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1809.537774467,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":1809.537777558,"data":"\n"}
+,{"stream_name":"stdout","time":1809.538406482,"data":"[15:20:51] step chip_features: {'step': 'chip_features', 'seconds': 849.7, 'ok': True, 'note': ' in 33.6 s\\n[2026-10-07T20:39:52] features final_tiles_3x3: 6075 images in 136.7 s\\n[2026-10-07T20:42:16] features practice_whole: 2397 images in 141.5 s\\n[2026-10-07T20:50:48] features practice_tiles_3x3: 21573 images in 511.6 s\\n[2026-10-07T20:50:48] run finished: status=measured, wall_seconds=845.59\\n'}\n"}
+,{"stream_name":"stdout","time":1873.617696762,"data":"[2026-10-07T20:50:56] run 20261007-205052_F03_chip_final_eval_clean started\n"}
+,{"stream_name":"stdout","time":1873.617734821,"data":"[2026-10-07T20:51:07] whole: classifier fitted on 2397 practice photos, C=0.00316228\n"}
+,{"stream_name":"stdout","time":1873.617738693,"data":"[2026-10-07T20:51:16] fixed_3x3: classifier fitted on 2397 practice photos, C=0.001\n"}
+,{"stream_name":"stdout","time":1873.617752705,"data":"[2026-10-07T20:51:21] FINAL [automatic_only] whole: AUC 0.8098 [0.741, 0.889]; AP 0.761; log loss 0.541; review area 0.680 (random 0.499); per type {'A549': 0.745, 'CACO': 0.818, 'HPMEC': 0.791, 'HSAEC': 0.744, 'HUVEC': 1.0, 'NHBE': 0.88}\n"}
+,{"stream_name":"stdout","time":1873.617756396,"data":"[2026-10-07T20:51:25] FINAL [automatic_only] fixed_3x3: AUC 0.8496 [0.778, 0.917]; AP 0.820; log loss 0.485; review area 0.703 (random 0.499); per type {'A549': 0.766, 'CACO': 0.88, 'HPMEC': 0.838, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}\n"}
+,{"stream_name":"stdout","time":1873.617759169,"data":"[2026-10-07T20:51:34] FINAL [automatic_only] paired fixed_3x3 minus whole: {'difference': 0.03983047771163073, 'range_95': [0.015207559727948367, 0.06717156433604538]}\n"}
+,{"stream_name":"stdout","time":1873.617761495,"data":"[2026-10-07T20:51:39] FINAL [all_photos] whole: AUC 0.8101 [0.741, 0.888]; AP 0.762; log loss 0.541; review area 0.679 (random 0.501); per type {'A549': 0.745, 'CACO': 0.805, 'HPMEC': 0.791, 'HSAEC': 0.744, 'HUVEC': 1.0, 'NHBE': 0.88}\n"}
+,{"stream_name":"stdout","time":1873.617763959,"data":"[2026-10-07T20:51:44] FINAL [all_photos] fixed_3x3: AUC 0.8499 [0.78, 0.917]; AP 0.821; log loss 0.485; review area 0.702 (random 0.501); per type {'A549': 0.766, 'CACO': 0.877, 'HPMEC': 0.838, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}\n"}
+,{"stream_name":"stdout","time":1873.61776643,"data":"[2026-10-07T20:51:53] FINAL [all_photos] paired fixed_3x3 minus whole: {'difference': 0.03982778147302579, 'range_95': [0.015346441127220332, 0.06676884266081853]}\n"}
+,{"stream_name":"stdout","time":1873.61776887,"data":"[2026-10-07T20:51:53] run finished: status=measured, wall_seconds=61.28\n"}
+,{"stream_name":"stdout","time":1873.617771164,"data":" Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1873.617774012,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1873.617777537,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2071: FutureWarning: The default value for l1_ratios will change from None to (0.0,) in version 1.10. From version 1.10 onwards, only array-like with values in [0, 1] will be allowed, None will be forbidden. To avoid this warning, explicitly set a value, e.g. l1_ratios=(0,).\n"}
+,{"stream_name":"stdout","time":1873.617780404,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1873.617785084,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2129: FutureWarning: The fitted attributes of LogisticRegressionCV will be simplified in scikit-learn 1.10 to remove redundancy. Set`use_legacy_attributes=False` to enable the new behavior now, or set it to `True` to silence this warning during the transition period while keeping the deprecated behavior for the time being. The default value of use_legacy_attributes will change from True to False in scikit-learn 1.10. See the docstring of LogisticRegressionCV for more details.\n"}
+,{"stream_name":"stdout","time":1873.617788819,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1873.617790964,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1873.617793203,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1873.617795335,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1873.617797479,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1873.617799685,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1873.617801828,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1873.617806869,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1873.617809088,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1873.617811274,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1873.61781343,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1873.617815672,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1873.617817803,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1873.617820024,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2071: FutureWarning: The default value for l1_ratios will change from None to (0.0,) in version 1.10. From version 1.10 onwards, only array-like with values in [0, 1] will be allowed, None will be forbidden. To avoid this warning, explicitly set a value, e.g. l1_ratios=(0,).\n"}
+,{"stream_name":"stdout","time":1873.617822787,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1873.617825362,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2129: FutureWarning: The fitted attributes of LogisticRegressionCV will be simplified in scikit-learn 1.10 to remove redundancy. Set`use_legacy_attributes=False` to enable the new behavior now, or set it to `True` to silence this warning during the transition period while keeping the deprecated behavior for the time being. The default value of use_legacy_attributes will change from True to False in scikit-learn 1.10. See the docstring of LogisticRegressionCV for more details.\n"}
+,{"stream_name":"stdout","time":1873.617828469,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1873.617830571,"data":"\n"}
+,{"stream_name":"stdout","time":1873.618189309,"data":"[15:21:55] step chip_eval: {'step': 'chip_eval', 'seconds': 64.1, 'ok': True, 'note': \"7, 'HPMEC': 0.838, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}\\n[2026-10-07T20:51:53] FINAL [all_photos] paired fixed_3x3 minus whole: {'difference': 0.03982778147302579, 'range_95': [0.015346441127220332, 0.06676884266081853]}\\n[2026-10-07T20:51:53] run finished: status=measured, wall_seconds=61.28\\n\"}\n"}
+,{"stream_name":"stdout","time":1945.390773031,"data":"[2026-10-07T20:52:00] run 20261007-205157_F03_practice_folds_check_clean started\n"}
+,{"stream_name":"stdout","time":1945.390818736,"data":"[2026-10-07T20:53:05] clean-rebuild 5-fold practice AUC: {'whole': 0.8432659911273716, 'fixed_3x3': 0.8751240347170173}\n"}
+,{"stream_name":"stdout","time":1945.390824395,"data":"[2026-10-07T20:53:05] run finished: status=measured, wall_seconds=67.44\n"}
+,{"stream_name":"stdout","time":1945.390828954,"data":" ng. The default value of use_legacy_attributes will change from True to False in scikit-learn 1.10. See the docstring of LogisticRegressionCV for more details.\n"}
+,{"stream_name":"stdout","time":1945.390833827,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1945.390838713,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2071: FutureWarning: The default value for l1_ratios will change from None to (0.0,) in version 1.10. From version 1.10 onwards, only array-like with values in [0, 1] will be allowed, None will be forbidden. To avoid this warning, explicitly set a value, e.g. l1_ratios=(0,).\n"}
+,{"stream_name":"stdout","time":1945.390846749,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1945.390855771,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2129: FutureWarning: The fitted attributes of LogisticRegressionCV will be simplified in scikit-learn 1.10 to remove redundancy. Set`use_legacy_attributes=False` to enable the new behavior now, or set it to `True` to silence this warning during the transition period while keeping the deprecated behavior for the time being. The default value of use_legacy_attributes will change from True to False in scikit-learn 1.10. See the docstring of LogisticRegressionCV for more details.\n"}
+,{"stream_name":"stdout","time":1945.390890154,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1945.390894771,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2071: FutureWarning: The default value for l1_ratios will change from None to (0.0,) in version 1.10. From version 1.10 onwards, only array-like with values in [0, 1] will be allowed, None will be forbidden. To avoid this warning, explicitly set a value, e.g. l1_ratios=(0,).\n"}
+,{"stream_name":"stdout","time":1945.390899609,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1945.390904854,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2129: FutureWarning: The fitted attributes of LogisticRegressionCV will be simplified in scikit-learn 1.10 to remove redundancy. Set`use_legacy_attributes=False` to enable the new behavior now, or set it to `True` to silence this warning during the transition period while keeping the deprecated behavior for the time being. The default value of use_legacy_attributes will change from True to False in scikit-learn 1.10. See the docstring of LogisticRegressionCV for more details.\n"}
+,{"stream_name":"stdout","time":1945.390909798,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1945.390913141,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2071: FutureWarning: The default value for l1_ratios will change from None to (0.0,) in version 1.10. From version 1.10 onwards, only array-like with values in [0, 1] will be allowed, None will be forbidden. To avoid this warning, explicitly set a value, e.g. l1_ratios=(0,).\n"}
+,{"stream_name":"stdout","time":1945.390917313,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1945.390920578,"data":"/tmp/f03env/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py:2129: FutureWarning: The fitted attributes of LogisticRegressionCV will be simplified in scikit-learn 1.10 to remove redundancy. Set`use_legacy_attributes=False` to enable the new behavior now, or set it to `True` to silence this warning during the transition period while keeping the deprecated behavior for the time being. The default value of use_legacy_attributes will change from True to False in scikit-learn 1.10. See the docstring of LogisticRegressionCV for more details.\n"}
+,{"stream_name":"stdout","time":1945.390925563,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":1945.39092873,"data":"\n"}
+,{"stream_name":"stdout","time":1945.391153229,"data":"[15:23:07] step practice_check: {'step': 'practice_check', 'seconds': 71.8, 'ok': True, 'note': \"[2026-10-07T20:52:00] run 20261007-205157_F03_practice_folds_check_clean started\\n[2026-10-07T20:53:05] clean-rebuild 5-fold practice AUC: {'whole': 0.8432659911273716, 'fixed_3x3': 0.8751240347170173}\\n[2026-10-07T20:53:05] run finished: status=measured, wall_seconds=67.44\\n\"}\n"}
+,{"stream_name":"stdout","time":2535.045359824,"data":"[2026-10-07T20:53:13] run 20261007-205311_B03_unet_boundary_seed0_folds0 started\n"}
+,{"stream_name":"stdout","time":2535.045422002,"data":"[2026-10-07T21:02:55] fold 0: trained 517 s, steps 3000, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 50.0, 'count_mae': 15.515151515151516, 'mean_f1_levels': 0.8656732847826769}\n"}
+,{"stream_name":"stdout","time":2535.04542835,"data":"[2026-10-07T21:02:55] B03 best_count: count MAE 5.82 (bias -5.33); pooled F1 0.25/0.50/0.75/0.90 0.948/0.924/0.875/0.747; joined 473 split 33 missed 26 false 89\n"}
+,{"stream_name":"stdout","time":2535.045433424,"data":"[2026-10-07T21:02:55] B03 best_outline: count MAE 11.48 (bias -11.48); pooled F1 0.25/0.50/0.75/0.90 0.944/0.932/0.892/0.766; joined 487 split 10 missed 131 false 11\n"}
+,{"stream_name":"stdout","time":2535.04545218,"data":"[2026-10-07T21:02:55] B04 stress tests (best-outline settings):\n"}
+,{"stream_name":"stdout","time":2535.045455672,"data":"                  count_mae    bias  f1_050  f1_075\n"}
+,{"stream_name":"stdout","time":2535.045458891,"data":"stress     level                                   \n"}
+,{"stream_name":"stdout","time":2535.045462256,"data":"blur_sigma 1.00      12.636 -12.515   0.894   0.849\n"}
+,{"stream_name":"stdout","time":2535.045465645,"data":"           2.00      16.667 -16.667   0.882   0.826\n"}
+,{"stream_name":"stdout","time":2535.045469213,"data":"           3.00      19.576 -19.576   0.846   0.775\n"}
+,{"stream_name":"stdout","time":2535.045472587,"data":"brightness 0.50      13.606 -13.606   0.921   0.861\n"}
+,{"stream_name":"stdout","time":2535.04547628,"data":"           0.75      12.152 -12.152   0.933   0.887\n"}
+,{"stream_name":"stdout","time":2535.045479777,"data":"           1.25      11.182 -11.182   0.935   0.894\n"}
+,{"stream_name":"stdout","time":2535.045483237,"data":"           1.50      11.152 -11.152   0.933   0.890\n"}
+,{"stream_name":"stdout","time":2535.045486897,"data":"noise_sd   0.02      11.758 -11.758   0.932   0.887\n"}
+,{"stream_name":"stdout","time":2535.045490587,"data":"           0.05      13.182 -13.182   0.911   0.857\n"}
+,{"stream_name":"stdout","time":2535.045494401,"data":"           0.10      78.303 -78.303   0.211   0.100\n"}
+,{"stream_name":"stdout","time":2535.045498617,"data":"[2026-10-07T21:02:55] run finished: status=measured, wall_seconds=583.97\n"}
+,{"stream_name":"stdout","time":2535.045502821,"data":" Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":2535.045506477,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":2535.04551047,"data":"\n"}
+,{"stream_name":"stdout","time":2535.045826694,"data":"[15:32:57] step nucleus_fold0_retrain: {'step': 'nucleus_fold0_retrain', 'seconds': 589.7, 'ok': True, 'note': '82   0.935   0.894\\n           1.50      11.152 -11.152   0.933   0.890\\nnoise_sd   0.02      11.758 -11.758   0.932   0.887\\n           0.05      13.182 -13.182   0.911   0.857\\n           0.10      78.303 -78.303   0.211   0.100\\n[2026-10-07T21:02:55] run finished: status=measured, wall_seconds=583.97\\n'}\n"}
+,{"stream_name":"stdout","time":2535.270241226,"data":"[15:32:57] outputs: ['20261007-150641_G01_ooc_check_clean', '20261007-203642_F03_chip_features_clean', '20261007-205052_F03_chip_final_eval_clean', '20261007-205157_F03_practice_folds_check_clean', '20261007-205311_B03_unet_boundary_seed0_folds0', 'registry.csv']\n"}
+,{"stream_name":"stderr","time":2537.736305489,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2537.736360038,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2538.058231881,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2538.058261465,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2539.292285601,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2540.433069463,"data":"[NbConvertApp] Writing 316514 bytes to __results__.html\n"}
+]

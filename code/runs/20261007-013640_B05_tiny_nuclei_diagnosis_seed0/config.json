@@ -1,0 +1,9 @@
+{
+  "seed": 0,
+  "settings": "v2 best_count / best_outline",
+  "small": "smallest tenth of training-fold nucleus areas",
+  "levels": [
+    0.5,
+    0.75
+  ]
+}

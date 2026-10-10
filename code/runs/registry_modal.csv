@@ -1,0 +1,28 @@
+run_id,plan_id,name,status,started,finished,seconds,machine,notes
+20261005-192521_G03_real_data_pilot,G03,real_data_pilot,failed,2026-10-05T19:25:21,2026-10-05T19:26:07,45.65,modal,pilot problem; see log
+20261006-005904_G03_real_data_pilot,G03,real_data_pilot,measured,2026-10-06T00:59:04,2026-10-06T00:59:26,22.62,modal,real-data pilot: save/reload identical
+20261006-010137_A02_frozen_features,A02,frozen_features,running,2026-10-06T01:01:37,,,modal,
+20261006-010429_B01_cv_threshold_watershed,B01,cv_threshold_watershed,running,2026-10-06T01:04:29,,,modal,
+20261006-010513_A02_frozen_features,A02,frozen_features,running,2026-10-06T01:05:13,,,modal,
+20261006-010632_A02_frozen_features,A02,frozen_features,running,2026-10-06T01:06:32,,,modal,
+20261006-011158_R02_pi_vs_ppo,R02,pi_vs_ppo,measured,2026-10-06T01:11:58,2026-10-06T01:20:08,489.7,modal,R02: practice environment; see config for conditions
+20261006-012018_R03_staged_vs_ordinary_ppo,R03,staged_vs_ordinary_ppo,running,2026-10-06T01:20:18,,,modal,
+20261006-012340_A02_frozen_features,A02,frozen_features,running,2026-10-06T01:23:40,,,modal,
+20261006-012654_A02_frozen_features,A02,frozen_features,measured,2026-10-06T01:26:54,2026-10-06T01:31:15,260.91,modal,A02 frozen features on practice folds; final test untouched
+20261006-013213_A03_unseen_cell_types,A03,unseen_cell_types,measured,2026-10-06T01:32:13,2026-10-06T01:33:42,89.39,modal,A03 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013353_A06_class_weighting,A06,class_weighting,measured,2026-10-06T01:33:53,2026-10-06T01:35:40,107.34,modal,A06 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013554_A07_photos_plus_details,A07,photos_plus_details,measured,2026-10-06T01:35:54,2026-10-06T01:38:16,141.5,modal,A07 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013826_A08_calibration,A08,calibration,measured,2026-10-06T01:38:26,2026-10-06T01:38:36,10.35,modal,A08 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013846_A09_review_order,A09,review_order,measured,2026-10-06T01:38:46,2026-10-06T01:38:55,9.26,modal,A09 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013905_A10_two_models_guard,A10,two_models_guard,measured,2026-10-06T01:39:05,2026-10-06T01:39:17,11.86,modal,A10 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-013926_A11_label_efficiency,A11,label_efficiency,measured,2026-10-06T01:39:26,2026-10-06T01:40:13,47.2,modal,A11 on A02 features (20261006-012654_A02_frozen_features); practice only
+20261006-094916_B01_cv_threshold_watershed,B01,cv_threshold_watershed,running,2026-10-06T09:49:16,,,modal,
+20261006-100315_B02_unet_fg_seed0,B02,unet_fg_seed0,measured,2026-10-06T10:03:15,2026-10-06T10:08:01,286.07,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-101000_B03_unet_boundary_seed0_folds0,B03,unet_boundary_seed0_folds0,running,2026-10-06T10:10:00,,,modal,
+20261006-101058_B02_unet_fg_seed0_folds0,B02,unet_fg_seed0_folds0,measured,2026-10-06T10:10:58,2026-10-06T10:20:18,559.41,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-102026_B02_unet_fg_seed0_folds1,B02,unet_fg_seed0_folds1,measured,2026-10-06T10:20:26,2026-10-06T10:29:40,553.2,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-102947_B02_unet_fg_seed0_folds2,B02,unet_fg_seed0_folds2,measured,2026-10-06T10:29:47,2026-10-06T10:40:37,649.8,modal,B02 U-Net (fg) 5-fold OOF on practice; B04 stress included; test locked
+20261006-104046_B02_unet_fg_seed0_folds3,B02,unet_fg_seed0_folds3,running,2026-10-06T10:40:46,,,modal,
+20261006-104650_C02_jump_batch_rescaling_fold1,C02,jump_batch_rescaling_fold1,running,2026-10-06T10:46:50,,,modal,
+20261006-104800_C02_jump_batch_rescaling_fold0,C02,jump_batch_rescaling_fold0,measured,2026-10-06T10:48:00,2026-10-06T11:06:41,1120.36,modal,C02 JUMP ORF raw vs sphering learned on training batches
+20261006-110655_C02_jump_batch_rescaling_fold1,C02,jump_batch_rescaling_fold1,running,2026-10-06T11:06:55,,,modal,

@@ -1,0 +1,109 @@
+{
+  "date_IST": "2026-10-08",
+  "type": "read-only review, existing-prediction reanalysis and local diagnostic probes",
+  "reviewed_document": "Research_and_Experiments/22_Final_Results_Before_and_After.md",
+  "reviewed_document_start_sha256": "d71fb64eaa7056d36e4d2da4edebac375caf60632a47e624b24080b447c910ec",
+  "reviewed_document_end_sha256": "d71fb64eaa7056d36e4d2da4edebac375caf60632a47e624b24080b447c910ec",
+  "reviewed_document_unchanged": true,
+  "original_ID_count_section_4": 36,
+  "unique_original_ID_count": 36,
+  "extra_ID_count_section_3": 13,
+  "audit_local_link_errors": [],
+  "observations": {
+    "clipping_bounds": {
+      "minimum": -2.1179039301310043,
+      "maximum": 2.6399999999999997,
+      "clipping_limits": [
+        -10,
+        10
+      ],
+      "can_change_preprocessed_uint8_pixels": false
+    },
+    "saved_scorer": {
+      "serialized_sklearn_version": "1.6.1",
+      "declared_sklearn_version": "1.9.1",
+      "version_warnings_for": [
+        "StandardScaler",
+        "LogisticRegressionCV",
+        "Pipeline"
+      ],
+      "auc_on_672_automatic_clean_final_features": 0.8496624074342966,
+      "max_score_difference_from_clean_run": 0.0008176508241126701,
+      "scope": "cached-feature test, not a complete fresh-image or public-repository test"
+    },
+    "chip_auc_recomputed": {
+      "first": {
+        "whole": 0.8011652388558154,
+        "fixed_3x3": 0.8497168578481197
+      },
+      "clean": {
+        "whole": 0.8097684042398723,
+        "fixed_3x3": 0.849598881951503
+      }
+    },
+    "baseline_C": {
+      "first": 0.001,
+      "clean": 0.0031622776601683794
+    },
+    "feature_comparison": {
+      "identical_ID_order": true,
+      "max_absolute_difference": 0.201171875,
+      "mean_absolute_difference": 0.001768515898010153,
+      "nonidentical_elements": 2061947,
+      "cause_not_isolated": true
+    },
+    "RL_integrity": {
+      "rows": 9700,
+      "duplicate_keys": 0,
+      "scenarios_per_policy_condition": 50,
+      "largest_interval_endpoint_difference_with_alternate_bootstrap_seed": 0.0033379823077788473,
+      "same_schedule_probe_passed": true,
+      "error_target_timing_probe_passed": true
+    },
+    "F03_repeat_tables_equal": {
+      "runs": 4,
+      "tables_per_run": 7,
+      "all_equal": true
+    }
+  },
+  "decisions": [
+    {
+      "observation": "E08 clipping cause unsupported",
+      "quality": "source check, actual normalization values, saved-array comparison",
+      "hypothesis": "clipping alone caused baseline change rejected for this preprocessing",
+      "decision": "Use consistent clean-rebuild comparison and describe cause as not isolated",
+      "next_action": "Correct the explanation, or isolate feature/version/classifier differences before claiming a cause"
+    },
+    {
+      "observation": "Saved scorer version differs from declared installation version",
+      "quality": "direct local model load emitted three estimator version warnings",
+      "hypothesis": "shipped pickle and requirements describe one matched environment rejected",
+      "decision": "Repair public-release packaging before claiming it is reproducible under the pinned install",
+      "next_action": "Rebuild scorer with frozen procedure under declared versions; verify public installation and artifact"
+    },
+    {
+      "observation": "Repaired RL values and core image scores match their saved predictions",
+      "quality": "independent recalculation and local environment probes",
+      "hypothesis": "recorded simulator gain survives the repaired evaluation supported",
+      "decision": "Report the positive simulator result with its settled-error and worst-case limits",
+      "next_action": "Draft truthful results; physical validation only before a physical-chip claim"
+    }
+  ],
+  "source_sha256": {
+    "code/requirements.txt": "cf18d72aefe949cd71d8b082f4b8dca7aa3eb31b692b05b87d81e3f054fbe428",
+    "code/model_x01_3x3.joblib": "ba95efe014b9fb3b658d18e057b0a51b86be8d78e225b2767f336873a342ed24",
+    "code/model_x01_3x3.json": "1a468889c84a8d59b855dac0fc7501f96b097da337120ffb802595977e56ccae",
+    "code/inference.py": "f9998c22a14fcee0c0d5dd03c7d9004d4dae593f8b7b418c5d0d3e96841129c2",
+    "code/scripts/a02_frozen.py": "9a90c7593497764bc29b1290a7845acfb1e5513f66e75a2a3bd00c020bfbe266",
+    "code/scripts/a_views.py": "ee1ce09f1d3dd27287b46d1e9e36799617c96a4797698a47544e6a753bbe9f62",
+    "code/scripts/train_final_model.py": "d969821573b70b07ad862f49eebf9c0dfc56f981a3370734c6af154fca320bd4",
+    "code/scripts/r_eval_repaired.py": "94550ee6f3e68480e70354581b0e6d8eb76ed633c24fb4594b65d900531caa96",
+    "code/src/ai4s/rl/droplet_env_v2.py": "62164a5498aa119a10fd25d14865d7189088830463f57849ed06fc1b7ff50fe2",
+    "code/runs/20261007-201747_F01_chip_final_eval/final_predictions.csv": "b78ef52b3021c3ba2972f0b5324d8be1e3ebd245bee30805fe6b102f37bd4e58",
+    "code/runs/20261007-205052_F03_chip_final_eval_clean/final_predictions.csv": "f3b1fe9d5bc95827453b4fca9fd5bd5026ede66e14c7664c0b8dac94578e3650",
+    "code/runs/20261007-200641_F01_nucleus_final_eval/final_per_image.csv": "11660948936170697ba22745f14c26ea7b6ddbb74e50cd944cb1b2bcb8b2edf8",
+    "code/runs/20261007-234732_R02_repaired_evaluation_v2/episodes.csv": "7226afa402413a58f1cde0fcea103e09d86d287a400aa008ccc608eba7d34c1a",
+    "code/runs/20261007-234732_R02_repaired_evaluation_v2/paired_differences.csv": "17554af521a373677fc6362fe42a84c25d6b401431702330c011c3e4b2c28ec1",
+    "code/logs/kaggle/f03c_all_versions_repeat/f03_pinned_comparison.json": "8604056f8ec736dac2c83a5373290ff5eee1449d8c904ee02fad71871b3e0740"
+  }
+}

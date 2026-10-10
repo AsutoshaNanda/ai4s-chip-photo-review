@@ -1,0 +1,8 @@
+$ /tmp/ai4s_f05/venv/bin/python -c import torch; print('cuda', torch.cuda.is_available(), 'threads', torch.get_num_threads())
+[exit 0, 2.6 s]
+--- stdout ---
+cuda False threads 2
+
+--- stderr ---
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+ModuleNotFoundError: No module named 'wrapt'

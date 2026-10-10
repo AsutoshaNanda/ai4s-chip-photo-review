@@ -1,0 +1,6 @@
+{
+  "g01_run": "20261006-002338_G01_ooc_check",
+  "seed": 20261005,
+  "n_dev_folds": 5,
+  "final_test_share_target": 0.21354166666666666
+}

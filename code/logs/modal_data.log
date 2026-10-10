@@ -1,0 +1,136 @@
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-5z50SFDH8Ro1X7VDmAxlZA
+Building image im-gYRYsgR5rKBP3vlYPtqYEb
+
+=> Step 0: FROM base
+
+=> Step 1: RUN apt-get update
+Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages.diff/Index [21.8 kB]
+Ign:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages.diff/Index
+Get:6 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+Get:7 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [349 kB]
+Fetched 9409 kB in 1s (9532 kB/s)
+Reading package lists...
+
+=> Step 2: RUN apt-get install -y curl
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libcurl4 libnghttp2-14 libpsl5 librtmp1 libssh2-1 publicsuffix
+The following NEW packages will be installed:
+  curl libcurl4 libnghttp2-14 libpsl5 librtmp1 libssh2-1 publicsuffix
+0 upgraded, 7 newly installed, 0 to remove and 62 not upgraded.
+Need to get 1202 kB of archives.
+After this operation, 2543 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libnghttp2-14 amd64 1.52.0-1+deb12u3 [72.4 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libpsl5 amd64 0.21.2-1 [58.7 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2+b2 [60.8 kB]
+Get:4 http://deb.debian.org/debian-security bookworm-security/main amd64 libssh2-1 amd64 1.10.0-3+deb12u1 [176 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 libcurl4 amd64 7.88.1-10+deb12u15 [392 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 curl amd64 7.88.1-10+deb12u15 [316 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 publicsuffix all 20230209.2326-1 [126 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 1202 kB in 0s (38.5 MB/s)
+Selecting previously unselected package libnghttp2-14:amd64.
+(Reading database ... 
+[1A(Reading database ... 5%
+[1A(Reading database ... 10%
+[1A(Reading database ... 15%
+[1A(Reading database ... 20%
+[1A(Reading database ... 25%
+[1A(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%
+[1A(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%
+[1A(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%
+[1A(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%
+[1A(Reading database ... 95%(Reading database ... 100%
+[1A(Reading database ... 16439 files and directories currently installed.)
+Preparing to unpack .../0-libnghttp2-14_1.52.0-1+deb12u3_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.52.0-1+deb12u3) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../1-libpsl5_0.21.2-1_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.2-1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../2-librtmp1_2.4+20151223.gitfa8646d.1-2+b2_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../3-libssh2-1_1.10.0-3+deb12u1_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.10.0-3+deb12u1) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../4-libcurl4_7.88.1-10+deb12u15_amd64.deb ...
+Unpacking libcurl4:amd64 (7.88.1-10+deb12u15) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../5-curl_7.88.1-10+deb12u15_amd64.deb ...
+Unpacking curl (7.88.1-10+deb12u15) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../6-publicsuffix_20230209.2326-1_all.deb ...
+Unpacking publicsuffix (20230209.2326-1) ...
+Setting up libpsl5:amd64 (0.21.2-1) ...
+Setting up libnghttp2-14:amd64 (1.52.0-1+deb12u3) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2+b2) ...
+Setting up libssh2-1:amd64 (1.10.0-3+deb12u1) ...
+Setting up publicsuffix (20230209.2326-1) ...
+Setting up libcurl4:amd64 (7.88.1-10+deb12u15) ...
+Setting up curl (7.88.1-10+deb12u15) ...
+Processing triggers for libc-bin (2.36-9+deb12u10) ...
+Saving image...
+Image saved, took 1.13s
+
+Built image im-gYRYsgR5rKBP3vlYPtqYEb in 6.07s
+
+
+Building image im-pT98LZKHGmyJLoNEdvrxJ3
+
+=> Step 0: FROM base
+
+=> Step 1: RUN python -m pip install numpy openpyxl pandas pillow
+Looking in indexes: http://pypi-mirror.modal.local:5555/simple
+Collecting numpy
+  Downloading http://pypi-mirror.modal.local:5555/simple/numpy/numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting openpyxl
+  Downloading http://pypi-mirror.modal.local:5555/simple/openpyxl/openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting pandas
+  Downloading http://pypi-mirror.modal.local:5555/simple/pandas/pandas-3.0.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+Collecting pillow
+  Downloading http://pypi-mirror.modal.local:5555/simple/pillow/pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Collecting et-xmlfile (from openpyxl)
+  Downloading http://pypi-mirror.modal.local:5555/simple/et-xmlfile/et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Downloading http://pypi-mirror.modal.local:5555/simple/python-dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Downloading http://pypi-mirror.modal.local:5555/simple/six/six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/numpy/numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 496.1 MB/s eta 0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/openpyxl/openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/pandas/pandas-3.0.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (10.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 497.1 MB/s eta 0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/pillow/pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 507.1 MB/s eta 0:00:00
+Downloading http://pypi-mirror.modal.local:5555/simple/python-dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/six/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading http://pypi-mirror.modal.local:5555/simple/et-xmlfile/et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: six, pillow, numpy, et-xmlfile, python-dateutil, openpyxl, pandas
+
+Successfully installed et-xmlfile-2.0.0 numpy-2.5.3 openpyxl-3.1.5 pandas-3.0.6 pillow-12.3.0 python-dateutil-2.9.0.post0 six-1.17.0
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 647.32ms
+
+Built image im-pT98LZKHGmyJLoNEdvrxJ3 in 9.90s
+
+
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_data.py
+├── ✓ Created Function download.
+└── ✓ Created Function prepare.
+download: {'ooc_md5_ok': True, 'ooc_md5': '8f7e058996203d48eb03b2d86c0a2e4d', 'seconds': 429.8}
+prepare: {'photos': 3072, 'seconds': 24.7}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-5z50SFDH8Ro1X7VDmAxlZA

@@ -1,0 +1,1 @@
+Small or unfamiliar formats go to manual review without an automatic score.

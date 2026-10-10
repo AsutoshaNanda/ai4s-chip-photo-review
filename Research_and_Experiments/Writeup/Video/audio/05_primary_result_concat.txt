@@ -1,0 +1,5 @@
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/05_primary_result_00.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/05_primary_result_01.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/05_primary_result_02.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/05_primary_result_03.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/05_primary_result_04.aiff'

@@ -1,0 +1,84 @@
+=== scripts/b_analysis.py --exp B05 --posts v2 --seed 1
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-07T01:31:01] run 20261007-013013_B05_crowding_tiny_nuclei_posts_v2_seed1 started
+[2026-10-07T01:31:02] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+/usr/local/lib/python3.13/dist-packages/skimage/_shared/utils.py:386: UserWarning: Only one label was provided to `remove_small_objects`. Did you mean to use a boolean array?
+  return func(*args, **kwargs)
+[2026-10-07T01:31:49] B05 B01_best_count: segmented 150 held-out images
+[2026-10-07T01:32:39] B05 B01_best_outline: segmented 150 held-out images
+[2026-10-07T01:45:40] B05 B02_best_count: segmented 150 held-out images
+[2026-10-07T01:46:26] B05 B02_best_outline: segmented 150 held-out images
+[2026-10-07T01:59:34] B05 B03_best_count: segmented 150 held-out images
+[2026-10-07T01:59:51] B05 B03_best_outline: segmented 150 held-out images
+[2026-10-07T01:59:53] B05 share of reference nuclei found, by size decile (0 = smallest; training-fold deciles), at IoU 0.50 / 0.75 (all levels in B05_found_by_size_decile.csv):
+method       B01_best_count  B01_best_outline  B02_best_count  B02_best_outline  B03_best_count  B03_best_outline
+size_decile                                                                                                      
+0                     0.388             0.270           0.417             0.310           0.413             0.380
+1                     0.800             0.750           0.856             0.829           0.914             0.866
+2                     0.870             0.862           0.923             0.904           0.960             0.920
+3                     0.914             0.903           0.947             0.928           0.967             0.936
+4                     0.930             0.921           0.953             0.939           0.981             0.957
+5                     0.937             0.939           0.957             0.954           0.981             0.957
+6                     0.958             0.954           0.972             0.969           0.988             0.975
+7                     0.962             0.965           0.977             0.983           0.987             0.981
+8                     0.967             0.968           0.974             0.980           0.991             0.981
+9                     0.971             0.972           0.977             0.982           0.988             0.983
+method       B01_best_count  B01_best_outline  B02_best_count  B02_best_outline  B03_best_count  B03_best_outline
+size_decile                                                                                                      
+0                     0.222             0.215           0.297             0.261           0.241             0.299
+1                     0.632             0.655           0.764             0.759           0.745             0.791
+2                     0.770             0.809           0.861             0.850           0.889             0.883
+3                     0.839             0.849           0.886             0.874           0.915             0.902
+4                     0.869             0.882           0.907             0.901           0.944             0.930
+5                     0.875             0.890           0.901             0.906           0.943             0.930
+6                     0.910             0.911           0.928             0.923           0.951             0.948
+7                     0.908             0.928           0.936             0.947           0.954             0.951
+8                     0.905             0.910           0.929             0.941           0.965             0.955
+9                     0.895             0.918           0.924             0.927           0.967             0.949
+[2026-10-07T01:59:53] B05 crowding (quartiles of reference count on training folds; 4 = most crowded):
+                                    images  count_mae    bias  f1_050
+method           crowding_quartile                                   
+B01_best_count   1                      36      3.528   0.750   0.801
+                 2                      39      4.718   0.615   0.903
+                 3                      39      4.077   0.487   0.901
+                 4                      36     15.000  -7.778   0.816
+B01_best_outline 1                      36      6.361  -5.750   0.826
+                 2                      39      8.769  -8.769   0.920
+                 3                      39     10.256 -10.256   0.923
+                 4                      36     26.972 -26.972   0.833
+B02_best_count   1                      36      3.000  -1.222   0.885
+                 2                      39      4.103  -1.590   0.923
+                 3                      39      3.436  -1.282   0.921
+                 4                      36      8.917  -7.194   0.873
+B02_best_outline 1                      36      5.194  -5.194   0.929
+                 2                      39      7.359  -7.359   0.935
+                 3                      39      8.974  -8.974   0.934
+                 4                      36     20.500 -20.500   0.878
+B03_best_count   1                      36      3.694  -3.528   0.941
+                 2                      39      4.846  -2.692   0.948
+                 3                      39      4.308  -3.692   0.949
+                 4                      36      8.806  -4.917   0.897
+B03_best_outline 1                      36      5.833  -5.778   0.912
+                 2                      39      7.821  -7.821   0.950
+                 3                      39      9.718  -9.718   0.947
+                 4                      36     18.083 -18.083   0.901
+[2026-10-07T02:00:18] run finished: status=measured, wall_seconds=1804.72
+=== scripts/b_analysis.py --exp B06 --posts v2 --seed 1
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-07T02:00:46] run 20261007-020029_B06_warning_flags_posts_v2_seed1 started
+[2026-10-07T02:00:48] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+/usr/local/lib/python3.13/dist-packages/skimage/_shared/utils.py:386: UserWarning: Only one label was provided to `remove_small_objects`. Did you mean to use a boolean array?
+  return func(*args, **kwargs)
+[2026-10-07T02:27:34] B06 warning scores for B02_best_count (area under 'error left' curve; lower = better; random 0.499):
+[2026-10-07T02:27:34]    blur_warning                             area 0.569; minus random 95% [-0.009, +0.136]
+[2026-10-07T02:27:34]    disagree_B01_best_count                  area 0.435; minus random 95% [-0.142, +0.040]
+[2026-10-07T02:27:34]    disagree_B03_best_count                  area 0.413; minus random 95% [-0.179, +0.016]
+[2026-10-07T02:27:34]    brightness_warning                       area 0.463; minus random 95% [-0.085, +0.016]
+[2026-10-07T02:27:34]    perfect_order_ceiling                    area 0.224; minus random 95% [-0.312, -0.237]
+[2026-10-07T02:27:34] run finished: status=measured, wall_seconds=1624.49

@@ -1,0 +1,56 @@
+{
+  "zip_md5": "8f7e058996203d48eb03b2d86c0a2e4d",
+  "zip_md5_matches_provider": true,
+  "sheet_md5": "a3d4875e3da4da83bac45c0ce727cb40",
+  "spreadsheet_rows_with_id": 3072,
+  "archive_pngs": 3072,
+  "ids_only_in_spreadsheet": [],
+  "ids_only_in_archive": [],
+  "folder_vs_decision_label_mismatches": [],
+  "cell_type_mismatches": [],
+  "published_split_counts": {
+    "train": 2130,
+    "test": 656,
+    "val": 286
+  },
+  "label_counts_bad1_good0": {
+    "0": 1727,
+    "1": 1345
+  },
+  "flow_rate_texts": {
+    "2uL/min": 865,
+    "nan": 859,
+    "1.74 uL/min": 572,
+    "2 uL/min": 390,
+    "1.66uL/min": 131,
+    "2.33 uL/min": 109,
+    "1.71uL/min": 100,
+    "2.77 uL/min": 38,
+    "2ul/min": 8
+  },
+  "flow_rate_unparsed_nonmissing": [],
+  "flow_rate_parsed_values": {
+    "2.0": 1263,
+    "nan": 859,
+    "1.74": 572,
+    "1.66": 131,
+    "2.33": 109,
+    "1.71": 100,
+    "2.77": 38
+  },
+  "seeding_density_unparsed_nonmissing": [
+    "6,000,000/ml"
+  ],
+  "missing_counts": {
+    "seeding_density": 351,
+    "hours_after_seeding": 2244,
+    "day": 0,
+    "flow_rate_ul_per_min": 859
+  },
+  "day_bin_folders": {
+    "4+_days": 1199,
+    "0-1_days": 852,
+    "2-3_days": 798,
+    "4_days": 223
+  }
+}

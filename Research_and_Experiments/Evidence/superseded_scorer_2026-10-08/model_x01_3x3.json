@@ -1,0 +1,18 @@
+{
+ "candidate": "fixed_3x3",
+ "train_photos": 2397,
+ "C": 0.001,
+ "yes_no_cutoff_from_inner_cv": 0.5717643744686834,
+ "automatic_formats": [
+  "L/2056x1542",
+  "RGB/2048x1536"
+ ],
+ "thin_support_formats": [
+  "RGB/640x480"
+ ],
+ "small_rule": "manual_review",
+ "feature_model": "vit_large_patch14_dinov2.lvd142m",
+ "long_side": 518,
+ "tiles": "3x3, native resolution, mean+max",
+ "training_set_note": "all 2,397 development photos; the 675 locked final photos were not used"
+}

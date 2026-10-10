@@ -1,0 +1,142 @@
+[{"stream_name":"stdout","time":14.849539756,"data":"[19:43:26] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":25.183417064,"data":"[19:43:36] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":31.484198544,"data":"[19:43:43] BBBC038 stage1_train downloaded, SHA256 ok=True\n"}
+,{"stream_name":"stdout","time":39.451868767,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.9/66.9 kB 951.3 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":39.992192431,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 28.1/28.1 MB 70.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":43.615487174,"data":"[19:43:55] installed czifile==2026.8.16,imagecodecs==2026.8.16\n"}
+,{"stream_name":"stdout","time":11131.296244917,"data":"[22:48:43] lane0 finished with exit code 0 after 11088 s\n"}
+,{"stream_name":"stdout","time":11131.296826689,"data":"=== scripts/b_unet.py --target fg --seed 0 --train_noise_max 0.1\n"}
+,{"stream_name":"stdout","time":11131.296838775,"data":"[2026-10-07T01:14:14] run 20261007-011404_B02_unet_fg_noisetrain_seed0 started\n"}
+,{"stream_name":"stdout","time":11131.29684462,"data":"[2026-10-07T01:30:26] fold 0: trained 545 s, steps 3000, post {'thr': 0.7, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 9.818181818181818, 'mean_f1_levels': 0.8247447946810967}\n"}
+,{"stream_name":"stdout","time":11131.296850015,"data":"[2026-10-07T01:53:16] fold 1: trained 1073 s, steps 6000, post {'thr': 0.6, 'min_distance': 10.0, 'min_size': 10.0, 'count_mae': 3.7142857142857144, 'mean_f1_levels': 0.8849624194090361}\n"}
+,{"stream_name":"stdout","time":11131.296857347,"data":"[2026-10-07T02:08:29] fold 2: trained 451 s, steps 2500, post {'thr': 0.7, 'min_distance': 10.0, 'min_size': 50.0, 'count_mae': 9.025641025641026, 'mean_f1_levels': 0.8696704045159389}\n"}
+,{"stream_name":"stdout","time":11131.296862763,"data":"[2026-10-07T02:31:28] fold 3: trained 1072 s, steps 6000, post {'thr': 0.5, 'min_distance': 10.0, 'min_size': 25.0, 'count_mae': 6.583333333333333, 'mean_f1_levels': 0.8903765281866672}\n"}
+,{"stream_name":"stdout","time":11131.296868364,"data":"[2026-10-07T02:55:54] fold 4: trained 1077 s, steps 6000, post {'thr': 0.6, 'min_distance': 10.0, 'min_size': 50.0, 'count_mae': 7.757575757575758, 'mean_f1_levels': 0.8907719266947576}\n"}
+,{"stream_name":"stdout","time":11131.296873849,"data":"[2026-10-07T02:55:55] B02 best_count: count MAE 5.11 (bias -1.45); pooled F1 0.25/0.50/0.75/0.90 0.928/0.901/0.835/0.672; joined 2077 split 1413 missed 192 false 417\n"}
+,{"stream_name":"stdout","time":11131.296879663,"data":"[2026-10-07T02:55:55] B02 best_outline: count MAE 7.55 (bias -7.09); pooled F1 0.25/0.50/0.75/0.90 0.936/0.915/0.863/0.717; joined 2084 split 837 missed 469 false 136\n"}
+,{"stream_name":"stdout","time":11131.296884554,"data":"[2026-10-07T02:55:55] B04 stress tests (best-outline settings):\n"}
+,{"stream_name":"stdout","time":11131.296888787,"data":"                  count_mae    bias  f1_050  f1_075\n"}
+,{"stream_name":"stdout","time":11131.296892867,"data":"stress     level                                   \n"}
+,{"stream_name":"stdout","time":11131.296896983,"data":"blur_sigma 1.00       8.187  -7.427   0.900   0.844\n"}
+,{"stream_name":"stdout","time":11131.296901018,"data":"           2.00      10.067  -9.413   0.883   0.820\n"}
+,{"stream_name":"stdout","time":11131.296905144,"data":"           3.00      12.060 -11.313   0.871   0.791\n"}
+,{"stream_name":"stdout","time":11131.296909203,"data":"brightness 0.50       9.833  -9.567   0.896   0.841\n"}
+,{"stream_name":"stdout","time":11131.296913291,"data":"           0.75       8.280  -7.933   0.908   0.855\n"}
+,{"stream_name":"stdout","time":11131.296932822,"data":"           1.25       7.107  -6.507   0.913   0.861\n"}
+,{"stream_name":"stdout","time":11131.296937314,"data":"           1.50       7.047  -6.153   0.909   0.858\n"}
+,{"stream_name":"stdout","time":11131.296941084,"data":"noise_sd   0.02       7.460  -7.033   0.912   0.860\n"}
+,{"stream_name":"stdout","time":11131.296944988,"data":"           0.05       7.867  -7.453   0.911   0.859\n"}
+,{"stream_name":"stdout","time":11131.296949142,"data":"           0.10       8.187  -7.747   0.906   0.851\n"}
+,{"stream_name":"stdout","time":11131.296952568,"data":"[2026-10-07T02:55:55] run finished: status=measured, wall_seconds=6110.84\n"}
+,{"stream_name":"stdout","time":11131.296955942,"data":"=== scripts/b_unet.py --target boundary --seed 0 --train_noise_max 0.1\n"}
+,{"stream_name":"stdout","time":11131.296959345,"data":"[2026-10-07T02:56:01] run 20261007-025559_B03_unet_boundary_noisetrain_seed0 started\n"}
+,{"stream_name":"stdout","time":11131.29696275,"data":"[2026-10-07T03:13:04] fold 0: trained 970 s, steps 5250, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 11.545454545454545, 'mean_f1_levels': 0.8529525812149772}\n"}
+,{"stream_name":"stdout","time":11131.296966527,"data":"[2026-10-07T03:24:53] fold 1: trained 670 s, steps 3750, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 10.0, 'count_mae': 8.0, 'mean_f1_levels': 0.8983366353349954}\n"}
+,{"stream_name":"stdout","time":11131.296970165,"data":"[2026-10-07T03:36:54] fold 2: trained 676 s, steps 3750, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 13.102564102564102, 'mean_f1_levels': 0.880197741525077}\n"}
+,{"stream_name":"stdout","time":11131.296973833,"data":"[2026-10-07T03:55:31] fold 3: trained 1073 s, steps 6000, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 8.125, 'mean_f1_levels': 0.9064347817512135}\n"}
+,{"stream_name":"stdout","time":11131.296977445,"data":"[2026-10-07T04:09:38] fold 4: trained 808 s, steps 4500, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 9.484848484848484, 'mean_f1_levels': 0.8925579908482286}\n"}
+,{"stream_name":"stdout","time":11131.29698115,"data":"[2026-10-07T04:09:38] B03 best_count: count MAE 8.67 (bias -8.08); pooled F1 0.25/0.50/0.75/0.90 0.944/0.924/0.879/0.734; joined 2100 split 103 missed 384 false 267\n"}
+,{"stream_name":"stdout","time":11131.297007284,"data":"[2026-10-07T04:09:38] B03 best_outline: count MAE 10.65 (bias -10.11); pooled F1 0.25/0.50/0.75/0.90 0.942/0.926/0.885/0.740; joined 2108 split 70 missed 563 false 164\n"}
+,{"stream_name":"stdout","time":11131.297011283,"data":"[2026-10-07T04:09:38] B04 stress tests (best-outline settings):\n"}
+,{"stream_name":"stdout","time":11131.297015133,"data":"                  count_mae    bias  f1_050  f1_075\n"}
+,{"stream_name":"stdout","time":11131.297018489,"data":"stress     level                                   \n"}
+,{"stream_name":"stdout","time":11131.297021743,"data":"blur_sigma 1.00      11.760 -11.107   0.915   0.874\n"}
+,{"stream_name":"stdout","time":11131.297025172,"data":"           2.00      15.347 -15.093   0.884   0.836\n"}
+,{"stream_name":"stdout","time":11131.297028533,"data":"           3.00      20.140 -20.073   0.840   0.778\n"}
+,{"stream_name":"stdout","time":11131.297031773,"data":"brightness 0.50      13.540 -13.407   0.906   0.855\n"}
+,{"stream_name":"stdout","time":11131.297035025,"data":"           0.75      11.940 -11.660   0.915   0.872\n"}
+,{"stream_name":"stdout","time":11131.29703826,"data":"           1.25      10.173  -9.507   0.926   0.891\n"}
+,{"stream_name":"stdout","time":11131.29704151,"data":"           1.50      10.060  -9.287   0.925   0.887\n"}
+,{"stream_name":"stdout","time":11131.297045136,"data":"noise_sd   0.02      10.520 -10.053   0.922   0.884\n"}
+,{"stream_name":"stdout","time":11131.297053067,"data":"           0.05      10.847 -10.420   0.920   0.880\n"}
+,{"stream_name":"stdout","time":11131.297056427,"data":"           0.10      11.180 -10.807   0.917   0.872\n"}
+,{"stream_name":"stdout","time":11131.297059645,"data":"[2026-10-07T04:09:38] run finished: status=measured, wall_seconds=4419.21\n"}
+,{"stream_name":"stdout","time":11131.297063034,"data":"=== scripts/b_modern.py\n"}
+,{"stream_name":"stdout","time":11131.297066287,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.0/127.0 kB 1.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11131.297071143,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 24.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11131.297076188,"data":"[2026-10-07T04:09:51] run 20261007-040948_B02_modern_instanseg started\n"}
+,{"stream_name":"stdout","time":11131.297083096,"data":"[2026-10-07T04:09:51] instanseg version unknown\n"}
+,{"stream_name":"stdout","time":11131.29708529,"data":"[2026-10-07T04:09:56] model documents found: 2; exposure check: possible prior exposure: BBBC038, DSB\n"}
+,{"stream_name":"stdout","time":11131.297087635,"data":"Reached maximum number of iterations - this is not expected!\n"}
+,{"stream_name":"stdout","time":11131.297089808,"data":"[2026-10-07T04:12:02] fold 0: pixel size best count 0.500 um, best outline 0.500 um\n"}
+,{"stream_name":"stdout","time":11131.297092026,"data":"[2026-10-07T04:13:15] fold 1: pixel size best count 0.500 um, best outline 0.500 um\n"}
+,{"stream_name":"stdout","time":11131.297094223,"data":"[2026-10-07T04:15:27] fold 2: pixel size best count 0.500 um, best outline 0.500 um\n"}
+,{"stream_name":"stdout","time":11131.297096487,"data":"[2026-10-07T04:16:50] fold 3: pixel size best count 0.707 um, best outline 0.500 um\n"}
+,{"stream_name":"stdout","time":11131.29709866,"data":"Reached maximum number of iterations - this is not expected!\n"}
+,{"stream_name":"stdout","time":11131.297100817,"data":"[2026-10-07T04:18:41] fold 4: pixel size best count 0.707 um, best outline 0.500 um\n"}
+,{"stream_name":"stdout","time":11131.297103023,"data":"[2026-10-07T04:18:41] InstanSeg best_count: count MAE 3.97 (bias -0.98); pooled F1 0.25/0.50/0.75/0.90 0.956/0.946/0.903/0.654; joined 625 split 983 missed 517 false 198\n"}
+,{"stream_name":"stdout","time":11131.29710543,"data":"[2026-10-07T04:18:41] InstanSeg best_outline: count MAE 4.03 (bias -2.11); pooled F1 0.25/0.50/0.75/0.90 0.957/0.950/0.913/0.728; joined 666 split 823 missed 544 false 166\n"}
+,{"stream_name":"stdout","time":11131.297108058,"data":"[2026-10-07T04:18:41] time per image (median) 0.105 s; peak GPU memory 5.310731264\n"}
+,{"stream_name":"stdout","time":11131.297110232,"data":"[2026-10-07T04:18:41] run finished: status=measured, wall_seconds=532.91\n"}
+,{"stream_name":"stdout","time":11131.297112424,"data":"\n"}
+,{"stream_name":"stdout","time":11131.297114553,"data":"[22:48:43] lane1 finished with exit code 1 after 11088 s\n"}
+,{"stream_name":"stdout","time":11131.306365522,"data":"ability never reaches threshold\n"}
+,{"stream_name":"stdout","time":11131.306389278,"data":"method                                                                                                                                                                                             \n"}
+,{"stream_name":"stdout","time":11131.306394346,"data":"B02_best_count                                               249                                612                                      51    777                                              125\n"}
+,{"stream_name":"stdout","time":11131.306398367,"data":"B02_best_outline                                              68                                688                                     409    589                                               60\n"}
+,{"stream_name":"stdout","time":11131.306411584,"data":"B03_best_count                                               266                                190                                       0    785                                              573\n"}
+,{"stream_name":"stdout","time":11131.306421293,"data":"B03_best_outline                                              89                                367                                     326    676                                              356\n"}
+,{"stream_name":"stdout","time":11131.306423995,"data":"[2026-10-07T01:39:11] preparation and prediction signals, medians, found vs missed at 0.5:\n"}
+,{"stream_name":"stdout","time":11131.306426227,"data":"                            prepared_contrast  raw_contrast  share_clipped_to_0  max_prob_inside   area\n"}
+,{"stream_name":"stdout","time":11131.306428458,"data":"method           found@0.5                                                                             \n"}
+,{"stream_name":"stdout","time":11131.306430761,"data":"B02_best_count   False                 0.1455      164.6446                 0.0           0.9893   23.0\n"}
+,{"stream_name":"stdout","time":11131.306432951,"data":"                 True                  0.2282      249.1650                 0.0           1.0000   89.0\n"}
+,{"stream_name":"stdout","time":11131.306435143,"data":"B02_best_outline False                 0.1499      167.9885                 0.0           0.9892   22.0\n"}
+,{"stream_name":"stdout","time":11131.306437355,"data":"                 True                  0.2468      264.1968                 0.0           1.0000  102.0\n"}
+,{"stream_name":"stdout","time":11131.306439739,"data":"B03_best_count   False                 0.1360      152.7730                 0.0           0.8739   21.0\n"}
+,{"stream_name":"stdout","time":11131.306441988,"data":"                 True                  0.2507      264.3977                 0.0           0.9994   95.0\n"}
+,{"stream_name":"stdout","time":11131.306444214,"data":"B03_best_outline False                 0.1433      162.0954                 0.0           0.8938   21.0\n"}
+,{"stream_name":"stdout","time":11131.306447508,"data":"                 True                  0.2531      264.5707                 0.0           0.9996  102.0\n"}
+,{"stream_name":"stdout","time":11131.306449864,"data":"[2026-10-07T01:39:11] small nuclei by first failing stage at overlap 0.75:\n"}
+,{"stream_name":"stdout","time":11131.306452092,"data":"stage@0.75        clean-up/outline: kept but overlap below level  clean-up: merged with a neighbour  clean-up: removed by minimum-size rule  found  prediction: probability never reaches threshold\n"}
+,{"stream_name":"stdout","time":11131.306454488,"data":"method                                                                                                                                                                                             \n"}
+,{"stream_name":"stdout","time":11131.306456869,"data":"B02_best_count                                               453                                625                                      51    560                                              125\n"}
+,{"stream_name":"stdout","time":11131.306459358,"data":"B02_best_outline                                             150                                702                                     409    493                                               60\n"}
+,{"stream_name":"stdout","time":11131.306461719,"data":"B03_best_count                                               543                                224                                       0    474                                              573\n"}
+,{"stream_name":"stdout","time":11131.306466826,"data":"B03_best_outline                                             208                                398                                     326    526                                              356\n"}
+,{"stream_name":"stdout","time":11131.306469317,"data":"[2026-10-07T01:39:11] preparation and prediction signals, medians, found vs missed at 0.75:\n"}
+,{"stream_name":"stdout","time":11131.306471551,"data":"                             prepared_contrast  raw_contrast  share_clipped_to_0  max_prob_inside   area\n"}
+,{"stream_name":"stdout","time":11131.306473827,"data":"method           found@0.75                                                                             \n"}
+,{"stream_name":"stdout","time":11131.306476151,"data":"B02_best_count   False                  0.1488      170.9205                 0.0           0.9927   24.0\n"}
+,{"stream_name":"stdout","time":11131.306478383,"data":"                 True                   0.2472      261.7768                 0.0           1.0000  101.0\n"}
+,{"stream_name":"stdout","time":11131.3064806,"data":"B02_best_outline False                  0.1523      172.9038                 0.0           0.9926   24.0\n"}
+,{"stream_name":"stdout","time":11131.306483079,"data":"                 True                   0.2569      269.5141                 0.0           1.0000  105.0\n"}
+,{"stream_name":"stdout","time":11131.306485437,"data":"B03_best_count   False                  0.1502      170.8863                 0.0           0.9354   25.0\n"}
+,{"stream_name":"stdout","time":11131.306487668,"data":"                 True                   0.2669      274.2344                 0.0           0.9998  109.0\n"}
+,{"stream_name":"stdout","time":11131.306489885,"data":"B03_best_outline False                  0.1484      167.0667                 0.0           0.9267   24.0\n"}
+,{"stream_name":"stdout","time":11131.30649211,"data":"                 True                   0.2627      277.6482                 0.0           0.9998  105.0\n"}
+,{"stream_name":"stdout","time":11131.306494358,"data":"[2026-10-07T01:39:11] run finished: status=measured, wall_seconds=151.29\n"}
+,{"stream_name":"stdout","time":11131.306496556,"data":"=== scripts/c03_fetch.py\n"}
+,{"stream_name":"stdout","time":11131.306498673,"data":"[2026-10-07T01:39:18] run 20261007-013913_C03_allen_fetch started\n"}
+,{"stream_name":"stdout","time":11131.306500851,"data":"[2026-10-07T02:13:26] done: 40 files, 11.00 GB compressed, 2048 s\n"}
+,{"stream_name":"stdout","time":11131.306503019,"data":"[2026-10-07T02:13:26] run finished: status=measured, wall_seconds=2053.29\n"}
+,{"stream_name":"stdout","time":11131.306505232,"data":"=== scripts/c03_prep.py --depth_rule input_only\n"}
+,{"stream_name":"stdout","time":11131.306507409,"data":"[2026-10-07T02:13:33] run 20261007-021328_C03_allen_prep_inputonly started\n"}
+,{"stream_name":"stdout","time":11131.306509627,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":11131.306511764,"data":"  File \"/kaggle/working/code/scripts/c03_prep.py\", line 97, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":11131.306514519,"data":"    main()\n"}
+,{"stream_name":"stdout","time":11131.306516654,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":11131.306518756,"data":"  File \"/kaggle/working/code/scripts/c03_prep.py\", line 72, in main\n"}
+,{"stream_name":"stdout","time":11131.306521068,"data":"    if a.depth_rule == \"input_only\":\n"}
+,{"stream_name":"stdout","time":11131.306528009,"data":"       ^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":11131.306530162,"data":"AttributeError: 'numpy.ndarray' object has no attribute 'depth_rule'\n"}
+,{"stream_name":"stdout","time":11131.306532346,"data":"=== scripts/c03_translate.py --slices c03_slices_inputonly.npz\n"}
+,{"stream_name":"stdout","time":11131.306536768,"data":"[2026-10-07T02:13:41] run 20261007-021338_C03_dic_to_lamin_v3_inputonly started\n"}
+,{"stream_name":"stdout","time":11131.306539228,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":11131.306541321,"data":"  File \"/kaggle/working/code/scripts/c03_translate.py\", line 195, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":11131.306543726,"data":"    main()\n"}
+,{"stream_name":"stdout","time":11131.306545788,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":11131.306547836,"data":"  File \"/kaggle/working/code/scripts/c03_translate.py\", line 118, in main\n"}
+,{"stream_name":"stdout","time":11131.306560081,"data":"    d = np.load(DATA_ROOT / \"allen\" / a.slices)\n"}
+,{"stream_name":"stdout","time":11131.306562494,"data":"  File \"/usr/local/lib/python3.13/dist-packages/numpy/lib/_npyio_impl.py\", line 459, in load\n"}
+,{"stream_name":"stdout","time":11131.306564798,"data":"    fid = stack.enter_context(open(os.fspath(file), \"rb\"))\n"}
+,{"stream_name":"stdout","time":11131.306567111,"data":"                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":11131.306569375,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ai4s/data/allen/c03_slices_inputonly.npz'\n"}
+,{"stream_name":"stdout","time":11131.306571718,"data":"\n"}
+,{"stream_name":"stderr","time":11135.389129328,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":11135.389163661,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":11136.079463093,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":11136.079493688,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":11137.406148196,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":11138.322376424,"data":"[NbConvertApp] Writing 290793 bytes to __results__.html\n"}
+]

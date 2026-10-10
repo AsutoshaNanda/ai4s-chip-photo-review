@@ -1,0 +1,14 @@
+[
+ {
+  "step": "code",
+  "seconds": 1.0,
+  "ok": true,
+  "note": "code copied: ['final_config.json', 'runs', 'scripts', 'splits', 'src']; runs/ empty"
+ },
+ {
+  "step": "venv",
+  "seconds": 0.2,
+  "ok": false,
+  "error": "CalledProcessError: Command '['/usr/bin/python3', '-m', 'venv', '/tmp/f03env']' returned non-zero exit status 1."
+ }
+]

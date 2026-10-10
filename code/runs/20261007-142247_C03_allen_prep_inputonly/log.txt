@@ -1,0 +1,43 @@
+[2026-10-07T14:22:55] run 20261007-142247_C03_allen_prep_inputonly started
+[2026-10-07T14:22:56] DICLAMINB_100X_20170815_13_210_1-Scene-01-P1-B02.czi: z* 48, planes 5, nuclei at z* 37
+[2026-10-07T14:22:58] DICLAMINB_100X_20170815_13_210_1-Scene-02-P2-B02.czi: z* 42, planes 5, nuclei at z* 32
+[2026-10-07T14:23:01] DICLAMINB_100X_20170815_13_210_1-Scene-03-P3-B02.czi: z* 44, planes 5, nuclei at z* 34
+[2026-10-07T14:23:03] DICLAMINB_100X_20170815_13_210_1-Scene-04-P4-B02.czi: z* 62, planes 5, nuclei at z* 32
+[2026-10-07T14:23:06] DICLAMINB_100X_20170815_13_210_1-Scene-05-P5-B02.czi: z* 45, planes 5, nuclei at z* 38
+[2026-10-07T14:23:09] DICLAMINB_100X_20170815_13_210_1-Scene-06-P6-B02.czi: z* 41, planes 5, nuclei at z* 34
+[2026-10-07T14:23:11] DICLAMINB_100X_20170815_13_210_1-Scene-07-P7-B02.czi: z* 59, planes 5, nuclei at z* 50
+[2026-10-07T14:23:14] DICLAMINB_100X_20170815_13_210_1-Scene-08-P8-B03.czi: z* 48, planes 5, nuclei at z* 34
+[2026-10-07T14:23:17] DICLAMINB_100X_20170815_13_210_1-Scene-09-P9-B03.czi: z* 38, planes 5, nuclei at z* 31
+[2026-10-07T14:23:19] DICLAMINB_100X_20170815_13_210_1-Scene-10-P10-B03.czi: z* 42, planes 5, nuclei at z* 34
+[2026-10-07T14:23:25] DICLAMINB_100X_20170815_13_210_1-Scene-11-P11-B03.czi: z* 35, planes 5, nuclei at z* 27
+[2026-10-07T14:23:26] DICLAMINB_100X_20170815_13_210_1-Scene-12-P12-B03.czi: z* 55, planes 5, nuclei at z* 31
+[2026-10-07T14:23:30] DICLAMINB_100X_20170815_13_210_1-Scene-13-P13-B03.czi: z* 37, planes 5, nuclei at z* 32
+[2026-10-07T14:23:33] DICLAMINB_100X_20170815_13_210_1-Scene-14-P14-B03.czi: z* 45, planes 5, nuclei at z* 34
+[2026-10-07T14:23:36] DICLAMINB_100X_20170815_13_210_1-Scene-15-P15-B03.czi: z* 41, planes 5, nuclei at z* 30
+[2026-10-07T14:23:38] DICLAMINB_100X_20170815_13_210_1-Scene-16-P16-B03.czi: z* 33, planes 5, nuclei at z* 18
+[2026-10-07T14:23:41] DICLAMINB_100X_20170815_13_210_1-Scene-17-P17-B03.czi: z* 58, planes 5, nuclei at z* 32
+[2026-10-07T14:23:43] DICLAMINB_100X_20170815_13_210_1-Scene-18-P18-B03.czi: z* 46, planes 5, nuclei at z* 42
+[2026-10-07T14:23:46] DICLAMINB_100X_20170815_13_210_1-Scene-19-P19-B03.czi: z* 43, planes 5, nuclei at z* 30
+[2026-10-07T14:23:48] DICLAMINB_100X_20170815_13_210_1-Scene-20-P20-B04.czi: z* 52, planes 5, nuclei at z* 38
+[2026-10-07T14:23:51] DICLAMINB_100X_20170815_13_210_1-Scene-21-P21-B04.czi: z* 40, planes 5, nuclei at z* 29
+[2026-10-07T14:23:54] DICLAMINB_100X_20170815_13_210_2-Scene-01-P22-B04.czi: z* 37, planes 5, nuclei at z* 23
+[2026-10-07T14:23:56] DICLAMINB_100X_20170815_13_210_2-Scene-02-P23-B04.czi: z* 38, planes 5, nuclei at z* 30
+[2026-10-07T14:23:59] DICLAMINB_100X_20170815_13_210_2-Scene-03-P24-B04.czi: z* 42, planes 5, nuclei at z* 17
+[2026-10-07T14:24:02] DICLAMINB_100X_20170815_13_210_2-Scene-04-P25-B04.czi: z* 49, planes 5, nuclei at z* 33
+[2026-10-07T14:24:06] DICLAMINB_100X_20170815_13_210_2-Scene-05-P26-B04.czi: z* 42, planes 5, nuclei at z* 28
+[2026-10-07T14:24:09] DICLAMINB_100X_20170815_13_210_2-Scene-06-P27-B04.czi: z* 39, planes 5, nuclei at z* 25
+[2026-10-07T14:24:12] DICLAMINB_100X_20170815_13_210_2-Scene-07-P28-B04.czi: z* 30, planes 5, nuclei at z* 21
+[2026-10-07T14:24:16] DICLAMINB_100X_20170815_13_210_2-Scene-08-P29-B04.czi: z* 41, planes 5, nuclei at z* 34
+[2026-10-07T14:24:19] DICLAMINB_100X_20170815_13_210_2-Scene-09-P30-B04.czi: z* 43, planes 5, nuclei at z* 28
+[2026-10-07T14:24:23] DICLAMINB_100X_20170815_13_210_2-Scene-10-P31-B04.czi: z* 41, planes 5, nuclei at z* 23
+[2026-10-07T14:24:26] DICLAMINB_100X_20170815_13_210_2-Scene-11-P32-B05.czi: z* 40, planes 5, nuclei at z* 40
+[2026-10-07T14:24:29] DICLAMINB_100X_20170815_13_210_2-Scene-12-P33-B05.czi: z* 37, planes 5, nuclei at z* 30
+[2026-10-07T14:24:33] DICLAMINB_100X_20170815_13_210_2-Scene-13-P34-B05.czi: z* 35, planes 5, nuclei at z* 31
+[2026-10-07T14:24:36] DICLAMINB_100X_20170815_13_210_2-Scene-14-P35-B05.czi: z* 40, planes 5, nuclei at z* 23
+[2026-10-07T14:24:39] DICLAMINB_100X_20170815_13_210_2-Scene-15-P36-B05.czi: z* 40, planes 5, nuclei at z* 23
+[2026-10-07T14:24:43] DICLAMINB_100X_20170815_13_210_2-Scene-16-P37-B05.czi: z* 40, planes 5, nuclei at z* 30
+[2026-10-07T14:24:46] DICLAMINB_100X_20170815_13_210_2-Scene-17-P38-B05.czi: z* 37, planes 5, nuclei at z* 31
+[2026-10-07T14:24:49] DICLAMINB_100X_20170815_13_210_2-Scene-18-P39-B05.czi: z* 39, planes 5, nuclei at z* 19
+[2026-10-07T14:24:52] DICLAMINB_100X_20170815_13_210_2-Scene-19-P40-B05.czi: z* 32, planes 5, nuclei at z* 34
+[2026-10-07T14:25:27] saved /tmp/ai4s/data/allen/c03_slices_inputonly.npz (0.10 GB); wells {np.str_('B02'): np.int64(7), np.str_('B03'): np.int64(12), np.str_('B04'): np.int64(12), np.str_('B05'): np.int64(9)}
+[2026-10-07T14:25:27] run finished: status=measured, wall_seconds=159.69

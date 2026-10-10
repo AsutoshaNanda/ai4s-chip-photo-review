@@ -1,0 +1,38 @@
+=== scripts/b_repost.py --exp B02 --variant _noisetrain --seed 0
+[2026-10-07T11:49:39] run 20261007-114925_B02_unet_fg_noisetrain_repost_v2 started
+Traceback (most recent call last):
+  File "/kaggle/working/code/scripts/b_repost.py", line 108, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/code/scripts/b_repost.py", line 68, in main
+    assert sorted(fm) == folds, f"expected fold models {folds}, found {sorted(fm)}"
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: expected fold models [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4)], found []
+=== scripts/b04_refresh.py --exp B02 --variant _noisetrain --seed 0
+[2026-10-07T11:49:53] run 20261007-114950_B04_stress_refresh_B02_noisetrain_seed0 started
+Traceback (most recent call last):
+  File "/kaggle/working/code/scripts/b04_refresh.py", line 71, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/code/scripts/b04_refresh.py", line 61, in main
+    agg = D.groupby(["setting", "stress", "level"]).agg(images=("stem", "size"), count_mae=("abs_count_error", "mean"),
+          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/frame.py", line 9210, in groupby
+    return DataFrameGroupBy(
+        obj=self,
+    ...<7 lines>...
+        dropna=dropna,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/groupby.py", line 1331, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<5 lines>...
+        dropna=self.dropna,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'setting'

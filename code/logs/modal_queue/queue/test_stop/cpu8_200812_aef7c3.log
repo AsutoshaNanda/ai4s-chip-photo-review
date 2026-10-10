@@ -1,0 +1,2 @@
+[2026-10-05 20:08:13 UTC] lane cpu8_200812_aef7c3: 2 jobs; used before launch $19.99; cap $20.0; job limit 60 min
+[2026-10-05 20:08:15 UTC] START scripts/_queue_test_sleep.py 300

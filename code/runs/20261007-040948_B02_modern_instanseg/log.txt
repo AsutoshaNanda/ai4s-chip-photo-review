@@ -1,0 +1,12 @@
+[2026-10-07T04:09:51] run 20261007-040948_B02_modern_instanseg started
+[2026-10-07T04:09:51] instanseg version unknown
+[2026-10-07T04:09:56] model documents found: 2; exposure check: possible prior exposure: BBBC038, DSB
+[2026-10-07T04:12:02] fold 0: pixel size best count 0.500 um, best outline 0.500 um
+[2026-10-07T04:13:15] fold 1: pixel size best count 0.500 um, best outline 0.500 um
+[2026-10-07T04:15:27] fold 2: pixel size best count 0.500 um, best outline 0.500 um
+[2026-10-07T04:16:50] fold 3: pixel size best count 0.707 um, best outline 0.500 um
+[2026-10-07T04:18:41] fold 4: pixel size best count 0.707 um, best outline 0.500 um
+[2026-10-07T04:18:41] InstanSeg best_count: count MAE 3.97 (bias -0.98); pooled F1 0.25/0.50/0.75/0.90 0.956/0.946/0.903/0.654; joined 625 split 983 missed 517 false 198
+[2026-10-07T04:18:41] InstanSeg best_outline: count MAE 4.03 (bias -2.11); pooled F1 0.25/0.50/0.75/0.90 0.957/0.950/0.913/0.728; joined 666 split 823 missed 544 false 166
+[2026-10-07T04:18:41] time per image (median) 0.105 s; peak GPU memory 5.310731264
+[2026-10-07T04:18:41] run finished: status=measured, wall_seconds=532.91

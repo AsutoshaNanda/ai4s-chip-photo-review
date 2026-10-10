@@ -1,0 +1,45 @@
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-huuCss1MWHvkHyUnDpW0Gr
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_run.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+{
+ "returncode": 0,
+ "seconds": 1271.6,
+ "new_runs": [
+  "20261006-212929_B03_unet_boundary_seed1"
+ ]
+}
+---- stdout (tail) ----
+[2026-10-06T21:29:36] run 20261006-212929_B03_unet_boundary_seed1 started
+[2026-10-06T21:33:50] fold 0: trained 185 s, steps 3500, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 50.0, 'count_mae': 14.848484848484848, 'mean_f1_levels': 0.8694470993460296}
+[2026-10-06T21:38:05] fold 1: trained 207 s, steps 4250, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 7.190476190476191, 'mean_f1_levels': 0.9147324867442419}
+[2026-10-06T21:41:31] fold 2: trained 148 s, steps 3000, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 13.487179487179487, 'mean_f1_levels': 0.8749176338685279}
+[2026-10-06T21:46:42] fold 3: trained 257 s, steps 5250, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 8.875, 'mean_f1_levels': 0.9014180235690432}
+[2026-10-06T21:50:27] fold 4: trained 172 s, steps 3500, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 50.0, 'count_mae': 9.878787878787879, 'mean_f1_levels': 0.9011804869139426}
+[2026-10-06T21:50:27] B03 best_count: count MAE 6.30 (bias -5.93); pooled F1 0.25/0.50/0.75/0.90 0.949/0.928/0.876/0.727; joined 1941 split 225 missed 237 false 276
+[2026-10-06T21:50:27] B03 best_outline: count MAE 10.73 (bias -10.71); pooled F1 0.25/0.50/0.75/0.90 0.945/0.932/0.891/0.741; joined 2040 split 95 missed 619 false 73
+[2026-10-06T21:50:27] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00      13.313 -10.687   0.902   0.859
+           2.00      16.613 -15.907   0.870   0.812
+           3.00      21.160 -20.813   0.818   0.743
+brightness 0.50      12.307 -12.307   0.917   0.864
+           0.75      11.213 -11.213   0.930   0.885
+           1.25      10.633 -10.607   0.927   0.890
+           1.50      10.753 -10.713   0.924   0.887
+noise_sd   0.02      11.853 -11.840   0.916   0.875
+           0.05      15.640 -15.427   0.799   0.707
+           0.10      73.047 -73.033   0.225   0.126
+[2026-10-06T21:50:28] run finished: status=measured, wall_seconds=1258.37
+
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-huuCss1MWHvkHyUnDpW0Gr

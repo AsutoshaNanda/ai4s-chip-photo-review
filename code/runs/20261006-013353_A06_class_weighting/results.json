@@ -1,0 +1,1178 @@
+{
+  "resnet18@224|None": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.7171408568593494,
+      "avg_precision_bad": 0.6629353446514068,
+      "brier": 0.21210695499401283,
+      "log_loss": 0.609956544506156,
+      "review_area": 0.6214161311964161
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.661464628510487,
+        "avg_precision_bad": 0.5383820163850557,
+        "brier": 0.21554125367676866,
+        "log_loss": 0.620118898188175,
+        "review_area": 0.612459639748906
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.8621240024554941,
+        "avg_precision_bad": 0.8875446257989571,
+        "brier": 0.1977559799074879,
+        "log_loss": 0.5779890972513414,
+        "review_area": 0.6221076022914925
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.7298706643151088,
+        "avg_precision_bad": 0.6964769179856342,
+        "brier": 0.20862011992147697,
+        "log_loss": 0.6004569787603912,
+        "review_area": 0.6242038619816398
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.6780523255813954,
+        "avg_precision_bad": 0.4963014665994907,
+        "brier": 0.20394148855351238,
+        "log_loss": 0.5960762359745398,
+        "review_area": 0.6215997409326425
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 0.9811320754716981,
+        "avg_precision_bad": 0.9989892183288409,
+        "brier": 0.24592257593877595,
+        "log_loss": 0.6888990410933374,
+        "review_area": 0.5347035040431267
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.4633260711692084,
+        "avg_precision_bad": 0.3494587345667814,
+        "brier": 0.28250179681416193,
+        "log_loss": 0.7592343573308911,
+        "review_area": 0.4824311490978158
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.6257681375740349,
+        "avg_precision_bad": 0.6925362473929629,
+        "brier": 0.23932096876507156,
+        "log_loss": 0.669507569437456,
+        "review_area": 0.556227537681631
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.6856016387304243,
+        "avg_precision_bad": 0.4357930334393356,
+        "brier": 0.16282597026526532,
+        "log_loss": 0.5019095021841017,
+        "review_area": 0.6430912992784602
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.5246913580246914,
+        "avg_precision_bad": 0.13343157215085732,
+        "brier": 0.11643525521488796,
+        "log_loss": 0.402307744050275,
+        "review_area": 0.5287356321839081
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.648511901876094,
+      0.7873568719462405
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.5979381443298969,
+        "share_good_passed": 0.6528735632183909
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.6243093922651933,
+        "share_good_passed": 0.8666666666666667
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.6888888888888889,
+        "share_good_passed": 0.6492063492063492
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.265625,
+        "share_good_passed": 0.8992248062015504
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.6981132075471698,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.2962962962962963,
+        "share_good_passed": 0.39215686274509803
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.6260623229461756,
+        "share_good_passed": 0.680119581464873
+      }
+    ]
+  },
+  "resnet18@224|balanced": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.7264122314110246,
+      "avg_precision_bad": 0.6672996560970761,
+      "brier": 0.21049948121513554,
+      "log_loss": 0.6081417746494561,
+      "review_area": 0.6265913915844602
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.6674250503614172,
+        "avg_precision_bad": 0.5354371920832767,
+        "brier": 0.2262190631336151,
+        "log_loss": 0.6441193205335635,
+        "review_area": 0.6165817120941439
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.8732965009208102,
+        "avg_precision_bad": 0.8932247088446277,
+        "brier": 0.16773177912253837,
+        "log_loss": 0.5153295597786747,
+        "review_area": 0.6258180261360625
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.7315402704291594,
+        "avg_precision_bad": 0.6922610889716408,
+        "brier": 0.20966119105695125,
+        "log_loss": 0.6049336566128412,
+        "review_area": 0.6251028806584362
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.6916182170542635,
+        "avg_precision_bad": 0.5109793840750907,
+        "brier": 0.20314091240374396,
+        "log_loss": 0.5939782526078189,
+        "review_area": 0.6306670984455959
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 0.9811320754716981,
+        "avg_precision_bad": 0.9989892183288409,
+        "brier": 0.1773450092021543,
+        "log_loss": 0.5471599357287366,
+        "review_area": 0.5347035040431267
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.47349310094408137,
+        "avg_precision_bad": 0.35646738585831167,
+        "brier": 0.2869108137634863,
+        "log_loss": 0.7674273477945054,
+        "review_area": 0.4890788224121558
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.6433872683678168,
+        "avg_precision_bad": 0.697214480337284,
+        "brier": 0.23360447729572045,
+        "log_loss": 0.659865298437261,
+        "review_area": 0.5640607141773012
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.6948194973678994,
+        "avg_precision_bad": 0.43862722696087086,
+        "brier": 0.16654069739366936,
+        "log_loss": 0.509491057215216,
+        "review_area": 0.6501630646006185
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.4094650205761317,
+        "avg_precision_bad": 0.06527630102191506,
+        "brier": 0.14663665505434575,
+        "log_loss": 0.4671704417930047,
+        "review_area": 0.42145593869731796
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.6656603287475447,
+      0.7928393230815357
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.6030927835051546,
+        "share_good_passed": 0.6528735632183909
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.6464088397790055,
+        "share_good_passed": 0.8333333333333334
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.6981481481481482,
+        "share_good_passed": 0.6333333333333333
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.28125,
+        "share_good_passed": 0.8682170542635659
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.6981132075471698,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.2962962962962963,
+        "share_good_passed": 0.39215686274509803
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.6364494806421152,
+        "share_good_passed": 0.6674140508221226
+      }
+    ]
+  },
+  "resnet18@448|None": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.7681196548623727,
+      "avg_precision_bad": 0.706949625973165,
+      "brier": 0.19425918352909463,
+      "log_loss": 0.5681670564298912,
+      "review_area": 0.6498723813958508
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.698957222419718,
+        "avg_precision_bad": 0.5776557025884018,
+        "brier": 0.20458096435019804,
+        "log_loss": 0.5913650061676602,
+        "review_area": 0.6383885401471818
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.8573357888275016,
+        "avg_precision_bad": 0.886317539189769,
+        "brier": 0.18842412974611347,
+        "log_loss": 0.5549382001427915,
+        "review_area": 0.6205174206438197
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.7689035861258083,
+        "avg_precision_bad": 0.7205656122543862,
+        "brier": 0.19455672059448711,
+        "log_loss": 0.5695660905469078,
+        "review_area": 0.6452215891104781
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.8475048449612403,
+        "avg_precision_bad": 0.7592973983124878,
+        "brier": 0.14910596143272542,
+        "log_loss": 0.4618637083643868,
+        "review_area": 0.7348607512953368
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 1.0,
+        "avg_precision_bad": 0.9999999999999999,
+        "brier": 0.17114320924978849,
+        "log_loss": 0.5281820053397045,
+        "review_area": 0.5357142857142857
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.4901960784313726,
+        "avg_precision_bad": 0.38894712361809014,
+        "brier": 0.2551546642527502,
+        "log_loss": 0.6978125537315694,
+        "review_area": 0.5
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.6911031011321593,
+        "avg_precision_bad": 0.731312169020019,
+        "brier": 0.22015236560436424,
+        "log_loss": 0.6274030424423496,
+        "review_area": 0.585274390609789
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.7676482896852492,
+        "avg_precision_bad": 0.5501338827346439,
+        "brier": 0.1439610934845038,
+        "log_loss": 0.45321785981897145,
+        "review_area": 0.7060359249057944
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.6460905349794239,
+        "avg_precision_bad": 0.1680617078140298,
+        "brier": 0.1311686826967696,
+        "log_loss": 0.42286714288609656,
+        "review_area": 0.6417624521072797
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.7260108032135358,
+      0.8224197020714621
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.6237113402061856,
+        "share_good_passed": 0.6091954022988506
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.6795580110497238,
+        "share_good_passed": 0.8111111111111111
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.8592592592592593,
+        "share_good_passed": 0.5761904761904761
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.640625,
+        "share_good_passed": 0.8527131782945736
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.8679245283018868,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.6666666666666666,
+        "share_good_passed": 0.37254901960784315
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.7677053824362606,
+        "share_good_passed": 0.6225710014947683
+      }
+    ]
+  },
+  "resnet18@448|balanced": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.777146135833365,
+      "avg_precision_bad": 0.7175991319221457,
+      "brier": 0.1924300793225607,
+      "log_loss": 0.5659919914031961,
+      "review_area": 0.654910942738858
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.7046806493660387,
+        "avg_precision_bad": 0.5841693670118553,
+        "brier": 0.21374492834096198,
+        "log_loss": 0.6126045939491381,
+        "review_area": 0.6423467129955911
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.865438919582566,
+        "avg_precision_bad": 0.8912130025220142,
+        "brier": 0.16000650051651544,
+        "log_loss": 0.4945497509190179,
+        "review_area": 0.6232084972783429
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.7741475602586713,
+        "avg_precision_bad": 0.7273818525955464,
+        "brier": 0.19495919186693933,
+        "log_loss": 0.5725572989201586,
+        "review_area": 0.6480452674897119
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.8507751937984497,
+        "avg_precision_bad": 0.7683300914567239,
+        "brier": 0.14643400804479367,
+        "log_loss": 0.459072825530686,
+        "review_area": 0.7370466321243523
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 1.0,
+        "avg_precision_bad": 0.9999999999999999,
+        "brier": 0.11946921446739724,
+        "log_loss": 0.4156166978349048,
+        "review_area": 0.5357142857142857
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.504720406681191,
+        "avg_precision_bad": 0.39622302519087693,
+        "brier": 0.2614523656743426,
+        "log_loss": 0.7123577071491861,
+        "review_area": 0.5094966761633428
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.7054178509614621,
+        "avg_precision_bad": 0.7420582796213899,
+        "brier": 0.21588277574519812,
+        "log_loss": 0.6198191877183923,
+        "review_area": 0.5916384935395355
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.7719543622387172,
+        "avg_precision_bad": 0.5566869567837475,
+        "brier": 0.14541415311794842,
+        "log_loss": 0.45786564245049566,
+        "review_area": 0.7093394616333496
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.6502057613168725,
+        "avg_precision_bad": 0.1697652226116619,
+        "brier": 0.1472392654942453,
+        "log_loss": 0.4640615809193689,
+        "review_area": 0.6455938697318008
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.7355878725427003,
+      0.831150258429518
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.6237113402061856,
+        "share_good_passed": 0.6344827586206897
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.6795580110497238,
+        "share_good_passed": 0.8111111111111111
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.8314814814814815,
+        "share_good_passed": 0.5968253968253968
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.625,
+        "share_good_passed": 0.8527131782945736
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.8867924528301887,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.5925925925925926,
+        "share_good_passed": 0.4117647058823529
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.7516525023607177,
+        "share_good_passed": 0.6420029895366218
+      }
+    ]
+  },
+  "vit_large_patch14_dinov2@224|None": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.7609521067199645,
+      "avg_precision_bad": 0.7055424423551431,
+      "brier": 0.19662866754539873,
+      "log_loss": 0.5745920895874292,
+      "review_area": 0.645871472169926
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.681289252281076,
+        "avg_precision_bad": 0.49388908411198273,
+        "brier": 0.21189912443141526,
+        "log_loss": 0.6093070051992135,
+        "review_area": 0.6261698326586137
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.8423572744014732,
+        "avg_precision_bad": 0.8848403097979971,
+        "brier": 0.18326118181202333,
+        "log_loss": 0.5629022829420673,
+        "review_area": 0.6155430062587918
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.764021164021164,
+        "avg_precision_bad": 0.7315682097118579,
+        "brier": 0.19594269011569532,
+        "log_loss": 0.5707880570823118,
+        "review_area": 0.6425925925925925
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.7848837209302325,
+        "avg_precision_bad": 0.6291987794869923,
+        "brier": 0.17474630656721088,
+        "log_loss": 0.5160033712651747,
+        "review_area": 0.6930051813471503
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 1.0,
+        "avg_precision_bad": 0.9999999999999999,
+        "brier": 0.2267935452962823,
+        "log_loss": 0.6534264854734756,
+        "review_area": 0.5357142857142857
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.8228031953522149,
+        "avg_precision_bad": 0.7507515671290184,
+        "brier": 0.16270722344199037,
+        "log_loss": 0.48069298931364496,
+        "review_area": 0.7174738841405508
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.6901154389697827,
+        "avg_precision_bad": 0.7361664630358251,
+        "brier": 0.22135131467266478,
+        "log_loss": 0.632545336386083,
+        "review_area": 0.5848352922157456
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.7498292989141209,
+        "avg_precision_bad": 0.4933286074272613,
+        "brier": 0.15286213499476237,
+        "log_loss": 0.47178820442954045,
+        "review_area": 0.6923655350715625
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.7098765432098765,
+        "avg_precision_bad": 0.1261427456005826,
+        "brier": 0.10149614164148948,
+        "log_loss": 0.3533028364854145,
+        "review_area": 0.7011494252873564
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.7056460431996189,
+      0.8253131635757565
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.6958762886597938,
+        "share_good_passed": 0.5977011494252874
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.8232044198895028,
+        "share_good_passed": 0.7666666666666667
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.8166666666666667,
+        "share_good_passed": 0.5777777777777777
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.65625,
+        "share_good_passed": 0.751937984496124
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.7547169811320755,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.9259259259259259,
+        "share_good_passed": 0.49019607843137253
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.785646836638338,
+        "share_good_passed": 0.6113602391629297
+      }
+    ]
+  },
+  "vit_large_patch14_dinov2@224|balanced": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.7692072081990653,
+      "avg_precision_bad": 0.7164967455316822,
+      "brier": 0.1950807850790376,
+      "log_loss": 0.5715571311302722,
+      "review_area": 0.6504794512183351
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.6884583481455148,
+        "avg_precision_bad": 0.5017653957711464,
+        "brier": 0.21800981883797518,
+        "log_loss": 0.623563992740065,
+        "review_area": 0.6311277924376772
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.8529772866789441,
+        "avg_precision_bad": 0.8913082070357755,
+        "brier": 0.16127143198606841,
+        "log_loss": 0.5120714161294249,
+        "review_area": 0.6190699476055533
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.7681011169900058,
+        "avg_precision_bad": 0.7376268371212378,
+        "brier": 0.19639547896698975,
+        "log_loss": 0.5725447061967904,
+        "review_area": 0.644789490345046
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.7863372093023256,
+        "avg_precision_bad": 0.6372805336552327,
+        "brier": 0.17630105031994214,
+        "log_loss": 0.5208803069642468,
+        "review_area": 0.6939766839378239
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 1.0,
+        "avg_precision_bad": 0.9999999999999999,
+        "brier": 0.17201840318702485,
+        "log_loss": 0.529820408826617,
+        "review_area": 0.5357142857142857
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.8300653594771241,
+        "avg_precision_bad": 0.7598878426676101,
+        "brier": 0.17094953891720452,
+        "log_loss": 0.49938704776990367,
+        "review_area": 0.7222222222222222
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.7031630595296696,
+        "avg_precision_bad": 0.7474436080398403,
+        "brier": 0.21745790838173207,
+        "log_loss": 0.6242618651121121,
+        "review_area": 0.5906360502605293
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.7546309552653028,
+        "avg_precision_bad": 0.49941887196652807,
+        "brier": 0.1550969957915947,
+        "log_loss": 0.4766373208611002,
+        "review_area": 0.6960492742357932
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.7283950617283952,
+        "avg_precision_bad": 0.14152858999350226,
+        "brier": 0.11200234654505671,
+        "log_loss": 0.38199810300293124,
+        "review_area": 0.7183908045977011
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.716063778919507,
+      0.8303212720216245
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.7010309278350515,
+        "share_good_passed": 0.6022988505747127
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.8342541436464088,
+        "share_good_passed": 0.7666666666666667
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.8166666666666667,
+        "share_good_passed": 0.5777777777777777
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.625,
+        "share_good_passed": 0.751937984496124
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.7924528301886793,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.9259259259259259,
+        "share_good_passed": 0.49019607843137253
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.7884796978281398,
+        "share_good_passed": 0.6128550074738416
+      }
+    ]
+  },
+  "vit_large_patch14_dinov2@518|None": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.8432815175215358,
+      "avg_precision_bad": 0.811780821115502,
+      "brier": 0.16017571185004714,
+      "log_loss": 0.48576794723537203,
+      "review_area": 0.6918275638063475
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.7822727811352056,
+        "avg_precision_bad": 0.6752553600773594,
+        "brier": 0.172757921993781,
+        "log_loss": 0.517774688412809,
+        "review_area": 0.6960074082572566
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.8783302639656231,
+        "avg_precision_bad": 0.9039462916716501,
+        "brier": 0.16761592019755153,
+        "log_loss": 0.5113025853653906,
+        "review_area": 0.627489755560539
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.8559523809523809,
+        "avg_precision_bad": 0.8361830088451396,
+        "brier": 0.15500612852244616,
+        "log_loss": 0.4713341514111245,
+        "review_area": 0.6920940170940172
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.8304263565891473,
+        "avg_precision_bad": 0.7307475887118404,
+        "brier": 0.1512013988031874,
+        "log_loss": 0.46469189877801187,
+        "review_area": 0.7234455958549223
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 0.9811320754716981,
+        "avg_precision_bad": 0.9989892183288409,
+        "brier": 0.15924345554962072,
+        "log_loss": 0.4836506760172727,
+        "review_area": 0.5347035040431267
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.9273783587509078,
+        "avg_precision_bad": 0.8856190532969281,
+        "brier": 0.13328025828054266,
+        "log_loss": 0.40912254365859135,
+        "review_area": 0.7858499525166192
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.8112898359718628,
+        "avg_precision_bad": 0.8412592001214781,
+        "brier": 0.17651008001250104,
+        "log_loss": 0.5280056651570137,
+        "review_area": 0.6387074411646979
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.8303121076628268,
+        "avg_precision_bad": 0.6319053457807651,
+        "brier": 0.1287097962886419,
+        "log_loss": 0.40343885746787767,
+        "review_area": 0.7541104107876105
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.7407407407407407,
+        "avg_precision_bad": 0.17926855426855426,
+        "brier": 0.11821262954939238,
+        "log_loss": 0.38515881486022246,
+        "review_area": 0.7298850574712644
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.8029536068816233,
+      0.8844380209186419
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.6134020618556701,
+        "share_good_passed": 0.8068965517241379
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.7458563535911602,
+        "share_good_passed": 0.8666666666666667
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.812962962962963,
+        "share_good_passed": 0.7396825396825397
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.65625,
+        "share_good_passed": 0.875968992248062
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.8113207547169812,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.9629629629629629,
+        "share_good_passed": 0.6862745098039216
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.7592067988668555,
+        "share_good_passed": 0.7817638266068759
+      }
+    ]
+  },
+  "vit_large_patch14_dinov2@518|balanced": {
+    "pooled": {
+      "n": 2397,
+      "n_bad": 1059,
+      "n_good": 1338,
+      "roc_auc": 0.8467439034201824,
+      "avg_precision_bad": 0.8154164585726998,
+      "brier": 0.15982299655602425,
+      "log_loss": 0.4855746363077556,
+      "review_area": 0.6937602598148535
+    },
+    "per_cell_type": {
+      "A549": {
+        "n": 629,
+        "n_bad": 194,
+        "n_good": 435,
+        "roc_auc": 0.7846308804360707,
+        "avg_precision_bad": 0.6754134300909005,
+        "brier": 0.17809230607757845,
+        "log_loss": 0.5306073133029126,
+        "review_area": 0.6976382082507008
+      },
+      "CACO": {
+        "n": 271,
+        "n_bad": 181,
+        "n_good": 90,
+        "roc_auc": 0.883302639656231,
+        "avg_precision_bad": 0.9079032281330679,
+        "brier": 0.14693743052924596,
+        "log_loss": 0.4627704430763188,
+        "review_area": 0.6291410980408146
+      },
+      "HPMEC": {
+        "n": 1170,
+        "n_bad": 540,
+        "n_good": 630,
+        "roc_auc": 0.8565931804820694,
+        "avg_precision_bad": 0.836904756209267,
+        "brier": 0.15741945690176434,
+        "log_loss": 0.47806242878040217,
+        "review_area": 0.6924390629946185
+      },
+      "HSAEC": {
+        "n": 193,
+        "n_bad": 64,
+        "n_good": 129,
+        "roc_auc": 0.8366036821705426,
+        "avg_precision_bad": 0.7413951580428305,
+        "brier": 0.15148008102817698,
+        "log_loss": 0.46647212892422685,
+        "review_area": 0.727574481865285
+      },
+      "HUVEC": {
+        "n": 56,
+        "n_bad": 53,
+        "n_good": 3,
+        "roc_auc": 0.9811320754716981,
+        "avg_precision_bad": 0.9989892183288409,
+        "brier": 0.11867588873004577,
+        "log_loss": 0.38899402190200305,
+        "review_area": 0.5347035040431267
+      },
+      "NHBE": {
+        "n": 78,
+        "n_bad": 27,
+        "n_good": 51,
+        "roc_auc": 0.9281045751633987,
+        "avg_precision_bad": 0.8867629467755782,
+        "brier": 0.1435044687972137,
+        "log_loss": 0.4309459654681718,
+        "review_area": 0.7863247863247863
+      }
+    },
+    "per_photo_format": {
+      "L/2056x1542": {
+        "n": 1597,
+        "n_bad": 887,
+        "n_good": 710,
+        "roc_auc": 0.8152627149594296,
+        "avg_precision_bad": 0.8443716713761023,
+        "brier": 0.17581075000787455,
+        "log_loss": 0.5278121744122508,
+        "review_area": 0.6404737179844677
+      },
+      "RGB/2048x1536": {
+        "n": 713,
+        "n_bad": 166,
+        "n_good": 547,
+        "roc_auc": 0.834662232109425,
+        "avg_precision_bad": 0.6395262326102114,
+        "brier": 0.12733346253225208,
+        "log_loss": 0.3989036012718176,
+        "review_area": 0.7574477432873148
+      },
+      "RGB/640x480": {
+        "n": 87,
+        "n_bad": 6,
+        "n_good": 81,
+        "roc_auc": 0.7366255144032923,
+        "avg_precision_bad": 0.18273066802478566,
+        "brier": 0.1326114505369974,
+        "log_loss": 0.4205527929485018,
+        "review_area": 0.7260536398467433
+      }
+    },
+    "roc_auc_bootstrap_95": [
+      0.8075431438846459,
+      0.8873354383018551
+    ],
+    "found_shares": [
+      {
+        "cell_type": "A549",
+        "share_bad_found": 0.6237113402061856,
+        "share_good_passed": 0.7793103448275862
+      },
+      {
+        "cell_type": "CACO",
+        "share_bad_found": 0.7458563535911602,
+        "share_good_passed": 0.8555555555555555
+      },
+      {
+        "cell_type": "HPMEC",
+        "share_bad_found": 0.8185185185185185,
+        "share_good_passed": 0.726984126984127
+      },
+      {
+        "cell_type": "HSAEC",
+        "share_bad_found": 0.625,
+        "share_good_passed": 0.875968992248062
+      },
+      {
+        "cell_type": "HUVEC",
+        "share_bad_found": 0.8113207547169812,
+        "share_good_passed": 1.0
+      },
+      {
+        "cell_type": "NHBE",
+        "share_bad_found": 0.9629629629629629,
+        "share_good_passed": 0.6666666666666666
+      },
+      {
+        "cell_type": "ALL",
+        "share_bad_found": 0.7620396600566572,
+        "share_good_passed": 0.7653213751868461
+      }
+    ]
+  }
+}

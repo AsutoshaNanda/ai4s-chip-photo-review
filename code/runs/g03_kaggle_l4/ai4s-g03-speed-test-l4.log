@@ -1,0 +1,35 @@
+[{"stream_name":"stdout","time":23.741452737,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 187.6/187.6 kB 4.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":26.690638308,"data":"{\"python\": \"3.13.15\", \"torch\": \"2.11.0+cu128\", \"platform\": \"Linux-6.18.48+-x86_64-with-glibc2.39\", \"cpu_count\": 4, \"machine\": \"x86_64\", \"timm\": \"1.0.29\", \"device\": \"cuda\", \"gpus\": [\"Tesla T4\", \"Tesla T4\"], \"gpu_mem_gb\": [15.6, 15.6], \"ram_gb\": 33.7, \"disk_free_gb\": 20.9, \"nvidia_smi\": \"Tesla T4, 15360 MiB, 580.178.04\\nTesla T4, 15360 MiB, 580.178.04\", \"package_installs\": {\"timm\": \"present\", \"stable_baselines3\": \"installed\", \"gymnasium\": \"present\", \"psutil\": \"present\"}, \"device_used\": \"cuda\"}\n"}
+,{"stream_name":"stdout","time":28.847872143,"data":"{\"job\": \"frozen_features:resnet18@224\", \"batch\": 64, \"items_per_s\": 2335.53, \"s_per_step\": 0.0274, \"peak_mem_gb\": 0.33, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":31.057244189,"data":"{\"job\": \"train_step:resnet18@224\", \"batch\": 64, \"items_per_s\": 797.84, \"s_per_step\": 0.0802, \"peak_mem_gb\": 1.0, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":32.493784067,"data":"{\"job\": \"frozen_features:resnet18@448\", \"batch\": 64, \"items_per_s\": 669.7, \"s_per_step\": 0.0956, \"peak_mem_gb\": 1.22, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":36.723214067,"data":"{\"job\": \"train_step:resnet18@448\", \"batch\": 64, \"items_per_s\": 206.48, \"s_per_step\": 0.31, \"peak_mem_gb\": 3.58, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":41.699535209,"data":"{\"job\": \"frozen_features:efficientnet_b0@224\", \"batch\": 64, \"items_per_s\": 1497.96, \"s_per_step\": 0.0427, \"peak_mem_gb\": 0.46, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":50.014634966,"data":"{\"job\": \"train_step:efficientnet_b0@224\", \"batch\": 64, \"items_per_s\": 433.45, \"s_per_step\": 0.1477, \"peak_mem_gb\": 2.98, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":56.163610314,"data":"{\"job\": \"frozen_features:efficientnet_b0@448\", \"batch\": 64, \"items_per_s\": 461.4, \"s_per_step\": 0.1387, \"peak_mem_gb\": 1.73, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":69.703769507,"data":"{\"job\": \"train_step:efficientnet_b0@448\", \"batch\": 64, \"items_per_s\": 113.05, \"s_per_step\": 0.5661, \"peak_mem_gb\": 11.6, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":76.925286086,"data":"{\"job\": \"frozen_features:convnext_tiny@224\", \"batch\": 64, \"items_per_s\": 695.35, \"s_per_step\": 0.092, \"peak_mem_gb\": 0.71, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":87.479809352,"data":"{\"job\": \"train_step:convnext_tiny@224\", \"batch\": 64, \"items_per_s\": 235.15, \"s_per_step\": 0.2722, \"peak_mem_gb\": 4.45, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":97.960319011,"data":"{\"job\": \"frozen_features:convnext_tiny@448\", \"batch\": 64, \"items_per_s\": 170.94, \"s_per_step\": 0.3744, \"peak_mem_gb\": 2.44, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":117.642210412,"data":"{\"job\": \"train_step:convnext_tiny@448\", \"batch\": 32, \"items_per_s\": 59.8, \"s_per_step\": 0.5352, \"peak_mem_gb\": 15.43, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":131.753196367,"data":"{\"job\": \"frozen_features:vit_large_patch14_dinov2.lvd142m@224\", \"batch\": 64, \"items_per_s\": 88.35, \"s_per_step\": 0.7244, \"peak_mem_gb\": 2.41, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":158.170968441,"data":"{\"job\": \"train_step:vit_large_patch14_dinov2.lvd142m@224\", \"batch\": 32, \"items_per_s\": 25.22, \"s_per_step\": 1.2688, \"peak_mem_gb\": 15.06, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":230.301519551,"data":"{\"job\": \"frozen_features:vit_large_patch14_dinov2.lvd142m@518\", \"batch\": 64, \"items_per_s\": 12.35, \"s_per_step\": 5.1807, \"peak_mem_gb\": 4.92, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":239.290092372,"data":"{\"job\": \"unet_train_step@256\", \"batch\": 64, \"items_per_s\": 98.54, \"s_per_step\": 0.6495, \"peak_mem_gb\": 6.07, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stdout","time":255.348341844,"data":"{\"job\": \"unet_predict@528x704\", \"batch\": 64, \"items_per_s\": 51.71, \"s_per_step\": 1.2377, \"peak_mem_gb\": 10.78, \"precision\": \"fp16\"}\n"}
+,{"stream_name":"stderr","time":280.0220499,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stderr","time":280.022091121,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stderr","time":280.022100566,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stderr","time":280.022107857,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":291.860541763,"data":"{\"job\": \"ppo_pendulum@cpu\", \"env_steps\": 8192, \"seconds\": 11.69, \"steps_per_s\": 700.7}\n"}
+,{"stream_name":"stderr","time":291.865882914,"data":"/usr/local/lib/python3.13/dist-packages/stable_baselines3/common/on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.\n"}
+,{"stream_name":"stderr","time":291.86590468,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":311.173846674,"data":"{\"job\": \"ppo_pendulum@cuda\", \"env_steps\": 8192, \"seconds\": 19.31, \"steps_per_s\": 424.3}\n"}
+,{"stream_name":"stdout","time":311.174782867,"data":"WROTE /kaggle/working/g03_results_cuda.json total_seconds 300.8\n"}
+,{"stream_name":"stderr","time":319.794328495,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":319.79436427,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":320.091567266,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":320.091595181,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":320.966826058,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":321.601788701,"data":"[NbConvertApp] Writing 337981 bytes to __results__.html\n"}
+]

@@ -1,0 +1,105 @@
+{
+  "images": [
+    {
+      "alt": "Workflow from format check through whole-photo and tile features to human review. Unsupported formats receive no score.",
+      "complete": true,
+      "height": 836,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2Fd0ff42009fef894bf8cf737d56dfcb14%2Fworkflow_style_update.png?generation=1791562821006140&alt=media",
+      "width": 1829
+    },
+    {
+      "alt": "Development scores before and after group exclusion, and scores for the three camera formats.",
+      "complete": true,
+      "height": 978,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F50c53502ce8df8c52852f2fadeeba34f%2F09_validation_and_formats.png?generation=1791558666323436&alt=media",
+      "width": 2018
+    },
+    {
+      "alt": "Final photo AUC comparison and review curves from the clean rebuild.",
+      "complete": true,
+      "height": 921,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2Fe872a9992bd1cb9949d80b02a1132b61%2F02_chip_final.png?generation=1791525151901863&alt=media",
+      "width": 2018
+    },
+    {
+      "alt": "Final AUC by cell type, with sample counts and the two photo methods.",
+      "complete": true,
+      "height": 917,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F0b437b0eb2e03d5986c66cb6cd33e52d%2F03_chip_subgroups.png?generation=1791539676442035&alt=media",
+      "width": 1678
+    },
+    {
+      "alt": "Actual fresh-install demo output, with four early-review and four late-review chip photos.",
+      "complete": true,
+      "height": 700,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F19a071572c0f07da83a03a6143d0fe64%2F04_real_demo.png?generation=1791540684405681&alt=media",
+      "width": 1600
+    },
+    {
+      "alt": "Final nucleus results with separate panels for count settings and outline settings.",
+      "complete": true,
+      "height": 928,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F1a4a08cf29976dba0bce7edc918f985b%2F05_nucleus_final.png?generation=1791540764958497&alt=media",
+      "width": 2017
+    },
+    {
+      "alt": "Artificial-noise stress results and nucleus detection by size group.",
+      "complete": true,
+      "height": 951,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F1f89596dab2b9f4f6b851f96abfc07ce%2F06_nucleus_limits.png?generation=1791541979444039&alt=media",
+      "width": 2018
+    },
+    {
+      "alt": "Saved B02 failure gallery showing reference and predicted nucleus outlines in the six largest count-error cases.",
+      "complete": true,
+      "height": 640,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F6ffdddcfe21fb1a643be18814988c41a%2Fnucleus_failure_examples.png?generation=1791543855633618&alt=media",
+      "width": 1200
+    },
+    {
+      "alt": "Actual B03 outline-setting examples with reference and predicted boundaries.",
+      "complete": true,
+      "height": 640,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2Faf71e5a00cbbd58f1a04197da4fd8155%2F12_b03_outline_examples.png?generation=1791558731854730&alt=media",
+      "width": 1200
+    },
+    {
+      "alt": "Final nucleus review curves and development error shares from shared model failures.",
+      "complete": true,
+      "height": 894,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2Fdc10de462a35bcd80e209ce392b1a880%2F10_review_and_shared_failures.png?generation=1791558675165810&alt=media",
+      "width": 2019
+    },
+    {
+      "alt": "Nucleus count and outline performance on development, outside gray, and outside color images.",
+      "complete": true,
+      "height": 911,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F7332635f1c7da99d2665bff0b89d419b%2F11_outside_nucleus_test.png?generation=1791558677198249&alt=media",
+      "width": 2016
+    },
+    {
+      "alt": "Biological matching and batch identification in C02, plus direct and predicted-image measurement in C03.",
+      "complete": true,
+      "height": 894,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F5561a813aa4e43f61c1bb64cb4cb5a43%2Fsupporting_studies.jpg?generation=1791563079397807&alt=media",
+      "width": 2188
+    },
+    {
+      "alt": "Repaired simulator mean errors and paired error differences on harder conditions.",
+      "complete": true,
+      "height": 961,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2Ff0712b56dd31bdb02f625f481eca9f2d%2F08_rl_simulator_us.png?generation=1791562598779127&alt=media",
+      "width": 2018
+    },
+    {
+      "alt": "Ordinary and staged control training, with a heat map of input and noise stress tests.",
+      "complete": true,
+      "height": 945,
+      "src": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F27732005%2F101d9c6f23f45615bc5ca4098bb7afbe%2F14_rl_training_and_inputs.png?generation=1791562533535289&alt=media",
+      "width": 2180
+    }
+  ],
+  "tables": 20,
+  "title": "AI4S: Chip Photo Review with Local Image Tiles",
+  "submitDisabled": true
+}

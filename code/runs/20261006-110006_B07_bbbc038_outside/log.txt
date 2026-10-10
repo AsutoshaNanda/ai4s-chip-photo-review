@@ -1,0 +1,26 @@
+[2026-10-06T11:00:09] run 20261006-110006_B07_bbbc038_outside started
+[2026-10-06T11:00:09] 627 BBBC038 images after removing 43 copies of BBBC039 photos (gap 0.9999 -> 0.8352)
+[2026-10-06T11:00:44] B01 done
+[2026-10-06T11:01:33] B02 fold 0 done
+[2026-10-06T11:02:26] B02 fold 1 done
+[2026-10-06T11:03:23] B02 fold 2 done
+[2026-10-06T11:04:09] B02 fold 3 done
+[2026-10-06T11:05:02] B02 fold 4 done
+[2026-10-06T11:05:34] B03 fold 0 done
+[2026-10-06T11:06:07] B03 fold 1 done
+[2026-10-06T11:06:38] B03 fold 2 done
+[2026-10-06T11:07:10] B03 fold 3 done
+[2026-10-06T11:07:44] B03 fold 4 done
+[2026-10-06T11:07:44] B01_best_count|grey          images  519 | count MAE   19.81 (sd over folds 19.79) bias   +4.69 | F1@0.50 0.647 F1@0.75 0.457
+[2026-10-06T11:07:44] B01_best_count|colour        images  108 | count MAE   35.84 (sd over folds 2.00) bias  -34.64 | F1@0.50 0.001 F1@0.75 0.000
+[2026-10-06T11:07:44] B01_best_outline|grey        images  519 | count MAE   11.16 (sd over folds 0.00) bias  -10.54 | F1@0.50 0.716 F1@0.75 0.550
+[2026-10-06T11:07:45] B01_best_outline|colour      images  108 | count MAE   34.88 (sd over folds 0.00) bias  -34.23 | F1@0.50 0.001 F1@0.75 0.000
+[2026-10-06T11:07:45] B02_best_count|grey          images  519 | count MAE   48.84 (sd over folds 43.91) bias  +42.89 | F1@0.50 0.484 F1@0.75 0.365
+[2026-10-06T11:07:45] B02_best_count|colour        images  108 | count MAE   53.57 (sd over folds 22.22) bias  +33.34 | F1@0.50 0.005 F1@0.75 0.000
+[2026-10-06T11:07:45] B02_best_outline|grey        images  519 | count MAE   13.29 (sd over folds 4.25) bias   +2.66 | F1@0.50 0.657 F1@0.75 0.499
+[2026-10-06T11:07:45] B02_best_outline|colour      images  108 | count MAE   34.03 (sd over folds 11.94) bias   +4.82 | F1@0.50 0.005 F1@0.75 0.000
+[2026-10-06T11:07:45] B03_best_count|grey          images  519 | count MAE   15.19 (sd over folds 3.40) bias   +9.27 | F1@0.50 0.625 F1@0.75 0.468
+[2026-10-06T11:07:45] B03_best_count|colour        images  108 | count MAE   36.67 (sd over folds 7.95) bias  +16.95 | F1@0.50 0.003 F1@0.75 0.000
+[2026-10-06T11:07:45] B03_best_outline|grey        images  519 | count MAE    9.56 (sd over folds 1.25) bias   -1.03 | F1@0.50 0.693 F1@0.75 0.524
+[2026-10-06T11:07:45] B03_best_outline|colour      images  108 | count MAE   25.62 (sd over folds 6.47) bias   -9.49 | F1@0.50 0.004 F1@0.75 0.000
+[2026-10-06T11:07:45] run finished: status=measured, wall_seconds=458.98

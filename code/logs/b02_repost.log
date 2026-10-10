@@ -1,0 +1,4 @@
+[2026-10-06T15:59:28] run 20261006-155925_B02_unet_fg_repost_v2 started
+[2026-10-06T16:04:22] fold 0: picks {best_count: thr 0.9, md 8, ms 10, best_outline: thr 0.6, md 12, ms 50}; on range edge: {'best_count': ['thr'], 'best_outline': []}
+/opt/anaconda3/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

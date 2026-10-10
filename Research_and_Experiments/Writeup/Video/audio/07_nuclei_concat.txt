@@ -1,0 +1,4 @@
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/07_nuclei_00.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/07_nuclei_01.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/07_nuclei_02.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/07_nuclei_03.aiff'

@@ -1,0 +1,18 @@
+[2026-10-06T01:36:00] run 20261006-013554_A07_photos_plus_details started
+[2026-10-06T01:36:50] A07 photo_only | resnet18@224                  AUC 0.717 [0.649, 0.787] logloss 0.610 | within format {'L/2056x1542': 0.626, 'RGB/2048x1536': 0.686, 'RGB/640x480': 0.525}
+[2026-10-06T01:37:01] A07 details_only | resnet18@224                AUC 0.639 [0.564, 0.718] logloss 0.643 | within format {'L/2056x1542': 0.502, 'RGB/2048x1536': 0.635, 'RGB/640x480': 0.719}
+[2026-10-06T01:37:08] A07 both | resnet18@224                        AUC 0.744 [0.69, 0.806] logloss 0.592 | within format {'L/2056x1542': 0.666, 'RGB/2048x1536': 0.722, 'RGB/640x480': 0.529}
+[2026-10-06T01:37:15] A07 both_details_missing_at_test | resnet18@224 AUC 0.722 [0.662, 0.784] logloss 0.612 | within format {'L/2056x1542': 0.641, 'RGB/2048x1536': 0.682, 'RGB/640x480': 0.496}
+[2026-10-06T01:37:22] A07 photo_only | resnet18@448                  AUC 0.768 [0.726, 0.822] logloss 0.568 | within format {'L/2056x1542': 0.691, 'RGB/2048x1536': 0.768, 'RGB/640x480': 0.646}
+[2026-10-06T01:37:24] A07 details_only | resnet18@448                AUC 0.639 [0.564, 0.718] logloss 0.643 | within format {'L/2056x1542': 0.502, 'RGB/2048x1536': 0.635, 'RGB/640x480': 0.719}
+[2026-10-06T01:37:30] A07 both | resnet18@448                        AUC 0.781 [0.739, 0.835] logloss 0.560 | within format {'L/2056x1542': 0.707, 'RGB/2048x1536': 0.779, 'RGB/640x480': 0.673}
+[2026-10-06T01:37:36] A07 both_details_missing_at_test | resnet18@448 AUC 0.769 [0.726, 0.83] logloss 0.580 | within format {'L/2056x1542': 0.698, 'RGB/2048x1536': 0.767, 'RGB/640x480': 0.615}
+[2026-10-06T01:37:42] A07 photo_only | vit_large_patch14_dinov2@224  AUC 0.761 [0.706, 0.825] logloss 0.575 | within format {'L/2056x1542': 0.69, 'RGB/2048x1536': 0.75, 'RGB/640x480': 0.71}
+[2026-10-06T01:37:44] A07 details_only | vit_large_patch14_dinov2@224 AUC 0.639 [0.564, 0.718] logloss 0.643 | within format {'L/2056x1542': 0.502, 'RGB/2048x1536': 0.635, 'RGB/640x480': 0.719}
+[2026-10-06T01:37:50] A07 both | vit_large_patch14_dinov2@224        AUC 0.778 [0.729, 0.838] logloss 0.558 | within format {'L/2056x1542': 0.722, 'RGB/2048x1536': 0.763, 'RGB/640x480': 0.745}
+[2026-10-06T01:37:56] A07 both_details_missing_at_test | vit_large_patch14_dinov2@224 AUC 0.768 [0.715, 0.829] logloss 0.573 | within format {'L/2056x1542': 0.711, 'RGB/2048x1536': 0.75, 'RGB/640x480': 0.683}
+[2026-10-06T01:38:02] A07 photo_only | vit_large_patch14_dinov2@518  AUC 0.843 [0.803, 0.884] logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T01:38:04] A07 details_only | vit_large_patch14_dinov2@518 AUC 0.639 [0.564, 0.718] logloss 0.643 | within format {'L/2056x1542': 0.502, 'RGB/2048x1536': 0.635, 'RGB/640x480': 0.719}
+[2026-10-06T01:38:10] A07 both | vit_large_patch14_dinov2@518        AUC 0.845 [0.807, 0.886] logloss 0.483 | within format {'L/2056x1542': 0.814, 'RGB/2048x1536': 0.826, 'RGB/640x480': 0.747}
+[2026-10-06T01:38:16] A07 both_details_missing_at_test | vit_large_patch14_dinov2@518 AUC 0.841 [0.801, 0.882] logloss 0.491 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.822, 'RGB/640x480': 0.712}
+[2026-10-06T01:38:16] run finished: status=measured, wall_seconds=141.5

@@ -1,0 +1,7 @@
+[2026-10-06T01:39:10] run 20261006-013905_A10_two_models_guard started
+[2026-10-06T01:39:12] A10 vit_large_patch14_dinov2@518               AUC 0.843 [0.803, 0.884] logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T01:39:13] A10 resnet18@448                               AUC 0.768 [0.726, 0.822] logloss 0.568 | within format {'L/2056x1542': 0.691, 'RGB/2048x1536': 0.768, 'RGB/640x480': 0.646}
+[2026-10-06T01:39:15] A10 average                                    AUC 0.835 [0.796, 0.881] logloss 0.502 | within format {'L/2056x1542': 0.79, 'RGB/2048x1536': 0.834, 'RGB/640x480': 0.722}
+[2026-10-06T01:39:17] A10 proposed                                   AUC 0.826 [0.782, 0.876] logloss 0.513 | within format {'L/2056x1542': 0.78, 'RGB/2048x1536': 0.82, 'RGB/640x480': 0.749}
+[2026-10-06T01:39:17] A10 error overlap: {'only_vit_large_patch14_dinov2@518': 178, 'only_resnet18@448': 362, 'both_wrong': 374, 'both_right': 1483, 'note': '0.5 used only to tabulate error overlap; scores below are threshold-free'}
+[2026-10-06T01:39:17] run finished: status=measured, wall_seconds=11.86

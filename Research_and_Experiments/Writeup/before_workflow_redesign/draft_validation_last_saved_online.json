@@ -1,0 +1,36 @@
+{
+  "original_IDs": 36,
+  "research_IDs": 29,
+  "research_IDs_with_results": 28,
+  "blocked_research_IDs": [
+    "C04"
+  ],
+  "extra_work_items": 13,
+  "later_jobs": [
+    "F05",
+    "F06"
+  ],
+  "total_unique_ledger_rows": 51,
+  "project_summary_words": 235,
+  "figure_count": 14,
+  "em_dashes": 0,
+  "report_words_including_tables_and_appendices": 7603,
+  "no_new_training": true,
+  "ASD_STE100": "Partial rule review completed; full vocabulary and grammar compliance unverified",
+  "kaggle_saved": true,
+  "submitted": false,
+  "kaggle_title": "AI4S: Chip Photo Review with Local Image Tiles",
+  "kaggle_url": "https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien/writeups/ai4s-writeup",
+  "rendered_tables": 20,
+  "rendered_figures": 14,
+  "all_figures_loaded": true,
+  "hosted_markdown_matches_local_source": true,
+  "evidence_zip_uploaded": false,
+  "local_report_sha256": "272354b77d31cf692509172d73e736797fea39401fc381ad0bd37e05669c25fa",
+  "hosted_report_sha256": "e67730547caafab8a045a2342f5059a1b565e73c2ae951ebbcdf404e33adc1e8",
+  "added_figures_this_revision": 6,
+  "revision_status": "Saved and verified on Kaggle",
+  "saved_date": "2026-10-10",
+  "maximum_checked_sentence_words": 21,
+  "maximum_numbered_step_words": 15
+}

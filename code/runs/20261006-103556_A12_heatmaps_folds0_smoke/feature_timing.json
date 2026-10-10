@@ -1,0 +1,32 @@
+{
+  "hide_4_median": {
+    "seconds": 1.2779157920000088,
+    "images": 96,
+    "calls": 6
+  },
+  "hide_4_blur": {
+    "seconds": 1.1553115429999963,
+    "images": 96,
+    "calls": 6
+  },
+  "hide_8_median": {
+    "seconds": 4.397266742999999,
+    "images": 384,
+    "calls": 6
+  },
+  "hide_8_blur": {
+    "seconds": 4.220265190000006,
+    "images": 384,
+    "calls": 6
+  },
+  "delete_important_first": {
+    "seconds": 0.8122904879999915,
+    "images": 48,
+    "calls": 6
+  },
+  "delete_random": {
+    "seconds": 0.7246756199999922,
+    "images": 48,
+    "calls": 6
+  }
+}

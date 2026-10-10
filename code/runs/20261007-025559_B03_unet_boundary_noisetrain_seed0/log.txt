@@ -1,0 +1,22 @@
+[2026-10-07T02:56:01] run 20261007-025559_B03_unet_boundary_noisetrain_seed0 started
+[2026-10-07T03:13:04] fold 0: trained 970 s, steps 5250, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 11.545454545454545, 'mean_f1_levels': 0.8529525812149772}
+[2026-10-07T03:24:53] fold 1: trained 670 s, steps 3750, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 10.0, 'count_mae': 8.0, 'mean_f1_levels': 0.8983366353349954}
+[2026-10-07T03:36:54] fold 2: trained 676 s, steps 3750, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 13.102564102564102, 'mean_f1_levels': 0.880197741525077}
+[2026-10-07T03:55:31] fold 3: trained 1073 s, steps 6000, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 8.125, 'mean_f1_levels': 0.9064347817512135}
+[2026-10-07T04:09:38] fold 4: trained 808 s, steps 4500, post {'thr': 0.7, 'min_distance': 0.0, 'min_size': 25.0, 'count_mae': 9.484848484848484, 'mean_f1_levels': 0.8925579908482286}
+[2026-10-07T04:09:38] B03 best_count: count MAE 8.67 (bias -8.08); pooled F1 0.25/0.50/0.75/0.90 0.944/0.924/0.879/0.734; joined 2100 split 103 missed 384 false 267
+[2026-10-07T04:09:38] B03 best_outline: count MAE 10.65 (bias -10.11); pooled F1 0.25/0.50/0.75/0.90 0.942/0.926/0.885/0.740; joined 2108 split 70 missed 563 false 164
+[2026-10-07T04:09:38] B04 stress tests (best-outline settings):
+                  count_mae    bias  f1_050  f1_075
+stress     level                                   
+blur_sigma 1.00      11.760 -11.107   0.915   0.874
+           2.00      15.347 -15.093   0.884   0.836
+           3.00      20.140 -20.073   0.840   0.778
+brightness 0.50      13.540 -13.407   0.906   0.855
+           0.75      11.940 -11.660   0.915   0.872
+           1.25      10.173  -9.507   0.926   0.891
+           1.50      10.060  -9.287   0.925   0.887
+noise_sd   0.02      10.520 -10.053   0.922   0.884
+           0.05      10.847 -10.420   0.920   0.880
+           0.10      11.180 -10.807   0.917   0.872
+[2026-10-07T04:09:38] run finished: status=measured, wall_seconds=4419.21

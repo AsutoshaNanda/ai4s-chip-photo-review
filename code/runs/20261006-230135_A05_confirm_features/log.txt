@@ -1,0 +1,20 @@
+[2026-10-06T23:01:56] run 20261006-230135_A05_confirm_features started
+[2026-10-06T23:04:19] features hflip_whole: 2397 images in 124.7 s
+[2026-10-06T23:12:48] features hflip_tiles_3x3: 21573 images in 509.0 s
+[2026-10-06T23:21:12] features hflip_tiles_5x5: 59925 images in 503.4 s
+[2026-10-06T23:23:35] features vflip_whole: 2397 images in 141.3 s
+[2026-10-06T23:32:09] features vflip_tiles_3x3: 21573 images in 514.3 s
+[2026-10-06T23:40:33] features vflip_tiles_5x5: 59925 images in 504.1 s
+[2026-10-06T23:42:56] features rot90_whole: 2397 images in 140.7 s
+[2026-10-06T23:51:31] features rot90_tiles_3x3: 21573 images in 514.7 s
+[2026-10-06T23:59:56] features rot90_tiles_5x5: 59925 images in 504.2 s
+[2026-10-07T00:02:18] features rot270_whole: 2397 images in 140.7 s
+[2026-10-07T00:10:51] features rot270_tiles_3x3: 21573 images in 512.7 s
+[2026-10-07T00:19:16] features rot270_tiles_5x5: 59925 images in 504.9 s
+[2026-10-07T00:21:40] features bright_x0.8_whole: 2397 images in 140.8 s
+[2026-10-07T00:30:16] features bright_x0.8_tiles_3x3: 21573 images in 516.3 s
+[2026-10-07T00:38:42] features bright_x0.8_tiles_5x5: 59925 images in 505.5 s
+[2026-10-07T00:41:06] features bright_x1.25_whole: 2397 images in 140.9 s
+[2026-10-07T00:49:42] features bright_x1.25_tiles_3x3: 21573 images in 516.1 s
+[2026-10-07T00:58:04] features bright_x1.25_tiles_5x5: 59925 images in 501.5 s
+[2026-10-07T00:58:04] run finished: status=measured, wall_seconds=6989.22

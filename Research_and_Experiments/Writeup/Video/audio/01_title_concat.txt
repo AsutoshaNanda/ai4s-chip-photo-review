@@ -1,0 +1,3 @@
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/01_title_00.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/01_title_01.aiff'
+file '/Users/puchku-home/Study/Comps/AI4S/Research_and_Experiments/Writeup/Video/audio/01_title_02.aiff'

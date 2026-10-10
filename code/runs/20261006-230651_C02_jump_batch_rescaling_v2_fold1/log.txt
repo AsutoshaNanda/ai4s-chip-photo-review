@@ -1,0 +1,29 @@
+[2026-10-06T23:07:16] run 20261006-230651_C02_jump_batch_rescaling_v2_fold1 started
+[2026-10-06T23:07:50] downloaded profiles 1.82 GB in 34 s
+[2026-10-06T23:08:03] 81660 wells, 3636 usable features (of 3636), 12 batches, pert types {'trt': 76050, 'negcon': 3680, 'poscon': 1930}
+[2026-10-07T00:28:06] fold 1: chosen strength 1 on the upper edge; adding 10
+[2026-10-07T00:54:54] fold 1 raw                    batch info 0.401 (chance 0.089) | replicate mAP 0.0013 (120 queries)
+[2026-10-07T01:03:28] fold 1 sphering_eps0.0001     batch info 0.988 (chance 0.089) | replicate mAP 0.0280 (120 queries)
+[2026-10-07T01:11:40] fold 1 sphering_eps0.001      batch info 0.979 (chance 0.089) | replicate mAP 0.0350 (120 queries)
+[2026-10-07T01:19:53] fold 1 sphering_eps0.01       batch info 0.960 (chance 0.089) | replicate mAP 0.0366 (120 queries)
+[2026-10-07T01:28:18] fold 1 sphering_eps0.1        batch info 0.924 (chance 0.089) | replicate mAP 0.0404 (120 queries)
+[2026-10-07T01:36:54] fold 1 sphering_eps1          batch info 0.839 (chance 0.089) | replicate mAP 0.0414 (120 queries)  <- chosen on training batches
+[2026-10-07T01:45:50] fold 1 sphering_eps10         batch info 0.752 (chance 0.089) | replicate mAP 0.0327 (120 queries)
+[2026-10-07T01:45:51] fold 1: inner choice {0.0001: 0.03363411192765756, 0.001: 0.05886103006791657, 0.01: 0.07761970505466145, 0.1: 0.08624461695294755, 1.0: 0.0891569869797634, 10.0: 0.07640170347398342} -> eps 1
+[2026-10-07T01:45:52] C02 summary over the folds run here (held-out batches):
+                batch_info     batch_chance     replicate_mAP    
+                      mean std         mean std          mean std
+method                                                           
+raw                 0.4006 NaN       0.0891 NaN        0.0013 NaN
+sphering_chosen     0.8386 NaN       0.0891 NaN        0.0414 NaN
+[2026-10-07T01:45:52] full curve over eps:
+                    batch_info  replicate_mAP
+method                                       
+raw                     0.4006         0.0013
+sphering_eps0.0001      0.9880         0.0280
+sphering_eps0.001       0.9785         0.0350
+sphering_eps0.01        0.9603         0.0366
+sphering_eps0.1         0.9235         0.0404
+sphering_eps1           0.8386         0.0414
+sphering_eps10          0.7524         0.0327
+[2026-10-07T01:45:52] run finished: status=measured, wall_seconds=9540.43

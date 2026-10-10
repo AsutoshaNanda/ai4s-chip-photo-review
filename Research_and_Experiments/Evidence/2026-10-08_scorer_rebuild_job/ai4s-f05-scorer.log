@@ -1,0 +1,96 @@
+[{"stream_name":"stdout","time":10.125720634,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 14.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":10.227776188,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 470.6/470.6 kB 10.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":1435.246692044,"data":"[13:01:54] 1_pip_install: exit 0 in 1421 s\n"}
+,{"stream_name":"stdout","time":1435.849961989,"data":"[13:01:55] 1_pip_check: exit 0 in 1 s\n"}
+,{"stream_name":"stdout","time":1435.988463975,"data":"[13:01:55] 1_pin_check: exit 0 in 0 s\n"}
+,{"stream_name":"stdout","time":1436.4185749,"data":"[13:01:56] 1_pip_freeze: exit 0 in 0 s\n"}
+,{"stream_name":"stdout","time":1438.994562016,"data":"[13:01:58] 1_torch_device: exit 0 in 3 s\n"}
+,{"stream_name":"stdout","time":1441.146867086,"data":"[13:02:00] 2_control_old_model: exit 0 in 2 s\n"}
+,{"stream_name":"stdout","time":1458.132669454,"data":"[13:02:17] 3_train: exit 0 in 17 s\n"}
+,{"stream_name":"stdout","time":1460.162033558,"data":"[13:02:19] 4_load_new_model_strict: exit 0 in 2 s\n"}
+,{"stream_name":"stdout","time":1576.415142645,"data":"[13:04:16] extracted 17 demo photos\n"}
+,{"stream_name":"stdout","time":1979.236240707,"data":"[13:10:58] 6_inference_cpu: exit 0 in 403 s\n"}
+,{"stream_name":"stdout","time":1979.260203514,"data":"{\n"}
+,{"stream_name":"stdout","time":1979.260235337,"data":" \"started_utc\": \"2026-10-08T12:38:03\",\n"}
+,{"stream_name":"stdout","time":1979.260241815,"data":" \"steps\": {\n"}
+,{"stream_name":"stdout","time":1979.260246913,"data":"  \"1_pip_install\": {\n"}
+,{"stream_name":"stdout","time":1979.2602518,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/pip install -r requirements.txt\",\n"}
+,{"stream_name":"stdout","time":1979.260256928,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260261664,"data":"   \"seconds\": 1420.6\n"}
+,{"stream_name":"stdout","time":1979.260266696,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260271498,"data":"  \"1_pip_check\": {\n"}
+,{"stream_name":"stdout","time":1979.2602762880001,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/pip check\",\n"}
+,{"stream_name":"stdout","time":1979.260281023,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.26028577,"data":"   \"seconds\": 0.6\n"}
+,{"stream_name":"stdout","time":1979.26029022,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260296048,"data":"  \"1_pin_check\": {\n"}
+,{"stream_name":"stdout","time":1979.260303808,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/python -c import importlib.metadata as m, json, sys\\nout = {}\\nfor line in open('requirements.txt').read().splitlines():\\n    line = line.split('#')[0].strip()\\n    if not line:\\n        continue\\n    name, _, want = line.partition('==')\\n    try:\\n        got = m.version(name)\\n    except Exception as e:\\n        got = 'MISSING ' + type(e).__name__\\n    out[name] = {'want': want or None, 'got': got, 'ok': (not want) or got.split('+')[0] == want}\\nprint(json.dumps(out, indent=1))\\n\",\n"}
+,{"stream_name":"stdout","time":1979.260323437,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260328523,"data":"   \"seconds\": 0.1\n"}
+,{"stream_name":"stdout","time":1979.260334069,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260338725,"data":"  \"1_pip_freeze\": {\n"}
+,{"stream_name":"stdout","time":1979.26034453,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/pip freeze\",\n"}
+,{"stream_name":"stdout","time":1979.260350799,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260355421,"data":"   \"seconds\": 0.4\n"}
+,{"stream_name":"stdout","time":1979.260379654,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260384645,"data":"  \"1_torch_device\": {\n"}
+,{"stream_name":"stdout","time":1979.260389077,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/python -c import torch; print('cuda', torch.cuda.is_available(), 'threads', torch.get_num_threads())\",\n"}
+,{"stream_name":"stdout","time":1979.260393546,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260397116,"data":"   \"seconds\": 2.6\n"}
+,{"stream_name":"stdout","time":1979.260401049,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260406032,"data":"  \"2_control_old_model\": {\n"}
+,{"stream_name":"stdout","time":1979.260410761,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning -c import joblib; joblib.load('model_x01_3x3.joblib')\",\n"}
+,{"stream_name":"stdout","time":1979.260415851,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260419349,"data":"   \"seconds\": 2.2\n"}
+,{"stream_name":"stdout","time":1979.260423264,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260426791,"data":"  \"3_train\": {\n"}
+,{"stream_name":"stdout","time":1979.260430847,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/python scripts/train_final_model.py --out /kaggle/working/new_model\",\n"}
+,{"stream_name":"stdout","time":1979.260434342,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260438148,"data":"   \"seconds\": 17.0\n"}
+,{"stream_name":"stdout","time":1979.260442133,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260447245,"data":"  \"4_load_new_model_strict\": {\n"}
+,{"stream_name":"stdout","time":1979.260452165,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning -c import joblib, sys; m = joblib.load(sys.argv[1]); print(type(m).__name__, 'loaded') /kaggle/working/new_model/model_x01_3x3.joblib\",\n"}
+,{"stream_name":"stdout","time":1979.260456586,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260460521,"data":"   \"seconds\": 2.0\n"}
+,{"stream_name":"stdout","time":1979.260463998,"data":"  },\n"}
+,{"stream_name":"stdout","time":1979.260467446,"data":"  \"6_inference_cpu\": {\n"}
+,{"stream_name":"stdout","time":1979.260472595,"data":"   \"cmd\": \"/tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning inference.py --photos /tmp/ai4s_f05/demo_photos --out /kaggle/working/ranking_fresh.csv --sheet /kaggle/working/sheet_fresh.png\",\n"}
+,{"stream_name":"stdout","time":1979.26047878,"data":"   \"exit\": 0,\n"}
+,{"stream_name":"stdout","time":1979.260483176,"data":"   \"seconds\": 402.8\n"}
+,{"stream_name":"stdout","time":1979.260487075,"data":"  }\n"}
+,{"stream_name":"stdout","time":1979.260490584,"data":" },\n"}
+,{"stream_name":"stdout","time":1979.260494296,"data":" \"checks\": {\n"}
+,{"stream_name":"stdout","time":1979.260497937,"data":"  \"all_pins_match\": true,\n"}
+,{"stream_name":"stdout","time":1979.260501458,"data":"  \"old_model_rejected_by_strict_setting\": false,\n"}
+,{"stream_name":"stdout","time":1979.260505746,"data":"  \"new_model_loads_strict\": true,\n"}
+,{"stream_name":"stdout","time":1979.26050976,"data":"  \"inference_exit_zero\": true\n"}
+,{"stream_name":"stdout","time":1979.260513943,"data":" },\n"}
+,{"stream_name":"stdout","time":1979.260517562,"data":" \"platform\": \"Linux-6.18.48+-x86_64-with-glibc2.39\",\n"}
+,{"stream_name":"stdout","time":1979.260521706,"data":" \"system_python\": \"3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]\",\n"}
+,{"stream_name":"stdout","time":1979.260525536,"data":" \"cpu_count\": 4,\n"}
+,{"stream_name":"stdout","time":1979.260529037,"data":" \"input_sha256\": {\n"}
+,{"stream_name":"stdout","time":1979.260538075,"data":"  \"requirements.txt\": \"cf18d72aefe949cd71d8b082f4b8dca7aa3eb31b692b05b87d81e3f054fbe428\",\n"}
+,{"stream_name":"stdout","time":1979.260543499,"data":"  \"inference.py\": \"f9998c22a14fcee0c0d5dd03c7d9004d4dae593f8b7b418c5d0d3e96841129c2\",\n"}
+,{"stream_name":"stdout","time":1979.260547577,"data":"  \"scripts/train_final_model.py\": \"197d63b6f7c5ae2c96a78b029020180c1d80f4474656035389c14fc1b3bef12d\",\n"}
+,{"stream_name":"stdout","time":1979.260551916,"data":"  \"scripts/a_views.py\": \"ee1ce09f1d3dd27287b46d1e9e36799617c96a4797698a47544e6a753bbe9f62\",\n"}
+,{"stream_name":"stdout","time":1979.2605559,"data":"  \"model_x01_3x3.joblib\": \"ba95efe014b9fb3b658d18e057b0a51b86be8d78e225b2767f336873a342ed24\",\n"}
+,{"stream_name":"stdout","time":1979.260559647,"data":"  \"model_x01_3x3.json\": \"1a468889c84a8d59b855dac0fc7501f96b097da337120ffb802595977e56ccae\"\n"}
+,{"stream_name":"stdout","time":1979.260563692,"data":" },\n"}
+,{"stream_name":"stdout","time":1979.260569639,"data":" \"fresh_package_has_runs_folder\": false,\n"}
+,{"stream_name":"stdout","time":1979.260573602,"data":" \"inference_routes\": {\n"}
+,{"stream_name":"stdout","time":1979.260577317,"data":"  \"automatic\": 12,\n"}
+,{"stream_name":"stdout","time":1979.26058128,"data":"  \"manual_review\": 5\n"}
+,{"stream_name":"stdout","time":1979.260585157,"data":" },\n"}
+,{"stream_name":"stdout","time":1979.260588914,"data":" \"finished_utc\": \"2026-10-08T13:10:58\",\n"}
+,{"stream_name":"stdout","time":1979.260592973,"data":" \"new_model_sha256\": {\n"}
+,{"stream_name":"stdout","time":1979.260596417,"data":"  \"model_x01_3x3.joblib\": \"d2ea4b71c41b33718ba2a5d1a446a1cdff37cdaf037632b724759321d5083434\",\n"}
+,{"stream_name":"stdout","time":1979.260600403,"data":"  \"model_x01_3x3.json\": \"dca3a46dde6efe6c35cb6829547d7d6c4d3eec83400a13d8b0467f9cfc9cd43e\"\n"}
+,{"stream_name":"stdout","time":1979.260604504,"data":" }\n"}
+,{"stream_name":"stdout","time":1979.260610034,"data":"}\n"}
+,{"stream_name":"stderr","time":1982.584396607,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1982.584438691,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1983.073284658,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1983.0733225,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1984.350799319,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1985.981294145,"data":"[NbConvertApp] Writing 324998 bytes to __results__.html\n"}
+]

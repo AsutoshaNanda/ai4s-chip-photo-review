@@ -1,0 +1,11 @@
+{
+  "features": "vit_large_patch14_dinov2@518",
+  "a02_run": "20261006-012654_A02_frozen_features",
+  "C_fixed": 0.1,
+  "start_groups": 4,
+  "episodes": 1500,
+  "repeats": 5,
+  "fold": 3,
+  "smoke": false,
+  "policy": "linear softmax over 5 candidate-group numbers, REINFORCE with moving-average baseline"
+}

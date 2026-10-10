@@ -1,0 +1,43 @@
+{
+  "TRAIN": {
+    "tau_range": [
+      0.5,
+      5.0
+    ],
+    "mismatch_d": 0.03,
+    "mismatch_rate": 0.2,
+    "noise_d_um": 2.0,
+    "rate_noise": "poisson"
+  },
+  "NOMINAL": {
+    "tau_range": [
+      0.5,
+      0.5
+    ],
+    "mismatch_d": 0.0,
+    "mismatch_rate": 0.0,
+    "noise_d_um": 0.0,
+    "rate_noise": "relative",
+    "noise_rate_rel": 0.0
+  },
+  "UNTOUCHED": {
+    "tau_range": [
+      5.0,
+      15.0
+    ],
+    "mismatch_d": 0.05,
+    "mismatch_rate": 0.3,
+    "noise_d_um": 3.0,
+    "rate_noise": "poisson"
+  },
+  "steps_per_ppo_run": 500000,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "test_episodes": 50,
+  "note": "practice environment from a real-data-fitted model; not proof on real chips"
+}

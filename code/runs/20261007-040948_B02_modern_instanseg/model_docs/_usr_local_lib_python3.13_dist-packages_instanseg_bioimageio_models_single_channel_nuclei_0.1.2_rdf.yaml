@@ -1,0 +1,100 @@
+%YAML 1.2
+---
+name: single_channel_nuclei
+description: 'An InstanSeg model trained for instance segmentation. This model originates
+  from model id: 26423248'
+covers:
+  - cover.png
+authors:
+  - affiliation: School of Informatics, University of Edinburgh
+    name: Thibaut Goldsborough
+    github_user: ThibautGoldsborough
+attachments:
+  - source: instanseg_preprocess.ijm
+    sha256: 53376aec6738fb19eab1ace9308c383ee04e46af2a3acf7e70b5862919dca86c
+  - source: instanseg_postprocess.ijm
+    sha256: 0886f52737326dba0c6d53528909d746e75e0dce7a0cb41e855a648f8133ba88
+cite:
+  - text: 'If you use InstanSeg for nucleus segmentation of brightfield histology images,
+      please cite:'
+    doi: 10.48550/arXiv.2408.15954
+  - text: 'If you use InstanSeg for nucleus and/or cell segmentation in fluorescence images,
+      please cite:'
+    doi: 10.1101/2024.09.04.611150
+license: Apache-2.0
+git_repo: https://github.com/instanseg/instanseg
+version: 0.1.0
+format_version: 0.5.6
+type: model
+documentation: single_channel_nuclei_README.md
+inputs:
+  - id: raw
+    axes:
+      - type: batch
+      - id: channel
+        type: channel
+        channel_names:
+          - C0
+      - size:
+          min: 32
+          step: 1
+        id: y
+        type: space
+        unit: micrometer
+        scale: 0.5
+      - size:
+          min: 32
+          step: 1
+        id: x
+        type: space
+        unit: micrometer
+        scale: 0.5
+    test_tensor:
+      source: test-input.npy
+      sha256: a68dc9bf2a3c4fb18804757bd13772777792959e8ab690882f2711f4d399cc24
+    data:
+      type: float32
+    preprocessing:
+      - id: ensure_dtype
+        kwargs:
+          dtype: float32
+      - id: scale_range
+        kwargs:
+          axes:
+            - x
+            - y
+          min_percentile: 0.1
+          max_percentile: 99.9
+          eps: 1e-06
+      - id: ensure_dtype
+        kwargs:
+          dtype: float32
+outputs:
+  - id: instance_segmentation
+    axes:
+      - type: batch
+      - type: channel
+        channel_names:
+          - nuclei
+      - size:
+          tensor_id: raw
+          axis_id: y
+        id: y
+        type: space
+        unit: micrometer
+        scale: 0.5
+      - size:
+          tensor_id: raw
+          axis_id: x
+        id: x
+        type: space
+        unit: micrometer
+        scale: 0.5
+    test_tensor:
+      source: test-output_instance_segmentation.npy
+      sha256: f4e154d1bc3c3605945e6fe736ecd6e66e0708e74168bf0b6ab787108e59c1ab
+weights:
+  torchscript:
+    source: instanseg.pt
+    sha256: 118066231fb7753ffb048bcd2164186397bcc5c8fc4ad7f826efe928b515794c
+    pytorch_version: 2.0.0

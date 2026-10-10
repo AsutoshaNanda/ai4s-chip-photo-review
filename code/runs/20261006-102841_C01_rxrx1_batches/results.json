@@ -1,0 +1,223 @@
+{
+  "summary": [
+    {
+      "correction": "none",
+      "setting": "new_batches",
+      "classifier": "centroid",
+      "site_acc": 0.8597732426303855,
+      "well_acc": 0.915374149659864,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.837917685411573,
+      "site_acc_HUVEC": 0.9432374541003672,
+      "site_acc_RPE": 0.8724969350224765,
+      "site_acc_U2OS": 0.5433715220949263
+    },
+    {
+      "correction": "none",
+      "setting": "new_batches",
+      "classifier": "lda",
+      "site_acc": 0.8621541950113378,
+      "well_acc": 0.9146031746031746,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.8394458027709861,
+      "site_acc_HUVEC": 0.9434924520603836,
+      "site_acc_RPE": 0.8762770739681243,
+      "site_acc_U2OS": 0.5531914893617021
+    },
+    {
+      "correction": "none",
+      "setting": "same_batches_other_site",
+      "classifier": "centroid",
+      "site_acc": 0.9698707333349811,
+      "well_acc": 0.9698707333349811,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.9513331004773548,
+      "site_acc_HUVEC": 0.9877526025719534,
+      "site_acc_RPE": 0.9710128055878929,
+      "site_acc_U2OS": 0.9153094462540716
+    },
+    {
+      "correction": "none",
+      "setting": "same_batches_other_site",
+      "classifier": "lda",
+      "site_acc": 0.9720704911144615,
+      "well_acc": 0.9720704911144615,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.9502852485737572,
+      "site_acc_HUVEC": 0.9889773423147581,
+      "site_acc_RPE": 0.9745052386495926,
+      "site_acc_U2OS": 0.9272529858849077
+    },
+    {
+      "correction": "per_experiment",
+      "setting": "new_batches",
+      "classifier": "centroid",
+      "site_acc": 0.8590702947845805,
+      "well_acc": 0.9150113378684808,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.8363895680521597,
+      "site_acc_HUVEC": 0.94359445124439,
+      "site_acc_RPE": 0.8723947691050266,
+      "site_acc_U2OS": 0.5388707037643208
+    },
+    {
+      "correction": "per_experiment",
+      "setting": "new_batches",
+      "classifier": "lda",
+      "site_acc": 0.8621995464852608,
+      "well_acc": 0.9146485260770975,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.8395476772616137,
+      "site_acc_HUVEC": 0.9434414524683803,
+      "site_acc_RPE": 0.8761749080506743,
+      "site_acc_U2OS": 0.5538052373158756
+    },
+    {
+      "correction": "per_experiment",
+      "setting": "same_batches_other_site",
+      "classifier": "centroid",
+      "site_acc": 0.9695494204008996,
+      "well_acc": 0.9695494204008996,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.9507509605309117,
+      "site_acc_HUVEC": 0.9877015717493366,
+      "site_acc_RPE": 0.970197904540163,
+      "site_acc_U2OS": 0.9153094462540716
+    },
+    {
+      "correction": "per_experiment",
+      "setting": "same_batches_other_site",
+      "classifier": "lda",
+      "site_acc": 0.9720210583553721,
+      "well_acc": 0.9720210583553721,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.9501688205844685,
+      "site_acc_HUVEC": 0.9888752806695243,
+      "site_acc_RPE": 0.9746216530849825,
+      "site_acc_U2OS": 0.9272529858849077
+    },
+    {
+      "correction": "per_plate",
+      "setting": "new_batches",
+      "classifier": "centroid",
+      "site_acc": 0.8591156462585035,
+      "well_acc": 0.9151020408163265,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.8368989405052975,
+      "site_acc_HUVEC": 0.9434414524683803,
+      "site_acc_RPE": 0.8723947691050266,
+      "site_acc_U2OS": 0.5388707037643208
+    },
+    {
+      "correction": "per_plate",
+      "setting": "new_batches",
+      "classifier": "lda",
+      "site_acc": 0.8623129251700681,
+      "well_acc": 0.9147392290249433,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.8396495517522412,
+      "site_acc_HUVEC": 0.9435434516523867,
+      "site_acc_RPE": 0.8763792398855742,
+      "site_acc_U2OS": 0.5538052373158756
+    },
+    {
+      "correction": "per_plate",
+      "setting": "same_batches_other_site",
+      "classifier": "centroid",
+      "site_acc": 0.9694999876418102,
+      "well_acc": 0.9694999876418102,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.9507509605309117,
+      "site_acc_HUVEC": 0.9877015717493366,
+      "site_acc_RPE": 0.9699650756693831,
+      "site_acc_U2OS": 0.9153094462540716
+    },
+    {
+      "correction": "per_plate",
+      "setting": "same_batches_other_site",
+      "classifier": "lda",
+      "site_acc": 0.9719963419758274,
+      "well_acc": 0.9719963419758274,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.9500523925951799,
+      "site_acc_HUVEC": 0.9888752806695243,
+      "site_acc_RPE": 0.9746216530849825,
+      "site_acc_U2OS": 0.9272529858849077
+    },
+    {
+      "correction": "plate_controls",
+      "setting": "new_batches",
+      "classifier": "centroid",
+      "site_acc": 0.8561678004535147,
+      "well_acc": 0.9099773242630386,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.8321108394458028,
+      "site_acc_HUVEC": 0.9405854753161975,
+      "site_acc_RPE": 0.870044953003678,
+      "site_acc_U2OS": 0.5380523731587561
+    },
+    {
+      "correction": "plate_controls",
+      "setting": "new_batches",
+      "classifier": "lda",
+      "site_acc": 0.860453514739229,
+      "well_acc": 0.9117006802721088,
+      "sites": 44100,
+      "site_acc_HEPG2": 0.8357783211083945,
+      "site_acc_HUVEC": 0.9415034679722563,
+      "site_acc_RPE": 0.8759705762157745,
+      "site_acc_U2OS": 0.5538052373158756
+    },
+    {
+      "correction": "plate_controls",
+      "setting": "same_batches_other_site",
+      "classifier": "centroid",
+      "site_acc": 0.9674238117600534,
+      "well_acc": 0.9674238117600534,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.945045989055769,
+      "site_acc_HUVEC": 0.9875995101041029,
+      "site_acc_RPE": 0.969499417927823,
+      "site_acc_U2OS": 0.9074375678610206
+    },
+    {
+      "correction": "plate_controls",
+      "setting": "same_batches_other_site",
+      "classifier": "lda",
+      "site_acc": 0.9703156281667862,
+      "well_acc": 0.9703156281667862,
+      "sites": 40459,
+      "site_acc_HEPG2": 0.9466759809058097,
+      "site_acc_HUVEC": 0.9885180649112064,
+      "site_acc_RPE": 0.9727590221187428,
+      "site_acc_U2OS": 0.9229098805646037
+    }
+  ],
+  "differences_vs_none_95": {
+    "centroid|per_experiment_minus_none": [
+      -0.001839179229823687,
+      0.0002496516243150004
+    ],
+    "centroid|per_plate_minus_none": [
+      -0.0017241418427730887,
+      0.00033996992537376755
+    ],
+    "centroid|plate_controls_minus_none": [
+      -0.005077787635227307,
+      -0.002293663929381812
+    ],
+    "lda|per_experiment_minus_none": [
+      -9.070315354013092e-05,
+      0.00018152135315998297
+    ],
+    "lda|per_plate_minus_none": [
+      0.0,
+      0.0003403065936219918
+    ],
+    "lda|plate_controls_minus_none": [
+      -0.003034592100330161,
+      -0.00029453813499915053
+    ]
+  },
+  "chance_accuracy": 0.0008787346221441124
+}

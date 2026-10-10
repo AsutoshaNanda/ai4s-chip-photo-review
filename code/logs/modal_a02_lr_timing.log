@@ -1,0 +1,29 @@
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-b9VMKRzmsmPmfMbTTMTedU
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_run.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+{
+ "returncode": 0,
+ "seconds": 75.3,
+ "new_runs": [
+  "20261006-212616_A02_light_retrain_timing"
+ ]
+}
+---- stdout (tail) ----
+[2026-10-06T21:26:20] run 20261006-212616_A02_light_retrain_timing started
+[2026-10-06T21:27:13] cached last-block inputs for 2397 photos in 16.4 s; shapes [(392, 518)]; GPU memory used 6.45 GB
+[2026-10-06T21:27:13] equality check: largest relative difference between full model and cached path = 7.27e-03
+[2026-10-06T21:27:15] head_only: 0.62 s per pass over 2062 photos; peak GPU memory 7.3 GB
+[2026-10-06T21:27:20] last_block: 1.60 s per pass over 2062 photos; peak GPU memory 8.5 GB
+[2026-10-06T21:27:20] run finished: status=measured, wall_seconds=63.96
+
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-b9VMKRzmsmPmfMbTTMTedU

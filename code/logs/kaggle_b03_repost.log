@@ -1,0 +1,19 @@
+[{"stream_name":"stdout","time":3.033704667,"data":"[10:43:25] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":7.1283191949999996,"data":"[10:43:29] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":27.595649728,"data":"[2026-10-06T16:13:50] run 20261006-161337_B03_unet_boundary_repost_v2 started\n"}
+,{"stream_name":"stdout","time":212.408123314,"data":"[2026-10-06T16:16:54] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.8, md 0, ms 50}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":347.848446923,"data":"[2026-10-06T16:19:10] fold 1: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":519.350900119,"data":"[2026-10-06T16:22:01] fold 2: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":672.696918478,"data":"[2026-10-06T16:24:35] fold 3: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":827.99049297,"data":"[2026-10-06T16:27:10] fold 4: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":828.028660637,"data":"[2026-10-06T16:27:10] B03 v2 best_count: count MAE 4.68 (bias -3.51); pooled F1 0.25/0.50/0.75/0.90 0.950/0.928/0.872/0.546; joined 1094 split 645 missed 507 false 185\n"}
+,{"stream_name":"stdout","time":828.055922528,"data":"[2026-10-06T16:27:10] B03 v2 best_outline: count MAE 9.86 (bias -9.86); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.891/0.739; joined 1823 split 129 missed 649 false 84\n"}
+,{"stream_name":"stdout","time":828.057504124,"data":"[2026-10-06T16:27:10] run finished: status=measured, wall_seconds=812.92\n"}
+,{"stream_name":"stdout","time":829.796612992,"data":"[10:57:12] job 'scripts/b_repost.py --exp B03' exit 0 after 823 s\n"}
+,{"stream_name":"stderr","time":832.576759161,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":832.576823229,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":832.912864718,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":832.912896916,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":833.886701084,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":835.16874779,"data":"[NbConvertApp] Writing 282072 bytes to __results__.html\n"}
+]

@@ -1,0 +1,6 @@
+[2026-10-06T00:24:42] run 20261006-002438_A01_simple_baselines started
+[2026-10-06T00:26:34] photo stats for 2397 photos in 111 s (10 processes); median 0.45 s/photo per process
+[2026-10-06T00:26:40] details_only: AUC 0.639359620930144, AP(bad) 0.5237527453733919, log loss 0.6429, Brier 0.2274, review area 0.578128625528527
+[2026-10-06T00:26:42] majority: AUC 0.4104755169936384, AP(bad) 0.39178520232454184, log loss 0.6939, Brier 0.2503, review area 0.45098354371986077
+[2026-10-06T00:26:45] photo_stats: AUC 0.6953086294287275, AP(bad) 0.6241369822828275, log loss 0.6363, Brier 0.2216, review area 0.6092294310286347
+[2026-10-06T00:26:45] run finished: status=measured, wall_seconds=126.05

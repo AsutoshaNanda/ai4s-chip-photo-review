@@ -1,0 +1,42 @@
+{
+  "protocol": "v2: error against target in force; separate streams for plant, target schedule, noise (common random numbers)",
+  "scenarios": [
+    100000,
+    100049,
+    50
+  ],
+  "conditions": {
+    "TRAIN": {
+      "extra_noise": 1.0,
+      "missing_prob": 0.0
+    },
+    "UNTOUCHED": {
+      "extra_noise": 1.0,
+      "missing_prob": 0.0
+    },
+    "missing_0.1": {
+      "extra_noise": 1.0,
+      "missing_prob": 0.1
+    },
+    "missing_0.3": {
+      "extra_noise": 1.0,
+      "missing_prob": 0.3
+    },
+    "noise_x2": {
+      "extra_noise": 2.0,
+      "missing_prob": 0.0
+    },
+    "noise_x4": {
+      "extra_noise": 4.0,
+      "missing_prob": 0.0
+    }
+  },
+  "policies": 47,
+  "applies_to": [
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "no_training": true,
+  "bootstrap": "whole scenarios, 10000 draws, seed 20261008"
+}

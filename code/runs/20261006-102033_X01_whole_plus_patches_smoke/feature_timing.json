@@ -1,0 +1,17 @@
+{
+  "whole": {
+    "seconds": 2.2381722159999953,
+    "images": 200,
+    "calls": 1
+  },
+  "tiles_2x2": {
+    "seconds": 33.235627066999996,
+    "images": 800,
+    "calls": 1
+  },
+  "tiles_3x3": {
+    "seconds": 38.423198154999994,
+    "images": 1800,
+    "calls": 1
+  }
+}

@@ -1,0 +1,31 @@
+$ /tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning inference.py --photos /tmp/ai4s_f05/demo_photos --out /kaggle/working/ranking_fresh.csv --sheet /kaggle/working/sheet_fresh.png
+[exit 0, 402.8 s]
+--- stdout ---
+                                   photo        format         route    p_bad  rank
+ /tmp/ai4s_f05/demo_photos/230424_19.png   L/2056x1542     automatic 0.859511   1.0
+ /tmp/ai4s_f05/demo_photos/230320_70.png   L/2056x1542     automatic 0.826529   2.0
+  /tmp/ai4s_f05/demo_photos/220706_6.png RGB/2048x1536     automatic 0.776857   3.0
+ /tmp/ai4s_f05/demo_photos/230411_12.png   L/2056x1542     automatic 0.692755   4.0
+  /tmp/ai4s_f05/demo_photos/230424_3.png   L/2056x1542     automatic 0.658243   5.0
+/tmp/ai4s_f05/demo_photos/230320_133.png   L/2056x1542     automatic 0.224821   6.0
+ /tmp/ai4s_f05/demo_photos/230320_33.png   L/2056x1542     automatic 0.107751   7.0
+ /tmp/ai4s_f05/demo_photos/230320_21.png   L/2056x1542     automatic 0.084207   8.0
+  /tmp/ai4s_f05/demo_photos/220610_5.png RGB/2048x1536     automatic 0.071202   9.0
+ /tmp/ai4s_f05/demo_photos/221010_80.png RGB/2048x1536     automatic 0.054846  10.0
+ /tmp/ai4s_f05/demo_photos/230320_45.png   L/2056x1542     automatic 0.030173  11.0
+ /tmp/ai4s_f05/demo_photos/221010_69.png RGB/2048x1536     automatic 0.013032  12.0
+ /tmp/ai4s_f05/demo_photos/230206_25.png   RGB/640x480 manual_review      NaN   NaN
+ /tmp/ai4s_f05/demo_photos/230206_26.png   RGB/640x480 manual_review      NaN   NaN
+ /tmp/ai4s_f05/demo_photos/230329_10.png RGB/1536x2048 manual_review      NaN   NaN
+ /tmp/ai4s_f05/demo_photos/230329_11.png RGB/1536x2048 manual_review      NaN   NaN
+ /tmp/ai4s_f05/demo_photos/230329_12.png RGB/1536x2048 manual_review      NaN   NaN
+
+12 photos scored automatically; 5 sent to manual review. Wrote /kaggle/working/ranking_fresh.csv
+
+--- stderr ---
+Invalid -W option ignored: invalid module name: 'sklearn.exceptions'
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+ModuleNotFoundError: No module named 'wrapt'
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/tmp/ai4s_f05/fresh_pkg/scripts/a_views.py:64: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  x = torch.stack([torch.from_numpy(np.ascontiguousarray(arrays[j])) for j in chunk]).float().div(255)[:, None].to(self.dev)

@@ -1,0 +1,11 @@
+[2026-10-06T10:35:08] run 20261006-103503_A12_heatmaps_folds0_smoke started
+Traceback (most recent call last):
+  File "/root/code/scripts/a12_heatmaps.py", line 191, in <module>
+    main()
+  File "/root/code/scripts/a12_heatmaps.py", line 92, in main
+    Xall = np.load(a02 / f"features_practice_{tag}.npy").astype(np.float32)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/code/runs/20261006-012654_A02_frozen_features/features_practice_resnet18@224.npy'

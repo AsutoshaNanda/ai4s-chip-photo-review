@@ -1,0 +1,31 @@
+[{"stream_name":"stdout","time":8.011272989,"data":"[04:35:03] code ready: ['final_config.json', 'inference.py', 'requirements.txt', 'runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":12.199587839,"data":"[04:35:07] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":12.40187809,"data":"[04:35:07] python -m venv failed (Error: Command '['/tmp/ai4s/venv/bin/python3', '-m', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1.); using virtualenv\n"}
+,{"stream_name":"stdout","time":16.818855803,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 71.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.863893445,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 470.6/470.6 kB 12.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":21.072537035,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stderr","time":21.072607483,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":202.535562978,"data":"[04:38:17] virtual environment versions: numpy 2.5.3 pandas 3.0.6 scipy 1.18.1 scikit-learn 1.9.1 scikit-image 0.26.0 tifffile 2026.9.20 pillow 12.3.0 openpyxl 3.1.5 matplotlib 3.11.2 pyarrow 25.0.1 torch 2.14.1 torchvision 0.29.1 timm 1.0.30 joblib 1.6.0 psutil 7.2.2\n"}
+,{"stream_name":"stdout","time":1267.158800067,"data":"[04:56:02] lane0 finished with exit code 0 after 1065 s\n"}
+,{"stream_name":"stdout","time":1267.159831461,"data":"=== scripts/b_repost.py --exp B03 --seed 0 --thr_extra 0.96,0.97,0.98,0.99,0.995,0.999\n"}
+,{"stream_name":"stdout","time":1267.159856039,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":1267.159862459,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":1267.1598677920001,"data":"[2026-10-08T10:08:23] run 20261008-100820_B03_unet_boundary_repost_v2_thr_extended started\n"}
+,{"stream_name":"stdout","time":1267.159874768,"data":"[2026-10-08T10:08:31] fold models: {0: '20261006-101000_B03_unet_boundary_seed0_folds0', 1: '20261006-101329_B03_unet_boundary_seed0_folds1', 2: '20261006-101747_B03_unet_boundary_seed0_folds2', 3: '20261006-102219_B03_unet_boundary_seed0_folds3', 4: '20261006-102626_B03_unet_boundary_seed0_folds4'}\n"}
+,{"stream_name":"stdout","time":1267.15988199,"data":"[2026-10-08T10:12:04] fold 0: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.8, md 0, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":1267.159886783,"data":"[2026-10-08T10:15:03] fold 1: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":1267.159891464,"data":"[2026-10-08T10:18:59] fold 2: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":1267.159896032,"data":"[2026-10-08T10:22:23] fold 3: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":1267.159900972,"data":"[2026-10-08T10:25:58] fold 4: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":1267.159906431,"data":"[2026-10-08T10:25:58] B03 v2 best_count: count MAE 4.63 (bias -3.11); pooled F1 0.25/0.50/0.75/0.90 0.948/0.925/0.860/0.485; joined 1046 split 756 missed 531 false 178\n"}
+,{"stream_name":"stdout","time":1267.15991179,"data":"[2026-10-08T10:25:58] B03 v2 best_outline: count MAE 9.86 (bias -9.86); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.891/0.739; joined 1823 split 129 missed 649 false 84\n"}
+,{"stream_name":"stdout","time":1267.159948708,"data":"[2026-10-08T10:25:58] run finished: status=measured, wall_seconds=1057.85\n"}
+,{"stream_name":"stdout","time":1267.159954062,"data":"\n"}
+,{"stream_name":"stdout","time":1267.198638434,"data":"[04:56:02] kept new runs: ['20261008-100820_B03_unet_boundary_repost_v2_thr_extended']\n"}
+,{"stream_name":"stderr","time":1270.333886872,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1270.333945563,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1270.821228307,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1270.821265421,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1272.26909126,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1273.837387055,"data":"[NbConvertApp] Writing 302143 bytes to __results__.html\n"}
+]

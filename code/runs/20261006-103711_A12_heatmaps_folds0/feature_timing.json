@@ -1,0 +1,32 @@
+{
+  "hide_4_median": {
+    "seconds": 34.11662341000206,
+    "images": 5360,
+    "calls": 335
+  },
+  "hide_4_blur": {
+    "seconds": 34.249911799999516,
+    "images": 5360,
+    "calls": 335
+  },
+  "hide_8_median": {
+    "seconds": 135.30430936799974,
+    "images": 21440,
+    "calls": 335
+  },
+  "hide_8_blur": {
+    "seconds": 135.85148623800058,
+    "images": 21440,
+    "calls": 335
+  },
+  "delete_important_first": {
+    "seconds": 17.06227972300193,
+    "images": 2680,
+    "calls": 335
+  },
+  "delete_random": {
+    "seconds": 17.065798078999347,
+    "images": 2680,
+    "calls": 335
+  }
+}

@@ -1,0 +1,43 @@
+=== scripts/b_repost.py --exp B03 --variant _noisetrain --seed 0
+[2026-10-07T11:53:07] run 20261007-115247_B03_unet_boundary_noisetrain_repost_v2 started
+[2026-10-07T11:53:22] fold models: {0: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 1: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 2: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 3: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 4: '20261007-025559_B03_unet_boundary_noisetrain_seed0'}
+[2026-10-07T12:00:26] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 200}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': ['min_size']}
+[2026-10-07T12:06:06] fold 1: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 10}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-07T12:13:34] fold 2: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-07T12:20:00] fold 3: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}
+[2026-10-07T12:26:44] fold 4: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-07T12:26:44] B03 v2 best_count: count MAE 6.48 (bias -5.81); pooled F1 0.25/0.50/0.75/0.90 0.952/0.934/0.867/0.386; joined 1009 split 444 missed 698 false 124
+[2026-10-07T12:26:44] B03 v2 best_outline: count MAE 11.96 (bias -11.55); pooled F1 0.25/0.50/0.75/0.90 0.938/0.923/0.886/0.735; joined 1964 split 76 missed 814 false 116
+[2026-10-07T12:26:44] run finished: status=measured, wall_seconds=2036.55
+=== scripts/b04_refresh.py --exp B03 --variant _noisetrain --seed 0
+[2026-10-07T12:27:01] run 20261007-122654_B04_stress_refresh_B03_noisetrain_seed0 started
+[2026-10-07T12:52:57] fold 0 done (33 images x 11 conditions)
+[2026-10-07T13:13:10] fold 1 done (33 images x 11 conditions)
+[2026-10-07T13:25:24] fold 2 done (21 images x 11 conditions)
+[2026-10-07T13:49:07] fold 3 done (39 images x 11 conditions)
+[2026-10-07T14:03:23] fold 4 done (24 images x 11 conditions)
+[2026-10-07T14:03:23] stress curves (every level; clean first):
+     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075
+  best_count blur_sigma   1.00     150      7.387  -6.987                     80   0.927   0.865
+  best_count blur_sigma   2.00     150     10.193  -9.993                    115   0.916   0.864
+  best_count blur_sigma   3.00     150     13.707 -13.627                    147   0.892   0.832
+  best_count brightness   0.50     150      9.207  -9.087                    161   0.907   0.770
+  best_count brightness   0.75     150      7.933  -7.613                    125   0.920   0.839
+  best_count brightness   1.25     150      5.487  -4.447                     56   0.933   0.875
+  best_count brightness   1.50     150      5.073  -3.407                     56   0.933   0.882
+  best_count      clean   0.00     150      6.480  -5.813                     67   0.930   0.863
+  best_count   noise_sd   0.02     150      6.340  -5.700                     64   0.929   0.863
+  best_count   noise_sd   0.05     150      6.240  -5.720                     68   0.925   0.856
+  best_count   noise_sd   0.10     150      6.107  -5.253                     75   0.915   0.835
+best_outline blur_sigma   1.00     150     13.127 -12.540                    102   0.911   0.873
+best_outline blur_sigma   2.00     150     16.353 -16.113                    112   0.884   0.839
+best_outline blur_sigma   3.00     150     20.713 -20.647                    139   0.843   0.785
+best_outline brightness   0.50     150     14.987 -14.867                    161   0.899   0.853
+best_outline brightness   0.75     150     13.360 -13.107                    112   0.909   0.870
+best_outline brightness   1.25     150     11.507 -10.987                     89   0.922   0.889
+best_outline brightness   1.50     150     11.353 -10.727                     91   0.921   0.889
+best_outline      clean   0.00     150     11.960 -11.547                     95   0.918   0.882
+best_outline   noise_sd   0.02     150     11.907 -11.547                     96   0.918   0.882
+best_outline   noise_sd   0.05     150     12.127 -11.767                     99   0.915   0.877
+best_outline   noise_sd   0.10     150     12.493 -12.120                    101   0.912   0.871
+[2026-10-07T14:03:23] run finished: status=measured, wall_seconds=5789.7

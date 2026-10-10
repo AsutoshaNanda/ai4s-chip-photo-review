@@ -1,0 +1,14 @@
+{
+  "inner_rule": "all training batches, same for every strength; edge extension",
+  "fold": 1,
+  "profiles": "https://cellpainting-gallery.s3.amazonaws.com/cpg0016-jump-assembled/source_all/workspace/profiles_assembled/ORF/v1.0a/profiles_wellpos_cc_var_mad_outlier.parquet",
+  "eps_range": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "seed": 20261006,
+  "licence": "BSD-3-Clause (jump-cellpainting/datasets)"
+}

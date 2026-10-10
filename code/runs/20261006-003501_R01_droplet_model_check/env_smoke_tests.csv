@@ -1,0 +1,11 @@
+obs_set,missing_prob,obs_len,steps,random_policy_return,violations
+minimal,0.0,2,300,-4857.8,56
+minimal,0.2,4,300,-2088.4,56
+pumps,0.0,4,300,-4857.8,56
+pumps,0.2,8,300,-6306.0,56
+camera,0.0,7,300,-4857.8,56
+camera,0.2,14,300,-3560.6,56
+history,0.0,18,300,-4857.8,56
+history,0.2,36,300,-4481.0,56
+all,0.0,25,300,-4857.8,56
+all,0.2,50,300,-4754.8,56

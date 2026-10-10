@@ -1,0 +1,10 @@
+[2026-10-06T17:04:41] run 20261006-170439_A12_heatmaps_folds4 started
+[2026-10-06T18:25:47] fold 4: explained 570 photos in 4859 s
+[2026-10-06T18:25:47] rho_real_shuffled_4_median           median +0.151 (10-90%: -0.253 .. +0.565)
+[2026-10-06T18:25:47] rho_real_random_4_median             median +0.106 (10-90%: -0.374 .. +0.541)
+[2026-10-06T18:25:47] border_share_4_median                median +0.616 (10-90%: +0.123 .. +1.000)
+[2026-10-06T18:25:47] rho_real_shuffled_8_median           median +0.039 (10-90%: -0.412 .. +0.504)
+[2026-10-06T18:25:47] rho_real_random_8_median             median +0.290 (10-90%: -0.282 .. +0.659)
+[2026-10-06T18:25:47] border_share_8_median                median +0.278 (10-90%: +0.156 .. +0.394)
+[2026-10-06T18:25:47] deletion (drop in 'bad' logit, median over photos), important-first vs random: 8/64: +0.38 vs -0.46, 16/64: +0.02 vs -0.73, 24/64: -0.43 vs -1.10, 32/64: -0.89 vs -1.59, 40/64: -1.49 vs -2.23, 48/64: -2.37 vs -3.13, 56/64: -3.55 vs -3.75, 64/64: -4.33 vs -4.33
+[2026-10-06T18:25:54] run finished: status=measured, wall_seconds=4875.58

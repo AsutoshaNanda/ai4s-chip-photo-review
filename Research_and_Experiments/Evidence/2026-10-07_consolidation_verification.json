@@ -1,0 +1,251 @@
+{
+  "checked_date_IST": "2026-10-07",
+  "kind": "reanalysis of existing results and documentation/source review, not new model training",
+  "r02_status": "provisional; target timing and shared target schedule review reopened comparisons; see 2026-10-07_RL_scoring_review.md",
+  "r02_recorded_per_policy_results": [
+    {
+      "controller": "FF+PI",
+      "training_seed": -1,
+      "condition": "TRAIN_range",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.3218805730450334,
+      "worst_episode_mean_diameter_error_um": 3.231426839939932,
+      "mean_violation_share": 0.11733333333333333,
+      "worst_episode_violation_share": 0.55
+    },
+    {
+      "controller": "FF+PI",
+      "training_seed": -1,
+      "condition": "UNTOUCHED",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.9502172538033076,
+      "worst_episode_mean_diameter_error_um": 4.141043431570223,
+      "mean_violation_share": 0.07233333333333333,
+      "worst_episode_violation_share": 0.4266666666666667
+    },
+    {
+      "controller": "PI",
+      "training_seed": -1,
+      "condition": "TRAIN_range",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.4374247344047124,
+      "worst_episode_mean_diameter_error_um": 2.3488586446733257,
+      "mean_violation_share": 0.0526,
+      "worst_episode_violation_share": 0.27666666666666667
+    },
+    {
+      "controller": "PI",
+      "training_seed": -1,
+      "condition": "UNTOUCHED",
+      "episodes": 50,
+      "mean_diameter_error_um": 2.0958922241058886,
+      "worst_episode_mean_diameter_error_um": 3.9373840181480584,
+      "mean_violation_share": 0.04866666666666667,
+      "worst_episode_violation_share": 0.38
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 0,
+      "condition": "TRAIN_range",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.1308562558622277,
+      "worst_episode_mean_diameter_error_um": 2.1440602642179685,
+      "mean_violation_share": 0.0014666666666666667,
+      "worst_episode_violation_share": 0.02666666666666667
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 0,
+      "condition": "UNTOUCHED",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.4799925977537596,
+      "worst_episode_mean_diameter_error_um": 3.349540692112605,
+      "mean_violation_share": 0.0042,
+      "worst_episode_violation_share": 0.07666666666666666
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 1,
+      "condition": "TRAIN_range",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.1785433812511494,
+      "worst_episode_mean_diameter_error_um": 2.374940609616326,
+      "mean_violation_share": 0.0028,
+      "worst_episode_violation_share": 0.05
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 1,
+      "condition": "UNTOUCHED",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.5462158796350347,
+      "worst_episode_mean_diameter_error_um": 2.9296684904069266,
+      "mean_violation_share": 0.004333333333333333,
+      "worst_episode_violation_share": 0.07333333333333333
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 2,
+      "condition": "TRAIN_range",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.072809299290695,
+      "worst_episode_mean_diameter_error_um": 1.860269717970903,
+      "mean_violation_share": 0.0056,
+      "worst_episode_violation_share": 0.09666666666666666
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 2,
+      "condition": "UNTOUCHED",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.5058178065250354,
+      "worst_episode_mean_diameter_error_um": 3.1774996376726836,
+      "mean_violation_share": 0.0094,
+      "worst_episode_violation_share": 0.17333333333333334
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 3,
+      "condition": "TRAIN_range",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.1403926718526807,
+      "worst_episode_mean_diameter_error_um": 2.154414140774869,
+      "mean_violation_share": 0.0003333333333333334,
+      "worst_episode_violation_share": 0.006666666666666667
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 3,
+      "condition": "UNTOUCHED",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.473542031308062,
+      "worst_episode_mean_diameter_error_um": 2.840605122366256,
+      "mean_violation_share": 0.0044666666666666665,
+      "worst_episode_violation_share": 0.11
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 4,
+      "condition": "TRAIN_range",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.0698341210710531,
+      "worst_episode_mean_diameter_error_um": 1.7414416757394808,
+      "mean_violation_share": 0.0034000000000000002,
+      "worst_episode_violation_share": 0.08666666666666667
+    },
+    {
+      "controller": "PPO_all",
+      "training_seed": 4,
+      "condition": "UNTOUCHED",
+      "episodes": 50,
+      "mean_diameter_error_um": 1.4149446552565466,
+      "worst_episode_mean_diameter_error_um": 2.3577454806221816,
+      "mean_violation_share": 0.002533333333333333,
+      "worst_episode_violation_share": 0.03333333333333333
+    }
+  ],
+  "r05_method": "sort each fold/repeat/strategy curve by photos, linearly interpolate AUC at 800 using np.interp, average all 25 fold-repeat curves; no extrapolation was needed",
+  "r05_reanalysis": [
+    {
+      "training_rounds": 150,
+      "strategy": "random",
+      "fold_repeat_curves": 25,
+      "curves_bracketing_800": 25,
+      "mean_interpolated_auc_at_800_photos": 0.7939990847484353
+    },
+    {
+      "training_rounds": 150,
+      "strategy": "rl_greedy",
+      "fold_repeat_curves": 25,
+      "curves_bracketing_800": 25,
+      "mean_interpolated_auc_at_800_photos": 0.766606801791493
+    },
+    {
+      "training_rounds": 150,
+      "strategy": "uncertainty",
+      "fold_repeat_curves": 25,
+      "curves_bracketing_800": 25,
+      "mean_interpolated_auc_at_800_photos": 0.8096447589647789
+    },
+    {
+      "training_rounds": 1500,
+      "strategy": "random",
+      "fold_repeat_curves": 25,
+      "curves_bracketing_800": 25,
+      "mean_interpolated_auc_at_800_photos": 0.7939990847484353
+    },
+    {
+      "training_rounds": 1500,
+      "strategy": "rl_greedy",
+      "fold_repeat_curves": 25,
+      "curves_bracketing_800": 25,
+      "mean_interpolated_auc_at_800_photos": 0.7550518696766269
+    },
+    {
+      "training_rounds": 1500,
+      "strategy": "uncertainty",
+      "fold_repeat_curves": 25,
+      "curves_bracketing_800": 25,
+      "mean_interpolated_auc_at_800_photos": 0.8096447589647789
+    }
+  ],
+  "path_check_before_edits": {
+    "reported_found_references": 185,
+    "reported_missing": 0,
+    "scope": "existence only; some shorthand ranges check first folder; not validation of all numbers or every saved artifact"
+  },
+  "source_sha256": {
+    "code/runs/20261007-022746_R02_confirm_fresh_conditions/episodes.csv": "2aa0c6900cd43a5e7a7e9fd7284a69a5270226281e8a393552c1da8be6652fc3",
+    "code/runs/20261006-101832_R05_label_picking_fold0/budget_curves.csv": "554a0c72554f563fa648aee7f827a8d54c232dc55d584ba589497c68bad9f030",
+    "code/runs/20261006-101832_R05_label_picking_fold1/budget_curves.csv": "e805ffc91425738c540a939d9b33b3d9ebc00ee6092ba688072671455bb86706",
+    "code/runs/20261006-101832_R05_label_picking_fold2/budget_curves.csv": "815d79536a2c9e875307224f6ae5ae315c2584115c71e3d3d1d8fbe2c49d980e",
+    "code/runs/20261006-101832_R05_label_picking_fold3/budget_curves.csv": "e9e31a1cc1cadab10d015d68838a52e8d380d1fc32a6a0559699b8ef6caf09b8",
+    "code/runs/20261006-101832_R05_label_picking_fold4/budget_curves.csv": "c29bb872daf34ba07970cd60bafb3f7247d4404225a22a207bb4fdcaef16f708",
+    "code/runs/20261006-101938_R05_label_picking_fold0/budget_curves.csv": "f6cb50d33748de4a999f560ab8a7fba86268780ce44f73954b0dec8af52084af",
+    "code/runs/20261006-101938_R05_label_picking_fold1/budget_curves.csv": "20ce76b9588b774c321a03d00653e94f507fe5b1970c683c4647ea34cdcec55b",
+    "code/runs/20261006-101938_R05_label_picking_fold2/budget_curves.csv": "1154a1d826a4821585343c16e3fa858566b527601e80efbd564791d8a727e8c3",
+    "code/runs/20261006-101938_R05_label_picking_fold3/budget_curves.csv": "3b222767c1a2e2f6d97cc1a01e635cb52a90b4ce8372067376845ee03544519c",
+    "code/runs/20261006-101938_R05_label_picking_fold4/budget_curves.csv": "2a88bead0a7828e0d9c88a21059251979286b7ac538b272fd410da125ae1e612",
+    "code/src/ai4s/rl/droplet_env.py": "0591f1bbcd36fa8690d43ab9f3cf1b260e5d9a7666226ff21d61eb8944ae769c",
+    "code/scripts/r_control.py": "88c2116d9119bdcb2a3b4ecac6539be6dd490dec4a258dd6c5c51f184690582d",
+    "code/scripts/r02_confirm.py": "448df732839b5668c1e164ff3c9cf73c0b25197a8f3e71d4ce12dbdc74573945",
+    "code/scripts/f04_trace.py": "be22033e0c1c1bc842413ae4831f6c459b6d9480aeada10fd77b9b9e44a64a99"
+  },
+  "live_rules_check": {
+    "method": "read official overview and rules in browser",
+    "date_IST": "2026-10-07",
+    "overview": "https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien/overview",
+    "rules": "https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien/rules",
+    "displayed_deadline_IST": "2026-10-10 21:29",
+    "rules_accepted_shown": true,
+    "in_progress_draft_shown": true,
+    "separate_registration_form_completed": "not verified",
+    "final_submission_completed": "not verified"
+  },
+  "document_validation": {
+    "historical_section_1_unchanged": true,
+    "all_36_ids_once": true,
+    "all_13_extra_rows": true,
+    "25_decisions_in_order": true,
+    "ledger_table_continuous": true,
+    "local_links_anchors_tables_ok": true,
+    "reviewed_source_hashes_unchanged": true,
+    "no_new_em_dashes": true
+  },
+  "document_validation_errors": [],
+  "document_paths_checked": [
+    "Research_and_Experiments/13_Results_vs_Expected_6_Oct.md",
+    "Research_and_Experiments/22_Final_Results_Before_and_After.md",
+    "Research_and_Experiments/17_Decision_Ledger.md",
+    "Research_and_Experiments/20_Technical_Report_Draft.md",
+    "Research_and_Experiments/16_Results_vs_Expected_7_Oct.md",
+    "Research_and_Experiments/Evidence/2026-10-07_release_rights_check.md",
+    "code/README.md",
+    "Research_and_Experiments/Evidence/2026-10-07_RL_scoring_review.md"
+  ],
+  "path_check_after_edits": {
+    "reported_found_references": 187,
+    "reported_missing": 0,
+    "scope": "same existence-only checker; new status/checklist tables intentionally refer back to detailed evidence tables rather than repeat paths"
+  }
+}

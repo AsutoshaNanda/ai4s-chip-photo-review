@@ -1,0 +1,14 @@
+{
+  "model": "vit_large_patch14_dinov2.lvd142m@518",
+  "grids": [
+    4,
+    8
+  ],
+  "fills": [
+    "median",
+    "blur"
+  ],
+  "deletion_steps": 8,
+  "a02_run": "20261006-012654_A02_frozen_features",
+  "smoke": false
+}

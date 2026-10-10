@@ -1,0 +1,26 @@
+[2026-10-06T16:13:52] run 20261006-161337_C02_jump_batch_rescaling_fold1 started
+[2026-10-06T16:15:22] downloaded profiles 1.82 GB in 89 s
+[2026-10-06T16:15:26] 81660 wells, 3636 usable features (of 3636), 12 batches, pert types {'trt': 76050, 'negcon': 3680, 'poscon': 1930}
+[2026-10-06T16:42:50] fold 1 raw                    batch info 0.401 (chance 0.089) | replicate mAP 0.0013 (120 queries)
+[2026-10-06T16:48:13] fold 1 sphering_eps0.0001     batch info 0.988 (chance 0.089) | replicate mAP 0.0280 (120 queries)
+[2026-10-06T16:53:37] fold 1 sphering_eps0.001      batch info 0.979 (chance 0.089) | replicate mAP 0.0350 (120 queries)  <- chosen on training batches
+[2026-10-06T16:59:01] fold 1 sphering_eps0.01       batch info 0.960 (chance 0.089) | replicate mAP 0.0366 (120 queries)
+[2026-10-06T17:04:25] fold 1 sphering_eps0.1        batch info 0.924 (chance 0.089) | replicate mAP 0.0404 (120 queries)
+[2026-10-06T17:09:50] fold 1 sphering_eps1          batch info 0.839 (chance 0.089) | replicate mAP 0.0414 (120 queries)
+[2026-10-06T17:09:50] fold 1: inner choice {0.0001: 0.043732287978291304, 0.001: 0.0712959402922928, 0.01: 0.05161055241015635, 0.1: 0.06313488156823932, 1.0: 0.047964654528220046} -> eps 0.001
+[2026-10-06T17:09:50] C02 summary over the folds run here (held-out batches):
+                batch_info     batch_chance     replicate_mAP    
+                      mean std         mean std          mean std
+method                                                           
+raw                 0.4006 NaN       0.0891 NaN        0.0013 NaN
+sphering_chosen     0.9785 NaN       0.0891 NaN        0.0350 NaN
+[2026-10-06T17:09:50] full curve over eps:
+                    batch_info  replicate_mAP
+method                                       
+raw                     0.4006         0.0013
+sphering_eps0.0001      0.9880         0.0280
+sphering_eps0.001       0.9785         0.0350
+sphering_eps0.01        0.9603         0.0366
+sphering_eps0.1         0.9235         0.0404
+sphering_eps1           0.8386         0.0414
+[2026-10-06T17:09:50] run finished: status=measured, wall_seconds=3372.52

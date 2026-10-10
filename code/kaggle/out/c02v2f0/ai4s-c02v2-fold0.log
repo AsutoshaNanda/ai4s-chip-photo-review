@@ -1,0 +1,40 @@
+[{"stream_name":"stdout","time":14.141119523,"data":"[17:37:01] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":6216.939145306,"data":"[19:20:24] lane0 finished with exit code 0 after 6203 s\n"}
+,{"stream_name":"stdout","time":6216.940463666,"data":"=== scripts/c02_jump.py --fold 0\n"}
+,{"stream_name":"stdout","time":6216.940476506,"data":"[2026-10-06T23:07:18] run 20261006-230703_C02_jump_batch_rescaling_v2_fold0 started\n"}
+,{"stream_name":"stdout","time":6216.940481766,"data":"[2026-10-06T23:08:58] downloaded profiles 1.82 GB in 100 s\n"}
+,{"stream_name":"stdout","time":6216.940486846,"data":"[2026-10-06T23:09:10] 81660 wells, 3636 usable features (of 3636), 12 batches, pert types {'trt': 76050, 'negcon': 3680, 'poscon': 1930}\n"}
+,{"stream_name":"stdout","time":6216.940491326,"data":"[2026-10-07T00:00:09] fold 0: chosen strength 1 on the upper edge; adding 10\n"}
+,{"stream_name":"stdout","time":6216.940494326,"data":"[2026-10-07T00:16:45] fold 0 raw                    batch info 0.444 (chance 0.088) | replicate mAP 0.0087 (1491 queries)\n"}
+,{"stream_name":"stdout","time":6216.940498036,"data":"[2026-10-07T00:22:20] fold 0 sphering_eps0.0001     batch info 0.985 (chance 0.088) | replicate mAP 0.0174 (1491 queries)\n"}
+,{"stream_name":"stdout","time":6216.940501506,"data":"[2026-10-07T00:27:54] fold 0 sphering_eps0.001      batch info 0.976 (chance 0.088) | replicate mAP 0.0274 (1491 queries)\n"}
+,{"stream_name":"stdout","time":6216.940556826,"data":"[2026-10-07T00:33:31] fold 0 sphering_eps0.01       batch info 0.962 (chance 0.088) | replicate mAP 0.0324 (1491 queries)\n"}
+,{"stream_name":"stdout","time":6216.940563257,"data":"[2026-10-07T00:39:07] fold 0 sphering_eps0.1        batch info 0.929 (chance 0.088) | replicate mAP 0.0335 (1491 queries)\n"}
+,{"stream_name":"stdout","time":6216.940567517,"data":"[2026-10-07T00:44:43] fold 0 sphering_eps1          batch info 0.851 (chance 0.088) | replicate mAP 0.0295 (1491 queries)  \u003c- chosen on training batches\n"}
+,{"stream_name":"stdout","time":6216.940572216,"data":"[2026-10-07T00:50:21] fold 0 sphering_eps10         batch info 0.762 (chance 0.088) | replicate mAP 0.0239 (1491 queries)\n"}
+,{"stream_name":"stdout","time":6216.940576526,"data":"[2026-10-07T00:50:21] fold 0: inner choice {0.0001: 0.026385106477398848, 0.001: 0.047730458323034596, 0.01: 0.06373686364690613, 0.1: 0.0771216665372567, 1.0: 0.08506075492786604, 10.0: 0.07066253558714562} -\u003e eps 1\n"}
+,{"stream_name":"stdout","time":6216.940584406,"data":"[2026-10-07T00:50:21] C02 summary over the folds run here (held-out batches):\n"}
+,{"stream_name":"stdout","time":6216.940588596,"data":"                batch_info     batch_chance     replicate_mAP    \n"}
+,{"stream_name":"stdout","time":6216.940592606,"data":"                      mean std         mean std          mean std\n"}
+,{"stream_name":"stdout","time":6216.940596816,"data":"method                                                           \n"}
+,{"stream_name":"stdout","time":6216.940601146,"data":"raw                 0.4438 NaN       0.0878 NaN        0.0087 NaN\n"}
+,{"stream_name":"stdout","time":6216.940628286,"data":"sphering_chosen     0.8506 NaN       0.0878 NaN        0.0295 NaN\n"}
+,{"stream_name":"stdout","time":6216.940634016,"data":"[2026-10-07T00:50:21] full curve over eps:\n"}
+,{"stream_name":"stdout","time":6216.940640126,"data":"                    batch_info  replicate_mAP\n"}
+,{"stream_name":"stdout","time":6216.940644556,"data":"method                                       \n"}
+,{"stream_name":"stdout","time":6216.940650646,"data":"raw                     0.4438         0.0087\n"}
+,{"stream_name":"stdout","time":6216.940654716,"data":"sphering_eps0.0001      0.9851         0.0174\n"}
+,{"stream_name":"stdout","time":6216.940658656,"data":"sphering_eps0.001       0.9756         0.0274\n"}
+,{"stream_name":"stdout","time":6216.940678636,"data":"sphering_eps0.01        0.9616         0.0324\n"}
+,{"stream_name":"stdout","time":6216.940681626,"data":"sphering_eps0.1         0.9289         0.0335\n"}
+,{"stream_name":"stdout","time":6216.940684466,"data":"sphering_eps1           0.8506         0.0295\n"}
+,{"stream_name":"stdout","time":6216.940687236,"data":"sphering_eps10          0.7622         0.0239\n"}
+,{"stream_name":"stdout","time":6216.940689966,"data":"[2026-10-07T00:50:21] run finished: status=measured, wall_seconds=6198.55\n"}
+,{"stream_name":"stdout","time":6216.940692846,"data":"\n"}
+,{"stream_name":"stderr","time":6219.576160652,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6219.576202822,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6219.925667901,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6219.925699221,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6220.778247404,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6221.810910811,"data":"[NbConvertApp] Writing 289628 bytes to __results__.html\n"}
+]

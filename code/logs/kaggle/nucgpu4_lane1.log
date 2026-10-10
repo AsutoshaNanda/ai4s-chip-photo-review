@@ -1,0 +1,161 @@
+=== scripts/b04_refresh.py --exp B02 --seed 0
+[2026-10-07T01:14:14] run 20261007-011404_B04_stress_refresh_B02_seed0 started
+[2026-10-07T01:15:57] fold 0 done (33 images x 11 conditions)
+[2026-10-07T01:17:29] fold 1 done (33 images x 11 conditions)
+[2026-10-07T01:18:27] fold 2 done (21 images x 11 conditions)
+[2026-10-07T01:20:15] fold 3 done (39 images x 11 conditions)
+[2026-10-07T01:21:18] fold 4 done (24 images x 11 conditions)
+[2026-10-07T01:21:18] stress curves (every level; clean first):
+     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075
+  best_count blur_sigma   1.00     150     10.507   1.853                    388   0.881   0.817
+  best_count blur_sigma   2.00     150      9.613  -3.400                    192   0.868   0.792
+  best_count blur_sigma   3.00     150      9.907  -5.867                    122   0.836   0.727
+  best_count brightness   0.50     150      5.433  -3.353                    100   0.886   0.814
+  best_count brightness   0.75     150      4.667  -2.453                     92   0.900   0.836
+  best_count brightness   1.25     150      4.813  -1.133                     91   0.899   0.840
+  best_count brightness   1.50     150      5.373  -0.560                     92   0.891   0.832
+  best_count      clean   0.00     150      4.493  -1.773                     89   0.904   0.842
+  best_count   noise_sd   0.02     150      6.433   1.260                    125   0.892   0.828
+  best_count   noise_sd   0.05     150     32.720  30.160                    215   0.759   0.680
+  best_count   noise_sd   0.10     150    115.680  96.720                    382   0.185   0.112
+best_outline blur_sigma   1.00     150     11.800  -9.787                    112   0.891   0.842
+best_outline blur_sigma   2.00     150     11.740 -10.447                    115   0.879   0.816
+best_outline blur_sigma   3.00     150     12.053 -11.107                    119   0.849   0.756
+best_outline brightness   0.50     150     10.793 -10.793                    110   0.908   0.856
+best_outline brightness   0.75     150     10.187 -10.187                    105   0.918   0.868
+best_outline brightness   1.25     150      9.847  -9.753                    103   0.911   0.864
+best_outline brightness   1.50     150      9.787  -9.480                    103   0.909   0.862
+best_outline      clean   0.00     150     10.000  -9.960                    104   0.913   0.865
+best_outline   noise_sd   0.02     150     10.313 -10.273                    105   0.911   0.858
+best_outline   noise_sd   0.05     150     14.353 -14.327                    156   0.861   0.787
+best_outline   noise_sd   0.10     150     64.227 -64.213                    180   0.360   0.254
+[2026-10-07T01:21:18] run finished: status=measured, wall_seconds=434.71
+=== scripts/b04_refresh.py --exp B03 --seed 0
+[2026-10-07T01:21:27] run 20261007-012125_B04_stress_refresh_B03_seed0 started
+[2026-10-07T01:22:07] fold 0 done (33 images x 11 conditions)
+[2026-10-07T01:22:40] fold 1 done (33 images x 11 conditions)
+[2026-10-07T01:23:00] fold 2 done (21 images x 11 conditions)
+[2026-10-07T01:23:38] fold 3 done (39 images x 11 conditions)
+[2026-10-07T01:24:02] fold 4 done (24 images x 11 conditions)
+[2026-10-07T01:24:02] stress curves (every level; clean first):
+     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075
+  best_count blur_sigma   1.00     150      7.113  -4.007                    151   0.902   0.842
+  best_count blur_sigma   2.00     150      8.540  -5.513                    101   0.847   0.770
+  best_count blur_sigma   3.00     150     12.547  -9.907                    111   0.769   0.678
+  best_count brightness   0.50     150      8.220  -7.780                    144   0.903   0.803
+  best_count brightness   0.75     150      6.273  -5.380                     65   0.918   0.853
+  best_count brightness   1.25     150      4.260  -2.687                     54   0.928   0.878
+  best_count brightness   1.50     150      4.340  -1.793                     51   0.926   0.881
+  best_count      clean   0.00     150      4.707  -3.533                     54   0.925   0.870
+  best_count   noise_sd   0.02     150      5.440  -3.147                     92   0.898   0.837
+  best_count   noise_sd   0.05     150     42.607  29.060                    190   0.576   0.468
+  best_count   noise_sd   0.10     150     81.967 -81.180                    180   0.080   0.035
+best_outline blur_sigma   1.00     150     12.567  -8.887                    262   0.903   0.861
+best_outline blur_sigma   2.00     150     12.000 -11.653                    108   0.859   0.797
+best_outline blur_sigma   3.00     150     15.587 -14.800                    114   0.777   0.696
+best_outline brightness   0.50     150     12.840 -12.827                    147   0.909   0.854
+best_outline brightness   0.75     150     10.720 -10.720                     90   0.928   0.885
+best_outline brightness   1.25     150      9.687  -9.660                     85   0.931   0.896
+best_outline brightness   1.50     150      9.500  -9.460                     80   0.930   0.895
+best_outline      clean   0.00     150      9.853  -9.853                     90   0.936   0.895
+best_outline   noise_sd   0.02     150     11.067 -11.053                     88   0.911   0.868
+best_outline   noise_sd   0.05     150     20.640 -15.507                    165   0.705   0.624
+best_outline   noise_sd   0.10     150     96.087 -96.087                    197   0.136   0.070
+[2026-10-07T01:24:02] run finished: status=measured, wall_seconds=156.92
+=== scripts/b07_outside.py --posts v2 --seed 0 --skip_b01
+[2026-10-07T01:24:09] run 20261007-012406_B07_bbbc038_outside_posts_v2 started
+[2026-10-07T01:24:09] 627 BBBC038 images after removing 43 copies of BBBC039 photos (gap 0.9999 -> 0.8352)
+[2026-10-07T01:26:09] B02 fold 0 done
+[2026-10-07T01:27:45] B02 fold 1 done
+[2026-10-07T01:29:17] B02 fold 2 done
+[2026-10-07T01:30:50] B02 fold 3 done
+[2026-10-07T01:32:33] B02 fold 4 done
+[2026-10-07T01:33:21] B03 fold 0 done
+[2026-10-07T01:34:13] B03 fold 1 done
+[2026-10-07T01:34:59] B03 fold 2 done
+[2026-10-07T01:35:47] B03 fold 3 done
+[2026-10-07T01:36:34] B03 fold 4 done
+[2026-10-07T01:36:35] B02_best_count|grey          images  519 | count MAE   21.31 (sd over folds 4.62) bias  +15.35 | F1@0.50 0.568 F1@0.75 0.409
+[2026-10-07T01:36:35] B02_best_count|colour        images  108 | count MAE   39.25 (sd over folds 12.28) bias  +24.86 | F1@0.50 0.005 F1@0.75 0.000
+[2026-10-07T01:36:35] B02_best_outline|grey        images  519 | count MAE   12.91 (sd over folds 3.83) bias   +1.00 | F1@0.50 0.656 F1@0.75 0.502
+[2026-10-07T01:36:35] B02_best_outline|colour      images  108 | count MAE   32.57 (sd over folds 12.58) bias   +1.57 | F1@0.50 0.006 F1@0.75 0.000
+[2026-10-07T01:36:35] B03_best_count|grey          images  519 | count MAE   14.19 (sd over folds 5.25) bias   +9.32 | F1@0.50 0.600 F1@0.75 0.362
+[2026-10-07T01:36:36] B03_best_count|colour        images  108 | count MAE   31.19 (sd over folds 12.82) bias  +12.16 | F1@0.50 0.002 F1@0.75 0.000
+[2026-10-07T01:36:36] B03_best_outline|grey        images  519 | count MAE    9.75 (sd over folds 1.21) bias   -0.38 | F1@0.50 0.690 F1@0.75 0.513
+[2026-10-07T01:36:36] B03_best_outline|colour      images  108 | count MAE   25.84 (sd over folds 6.71) bias   -9.33 | F1@0.50 0.004 F1@0.75 0.000
+[2026-10-07T01:36:36] run finished: status=measured, wall_seconds=750.05
+=== scripts/b_tiny.py --seed 0
+[2026-10-07T01:36:43] run 20261007-013640_B05_tiny_nuclei_diagnosis_seed0 started
+[2026-10-07T01:37:05] B02 fold 0 done
+[2026-10-07T01:37:27] B02 fold 1 done
+[2026-10-07T01:37:40] B02 fold 2 done
+[2026-10-07T01:38:05] B02 fold 3 done
+[2026-10-07T01:38:20] B02 fold 4 done
+[2026-10-07T01:38:31] B03 fold 0 done
+[2026-10-07T01:38:43] B03 fold 1 done
+[2026-10-07T01:38:49] B03 fold 2 done
+[2026-10-07T01:39:03] B03 fold 3 done
+[2026-10-07T01:39:11] B03 fold 4 done
+[2026-10-07T01:39:11] small nuclei by first failing stage at overlap 0.5:
+stage@0.5         clean-up/outline: kept but overlap below level  clean-up: merged with a neighbour  clean-up: removed by minimum-size rule  found  prediction: probability never reaches threshold
+method                                                                                                                                                                                             
+B02_best_count                                               249                                612                                      51    777                                              125
+B02_best_outline                                              68                                688                                     409    589                                               60
+B03_best_count                                               266                                190                                       0    785                                              573
+B03_best_outline                                              89                                367                                     326    676                                              356
+[2026-10-07T01:39:11] preparation and prediction signals, medians, found vs missed at 0.5:
+                            prepared_contrast  raw_contrast  share_clipped_to_0  max_prob_inside   area
+method           found@0.5                                                                             
+B02_best_count   False                 0.1455      164.6446                 0.0           0.9893   23.0
+                 True                  0.2282      249.1650                 0.0           1.0000   89.0
+B02_best_outline False                 0.1499      167.9885                 0.0           0.9892   22.0
+                 True                  0.2468      264.1968                 0.0           1.0000  102.0
+B03_best_count   False                 0.1360      152.7730                 0.0           0.8739   21.0
+                 True                  0.2507      264.3977                 0.0           0.9994   95.0
+B03_best_outline False                 0.1433      162.0954                 0.0           0.8938   21.0
+                 True                  0.2531      264.5707                 0.0           0.9996  102.0
+[2026-10-07T01:39:11] small nuclei by first failing stage at overlap 0.75:
+stage@0.75        clean-up/outline: kept but overlap below level  clean-up: merged with a neighbour  clean-up: removed by minimum-size rule  found  prediction: probability never reaches threshold
+method                                                                                                                                                                                             
+B02_best_count                                               453                                625                                      51    560                                              125
+B02_best_outline                                             150                                702                                     409    493                                               60
+B03_best_count                                               543                                224                                       0    474                                              573
+B03_best_outline                                             208                                398                                     326    526                                              356
+[2026-10-07T01:39:11] preparation and prediction signals, medians, found vs missed at 0.75:
+                             prepared_contrast  raw_contrast  share_clipped_to_0  max_prob_inside   area
+method           found@0.75                                                                             
+B02_best_count   False                  0.1488      170.9205                 0.0           0.9927   24.0
+                 True                   0.2472      261.7768                 0.0           1.0000  101.0
+B02_best_outline False                  0.1523      172.9038                 0.0           0.9926   24.0
+                 True                   0.2569      269.5141                 0.0           1.0000  105.0
+B03_best_count   False                  0.1502      170.8863                 0.0           0.9354   25.0
+                 True                   0.2669      274.2344                 0.0           0.9998  109.0
+B03_best_outline False                  0.1484      167.0667                 0.0           0.9267   24.0
+                 True                   0.2627      277.6482                 0.0           0.9998  105.0
+[2026-10-07T01:39:11] run finished: status=measured, wall_seconds=151.29
+=== scripts/c03_fetch.py
+[2026-10-07T01:39:18] run 20261007-013913_C03_allen_fetch started
+[2026-10-07T02:13:26] done: 40 files, 11.00 GB compressed, 2048 s
+[2026-10-07T02:13:26] run finished: status=measured, wall_seconds=2053.29
+=== scripts/c03_prep.py --depth_rule input_only
+[2026-10-07T02:13:33] run 20261007-021328_C03_allen_prep_inputonly started
+Traceback (most recent call last):
+  File "/kaggle/working/code/scripts/c03_prep.py", line 97, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/code/scripts/c03_prep.py", line 72, in main
+    if a.depth_rule == "input_only":
+       ^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'depth_rule'
+=== scripts/c03_translate.py --slices c03_slices_inputonly.npz
+[2026-10-07T02:13:41] run 20261007-021338_C03_dic_to_lamin_v3_inputonly started
+Traceback (most recent call last):
+  File "/kaggle/working/code/scripts/c03_translate.py", line 195, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/working/code/scripts/c03_translate.py", line 118, in main
+    d = np.load(DATA_ROOT / "allen" / a.slices)
+  File "/usr/local/lib/python3.13/dist-packages/numpy/lib/_npyio_impl.py", line 459, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ai4s/data/allen/c03_slices_inputonly.npz'

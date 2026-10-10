@@ -1,0 +1,49 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-lEITexq1xeVUtkXF7lFVp1
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+[2026-10-05 19:57:36 UTC] lane cpu32: 2 jobs
+[2026-10-05 19:57:37 UTC] START scripts/r_control.py --exp R03
+[2026-10-05 20:02:41 UTC] OK: scripts/r_control.py --exp R03 | 5.0 min | est. spend so far $0.69
+[2026-10-06T01:27:50] run 20261006-012739_R03_staged_vs_ordinary_ppo started
+[2026-10-06T01:32:37] 
+                            d_err_mean_mean        rate_err_mean_mean        violation_share_mean       
+                                       mean    std               mean    std                 mean    std
+variant      condition                                                                                  
+nominal_only test_TRAIN               1.263  0.080              0.086  0.007                0.014  0.006
+             test_UNTOUCHED           1.642  0.094              0.127  0.009                0.019  0.005
+ordinary     test_TRAIN               1.131  0.057              0.079  0.002                0.004  0.001
+             test_UNTOUCHED           1.437  0.052              0.103  0.005                0.009  0.005
+staged       test_TRAIN               1.208  0.049              0.076  0.006                0.003  0.002
+             test_UNTOUCHED           1.515  0.046              0.107  0.006                0.006  0.003
+[2026-10-06T01:32:37] run finished: status=measured, wall_seconds=297.75
+
+[2026-10-05 20:02:42 UTC] START scripts/r_control.py --exp R04
+[2026-10-05 20:08:00 UTC] OK: scripts/r_control.py --exp R04 | 5.2 min | est. spend so far $0.91
+  0.004                0.027  0.006
+               test_UNTOUCHED           1.521  0.049              0.111  0.007                0.042  0.010
+inputs_minimal missing_0.1              1.373  0.083              0.095  0.006                0.050  0.010
+               missing_0.3              1.460  0.076              0.108  0.008                0.056  0.006
+               noise_x2                 1.730  0.080              0.108  0.003                0.071  0.011
+               noise_x4                 2.290  0.071              0.136  0.006                0.109  0.017
+               test_TRAIN               1.344  0.071              0.087  0.003                0.053  0.011
+               test_UNTOUCHED           1.775  0.055              0.127  0.015                0.052  0.026
+inputs_pumps   missing_0.1              1.508  0.062              0.091  0.003                0.004  0.001
+               missing_0.3              1.624  0.087              0.106  0.006                0.007  0.002
+               noise_x2                 1.756  0.046              0.105  0.004                0.011  0.003
+               noise_x4                 2.226  0.056              0.135  0.007                0.036  0.007
+               test_TRAIN               1.471  0.060              0.087  0.006                0.002  0.001
+               test_UNTOUCHED           1.748  0.058              0.115  0.008                0.002  0.001
+[2026-10-06T01:37:56] run finished: status=measured, wall_seconds=311.87
+
+[2026-10-05 20:08:01 UTC] lane finished
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-lEITexq1xeVUtkXF7lFVp1

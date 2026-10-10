@@ -1,0 +1,4 @@
+[2026-10-07T20:14:59] run 20261007-201435_F01_chip_features started
+[2026-10-07T20:15:46] features final_whole: 675 images in 32.1 s
+[2026-10-07T20:17:41] features final_tiles_3x3: 6075 images in 115.2 s
+[2026-10-07T20:17:41] run finished: status=measured, wall_seconds=186.38

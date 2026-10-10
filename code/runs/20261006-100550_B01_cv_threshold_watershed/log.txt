@@ -1,0 +1,13 @@
+[2026-10-06T10:06:01] run 20261006-100550_B01_cv_threshold_watershed started
+[2026-10-06T10:25:52] grid scored for 150 practice images x 2160 settings (32 workers)
+[2026-10-06T10:26:20] best_count: count MAE 6.73 (bias -1.40); pooled F1 at 0.25/0.50/0.75/0.90: 0.911/0.874/0.787/0.390; joined 2268, split 1541, missed 315, false 569
+[2026-10-06T10:26:20]    best_count 25-50%    : images 39, count MAE 4.72, bias 0.62, F1@0.50 0.904
+[2026-10-06T10:26:20]    best_count 50-75%    : images 39, count MAE 4.08, bias 0.49, F1@0.50 0.901
+[2026-10-06T10:26:20]    best_count fewest 25%: images 36, count MAE 3.53, bias 0.75, F1@0.50 0.872
+[2026-10-06T10:26:20]    best_count most 25%  : images 36, count MAE 15.00, bias -7.78, F1@0.50 0.829
+[2026-10-06T10:26:20] best_outline: count MAE 12.95 (bias -12.80); pooled F1 at 0.25/0.50/0.75/0.90: 0.922/0.898/0.842/0.685; joined 2186, split 468, missed 979, false 45
+[2026-10-06T10:26:20]    best_outline 25-50%    : images 39, count MAE 8.77, bias -8.77, F1@0.50 0.922
+[2026-10-06T10:26:20]    best_outline 50-75%    : images 39, count MAE 10.26, bias -10.26, F1@0.50 0.923
+[2026-10-06T10:26:20]    best_outline fewest 25%: images 36, count MAE 6.36, bias -5.75, F1@0.50 0.906
+[2026-10-06T10:26:20]    best_outline most 25%  : images 36, count MAE 26.97, bias -26.97, F1@0.50 0.855
+[2026-10-06T10:26:20] run finished: status=measured, wall_seconds=1230.15

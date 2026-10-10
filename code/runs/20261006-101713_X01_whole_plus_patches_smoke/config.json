@@ -1,0 +1,28 @@
+{
+  "model": "resnet18.tv_in1k@224",
+  "device": "cpu",
+  "photos": "practice only",
+  "centre_fracs": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "shifts": [
+    -0.2,
+    -0.1,
+    -0.05,
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "grids": [
+    2,
+    3
+  ],
+  "brightness": [
+    0.8,
+    1.25
+  ],
+  "smoke": true
+}

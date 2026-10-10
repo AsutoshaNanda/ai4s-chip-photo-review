@@ -1,0 +1,1 @@
+This CPU demonstration took 402.8 seconds.

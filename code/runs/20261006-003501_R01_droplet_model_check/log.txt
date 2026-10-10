@@ -1,0 +1,15 @@
+[2026-10-06T00:35:09] run 20261006-003501_R01_droplet_model_check started
+[2026-10-06T00:35:09] max relative difference, eq.(4) vs water-volume conservation: 0.0003
+[2026-10-06T00:35:09] example Qw=8, Qoil=48: {'qw': 8.0, 'qoil': 48.0, 'diameter_um': 63.42857142857142, 'ellipticity': 1.0555405218550185, 'rate_per_s': 945.7108053076631, 'rate_from_mass_conservation': 945.3887144278651}
+[2026-10-06T00:35:10]    obs_set  missing_prob  obs_len  steps  random_policy_return  violations
+0  minimal           0.0        2    300               -4857.8          56
+1  minimal           0.2        4    300               -2088.4          56
+2    pumps           0.0        4    300               -4857.8          56
+3    pumps           0.2        8    300               -6306.0          56
+4   camera           0.0        7    300               -4857.8          56
+5   camera           0.2       14    300               -3560.6          56
+6  history           0.0       18    300               -4857.8          56
+7  history           0.2       36    300               -4481.0          56
+8      all           0.0       25    300               -4857.8          56
+9      all           0.2       50    300               -4754.8          56
+[2026-10-06T00:35:10] run finished: status=measured, wall_seconds=9.06

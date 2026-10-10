@@ -1,0 +1,18 @@
+{
+  "resnet18@224": {
+    "seconds": 3.232983083999983,
+    "photos_per_s": 741.4205202194657
+  },
+  "resnet18@448": {
+    "seconds": 2.6599379440000064,
+    "photos_per_s": 901.1488427415712
+  },
+  "vit_large_patch14_dinov2@224": {
+    "seconds": 4.587871430999996,
+    "photos_per_s": 522.4645101873609
+  },
+  "vit_large_patch14_dinov2@518": {
+    "seconds": 14.37408684099998,
+    "photos_per_s": 166.7584192661831
+  }
+}

@@ -1,0 +1,8 @@
+{"python": "3.12.14", "torch": "2.14.1", "platform": "macOS-26.6.2-arm64-arm-64bit", "cpu_count": 12, "machine": "arm64", "timm": "1.0.30", "device": "mps", "disk_free_gb": 73.8, "package_installs": {"timm": "present", "stable_baselines3": "present", "gymnasium": "present", "psutil": "missing"}, "device_used": "mps"}
+{"job": "frozen_features:resnet18@224", "batch": 64, "items_per_s": 977.7, "s_per_step": 0.0655, "peak_mem_gb": 1.16, "precision": "fp16"}
+{"job": "train_step:resnet18@224", "batch": 64, "items_per_s": 277.97, "s_per_step": 0.2302, "peak_mem_gb": 3.53, "precision": "fp16"}
+{"job": "frozen_features:resnet18@448", "batch": 64, "items_per_s": 257.77, "s_per_step": 0.2483, "peak_mem_gb": 4.9, "precision": "fp16"}
+{"job": "train_step:resnet18@448", "batch": 64, "items_per_s": 73.94, "s_per_step": 0.8656, "peak_mem_gb": 10.91, "precision": "fp16"}
+{"job": "frozen_features:efficientnet_b0@224", "batch": 64, "items_per_s": 477.31, "s_per_step": 0.1341, "peak_mem_gb": 4.11, "precision": "fp16"}
+{"job": "train_step:efficientnet_b0@224", "batch": 64, "items_per_s": 132.0, "s_per_step": 0.4848, "peak_mem_gb": 8.06, "precision": "fp16"}
+{"job": "frozen_features:efficientnet_b0@448", "batch": 64, "items_per_s": 132.84, "s_per_step": 0.4818, "peak_mem_gb": 9.95, "precision": "fp16"}

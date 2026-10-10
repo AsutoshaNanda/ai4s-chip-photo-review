@@ -1,0 +1,61 @@
+[2026-10-07T01:31:01] run 20261007-013014_B05_crowding_tiny_nuclei_posts_v2 started
+[2026-10-07T01:31:02] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+[2026-10-07T01:31:48] B05 B01_best_count: segmented 150 held-out images
+[2026-10-07T01:32:38] B05 B01_best_outline: segmented 150 held-out images
+[2026-10-07T01:45:39] B05 B02_best_count: segmented 150 held-out images
+[2026-10-07T01:46:23] B05 B02_best_outline: segmented 150 held-out images
+[2026-10-07T01:59:27] B05 B03_best_count: segmented 150 held-out images
+[2026-10-07T01:59:45] B05 B03_best_outline: segmented 150 held-out images
+[2026-10-07T01:59:47] B05 share of reference nuclei found, by size decile (0 = smallest; training-fold deciles), at IoU 0.50 / 0.75 (all levels in B05_found_by_size_decile.csv):
+method       B01_best_count  B01_best_outline  B02_best_count  B02_best_outline  B03_best_count  B03_best_outline
+size_decile                                                                                                      
+0                     0.388             0.270           0.429             0.324           0.431             0.371
+1                     0.800             0.750           0.873             0.831           0.900             0.869
+2                     0.870             0.862           0.921             0.897           0.957             0.932
+3                     0.914             0.903           0.952             0.931           0.971             0.943
+4                     0.930             0.921           0.949             0.944           0.970             0.959
+5                     0.937             0.939           0.963             0.955           0.977             0.962
+6                     0.958             0.954           0.976             0.971           0.981             0.971
+7                     0.962             0.965           0.986             0.983           0.983             0.977
+8                     0.967             0.968           0.980             0.980           0.989             0.982
+9                     0.971             0.972           0.974             0.982           0.987             0.986
+method       B01_best_count  B01_best_outline  B02_best_count  B02_best_outline  B03_best_count  B03_best_outline
+size_decile                                                                                                      
+0                     0.222             0.215           0.308             0.271           0.261             0.289
+1                     0.632             0.655           0.786             0.761           0.772             0.795
+2                     0.770             0.809           0.862             0.843           0.891             0.890
+3                     0.839             0.849           0.891             0.878           0.928             0.900
+4                     0.869             0.882           0.909             0.908           0.942             0.927
+5                     0.875             0.890           0.909             0.904           0.948             0.936
+6                     0.910             0.911           0.932             0.933           0.960             0.949
+7                     0.908             0.928           0.951             0.948           0.962             0.952
+8                     0.905             0.910           0.932             0.940           0.968             0.955
+9                     0.895             0.918           0.915             0.931           0.967             0.958
+[2026-10-07T01:59:48] B05 crowding (quartiles of reference count on training folds; 4 = most crowded):
+                                    images  count_mae    bias  f1_050
+method           crowding_quartile                                   
+B01_best_count   1                      36      3.528   0.750   0.801
+                 2                      39      4.718   0.615   0.903
+                 3                      39      4.077   0.487   0.901
+                 4                      36     15.000  -7.778   0.816
+B01_best_outline 1                      36      6.361  -5.750   0.826
+                 2                      39      8.769  -8.769   0.920
+                 3                      39     10.256 -10.256   0.923
+                 4                      36     26.972 -26.972   0.833
+B02_best_count   1                      36      2.639  -0.250   0.892
+                 2                      39      4.026  -0.385   0.923
+                 3                      39      3.308  -0.692   0.920
+                 4                      36      8.194  -6.194   0.877
+B02_best_outline 1                      36      4.917  -4.806   0.899
+                 2                      39      7.051  -7.000   0.935
+                 3                      39      8.974  -8.974   0.936
+                 4                      36     19.417 -19.417   0.879
+B03_best_count   1                      36      3.278  -2.667   0.912
+                 2                      39      4.231  -2.949   0.948
+                 3                      39      3.795  -3.077   0.948
+                 4                      36      7.528  -5.417   0.889
+B03_best_outline 1                      36      5.722  -5.722   0.943
+                 2                      39      7.538  -7.538   0.951
+                 3                      39      9.308  -9.308   0.951
+                 4                      36     17.111 -17.111   0.894
+[2026-10-07T02:00:13] run finished: status=measured, wall_seconds=1799.55

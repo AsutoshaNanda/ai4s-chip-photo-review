@@ -1,0 +1,15 @@
+{
+  "cache_seconds": 16.412860353000006,
+  "photos": 2397,
+  "equality_rel_diff": 0.0072684031911194324,
+  "head_only": {
+    "seconds_per_pass": 0.6203758510000009,
+    "photos_per_pass": 2062,
+    "peak_gpu_gb": 7.343744
+  },
+  "last_block": {
+    "seconds_per_pass": 1.5988839540000015,
+    "photos_per_pass": 2062,
+    "peak_gpu_gb": 8.481135616
+  }
+}

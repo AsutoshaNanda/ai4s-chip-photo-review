@@ -1,0 +1,23 @@
+{
+  "models": [
+    [
+      "resnet18.tv_in1k",
+      224
+    ],
+    [
+      "resnet18.tv_in1k",
+      448
+    ],
+    [
+      "vit_large_patch14_dinov2.lvd142m",
+      224
+    ],
+    [
+      "vit_large_patch14_dinov2.lvd142m",
+      518
+    ]
+  ],
+  "device": "cuda",
+  "photos": "practice only",
+  "classifier": "logistic regression, C by grouped inner CV (log loss)"
+}

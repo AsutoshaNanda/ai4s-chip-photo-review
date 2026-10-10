@@ -1,0 +1,28 @@
+{
+  "url": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf",
+  "downloaded": "2026-10-10",
+  "pages": 434,
+  "issue": "9",
+  "issue_date": "2025-01-15",
+  "issuer": "ASD STEMG",
+  "sha256": "d1f4ea9e7cd6e46b47aa9057209f99e78c0e9cfc4e27a5b07895b05c1a166431",
+  "selected_pages_read": [
+    2,
+    3,
+    37,
+    46,
+    87,
+    95,
+    101,
+    154,
+    198,
+    250,
+    344,
+    360,
+    362,
+    422,
+    428
+  ],
+  "verdict": "STE-guided; remaining confirmed deviations prevent a full compliance claim",
+  "not_redistributed_in_upload_package": true
+}

@@ -1,0 +1,12 @@
+[2026-10-07T19:12:37] run 20261007-191234_A02_light_retrain_a03 started
+[2026-10-07T19:14:54] cached last-block inputs for 2397 photos in 121.2 s; shapes [(392, 518)]; GPU memory used 6.46 GB
+[2026-10-07T19:14:54] fixed settings from the practice-fold searches: {'head_only': {'lr': 0.001, 'passes': 11, 'from_folds': 5}, 'last_block': {'lr': 1e-05, 'passes': 5, 'from_folds': 5}}
+[2026-10-07T19:16:08] A549: trained on 1098 photos, tested on 629
+[2026-10-07T19:18:00] CACO: trained on 1735 photos, tested on 271
+[2026-10-07T19:18:36] HPMEC: trained on 462 photos, tested on 1170
+[2026-10-07T19:20:51] HSAEC: trained on 2106 photos, tested on 193
+[2026-10-07T19:23:13] HUVEC: trained on 2237 photos, tested on 56
+[2026-10-07T19:25:20] NHBE: trained on 1980 photos, tested on 78
+[2026-10-07T19:25:23] A03 rule, head_only: pooled AUC 0.760; minus frozen LR {'difference': 0.003422158422857202, 'range_95': [-0.004844415406856864, 0.013582103528023063]}
+[2026-10-07T19:25:26] A03 rule, last_block: pooled AUC 0.728; minus frozen LR {'difference': -0.02851457575539429, 'range_95': [-0.06850322972160514, 0.008349313406427765]}
+[2026-10-07T19:25:26] run finished: status=measured, wall_seconds=772.21

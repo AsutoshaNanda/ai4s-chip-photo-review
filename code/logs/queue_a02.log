@@ -1,0 +1,29 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-3vumJy8iL1Su5Fu2AjdoSo
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function a100.
+└── ✓ Created Function cpu8.
+[2026-10-05 19:56:47 UTC] lane a100: 1 jobs
+[2026-10-05 19:56:48 UTC] START scripts/a02_frozen.py
+[2026-10-05 20:01:20 UTC] OK: scripts/a02_frozen.py | 4.5 min | est. spend so far $0.48
+[2026-10-06T01:27:00] run 20261006-012654_A02_frozen_features started
+[2026-10-06T01:28:59] resnet18.tv_in1k@224: 2397 photos in 3.2 s (741.4/s), dim 512, shapes [(168, 224)]
+[2026-10-06T01:29:56] resnet18.tv_in1k@448: 2397 photos in 2.7 s (901.1/s), dim 512, shapes [(336, 448)]
+[2026-10-06T01:30:27] vit_large_patch14_dinov2.lvd142m@224: 2397 photos in 4.6 s (522.5/s), dim 1024, shapes [(168, 224)]
+[2026-10-06T01:30:51] vit_large_patch14_dinov2.lvd142m@518: 2397 photos in 14.4 s (166.8/s), dim 1024, shapes [(392, 518)]
+[2026-10-06T01:31:01] resnet18@224                               AUC 0.717 [0.653, 0.788] AP 0.663 logloss 0.610 | within format {'L/2056x1542': 0.626, 'RGB/2048x1536': 0.686, 'RGB/640x480': 0.525}
+[2026-10-06T01:31:05] resnet18@448                               AUC 0.768 [0.726, 0.825] AP 0.707 logloss 0.568 | within format {'L/2056x1542': 0.691, 'RGB/2048x1536': 0.768, 'RGB/640x480': 0.646}
+[2026-10-06T01:31:10] vit_large_patch14_dinov2@224               AUC 0.761 [0.707, 0.825] AP 0.706 logloss 0.575 | within format {'L/2056x1542': 0.69, 'RGB/2048x1536': 0.75, 'RGB/640x480': 0.71}
+[2026-10-06T01:31:15] vit_large_patch14_dinov2@518               AUC 0.843 [0.803, 0.884] AP 0.812 logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T01:31:15] run finished: status=measured, wall_seconds=260.91
+
+[2026-10-05 20:01:21 UTC] lane finished
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-3vumJy8iL1Su5Fu2AjdoSo

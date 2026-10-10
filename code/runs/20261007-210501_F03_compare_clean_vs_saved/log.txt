@@ -1,0 +1,10 @@
+[2026-10-07T21:05:06] run 20261007-210501_F03_compare_clean_vs_saved started
+[2026-10-07T21:05:06] steps (seconds, ok): [('code', 2.5, True), ('venv', 263.6, True), ('download', 572.5, True), ('prep', 120.2, True), ('chip_features', 849.7, True), ('chip_eval', 64.1, True), ('practice_check', 71.8, True), ('nucleus_fold0_retrain', 589.7, True)]
+[2026-10-07T21:05:06] final chip [automatic_only] whole: AUC clean 0.80977 vs saved 0.80117 (diff +0.00860); log loss diff +0.00349
+[2026-10-07T21:05:06] final chip [automatic_only] fixed_3x3: AUC clean 0.84960 vs saved 0.84972 (diff -0.00012); log loss diff +0.00015
+[2026-10-07T21:05:06] final chip [all_photos] whole: AUC clean 0.81007 vs saved 0.80127 (diff +0.00880); log loss diff +0.00312
+[2026-10-07T21:05:06] final chip [all_photos] fixed_3x3: AUC clean 0.84989 vs saved 0.85001 (diff -0.00012); log loss diff +0.00015
+[2026-10-07T21:05:06] practice 5-fold AUC clean vs record: {'whole': {'clean': 0.8432659911273716, 'saved_record': 0.8433, 'difference': -3.4008872628499276e-05}, 'fixed_3x3': {'clean': 0.8751240347170173, 'saved_record': 0.8751, 'difference': 2.403471701728499e-05}}
+[2026-10-07T21:05:06] nucleus B03 fold 0 [best_count]: count MAE clean 5.818 vs saved 6.394; F1@0.75 0.875 vs 0.877
+[2026-10-07T21:05:06] nucleus B03 fold 0 [best_outline]: count MAE clean 11.485 vs saved 11.515; F1@0.75 0.892 vs 0.892
+[2026-10-07T21:05:06] run finished: status=measured, wall_seconds=4.73

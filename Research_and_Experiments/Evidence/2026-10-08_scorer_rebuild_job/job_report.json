@@ -1,0 +1,270 @@
+{
+ "started_utc": "2026-10-08T12:38:03",
+ "steps": {
+  "1_pip_install": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/pip install -r requirements.txt",
+   "exit": 0,
+   "seconds": 1420.6
+  },
+  "1_pip_check": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/pip check",
+   "exit": 0,
+   "seconds": 0.6
+  },
+  "1_pin_check": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/python -c import importlib.metadata as m, json, sys\nout = {}\nfor line in open('requirements.txt').read().splitlines():\n    line = line.split('#')[0].strip()\n    if not line:\n        continue\n    name, _, want = line.partition('==')\n    try:\n        got = m.version(name)\n    except Exception as e:\n        got = 'MISSING ' + type(e).__name__\n    out[name] = {'want': want or None, 'got': got, 'ok': (not want) or got.split('+')[0] == want}\nprint(json.dumps(out, indent=1))\n",
+   "exit": 0,
+   "seconds": 0.1
+  },
+  "1_pip_freeze": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/pip freeze",
+   "exit": 0,
+   "seconds": 0.4
+  },
+  "1_torch_device": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/python -c import torch; print('cuda', torch.cuda.is_available(), 'threads', torch.get_num_threads())",
+   "exit": 0,
+   "seconds": 2.6
+  },
+  "2_control_old_model": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning -c import joblib; joblib.load('model_x01_3x3.joblib')",
+   "exit": 0,
+   "seconds": 2.2
+  },
+  "3_train": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/python scripts/train_final_model.py --out /kaggle/working/new_model",
+   "exit": 0,
+   "seconds": 17.0
+  },
+  "4_load_new_model_strict": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning -c import joblib, sys; m = joblib.load(sys.argv[1]); print(type(m).__name__, 'loaded') /kaggle/working/new_model/model_x01_3x3.joblib",
+   "exit": 0,
+   "seconds": 2.0
+  },
+  "6_inference_cpu": {
+   "cmd": "/tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning inference.py --photos /tmp/ai4s_f05/demo_photos --out /kaggle/working/ranking_fresh.csv --sheet /kaggle/working/sheet_fresh.png",
+   "exit": 0,
+   "seconds": 402.8
+  }
+ },
+ "checks": {
+  "all_pins_match": true,
+  "old_model_rejected_by_strict_setting": false,
+  "new_model_loads_strict": true,
+  "inference_exit_zero": true
+ },
+ "platform": "Linux-6.18.48+-x86_64-with-glibc2.39",
+ "system_python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+ "cpu_count": 4,
+ "input_sha256": {
+  "requirements.txt": "cf18d72aefe949cd71d8b082f4b8dca7aa3eb31b692b05b87d81e3f054fbe428",
+  "inference.py": "f9998c22a14fcee0c0d5dd03c7d9004d4dae593f8b7b418c5d0d3e96841129c2",
+  "scripts/train_final_model.py": "197d63b6f7c5ae2c96a78b029020180c1d80f4474656035389c14fc1b3bef12d",
+  "scripts/a_views.py": "ee1ce09f1d3dd27287b46d1e9e36799617c96a4797698a47544e6a753bbe9f62",
+  "model_x01_3x3.joblib": "ba95efe014b9fb3b658d18e057b0a51b86be8d78e225b2767f336873a342ed24",
+  "model_x01_3x3.json": "1a468889c84a8d59b855dac0fc7501f96b097da337120ffb802595977e56ccae"
+ },
+ "pins": {
+  "numpy": {
+   "want": "2.5.3",
+   "got": "2.5.3",
+   "ok": true
+  },
+  "pandas": {
+   "want": "3.0.6",
+   "got": "3.0.6",
+   "ok": true
+  },
+  "scipy": {
+   "want": "1.18.1",
+   "got": "1.18.1",
+   "ok": true
+  },
+  "scikit-learn": {
+   "want": "1.9.1",
+   "got": "1.9.1",
+   "ok": true
+  },
+  "scikit-image": {
+   "want": "0.26.0",
+   "got": "0.26.0",
+   "ok": true
+  },
+  "tifffile": {
+   "want": "2026.9.20",
+   "got": "2026.9.20",
+   "ok": true
+  },
+  "pillow": {
+   "want": "12.3.0",
+   "got": "12.3.0",
+   "ok": true
+  },
+  "openpyxl": {
+   "want": "3.1.5",
+   "got": "3.1.5",
+   "ok": true
+  },
+  "matplotlib": {
+   "want": "3.11.2",
+   "got": "3.11.2",
+   "ok": true
+  },
+  "pyarrow": {
+   "want": "25.0.1",
+   "got": "25.0.1",
+   "ok": true
+  },
+  "torch": {
+   "want": "2.14.1",
+   "got": "2.14.1",
+   "ok": true
+  },
+  "torchvision": {
+   "want": "0.29.1",
+   "got": "0.29.1",
+   "ok": true
+  },
+  "timm": {
+   "want": "1.0.30",
+   "got": "1.0.30",
+   "ok": true
+  },
+  "joblib": {
+   "want": null,
+   "got": "1.6.0",
+   "ok": true
+  },
+  "psutil": {
+   "want": null,
+   "got": "7.2.2",
+   "ok": true
+  },
+  "gymnasium": {
+   "want": "1.4.0",
+   "got": "1.4.0",
+   "ok": true
+  },
+  "stable-baselines3": {
+   "want": "2.9.0",
+   "got": "2.9.0",
+   "ok": true
+  }
+ },
+ "fresh_package_has_runs_folder": false,
+ "fresh_package_files": [
+  "README.md",
+  "demo/NOTES.md",
+  "demo/demo_labels.csv",
+  "demo/demo_ranking.csv",
+  "demo/demo_ranking_with_labels.csv",
+  "demo/demo_sheet.png",
+  "final_config.json",
+  "inference.py",
+  "model_x01_3x3.joblib",
+  "model_x01_3x3.json",
+  "requirements-lock-mac.txt",
+  "requirements.txt",
+  "scripts/_queue_test_sleep.py",
+  "scripts/a01_simple_baselines.py",
+  "scripts/a02_frozen.py",
+  "scripts/a02_light_retrain.py",
+  "scripts/a03_groups.py",
+  "scripts/a05_confirm.py",
+  "scripts/a12_heatmaps.py",
+  "scripts/a_suite.py",
+  "scripts/a_views.py",
+  "scripts/b01_cv.py",
+  "scripts/b01_threshold_watershed.py",
+  "scripts/b04_refresh.py",
+  "scripts/b06_shared_failures.py",
+  "scripts/b07_outside.py",
+  "scripts/b_analysis.py",
+  "scripts/b_modern.py",
+  "scripts/b_posts.py",
+  "scripts/b_repost.py",
+  "scripts/b_tiny.py",
+  "scripts/b_tiny_sweep.py",
+  "scripts/b_unet.py",
+  "scripts/b_unet_combine.py",
+  "scripts/c01_rxrx1.py",
+  "scripts/c02_jump.py",
+  "scripts/c03_channels.py",
+  "scripts/c03_fetch.py",
+  "scripts/c03_inspect.py",
+  "scripts/c03_prep.py",
+  "scripts/c03_translate.py",
+  "scripts/chip_final_checks.py",
+  "scripts/f01_final.py",
+  "scripts/f03_compare.py",
+  "scripts/f03_pinned_compare.py",
+  "scripts/f03_practice_check.py",
+  "scripts/f04_numbers.py",
+  "scripts/f04_trace.py",
+  "scripts/freeze_choice.py",
+  "scripts/g01_bbbc038_check.py",
+  "scripts/g01_bbbc039_check.py",
+  "scripts/g01_ooc_check.py",
+  "scripts/g02_bbbc039_splits.py",
+  "scripts/g02_ooc_splits.py",
+  "scripts/g02_scoring_tests.py",
+  "scripts/g03_pilot.py",
+  "scripts/g03_speed_test.py",
+  "scripts/input_gate.py",
+  "scripts/model_versions.py",
+  "scripts/r01_model_check.py",
+  "scripts/r02_confirm.py",
+  "scripts/r05_label_picking.py",
+  "scripts/r_control.py",
+  "scripts/r_eval_repaired.py",
+  "scripts/train_final_model.py",
+  "scripts/x01_small.py",
+  "splits/README_ooc.md",
+  "splits/bbbc039_final_test_lock.json",
+  "splits/bbbc039_splits.csv",
+  "splits/ooc_final_test_lock.json",
+  "splits/ooc_splits.csv",
+  "src/ai4s/__init__.py",
+  "src/ai4s/bbbc039.py",
+  "src/ai4s/imgfeat.py",
+  "src/ai4s/metrics_cls.py",
+  "src/ai4s/metrics_seg.py",
+  "src/ai4s/ooc.py",
+  "src/ai4s/paths.py",
+  "src/ai4s/rl/__init__.py",
+  "src/ai4s/rl/controllers.py",
+  "src/ai4s/rl/droplet_env.py",
+  "src/ai4s/rl/droplet_env_v2.py",
+  "src/ai4s/rl/droplet_model.py",
+  "src/ai4s/runlog.py",
+  "tools/parallel_download.sh"
+ ],
+ "demo_photo_sha256": {
+  "230320_133": "a6475e9e6050c1ebb1ee014430c95a439a482ce668a0ef92b8c395b4550eadef",
+  "230320_33": "11dfbcb11ed9b9d2670bbd78d018effa8e9caa16402858802f9e244b15d9234e",
+  "221010_69": "55de72e441538b2ca48cf92eb9c3fbdec9404ffca2cb758238cb8d0e0abfe760",
+  "230320_21": "ec6a352471c40942c73c4000e1fbfdf0dbc36a4ac5bb1e0946d50bc958588df6",
+  "230320_45": "3902a07912c37c0e65d9b5140b50313b2f7e01d6b1cd76d484052c315df80160",
+  "230320_70": "1c45b0227525618f9357cfec6032616af55893ec2130ed2323f79206e1bba5bf",
+  "220706_6": "41dc7f36ac1738cace2a07f3408b356ca3679017e2cb9ce54961384b536e6ad3",
+  "220610_5": "40fe863673aee5b9e7c0f06d6976557eea69a901d106c2fd1497415d05944f4e",
+  "230411_12": "41778c1c8d31520673a01995ef8deec22eec1dc6c35a8253d462dfa69a6939d3",
+  "230424_19": "c676c324e11985ec9491b7d3c1c759f5c39bf9cb86729899103c6c77f3996931",
+  "221010_80": "72b22e1171ef81de8fc1671e0ffd2ac2bb55a9f29094d5c8f92a8314222b0d41",
+  "230424_3": "354bc97a0110d0bea73e8cf7f831a78a34e5d97f70b8af968038622d155c6f9f",
+  "230206_25": "59d0b959d0a6dd4d7878c2714d6edc0d941a5b090e348c02ae26dc1f3b56ef5d",
+  "230206_26": "3d4d3e0632299eaea1cd9531afd5f87990c4db7acaf71e586adea9cbdd0fba89",
+  "230329_10": "fa831374a4cd1df49ec5f95345a1957ea486f0f9284b074b3b648e1b61db074c",
+  "230329_11": "c2628b41296d622285ccbea10ffed895f9efc7f983488ca03789d92b92497b38",
+  "230329_12": "5c9e141b231bd9b96b311dca8dd9ead1d1e72b2633764c4af3d297672422f568"
+ },
+ "inference_routes": {
+  "automatic": 12,
+  "manual_review": 5
+ },
+ "finished_utc": "2026-10-08T13:10:58",
+ "new_model_sha256": {
+  "model_x01_3x3.joblib": "d2ea4b71c41b33718ba2a5d1a446a1cdff37cdaf037632b724759321d5083434",
+  "model_x01_3x3.json": "dca3a46dde6efe6c35cb6829547d7d6c4d3eec83400a13d8b0467f9cfc9cd43e"
+ }
+}

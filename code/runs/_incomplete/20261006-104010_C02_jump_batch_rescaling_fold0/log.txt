@@ -1,0 +1,25 @@
+[2026-10-06T10:40:24] run 20261006-104010_C02_jump_batch_rescaling_fold0 started
+[2026-10-06T10:42:38] downloaded profiles 1.82 GB in 134 s
+[2026-10-06T10:42:42] 81660 wells, 3636 usable features (of 3636), 12 batches, pert types {'trt': 76050, 'negcon': 3680, 'poscon': 1930}
+[2026-10-06T10:44:31] fold 0 raw                    batch info 0.753 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:44:56] fold 0 sphering_eps0.0001     batch info 0.992 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:45:22] fold 0 sphering_eps0.001      batch info 0.987 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:45:49] fold 0 sphering_eps0.01       batch info 0.982 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:46:16] fold 0 sphering_eps0.1        batch info 0.968 (chance 0.333) | replicate mAP nan (0 queries)
+[2026-10-06T10:46:42] fold 0 sphering_eps1          batch info 0.943 (chance 0.333) | replicate mAP nan (0 queries)  <- chosen on training batches
+[2026-10-06T10:46:42] fold 0: inner choice {0.0001: 0.1685992048290769, 0.001: 0.03613706369185204, 0.01: 0.09943049891706864, 0.1: 0.13980458937626328, 1.0: 0.197455927793592} -> eps 1
+[2026-10-06T10:46:42] C02 summary over the folds run here (held-out batches):
+                batch_info     batch_chance     replicate_mAP    
+                      mean std         mean std          mean std
+method                                                           
+raw                 0.7530 NaN       0.3335 NaN           NaN NaN
+sphering_chosen     0.9429 NaN       0.3335 NaN           NaN NaN
+[2026-10-06T10:46:42] full curve over eps:
+                    batch_info  replicate_mAP
+method                                       
+raw                     0.7530            NaN
+sphering_eps0.0001      0.9923            NaN
+sphering_eps0.001       0.9874            NaN
+sphering_eps0.01        0.9817            NaN
+sphering_eps0.1         0.9678            NaN
+sphering_eps1           0.9429            NaN

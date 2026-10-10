@@ -1,0 +1,72 @@
+{
+  "0": {
+    "best_count": {
+      "sigma": 0,
+      "otsu_factor": 0.7,
+      "min_distance": 8,
+      "min_size": 5
+    },
+    "best_outline": {
+      "sigma": 0,
+      "otsu_factor": 0.9,
+      "min_distance": 12,
+      "min_size": 40
+    }
+  },
+  "1": {
+    "best_count": {
+      "sigma": 1,
+      "otsu_factor": 0.8,
+      "min_distance": 8,
+      "min_size": 0
+    },
+    "best_outline": {
+      "sigma": 0,
+      "otsu_factor": 0.9,
+      "min_distance": 12,
+      "min_size": 40
+    }
+  },
+  "2": {
+    "best_count": {
+      "sigma": 1,
+      "otsu_factor": 0.8,
+      "min_distance": 8,
+      "min_size": 0
+    },
+    "best_outline": {
+      "sigma": 0,
+      "otsu_factor": 0.9,
+      "min_distance": 12,
+      "min_size": 40
+    }
+  },
+  "3": {
+    "best_count": {
+      "sigma": 0,
+      "otsu_factor": 0.6,
+      "min_distance": 10,
+      "min_size": 0
+    },
+    "best_outline": {
+      "sigma": 0,
+      "otsu_factor": 0.9,
+      "min_distance": 12,
+      "min_size": 40
+    }
+  },
+  "4": {
+    "best_count": {
+      "sigma": 0,
+      "otsu_factor": 0.8,
+      "min_distance": 8,
+      "min_size": 10
+    },
+    "best_outline": {
+      "sigma": 0,
+      "otsu_factor": 0.9,
+      "min_distance": 12,
+      "min_size": 40
+    }
+  }
+}

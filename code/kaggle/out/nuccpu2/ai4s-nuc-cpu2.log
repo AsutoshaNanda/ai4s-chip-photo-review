@@ -1,0 +1,252 @@
+[{"stream_name":"stdout","time":14.537952563,"data":"[19:59:44] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":16.25607622,"data":"[19:59:46] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":17.884173171,"data":"[19:59:48] BBBC038 stage1_train downloaded, SHA256 ok=True\n"}
+,{"stream_name":"stdout","time":29.172392157,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 67.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":29.241707326,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 187.6/187.6 kB 4.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":29.298817374,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 476.3/476.3 kB 15.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":34.941873267,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":34.941903043,"data":"kaggle-environments 1.27.3 requires gymnasium==1.2.0, but you have gymnasium 1.4.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":34.941909266,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":35.106573085,"data":"[20:00:05] installed scikit-image==0.26.0,stable-baselines3==2.9.0,gymnasium==1.4.0\n"}
+,{"stream_name":"stdout","time":3688.263889887,"data":"[21:00:58] lane0 finished with exit code 0 after 3653 s\n"}
+,{"stream_name":"stdout","time":3688.26547644,"data":"ile                                   \n"}
+,{"stream_name":"stdout","time":3688.265533358,"data":"B01_best_count   1                      36      3.528   0.750   0.801\n"}
+,{"stream_name":"stdout","time":3688.265539136,"data":"                 2                      39      4.718   0.615   0.903\n"}
+,{"stream_name":"stdout","time":3688.265544025,"data":"                 3                      39      4.077   0.487   0.901\n"}
+,{"stream_name":"stdout","time":3688.2655491,"data":"                 4                      36     15.000  -7.778   0.816\n"}
+,{"stream_name":"stdout","time":3688.265553864,"data":"B01_best_outline 1                      36      6.361  -5.750   0.826\n"}
+,{"stream_name":"stdout","time":3688.265558521,"data":"                 2                      39      8.769  -8.769   0.920\n"}
+,{"stream_name":"stdout","time":3688.265563219,"data":"                 3                      39     10.256 -10.256   0.923\n"}
+,{"stream_name":"stdout","time":3688.265568347,"data":"                 4                      36     26.972 -26.972   0.833\n"}
+,{"stream_name":"stdout","time":3688.265573377,"data":"B02_best_count   1                      36      2.639  -0.250   0.892\n"}
+,{"stream_name":"stdout","time":3688.265595209,"data":"                 2                      39      4.026  -0.385   0.923\n"}
+,{"stream_name":"stdout","time":3688.265600407,"data":"                 3                      39      3.308  -0.692   0.920\n"}
+,{"stream_name":"stdout","time":3688.26560511,"data":"                 4                      36      8.194  -6.194   0.877\n"}
+,{"stream_name":"stdout","time":3688.265609867,"data":"B02_best_outline 1                      36      4.917  -4.806   0.899\n"}
+,{"stream_name":"stdout","time":3688.265614497,"data":"                 2                      39      7.051  -7.000   0.935\n"}
+,{"stream_name":"stdout","time":3688.265619374,"data":"                 3                      39      8.974  -8.974   0.936\n"}
+,{"stream_name":"stdout","time":3688.265639431,"data":"                 4                      36     19.417 -19.417   0.879\n"}
+,{"stream_name":"stdout","time":3688.265643547,"data":"B03_best_count   1                      36      3.278  -2.667   0.912\n"}
+,{"stream_name":"stdout","time":3688.265647474,"data":"                 2                      39      4.231  -2.949   0.948\n"}
+,{"stream_name":"stdout","time":3688.265651281,"data":"                 3                      39      3.795  -3.077   0.948\n"}
+,{"stream_name":"stdout","time":3688.265687588,"data":"                 4                      36      7.528  -5.417   0.889\n"}
+,{"stream_name":"stdout","time":3688.265721043,"data":"B03_best_outline 1                      36      5.722  -5.722   0.943\n"}
+,{"stream_name":"stdout","time":3688.265725389,"data":"                 2                      39      7.538  -7.538   0.951\n"}
+,{"stream_name":"stdout","time":3688.265770672,"data":"                 3                      39      9.308  -9.308   0.951\n"}
+,{"stream_name":"stdout","time":3688.265776117,"data":"                 4                      36     17.111 -17.111   0.894\n"}
+,{"stream_name":"stdout","time":3688.265779973,"data":"[2026-10-07T02:00:13] run finished: status=measured, wall_seconds=1799.55\n"}
+,{"stream_name":"stdout","time":3688.265783816,"data":"=== scripts/b_analysis.py --exp B06 --posts v2 --seed 0\n"}
+,{"stream_name":"stdout","time":3688.265787588,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":3688.26579292,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":3688.265797509,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":3688.265801655,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":3688.265805647,"data":"[2026-10-07T02:00:44] run 20261007-020025_B06_warning_flags_posts_v2 started\n"}
+,{"stream_name":"stdout","time":3688.265809544,"data":"[2026-10-07T02:00:46] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']\n"}
+,{"stream_name":"stdout","time":3688.265813619,"data":"/usr/local/lib/python3.13/dist-packages/skimage/_shared/utils.py:386: UserWarning: Only one label was provided to `remove_small_objects`. Did you mean to use a boolean array?\n"}
+,{"stream_name":"stdout","time":3688.265817844,"data":"  return func(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":3688.265821604,"data":"[2026-10-07T02:27:25] B06 warning scores for B02_best_count (area under 'error left' curve; lower = better; random 0.499):\n"}
+,{"stream_name":"stdout","time":3688.265825569,"data":"[2026-10-07T02:27:25]    blur_warning                             area 0.579; minus random 95% [-0.020, +0.185]\n"}
+,{"stream_name":"stdout","time":3688.265829813,"data":"[2026-10-07T02:27:25]    disagree_B01_best_count                  area 0.522; minus random 95% [-0.040, +0.100]\n"}
+,{"stream_name":"stdout","time":3688.265833828,"data":"[2026-10-07T02:27:25]    disagree_B03_best_count                  area 0.388; minus random 95% [-0.202, -0.009]\n"}
+,{"stream_name":"stdout","time":3688.265853904,"data":"[2026-10-07T02:27:25]    brightness_warning                       area 0.429; minus random 95% [-0.140, +0.005]\n"}
+,{"stream_name":"stdout","time":3688.265857937,"data":"[2026-10-07T02:27:25]    perfect_order_ceiling                    area 0.218; minus random 95% [-0.330, -0.228]\n"}
+,{"stream_name":"stdout","time":3688.265866724,"data":"[2026-10-07T02:27:25] run finished: status=measured, wall_seconds=1619.3\n"}
+,{"stream_name":"stdout","time":3688.265871002,"data":"=== scripts/r02_confirm.py\n"}
+,{"stream_name":"stdout","time":3688.26587459,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":3688.265878625,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":3688.265882779,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":3688.265886852,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":3688.265891271,"data":"[2026-10-07T02:27:52] run 20261007-022746_R02_confirm_fresh_conditions started\n"}
+,{"stream_name":"stdout","time":3688.265895058,"data":"[2026-10-07T02:28:16] saved PPO policies: ['PPO_all_seed0', 'PPO_all_seed1', 'PPO_all_seed2', 'PPO_all_seed3', 'PPO_all_seed4']\n"}
+,{"stream_name":"stdout","time":3688.265899145,"data":"[2026-10-07T02:28:48] PPO seed 0 evaluated\n"}
+,{"stream_name":"stdout","time":3688.265903219,"data":"[2026-10-07T02:29:20] PPO seed 1 evaluated\n"}
+,{"stream_name":"stdout","time":3688.265906945,"data":"[2026-10-07T02:29:51] PPO seed 2 evaluated\n"}
+,{"stream_name":"stdout","time":3688.265910664,"data":"[2026-10-07T02:30:23] PPO seed 3 evaluated\n"}
+,{"stream_name":"stdout","time":3688.265929959,"data":"[2026-10-07T02:30:54] PPO seed 4 evaluated\n"}
+,{"stream_name":"stdout","time":3688.265933982,"data":"[2026-10-07T02:30:54] TRAIN_range: PPO (mean of 5 seeds) minus PI, diameter error: mean -0.319 um, PPO better in 94% of fresh episodes; worst +0.198\n"}
+,{"stream_name":"stdout","time":3688.265938472,"data":"[2026-10-07T02:30:54] TRAIN_range: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean -0.203 um, PPO better in 64% of fresh episodes; worst +0.426\n"}
+,{"stream_name":"stdout","time":3688.26594265,"data":"[2026-10-07T02:30:54] UNTOUCHED: PPO (mean of 5 seeds) minus PI, diameter error: mean -0.612 um, PPO better in 96% of fresh episodes; worst +0.299\n"}
+,{"stream_name":"stdout","time":3688.265946774,"data":"[2026-10-07T02:30:54] UNTOUCHED: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean -0.466 um, PPO better in 82% of fresh episodes; worst +0.808\n"}
+,{"stream_name":"stdout","time":3688.265950851,"data":"[2026-10-07T02:30:54] fresh-condition results (mean and worst episode):\n"}
+,{"stream_name":"stdout","time":3688.265954585,"data":"                       d_err_mean        rate_err_mean        violation_share       \n"}
+,{"stream_name":"stdout","time":3688.265958671,"data":"                             mean    max          mean    max            mean    max\n"}
+,{"stream_name":"stdout","time":3688.265962782,"data":"controller condition                                                                \n"}
+,{"stream_name":"stdout","time":3688.265966611,"data":"FF+PI      TRAIN_range      1.322  3.231         0.177  0.439           0.117  0.550\n"}
+,{"stream_name":"stdout","time":3688.265970983,"data":"           UNTOUCHED        1.950  4.141         0.263  0.580           0.072  0.427\n"}
+,{"stream_name":"stdout","time":3688.265974894,"data":"PI         TRAIN_range      1.437  2.349         0.167  0.303           0.053  0.277\n"}
+,{"stream_name":"stdout","time":3688.265978781,"data":"           UNTOUCHED        2.096  3.937         0.270  0.492           0.049  0.380\n"}
+,{"stream_name":"stdout","time":3688.265986104,"data":"PPO_all    TRAIN_range      1.118  2.375         0.085  0.288           0.003  0.097\n"}
+,{"stream_name":"stdout","time":3688.265990039,"data":"           UNTOUCHED        1.484  3.350         0.126  0.454           0.005  0.173\n"}
+,{"stream_name":"stdout","time":3688.265993928,"data":"[2026-10-07T02:30:54] run finished: status=measured, wall_seconds=187.9\n"}
+,{"stream_name":"stdout","time":3688.266012035,"data":"\n"}
+,{"stream_name":"stdout","time":3688.266015614,"data":"[21:00:58] lane1 finished with exit code 0 after 3653 s\n"}
+,{"stream_name":"stdout","time":3688.266019434,"data":"     0.862           0.923             0.904           0.960             0.920\n"}
+,{"stream_name":"stdout","time":3688.266023725,"data":"3                     0.914             0.903           0.947             0.928           0.967             0.936\n"}
+,{"stream_name":"stdout","time":3688.266027805,"data":"4                     0.930             0.921           0.953             0.939           0.981             0.957\n"}
+,{"stream_name":"stdout","time":3688.266031842,"data":"5                     0.937             0.939           0.957             0.954           0.981             0.957\n"}
+,{"stream_name":"stdout","time":3688.266035807,"data":"6                     0.958             0.954           0.972             0.969           0.988             0.975\n"}
+,{"stream_name":"stdout","time":3688.26604008,"data":"7                     0.962             0.965           0.977             0.983           0.987             0.981\n"}
+,{"stream_name":"stdout","time":3688.266067389,"data":"8                     0.967             0.968           0.974             0.980           0.991             0.981\n"}
+,{"stream_name":"stdout","time":3688.266071518,"data":"9                     0.971             0.972           0.977             0.982           0.988             0.983\n"}
+,{"stream_name":"stdout","time":3688.266075451,"data":"method       B01_best_count  B01_best_outline  B02_best_count  B02_best_outline  B03_best_count  B03_best_outline\n"}
+,{"stream_name":"stdout","time":3688.266079487,"data":"size_decile                                                                                                      \n"}
+,{"stream_name":"stdout","time":3688.266083759,"data":"0                     0.222             0.215           0.297             0.261           0.241             0.299\n"}
+,{"stream_name":"stdout","time":3688.26608773,"data":"1                     0.632             0.655           0.764             0.759           0.745             0.791\n"}
+,{"stream_name":"stdout","time":3688.266091631,"data":"2                     0.770             0.809           0.861             0.850           0.889             0.883\n"}
+,{"stream_name":"stdout","time":3688.266095657,"data":"3                     0.839             0.849           0.886             0.874           0.915             0.902\n"}
+,{"stream_name":"stdout","time":3688.266099741,"data":"4                     0.869             0.882           0.907             0.901           0.944             0.930\n"}
+,{"stream_name":"stdout","time":3688.266103796,"data":"5                     0.875             0.890           0.901             0.906           0.943             0.930\n"}
+,{"stream_name":"stdout","time":3688.266107705,"data":"6                     0.910             0.911           0.928             0.923           0.951             0.948\n"}
+,{"stream_name":"stdout","time":3688.26611165,"data":"7                     0.908             0.928           0.936             0.947           0.954             0.951\n"}
+,{"stream_name":"stdout","time":3688.26611592,"data":"8                     0.905             0.910           0.929             0.941           0.965             0.955\n"}
+,{"stream_name":"stdout","time":3688.266124107,"data":"9                     0.895             0.918           0.924             0.927           0.967             0.949\n"}
+,{"stream_name":"stdout","time":3688.266144838,"data":"[2026-10-07T01:59:53] B05 crowding (quartiles of reference count on training folds; 4 = most crowded):\n"}
+,{"stream_name":"stdout","time":3688.266148812,"data":"                                    images  count_mae    bias  f1_050\n"}
+,{"stream_name":"stdout","time":3688.266152619,"data":"method           crowding_quartile                                   \n"}
+,{"stream_name":"stdout","time":3688.266156877,"data":"B01_best_count   1                      36      3.528   0.750   0.801\n"}
+,{"stream_name":"stdout","time":3688.266160853,"data":"                 2                      39      4.718   0.615   0.903\n"}
+,{"stream_name":"stdout","time":3688.266164649,"data":"                 3                      39      4.077   0.487   0.901\n"}
+,{"stream_name":"stdout","time":3688.266168425,"data":"                 4                      36     15.000  -7.778   0.816\n"}
+,{"stream_name":"stdout","time":3688.266172124,"data":"B01_best_outline 1                      36      6.361  -5.750   0.826\n"}
+,{"stream_name":"stdout","time":3688.266176005,"data":"                 2                      39      8.769  -8.769   0.920\n"}
+,{"stream_name":"stdout","time":3688.266179824,"data":"                 3                      39     10.256 -10.256   0.923\n"}
+,{"stream_name":"stdout","time":3688.266183661,"data":"                 4                      36     26.972 -26.972   0.833\n"}
+,{"stream_name":"stdout","time":3688.266187718,"data":"B02_best_count   1                      36      3.000  -1.222   0.885\n"}
+,{"stream_name":"stdout","time":3688.266191533,"data":"                 2                      39      4.103  -1.590   0.923\n"}
+,{"stream_name":"stdout","time":3688.266195434,"data":"                 3                      39      3.436  -1.282   0.921\n"}
+,{"stream_name":"stdout","time":3688.2661993,"data":"                 4                      36      8.917  -7.194   0.873\n"}
+,{"stream_name":"stdout","time":3688.266203076,"data":"B02_best_outline 1                      36      5.194  -5.194   0.929\n"}
+,{"stream_name":"stdout","time":3688.266222055,"data":"                 2                      39      7.359  -7.359   0.935\n"}
+,{"stream_name":"stdout","time":3688.266226302,"data":"                 3                      39      8.974  -8.974   0.934\n"}
+,{"stream_name":"stdout","time":3688.266230139,"data":"                 4                      36     20.500 -20.500   0.878\n"}
+,{"stream_name":"stdout","time":3688.266233994,"data":"B03_best_count   1                      36      3.694  -3.528   0.941\n"}
+,{"stream_name":"stdout","time":3688.266237852,"data":"                 2                      39      4.846  -2.692   0.948\n"}
+,{"stream_name":"stdout","time":3688.266241623,"data":"                 3                      39      4.308  -3.692   0.949\n"}
+,{"stream_name":"stdout","time":3688.266245436,"data":"                 4                      36      8.806  -4.917   0.897\n"}
+,{"stream_name":"stdout","time":3688.266249184,"data":"B03_best_outline 1                      36      5.833  -5.778   0.912\n"}
+,{"stream_name":"stdout","time":3688.266253021,"data":"                 2                      39      7.821  -7.821   0.950\n"}
+,{"stream_name":"stdout","time":3688.266257136,"data":"                 3                      39      9.718  -9.718   0.947\n"}
+,{"stream_name":"stdout","time":3688.266260977,"data":"                 4                      36     18.083 -18.083   0.901\n"}
+,{"stream_name":"stdout","time":3688.266265413,"data":"[2026-10-07T02:00:18] run finished: status=measured, wall_seconds=1804.72\n"}
+,{"stream_name":"stdout","time":3688.266272333,"data":"=== scripts/b_analysis.py --exp B06 --posts v2 --seed 1\n"}
+,{"stream_name":"stdout","time":3688.266276294,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":3688.266280273,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":3688.266284463,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":3688.26630504,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":3688.266309335,"data":"[2026-10-07T02:00:46] run 20261007-020029_B06_warning_flags_posts_v2_seed1 started\n"}
+,{"stream_name":"stdout","time":3688.26631323,"data":"[2026-10-07T02:00:48] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']\n"}
+,{"stream_name":"stdout","time":3688.266317492,"data":"/usr/local/lib/python3.13/dist-packages/skimage/_shared/utils.py:386: UserWarning: Only one label was provided to `remove_small_objects`. Did you mean to use a boolean array?\n"}
+,{"stream_name":"stdout","time":3688.266321621,"data":"  return func(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":3688.266325253,"data":"[2026-10-07T02:27:34] B06 warning scores for B02_best_count (area under 'error left' curve; lower = better; random 0.499):\n"}
+,{"stream_name":"stdout","time":3688.266329572,"data":"[2026-10-07T02:27:34]    blur_warning                             area 0.569; minus random 95% [-0.009, +0.136]\n"}
+,{"stream_name":"stdout","time":3688.266333581,"data":"[2026-10-07T02:27:34]    disagree_B01_best_count                  area 0.435; minus random 95% [-0.142, +0.040]\n"}
+,{"stream_name":"stdout","time":3688.266337596,"data":"[2026-10-07T02:27:34]    disagree_B03_best_count                  area 0.413; minus random 95% [-0.179, +0.016]\n"}
+,{"stream_name":"stdout","time":3688.266341718,"data":"[2026-10-07T02:27:34]    brightness_warning                       area 0.463; minus random 95% [-0.085, +0.016]\n"}
+,{"stream_name":"stdout","time":3688.266345651,"data":"[2026-10-07T02:27:34]    perfect_order_ceiling                    area 0.224; minus random 95% [-0.312, -0.237]\n"}
+,{"stream_name":"stdout","time":3688.266349645,"data":"[2026-10-07T02:27:34] run finished: status=measured, wall_seconds=1624.49\n"}
+,{"stream_name":"stdout","time":3688.266353651,"data":"\n"}
+,{"stream_name":"stdout","time":10435.860897221,"data":"[22:53:26] lane2 finished with exit code 0 after 10401 s\n"}
+,{"stream_name":"stdout","time":10435.865852605,"data":"B02_seed1 started\n"}
+,{"stream_name":"stdout","time":10435.865883607,"data":"[2026-10-07T02:05:42] fold 0 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.865890561,"data":"[2026-10-07T02:35:27] fold 1 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.865895604,"data":"[2026-10-07T02:47:27] fold 2 done (21 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.865900504,"data":"[2026-10-07T03:10:28] fold 3 done (39 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.865905305,"data":"[2026-10-07T03:24:08] fold 4 done (24 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.865909967,"data":"[2026-10-07T03:24:08] stress curves (every level; clean first):\n"}
+,{"stream_name":"stdout","time":10435.865914958,"data":"     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075\n"}
+,{"stream_name":"stdout","time":10435.865994538,"data":"  best_count blur_sigma   1.00     150      8.713  -1.620                    297   0.885   0.819\n"}
+,{"stream_name":"stdout","time":10435.866000946,"data":"  best_count blur_sigma   2.00     150      8.820  -5.740                    105   0.871   0.801\n"}
+,{"stream_name":"stdout","time":10435.866004824,"data":"  best_count blur_sigma   3.00     150     10.107  -8.120                    114   0.846   0.757\n"}
+,{"stream_name":"stdout","time":10435.866008397,"data":"  best_count brightness   0.50     150      6.547  -4.507                    121   0.891   0.818\n"}
+,{"stream_name":"stdout","time":10435.866012687,"data":"  best_count brightness   0.75     150      4.947  -2.880                     82   0.897   0.831\n"}
+,{"stream_name":"stdout","time":10435.866016444,"data":"  best_count brightness   1.25     150      4.920  -2.267                     89   0.902   0.842\n"}
+,{"stream_name":"stdout","time":10435.86602065,"data":"  best_count brightness   1.50     150      5.020  -2.207                     89   0.888   0.828\n"}
+,{"stream_name":"stdout","time":10435.866024055,"data":"  best_count      clean   0.00     150      4.820  -2.767                     82   0.902   0.841\n"}
+,{"stream_name":"stdout","time":10435.866029519,"data":"  best_count   noise_sd   0.02     150      8.160   1.707                    260   0.890   0.828\n"}
+,{"stream_name":"stdout","time":10435.866033335,"data":"  best_count   noise_sd   0.05     150     40.353  34.113                    235   0.669   0.561\n"}
+,{"stream_name":"stdout","time":10435.866037101,"data":"  best_count   noise_sd   0.10     150    110.907  -0.280                    283   0.093   0.056\n"}
+,{"stream_name":"stdout","time":10435.866040675,"data":"best_outline blur_sigma   1.00     150     12.007 -10.407                    111   0.892   0.842\n"}
+,{"stream_name":"stdout","time":10435.866064049,"data":"best_outline blur_sigma   2.00     150     12.913 -11.967                    115   0.876   0.817\n"}
+,{"stream_name":"stdout","time":10435.866067951,"data":"best_outline blur_sigma   3.00     150     13.880 -13.227                    117   0.853   0.775\n"}
+,{"stream_name":"stdout","time":10435.86607186,"data":"best_outline brightness   0.50     150     11.833 -11.820                    144   0.908   0.858\n"}
+,{"stream_name":"stdout","time":10435.866075883,"data":"best_outline brightness   0.75     150     10.633 -10.633                    105   0.917   0.867\n"}
+,{"stream_name":"stdout","time":10435.866082456,"data":"best_outline brightness   1.25     150     10.327 -10.300                    105   0.911   0.863\n"}
+,{"stream_name":"stdout","time":10435.866086042,"data":"best_outline brightness   1.50     150     10.440 -10.387                    107   0.910   0.862\n"}
+,{"stream_name":"stdout","time":10435.866089534,"data":"best_outline      clean   0.00     150     10.413 -10.413                    109   0.920   0.871\n"}
+,{"stream_name":"stdout","time":10435.866093771,"data":"best_outline   noise_sd   0.02     150     10.693 -10.693                    105   0.914   0.862\n"}
+,{"stream_name":"stdout","time":10435.866097771,"data":"best_outline   noise_sd   0.05     150     14.000 -12.907                    165   0.804   0.711\n"}
+,{"stream_name":"stdout","time":10435.866101534,"data":"best_outline   noise_sd   0.10     150     92.280 -92.280                    224   0.187   0.123\n"}
+,{"stream_name":"stdout","time":10435.86610525,"data":"[2026-10-07T03:24:08] run finished: status=measured, wall_seconds=6834.7\n"}
+,{"stream_name":"stdout","time":10435.866109391,"data":"=== scripts/b04_refresh.py --exp B03 --seed 1\n"}
+,{"stream_name":"stdout","time":10435.866112722,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":10435.8661697,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":10435.866176438,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":10435.866180568,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":10435.866184638,"data":"[2026-10-07T03:24:25] run 20261007-032415_B04_stress_refresh_B03_seed1 started\n"}
+,{"stream_name":"stdout","time":10435.866188669,"data":"[2026-10-07T03:42:32] fold 0 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.866192563,"data":"[2026-10-07T03:54:30] fold 1 done (33 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.866196404,"data":"[2026-10-07T04:01:34] fold 2 done (21 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.866200358,"data":"[2026-10-07T04:15:18] fold 3 done (39 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.866204571,"data":"[2026-10-07T04:23:20] fold 4 done (24 images x 11 conditions)\n"}
+,{"stream_name":"stdout","time":10435.866208405,"data":"[2026-10-07T04:23:20] stress curves (every level; clean first):\n"}
+,{"stream_name":"stdout","time":10435.866212297,"data":"     setting     stress  level  images  count_mae    bias  worst_abs_count_error  f1_050  f1_075\n"}
+,{"stream_name":"stdout","time":10435.866216265,"data":"  best_count blur_sigma   1.00     150      9.707  -2.773                    341   0.914   0.853\n"}
+,{"stream_name":"stdout","time":10435.866220243,"data":"  best_count blur_sigma   2.00     150      9.967  -9.207                     89   0.893   0.814\n"}
+,{"stream_name":"stdout","time":10435.866224146,"data":"  best_count blur_sigma   3.00     150     14.387 -14.040                    106   0.854   0.737\n"}
+,{"stream_name":"stdout","time":10435.866229805,"data":"  best_count brightness   0.50     150      8.087  -7.047                    118   0.901   0.750\n"}
+,{"stream_name":"stdout","time":10435.86623375,"data":"  best_count brightness   0.75     150      6.013  -4.880                     57   0.919   0.836\n"}
+,{"stream_name":"stdout","time":10435.866237986,"data":"  best_count brightness   1.25     150      5.027  -3.187                     27   0.929   0.876\n"}
+,{"stream_name":"stdout","time":10435.866242025,"data":"  best_count brightness   1.50     150      4.773  -2.227                     24   0.926   0.876\n"}
+,{"stream_name":"stdout","time":10435.866245932,"data":"  best_count      clean   0.00     150      5.380  -3.687                     29   0.935   0.872\n"}
+,{"stream_name":"stdout","time":10435.86624987,"data":"  best_count   noise_sd   0.02     150      5.173  -1.773                     30   0.910   0.843\n"}
+,{"stream_name":"stdout","time":10435.866253554,"data":"  best_count   noise_sd   0.05     150     32.307  24.573                    165   0.666   0.516\n"}
+,{"stream_name":"stdout","time":10435.866257075,"data":"  best_count   noise_sd   0.10     150     80.680  -8.973                    337   0.110   0.043\n"}
+,{"stream_name":"stdout","time":10435.866260952,"data":"best_outline blur_sigma   1.00     150     12.907 -10.320                    138   0.903   0.861\n"}
+,{"stream_name":"stdout","time":10435.866264708,"data":"best_outline blur_sigma   2.00     150     16.160 -15.413                    101   0.873   0.816\n"}
+,{"stream_name":"stdout","time":10435.866268894,"data":"best_outline blur_sigma   3.00     150     20.640 -20.333                    111   0.821   0.747\n"}
+,{"stream_name":"stdout","time":10435.866277714,"data":"best_outline brightness   0.50     150     11.847 -11.847                     77   0.919   0.862\n"}
+,{"stream_name":"stdout","time":10435.866282261,"data":"best_outline brightness   0.75     150     10.807 -10.793                     70   0.932   0.886\n"}
+,{"stream_name":"stdout","time":10435.866286198,"data":"best_outline brightness   1.25     150     10.260 -10.233                     64   0.928   0.892\n"}
+,{"stream_name":"stdout","time":10435.866290156,"data":"best_outline brightness   1.50     150     10.300 -10.260                     68   0.926   0.889\n"}
+,{"stream_name":"stdout","time":10435.866294017,"data":"best_outline      clean   0.00     150     10.300 -10.287                     68   0.929   0.888\n"}
+,{"stream_name":"stdout","time":10435.866297974,"data":"best_outline   noise_sd   0.02     150     11.480 -11.467                     94   0.917   0.876\n"}
+,{"stream_name":"stdout","time":10435.866301869,"data":"best_outline   noise_sd   0.05     150     15.000 -14.787                    166   0.799   0.706\n"}
+,{"stream_name":"stdout","time":10435.866306013,"data":"best_outline   noise_sd   0.10     150     72.467 -72.453                    180   0.219   0.119\n"}
+,{"stream_name":"stdout","time":10435.866310008,"data":"[2026-10-07T04:23:20] run finished: status=measured, wall_seconds=3545.07\n"}
+,{"stream_name":"stdout","time":10435.866313841,"data":"\n"}
+,{"stream_name":"stdout","time":10435.866321339,"data":"[22:53:26] lane3 finished with exit code 0 after 10401 s\n"}
+,{"stream_name":"stdout","time":10435.866603194,"data":"=== scripts/b07_outside.py --posts v2 --seed 1 --skip_b01\n"}
+,{"stream_name":"stdout","time":10435.86661311,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":10435.866617491,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":10435.86662148,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":10435.866625785,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":10435.866630025,"data":"[2026-10-07T01:31:01] run 20261007-013013_B07_bbbc038_outside_posts_v2_seed1 started\n"}
+,{"stream_name":"stdout","time":10435.866634192,"data":"[2026-10-07T01:31:01] 627 BBBC038 images after removing 43 copies of BBBC039 photos (gap 0.9999 -\u003e 0.8352)\n"}
+,{"stream_name":"stdout","time":10435.866638611,"data":"[2026-10-07T01:54:45] B02 fold 0 done\n"}
+,{"stream_name":"stdout","time":10435.866642184,"data":"[2026-10-07T02:17:49] B02 fold 1 done\n"}
+,{"stream_name":"stdout","time":10435.866645604,"data":"[2026-10-07T02:34:12] B02 fold 2 done\n"}
+,{"stream_name":"stdout","time":10435.866648993,"data":"[2026-10-07T02:44:40] B02 fold 3 done\n"}
+,{"stream_name":"stdout","time":10435.866652592,"data":"[2026-10-07T02:55:10] B02 fold 4 done\n"}
+,{"stream_name":"stdout","time":10435.866656022,"data":"[2026-10-07T03:04:52] B03 fold 0 done\n"}
+,{"stream_name":"stdout","time":10435.866659755,"data":"[2026-10-07T03:14:34] B03 fold 1 done\n"}
+,{"stream_name":"stdout","time":10435.866663437,"data":"[2026-10-07T03:24:09] B03 fold 2 done\n"}
+,{"stream_name":"stdout","time":10435.866666897,"data":"[2026-10-07T03:33:42] B03 fold 3 done\n"}
+,{"stream_name":"stdout","time":10435.86667027,"data":"[2026-10-07T03:43:16] B03 fold 4 done\n"}
+,{"stream_name":"stdout","time":10435.866673815,"data":"[2026-10-07T03:43:18] B02_best_count|grey          images  519 | count MAE   26.85 (sd over folds 18.29) bias  +20.66 | F1@0.50 0.561 F1@0.75 0.385\n"}
+,{"stream_name":"stdout","time":10435.866690062,"data":"[2026-10-07T03:43:18] B02_best_count|colour        images  108 | count MAE   51.44 (sd over folds 15.48) bias  +42.67 | F1@0.50 0.004 F1@0.75 0.000\n"}
+,{"stream_name":"stdout","time":10435.866694354,"data":"[2026-10-07T03:43:18] B02_best_outline|grey        images  519 | count MAE   13.75 (sd over folds 3.17) bias   +1.46 | F1@0.50 0.653 F1@0.75 0.501\n"}
+,{"stream_name":"stdout","time":10435.866698609,"data":"[2026-10-07T03:43:19] B02_best_outline|colour      images  108 | count MAE   33.14 (sd over folds 6.29) bias   +5.21 | F1@0.50 0.008 F1@0.75 0.000\n"}
+,{"stream_name":"stdout","time":10435.866703033,"data":"[2026-10-07T03:43:19] B03_best_count|grey          images  519 | count MAE   18.23 (sd over folds 4.22) bias  +14.50 | F1@0.50 0.593 F1@0.75 0.345\n"}
+,{"stream_name":"stdout","time":10435.866707073,"data":"[2026-10-07T03:43:19] B03_best_count|colour        images  108 | count MAE   43.94 (sd over folds 10.67) bias  +37.88 | F1@0.50 0.004 F1@0.75 0.000\n"}
+,{"stream_name":"stdout","time":10435.866711949,"data":"[2026-10-07T03:43:19] B03_best_outline|grey        images  519 | count MAE   12.23 (sd over folds 3.90) bias   +2.89 | F1@0.50 0.680 F1@0.75 0.515\n"}
+,{"stream_name":"stdout","time":10435.866715607,"data":"[2026-10-07T03:43:19] B03_best_outline|colour      images  108 | count MAE   28.26 (sd over folds 6.96) bias   +4.38 | F1@0.50 0.007 F1@0.75 0.000\n"}
+,{"stream_name":"stdout","time":10435.866719382,"data":"[2026-10-07T03:43:19] run finished: status=measured, wall_seconds=7985.87\n"}
+,{"stream_name":"stdout","time":10435.866723154,"data":"\n"}
+,{"stream_name":"stdout","time":10437.384938585,"data":"[22:53:27] kept new runs: ['20261007-013013_B05_crowding_tiny_nuclei_posts_v2_seed1', '20261007-013013_B07_bbbc038_outside_posts_v2_seed1', '20261007-013014_B04_stress_refresh_B02_seed1', '20261007-013014_B05_crowding_tiny_nuclei_posts_v2', '20261007-020025_B06_warning_flags_posts_v2', '20261007-020029_B06_warning_flags_posts_v2_seed1', '20261007-022746_R02_confirm_fresh_conditions', '20261007-032415_B04_stress_refresh_B03_seed1']\n"}
+,{"stream_name":"stderr","time":10440.045329741,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10440.045364313,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10440.342765991,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10440.342794099,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":10441.387931019,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":10442.211839567,"data":"[NbConvertApp] Writing 294139 bytes to __results__.html\n"}
+]

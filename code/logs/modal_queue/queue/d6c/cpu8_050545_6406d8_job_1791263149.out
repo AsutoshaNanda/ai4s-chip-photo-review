@@ -1,0 +1,19 @@
+[2026-10-06T10:36:02] run 20261006-103556_A12_heatmaps_folds0_smoke started
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-10-06T10:36:35] fold 0: explained 6 photos in 30 s
+[2026-10-06T10:36:35] rho_real_shuffled_4_median           median -0.288 (10-90%: -0.501 .. -0.110)
+[2026-10-06T10:36:35] rho_real_random_4_median             median -0.032 (10-90%: -0.235 .. +0.357)
+[2026-10-06T10:36:35] border_share_4_median                median +0.000 (10-90%: +0.000 .. +1.000)
+[2026-10-06T10:36:35] rho_real_shuffled_4_blur             median +0.140 (10-90%: -0.085 .. +0.465)
+[2026-10-06T10:36:35] rho_real_random_4_blur               median +0.121 (10-90%: -0.407 .. +0.357)
+[2026-10-06T10:36:35] border_share_4_blur                  median +0.000 (10-90%: +0.000 .. +0.500)
+[2026-10-06T10:36:35] rho_fill_median_vs_blur_4            median +0.616 (10-90%: +0.300 .. +0.710)
+[2026-10-06T10:36:35] rho_real_shuffled_8_median           median +0.050 (10-90%: -0.103 .. +0.176)
+[2026-10-06T10:36:35] rho_real_random_8_median             median -0.077 (10-90%: -0.293 .. +0.113)
+[2026-10-06T10:36:35] border_share_8_median                median +0.606 (10-90%: +0.233 .. +0.984)
+[2026-10-06T10:36:35] rho_real_shuffled_8_blur             median +0.085 (10-90%: -0.153 .. +0.216)
+[2026-10-06T10:36:35] rho_real_random_8_blur               median +0.102 (10-90%: -0.210 .. +0.304)
+[2026-10-06T10:36:35] border_share_8_blur                  median +0.867 (10-90%: +0.599 .. +0.991)
+[2026-10-06T10:36:35] rho_fill_median_vs_blur_8            median +0.603 (10-90%: +0.508 .. +0.792)
+[2026-10-06T10:36:35] deletion (drop in 'bad' logit, median over photos), important-first vs random: 8/64: -0.21 vs -1.52, 16/64: -1.26 vs -2.60, 24/64: -2.14 vs -2.99, 32/64: -2.57 vs -3.13, 40/64: -2.97 vs -3.00, 48/64: -3.11 vs -3.03, 56/64: -2.78 vs -2.80, 64/64: -2.61 vs -2.61
+[2026-10-06T10:36:39] run finished: status=measured, wall_seconds=43.24

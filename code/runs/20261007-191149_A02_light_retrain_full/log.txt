@@ -1,0 +1,6 @@
+[2026-10-07T19:12:03] run 20261007-191149_A02_light_retrain_full started
+[2026-10-07T19:12:07] vit_large_dinov2@518_head_only             AUC 0.845 [0.803, 0.893] AP 0.813 logloss 0.500 | within format {'L/2056x1542': 0.819, 'RGB/2048x1536': 0.815, 'RGB/640x480': 0.66}
+[2026-10-07T19:12:10] vit_large_dinov2@518_last_block            AUC 0.819 [0.777, 0.867] AP 0.801 logloss 0.542 | within format {'L/2056x1542': 0.798, 'RGB/2048x1536': 0.763, 'RGB/640x480': 0.718}
+[2026-10-07T19:12:17] head_only minus saved frozen reference (same photos): {'difference': 0.0019450337416774266, 'range_95': [-0.017090479571955152, 0.023522286065162695]}
+[2026-10-07T19:12:24] last_block minus saved frozen reference (same photos): {'difference': -0.023893709128531726, 'range_95': [-0.054296812416178716, -1.9687003684081634e-05]}
+[2026-10-07T19:12:24] run finished: status=measured, wall_seconds=34.95

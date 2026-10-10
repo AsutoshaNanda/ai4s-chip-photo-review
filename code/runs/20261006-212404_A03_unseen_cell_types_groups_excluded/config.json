@@ -1,0 +1,19 @@
+{
+  "a02_run": "20261006-012654_A02_frozen_features",
+  "x01_runs": {
+    "3x3": "20261006-103251_X01_whole_plus_patches",
+    "5x5": "20261006-103757_X01_whole_plus_patches_grids4-5-6"
+  },
+  "whole_features": "vit_large_patch14_dinov2@518",
+  "feature_sets": [
+    "whole",
+    "whole_plus_patches_3x3",
+    "whole_plus_patches_5x5"
+  ],
+  "protocols": {
+    "groups_excluded": "train = other cell types AND groups not used by any test photo",
+    "shared_groups_original": "train = all other cell types (earlier A03 rule), rerun for comparison"
+  },
+  "photos": "practice only",
+  "bootstrap": "whole filename groups resampled, 1000 replicates, seed 20261005"
+}

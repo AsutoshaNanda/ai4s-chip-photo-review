@@ -1,0 +1,107 @@
+$ /tmp/ai4s_f05/venv/bin/python -c import importlib.metadata as m, json, sys
+out = {}
+for line in open('requirements.txt').read().splitlines():
+    line = line.split('#')[0].strip()
+    if not line:
+        continue
+    name, _, want = line.partition('==')
+    try:
+        got = m.version(name)
+    except Exception as e:
+        got = 'MISSING ' + type(e).__name__
+    out[name] = {'want': want or None, 'got': got, 'ok': (not want) or got.split('+')[0] == want}
+print(json.dumps(out, indent=1))
+
+[exit 0, 0.1 s]
+--- stdout ---
+{
+ "numpy": {
+  "want": "2.5.3",
+  "got": "2.5.3",
+  "ok": true
+ },
+ "pandas": {
+  "want": "3.0.6",
+  "got": "3.0.6",
+  "ok": true
+ },
+ "scipy": {
+  "want": "1.18.1",
+  "got": "1.18.1",
+  "ok": true
+ },
+ "scikit-learn": {
+  "want": "1.9.1",
+  "got": "1.9.1",
+  "ok": true
+ },
+ "scikit-image": {
+  "want": "0.26.0",
+  "got": "0.26.0",
+  "ok": true
+ },
+ "tifffile": {
+  "want": "2026.9.20",
+  "got": "2026.9.20",
+  "ok": true
+ },
+ "pillow": {
+  "want": "12.3.0",
+  "got": "12.3.0",
+  "ok": true
+ },
+ "openpyxl": {
+  "want": "3.1.5",
+  "got": "3.1.5",
+  "ok": true
+ },
+ "matplotlib": {
+  "want": "3.11.2",
+  "got": "3.11.2",
+  "ok": true
+ },
+ "pyarrow": {
+  "want": "25.0.1",
+  "got": "25.0.1",
+  "ok": true
+ },
+ "torch": {
+  "want": "2.14.1",
+  "got": "2.14.1",
+  "ok": true
+ },
+ "torchvision": {
+  "want": "0.29.1",
+  "got": "0.29.1",
+  "ok": true
+ },
+ "timm": {
+  "want": "1.0.30",
+  "got": "1.0.30",
+  "ok": true
+ },
+ "joblib": {
+  "want": null,
+  "got": "1.6.0",
+  "ok": true
+ },
+ "psutil": {
+  "want": null,
+  "got": "7.2.2",
+  "ok": true
+ },
+ "gymnasium": {
+  "want": "1.4.0",
+  "got": "1.4.0",
+  "ok": true
+ },
+ "stable-baselines3": {
+  "want": "2.9.0",
+  "got": "2.9.0",
+  "ok": true
+ }
+}
+
+--- stderr ---
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+ModuleNotFoundError: No module named 'wrapt'

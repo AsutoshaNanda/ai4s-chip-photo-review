@@ -1,0 +1,20 @@
+[2026-10-07T14:25:37] run 20261007-142534_C03_dic_to_lamin_v3_inputonly started
+[2026-10-07T14:37:33] fold 0: clean-up min size chosen on check well B03: {'A': 0, 'B': 406}; ranges {'A': {'searched': [0, 81, 162, 243, 324, 406, 487, 568, 649, 731, 812], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 81, 162, 243, 324, 406, 487, 568, 649, 731, 812], 'on_upper_edge_after_extension': False}}
+[2026-10-07T14:37:33] fold 0 (test well B02, check well B03): trained in 711 s; steps A 2200 B 1400
+[2026-10-07T14:50:25] fold 1: clean-up min size chosen on check well B04: {'A': 0, 'B': 512}; ranges {'A': {'searched': [0, 73, 146, 219, 292, 365, 439, 512, 585, 658, 731], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 73, 146, 219, 292, 365, 439, 512, 585, 658, 731], 'on_upper_edge_after_extension': False}}
+[2026-10-07T14:50:25] fold 1 (test well B03, check well B04): trained in 770 s; steps A 2400 B 1400
+[2026-10-07T15:10:39] fold 2: clean-up min size chosen on check well B05: {'A': 0, 'B': 655}; ranges {'A': {'searched': [0, 59, 119, 179, 238, 298, 358, 417, 477, 537, 596], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 59, 119, 179, 238, 298, 358, 417, 477, 537, 596, 655, 714], 'on_upper_edge_after_extension': False}}
+[2026-10-07T15:10:39] fold 2 (test well B04, check well B05): trained in 1210 s; steps A 4400 B 1600
+[2026-10-07T15:30:43] fold 3: clean-up min size chosen on check well B02: {'A': 0, 'B': 320}; ranges {'A': {'searched': [0, 64, 128, 192, 256, 320, 384, 448, 512, 576, 640], 'on_upper_edge_after_extension': False}, 'B': {'searched': [0, 64, 128, 192, 256, 320, 384, 448, 512, 576, 640], 'on_upper_edge_after_extension': False}}
+[2026-10-07T15:30:43] fold 3 (test well B05, check well B02): trained in 1200 s; steps A 3600 B 2400
+[2026-10-07T15:30:45] all_planes   A_no_cleanup       planes  200 | count MAE 12.09 bias -11.94 | F1 0.50/0.75 0.418/0.232 | joined 1415 split 518 missed 2217 false 410 | pixel corr 0.475
+[2026-10-07T15:30:45] all_planes   A_predict_picture  planes  200 | count MAE 12.09 bias -11.94 | F1 0.50/0.75 0.418/0.232 | joined 1415 split 518 missed 2217 false 410 | pixel corr 0.475
+[2026-10-07T15:30:45] all_planes   B_direct           planes  200 | count MAE 7.25 bias -0.69 | F1 0.50/0.75 0.442/0.233 | joined 1061 split 1411 missed 1494 false 1140
+[2026-10-07T15:30:45] all_planes   B_no_cleanup       planes  200 | count MAE 22.80 bias +22.80 | F1 0.50/0.75 0.352/0.174 | joined 1033 split 2842 missed 658 false 3944
+[2026-10-07T15:30:46] all_planes: route A minus route B count MAE, 95% over stacks: [2.56, 7.22]
+[2026-10-07T15:30:46] zstar_plane  A_no_cleanup       planes   40 | count MAE 12.57 bias -12.57 | F1 0.50/0.75 0.426/0.225 | joined 297 split 93 missed 442 false 72 | pixel corr 0.486
+[2026-10-07T15:30:46] zstar_plane  A_predict_picture  planes   40 | count MAE 12.57 bias -12.57 | F1 0.50/0.75 0.426/0.225 | joined 297 split 93 missed 442 false 72 | pixel corr 0.486
+[2026-10-07T15:30:46] zstar_plane  B_direct           planes   40 | count MAE 6.90 bias -0.90 | F1 0.50/0.75 0.444/0.233 | joined 239 split 291 missed 301 false 229
+[2026-10-07T15:30:46] zstar_plane  B_no_cleanup       planes   40 | count MAE 22.65 bias +22.65 | F1 0.50/0.75 0.356/0.174 | joined 233 split 545 missed 134 false 822
+[2026-10-07T15:30:47] zstar_plane: route A minus route B count MAE, 95% over stacks: [2.92, 8.5]
+[2026-10-07T15:30:47] run finished: status=measured, wall_seconds=3912.8

@@ -1,0 +1,221 @@
+{
+  "date_IST": "2026-10-08",
+  "mode": "read-only cloud verification; no compute job launched or modified",
+  "cloud_status": {
+    "itsasup/ai4s-rl-eval": "COMPLETE",
+    "itsasup/ai4s-f03": "COMPLETE",
+    "itsasup/ai4s-f05-scorer": "COMPLETE",
+    "itsasup/ai4s-f06-install-test": "ERROR"
+  },
+  "file_comparisons": [
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/config.json",
+      "remote_download_sha256": "5ea0122f876184ab2ffa7e28f6dcdcc3f761505c710c2e4b5f1c547d05e91956",
+      "local_sha256": "5ea0122f876184ab2ffa7e28f6dcdcc3f761505c710c2e4b5f1c547d05e91956",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/env.json",
+      "remote_download_sha256": "9fffe29a40dd02be078c071aa055535c354bcebb2f1efe7493fd1667d077152f",
+      "local_sha256": "9fffe29a40dd02be078c071aa055535c354bcebb2f1efe7493fd1667d077152f",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/episodes.csv",
+      "remote_download_sha256": "7226afa402413a58f1cde0fcea103e09d86d287a400aa008ccc608eba7d34c1a",
+      "local_sha256": "7226afa402413a58f1cde0fcea103e09d86d287a400aa008ccc608eba7d34c1a",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/log.txt",
+      "remote_download_sha256": "46f8dda6136d4241657ea2bfb4818d636ec62068ab11fcfd34d497caa037d274",
+      "local_sha256": "46f8dda6136d4241657ea2bfb4818d636ec62068ab11fcfd34d497caa037d274",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/paired_differences.csv",
+      "remote_download_sha256": "17554af521a373677fc6362fe42a84c25d6b401431702330c011c3e4b2c28ec1",
+      "local_sha256": "17554af521a373677fc6362fe42a84c25d6b401431702330c011c3e4b2c28ec1",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/results.json",
+      "remote_download_sha256": "2406bc0e821f975d3b8405b25bb3d190a4b4f166886685d51db23d1c3b383d0a",
+      "local_sha256": "2406bc0e821f975d3b8405b25bb3d190a4b4f166886685d51db23d1c3b383d0a",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/summary_by_policy.csv",
+      "remote_download_sha256": "a9b7ac64d53dca4f64a729227f1f40fb6ce6990479fb50cb9ccd716f4fc43dd3",
+      "local_sha256": "a9b7ac64d53dca4f64a729227f1f40fb6ce6990479fb50cb9ccd716f4fc43dd3",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-rl-eval",
+      "local": "code/runs/20261007-234732_R02_repaired_evaluation_v2/timing.json",
+      "remote_download_sha256": "e0d5c6be049296f44ddaddac7edc171115c61a0ad87af5b29dd6e1506fc7299a",
+      "local_sha256": "e0d5c6be049296f44ddaddac7edc171115c61a0ad87af5b29dd6e1506fc7299a",
+      "identical": true
+    },
+    {
+      "source": "modal:ai4s-data/runs/20261006-012654_A02_frozen_features",
+      "local": "code/runs/20261006-012654_A02_frozen_features/results.json",
+      "remote_download_sha256": "9700f092930cafe2cdcb24236674f35b2d341db26781dd14b1aed6e9ece400bd",
+      "local_sha256": "9700f092930cafe2cdcb24236674f35b2d341db26781dd14b1aed6e9ece400bd",
+      "identical": true
+    },
+    {
+      "source": "modal:ai4s-data/runs/20261006-012654_A02_frozen_features",
+      "local": "code/runs/20261006-012654_A02_frozen_features/env.json",
+      "remote_download_sha256": "0123e16da9173a1b59122a886cda3ddf9c83f4f75fba1269efe2e5682f621f53",
+      "local_sha256": "0123e16da9173a1b59122a886cda3ddf9c83f4f75fba1269efe2e5682f621f53",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/1_pin_check.log",
+      "remote_download_sha256": "9a17281451de6231af5a5574b0bf095774b2feaa19adc65f7e7ac020061ce214",
+      "local_sha256": "9a17281451de6231af5a5574b0bf095774b2feaa19adc65f7e7ac020061ce214",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/1_pip_check.log",
+      "remote_download_sha256": "2b58942e07966732f5b704d57a09c0871fe25a985aa9aa0fb23bdb145c6ee1fa",
+      "local_sha256": "2b58942e07966732f5b704d57a09c0871fe25a985aa9aa0fb23bdb145c6ee1fa",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/1_pip_freeze.log",
+      "remote_download_sha256": "64b9f7b193e7c096d435399841f024bc753977ec3e8a86bf5ff6cd7d9bf2c52a",
+      "local_sha256": "64b9f7b193e7c096d435399841f024bc753977ec3e8a86bf5ff6cd7d9bf2c52a",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/1_pip_install.log",
+      "remote_download_sha256": "96d11b62aa552cc656130cd77fee12df0f338bb6111446ba9c7ce6a9e3ba7561",
+      "local_sha256": "96d11b62aa552cc656130cd77fee12df0f338bb6111446ba9c7ce6a9e3ba7561",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/1_torch_device.log",
+      "remote_download_sha256": "f821b3a6aa2045aeba9f34724ce940192d29910229babbd56da8042fbee63573",
+      "local_sha256": "f821b3a6aa2045aeba9f34724ce940192d29910229babbd56da8042fbee63573",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/2_control_old_model.log",
+      "remote_download_sha256": "d6c52091127e32449ca3204a5eac570a5121c67ba10957f9c1d21cd5557886f7",
+      "local_sha256": "d6c52091127e32449ca3204a5eac570a5121c67ba10957f9c1d21cd5557886f7",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/3_train.log",
+      "remote_download_sha256": "5a13e5a8d5f7b529cd3b0faf647fb9a48c43c2a674462b3ba543b1753ebb7ecc",
+      "local_sha256": "5a13e5a8d5f7b529cd3b0faf647fb9a48c43c2a674462b3ba543b1753ebb7ecc",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/4_load_new_model_strict.log",
+      "remote_download_sha256": "48bc29dc00446ff22df1bc24a954406ac0a36ca960001333452235df40b9ef96",
+      "local_sha256": "48bc29dc00446ff22df1bc24a954406ac0a36ca960001333452235df40b9ef96",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/6_inference_cpu.log",
+      "remote_download_sha256": "da76ca1a71e13cd67ef4d1e88bb979a006b3490d7a6751dcb14649ebccd64dd2",
+      "local_sha256": "da76ca1a71e13cd67ef4d1e88bb979a006b3490d7a6751dcb14649ebccd64dd2",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/ai4s-f05-scorer.log",
+      "remote_download_sha256": "2d6c1e2b65a49db58fb07731a3f227ed46cdabbe062f14e4fd0507fde0c4713e",
+      "local_sha256": "2d6c1e2b65a49db58fb07731a3f227ed46cdabbe062f14e4fd0507fde0c4713e",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/job_report.json",
+      "remote_download_sha256": "cac6c8df17df1fd5ff23d42b4bd67d197a83725f6d71184b7c28491aefa7fa8e",
+      "local_sha256": "cac6c8df17df1fd5ff23d42b4bd67d197a83725f6d71184b7c28491aefa7fa8e",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/new_model/model_x01_3x3.joblib",
+      "remote_download_sha256": "d2ea4b71c41b33718ba2a5d1a446a1cdff37cdaf037632b724759321d5083434",
+      "local_sha256": "d2ea4b71c41b33718ba2a5d1a446a1cdff37cdaf037632b724759321d5083434",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/new_model/model_x01_3x3.json",
+      "remote_download_sha256": "dca3a46dde6efe6c35cb6829547d7d6c4d3eec83400a13d8b0467f9cfc9cd43e",
+      "local_sha256": "dca3a46dde6efe6c35cb6829547d7d6c4d3eec83400a13d8b0467f9cfc9cd43e",
+      "identical": true
+    },
+    {
+      "source": "kaggle:itsasup/ai4s-f05-scorer",
+      "local": "Research_and_Experiments/Evidence/2026-10-08_scorer_rebuild_job/ranking_fresh.csv",
+      "remote_download_sha256": "338c8526454f53b7973dfdadd32b4851dfd22003f7681308a8dff549e5781c01",
+      "local_sha256": "338c8526454f53b7973dfdadd32b4851dfd22003f7681308a8dff549e5781c01",
+      "identical": true
+    }
+  ],
+  "all_compared_files_identical": true,
+  "compared_file_count": 24,
+  "deployed_local_scorer_matches_cloud": true,
+  "deployed_local_metadata_matches_cloud": true,
+  "scorer_job": {
+    "install_seconds": 1420.6,
+    "train_seconds": 17.0,
+    "demo_inference_seconds": 402.8,
+    "pins_match": true,
+    "has_runs_folder_in_package": false,
+    "warning_as_error_control_passed": false,
+    "strict_retest_log_content": "[]",
+    "interpretation": "Normal fresh-install/inference passed. The -W strict control did not work; do not treat the exit-based new_model_loads_strict flag as proof. F06 failed with an empty log."
+  },
+  "modal_current": {
+    "apps_returned": [],
+    "A02_hardware": [
+      "NVIDIA A100-SXM4-40GB"
+    ],
+    "billing_month": "2026-10",
+    "metered_cost_usd": "17.17317520",
+    "billed_cost_usd": "0E-8",
+    "adjustments": {
+      "reservation_adjustment": "-0E-8",
+      "free_storage": "-0.18434161",
+      "credits": "-16.98000000",
+      "plan_cost": "0E-8",
+      "network_egress_allowance": "-0.00883358"
+    },
+    "metered_cost_breakdown": {
+      "volumes": "0.18434161",
+      "ephemeral_apps": "16.98438557",
+      "llm_tokens": "0E-8"
+    },
+    "scope": "active local Modal profile; no apps listed at this check; monthly metered cost is not billed cost; does not resolve historical 24.26 vs 17.08 figures"
+  },
+  "limitations": [
+    "The F03 Kaggle status was checked live; its output files were not downloaded again in this cloud pass.",
+    "No full audit of every past cloud job or invoice was performed.",
+    "Separate registration and final public-repository accessibility were not verified."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "checked": "2026-09-26",
+  "checks": {
+    "all_19_originals_unchanged": true,
+    "no_root_markdown": true,
+    "source_count": 31,
+    "unique_source_count": 31,
+    "plan_count": 30,
+    "unique_plan_count": 30,
+    "new_research_markdown_count": 9,
+    "resources_markdown_count": 20,
+    "local_links_checked": 70,
+    "link_or_style_errors": [],
+    "data_counts_reconcile": true,
+    "total_research_words": 12245
+  },
+  "originals": [
+    {
+      "file": "Resources/01_overview.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/02_rules_and_dates.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/03_data.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/04_what_to_read.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/05_what_to_build.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/06_experiments.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/07_similar_competitions.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/08_tools_and_free_compute.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/09_current_discussions.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/10_current_notebooks.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/11_work_schedule.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/12_submission_checklist.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/13_evidence_and_decisions.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/14_experiment_log.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/15_open_questions.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/16_writeup_template.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/17_glossary.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/18_sources.md",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "file": "Resources/README.md",
+      "exists": true,
+      "unchanged": true
+    }
+  ]
+}

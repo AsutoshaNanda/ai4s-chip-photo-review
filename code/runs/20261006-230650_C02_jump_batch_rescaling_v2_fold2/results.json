@@ -1,0 +1,23 @@
+{
+  "summary": [
+    {
+      "method": "raw",
+      "batch_info_mean": 0.4034,
+      "batch_info_std": NaN,
+      "batch_chance_mean": 0.0712,
+      "batch_chance_std": NaN,
+      "replicate_mAP_mean": 0.0088,
+      "replicate_mAP_std": NaN
+    },
+    {
+      "method": "sphering_chosen",
+      "batch_info_mean": 0.8856,
+      "batch_info_std": NaN,
+      "batch_chance_mean": 0.0712,
+      "batch_chance_std": NaN,
+      "replicate_mAP_mean": 0.0585,
+      "replicate_mAP_std": NaN
+    }
+  ],
+  "inner_note": "eps chosen per fold by leave-one-training-batch-out over ALL training batches, the same batches for every strength (repaired 6 Oct); queries search all other training batches"
+}

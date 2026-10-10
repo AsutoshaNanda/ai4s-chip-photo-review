@@ -1,0 +1,121 @@
+[{"stream_name":"stdout","time":20.57144826,"data":"[08:34:12] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":23.865437226,"data":"[08:34:16] BBBC038 stage1_train downloaded, SHA256 ok=True\n"}
+,{"stream_name":"stdout","time":34.280377062,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.7/2.7 MB 38.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":34.333485394,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.0/127.0 kB 2.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":34.444917177,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 75.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":40.711251244,"data":"[08:34:32] installed timm==1.0.30,instanseg-torch\n"}
+,{"stream_name":"stdout","time":74.211251443,"data":"[08:35:06] lane0 finished with exit code 0 after 33 s\n"}
+,{"stream_name":"stdout","time":74.211292997,"data":"=== scripts/input_gate.py\n"}
+,{"stream_name":"stdout","time":74.211300147,"data":"[2026-10-07T14:04:58] run 20261007-140435_G02_input_gate_selfcheck started\n"}
+,{"stream_name":"stdout","time":74.211305265,"data":"[2026-10-07T14:04:58] support per format in the development data:\n"}
+,{"stream_name":"stdout","time":74.21131092,"data":"               photos  bad  groups\n"}
+,{"stream_name":"stdout","time":74.211315859,"data":"photo_format                      \n"}
+,{"stream_name":"stdout","time":74.211320792,"data":"L/2056x1542      1597  887      12\n"}
+,{"stream_name":"stdout","time":74.211325536,"data":"RGB/2048x1536     713  166      33\n"}
+,{"stream_name":"stdout","time":74.211330099,"data":"RGB/640x480        87    6       3\n"}
+,{"stream_name":"stdout","time":74.211334928,"data":"[2026-10-07T14:04:58] chip photos by role, format and route:\n"}
+,{"stream_name":"stdout","time":74.211340066,"data":"      role  photo_format         route  photos\n"}
+,{"stream_name":"stdout","time":74.211344557,"data":"final_test   L/2056x1542     automatic     451\n"}
+,{"stream_name":"stdout","time":74.211981044,"data":"final_test RGB/1536x2048 manual_review       3\n"}
+,{"stream_name":"stdout","time":74.212008981,"data":"final_test RGB/2048x1536     automatic     221\n"}
+,{"stream_name":"stdout","time":74.212014973,"data":"  practice   L/2056x1542     automatic    1597\n"}
+,{"stream_name":"stdout","time":74.212020002,"data":"  practice RGB/2048x1536     automatic     713\n"}
+,{"stream_name":"stdout","time":74.212024779,"data":"  practice   RGB/640x480 manual_review      87\n"}
+,{"stream_name":"stdout","time":74.212029539,"data":"[2026-10-07T14:05:04] BBBC038 outside images by route: {'automatic': 562, 'manual_review': 108}\n"}
+,{"stream_name":"stdout","time":74.212034451,"data":"[2026-10-07T14:05:04] run finished: status=measured, wall_seconds=28.68\n"}
+,{"stream_name":"stdout","time":74.212039333,"data":"\n"}
+,{"stream_name":"stdout","time":89.244300319,"data":"[08:35:21] lane1 finished with exit code 0 after 49 s\n"}
+,{"stream_name":"stdout","time":89.245879562,"data":"=== scripts/model_versions.py\n"}
+,{"stream_name":"stdout","time":89.24594506,"data":"[2026-10-07T14:04:58] run 20261007-140433_G01_model_and_package_versions started\n"}
+,{"stream_name":"stdout","time":89.245977231,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":89.245993409,"data":"[2026-10-07T14:05:19] {\n"}
+,{"stream_name":"stdout","time":89.246010672,"data":" \"packages\": {\n"}
+,{"stream_name":"stdout","time":89.246082172,"data":"  \"numpy\": \"2.1.3\",\n"}
+,{"stream_name":"stdout","time":89.246107152,"data":"  \"pandas\": \"2.3.3\",\n"}
+,{"stream_name":"stdout","time":89.246111765,"data":"  \"scipy\": \"1.16.3\",\n"}
+,{"stream_name":"stdout","time":89.246115928,"data":"  \"sklearn\": \"1.6.1\",\n"}
+,{"stream_name":"stdout","time":89.246119612,"data":"  \"skimage\": \"0.25.2\",\n"}
+,{"stream_name":"stdout","time":89.246122859,"data":"  \"torch\": \"2.11.0+cpu\",\n"}
+,{"stream_name":"stdout","time":89.246126542,"data":"  \"torchvision\": \"0.26.0+cpu\",\n"}
+,{"stream_name":"stdout","time":89.246130374,"data":"  \"timm\": \"1.0.30\",\n"}
+,{"stream_name":"stdout","time":89.246134052,"data":"  \"PIL\": \"12.3.0\",\n"}
+,{"stream_name":"stdout","time":89.246137842,"data":"  \"stable_baselines3\": \"not installed (ModuleNotFoundError)\",\n"}
+,{"stream_name":"stdout","time":89.246141712,"data":"  \"gymnasium\": \"1.2.0\",\n"}
+,{"stream_name":"stdout","time":89.246145674,"data":"  \"instanseg\": \"no __version__\"\n"}
+,{"stream_name":"stdout","time":89.246149642,"data":" },\n"}
+,{"stream_name":"stdout","time":89.246153472,"data":" \"model_files\": {\n"}
+,{"stream_name":"stdout","time":89.246157453,"data":"  \"vit_large_patch14_dinov2.lvd142m\": {\n"}
+,{"stream_name":"stdout","time":89.246161268,"data":"   \"pretrained_cfg\": {\n"}
+,{"stream_name":"stdout","time":89.246164962,"data":"    \"url\": \"https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth\",\n"}
+,{"stream_name":"stdout","time":89.246169179,"data":"    \"hf_hub_id\": \"timm/vit_large_patch14_dinov2.lvd142m\",\n"}
+,{"stream_name":"stdout","time":89.246172778,"data":"    \"architecture\": \"vit_large_patch14_dinov2\",\n"}
+,{"stream_name":"stdout","time":89.246177006,"data":"    \"tag\": \"lvd142m\",\n"}
+,{"stream_name":"stdout","time":89.246180644,"data":"    \"custom_load\": \"False\",\n"}
+,{"stream_name":"stdout","time":89.246184462,"data":"    \"input_size\": \"(3, 518, 518)\",\n"}
+,{"stream_name":"stdout","time":89.246188338,"data":"    \"fixed_input_size\": \"True\",\n"}
+,{"stream_name":"stdout","time":89.246212092,"data":"    \"interpolation\": \"bicubic\",\n"}
+,{"stream_name":"stdout","time":89.246217092,"data":"    \"crop_pct\": \"1.0\",\n"}
+,{"stream_name":"stdout","time":89.246220974,"data":"    \"crop_mode\": \"center\",\n"}
+,{"stream_name":"stdout","time":89.246246062,"data":"    \"mean\": \"(0.485, 0.456, 0.406)\",\n"}
+,{"stream_name":"stdout","time":89.246255991,"data":"    \"std\": \"(0.229, 0.224, 0.225)\",\n"}
+,{"stream_name":"stdout","time":89.246265979,"data":"    \"num_classes\": \"0\",\n"}
+,{"stream_name":"stdout","time":89.246270572,"data":"    \"pool_size\": \"None\",\n"}
+,{"stream_name":"stdout","time":89.246278572,"data":"    \"first_conv\": \"patch_embed.proj\",\n"}
+,{"stream_name":"stdout","time":89.246282669,"data":"    \"classifier\": \"head\",\n"}
+,{"stream_name":"stdout","time":89.246300295,"data":"    \"license\": \"apache-2.0\"\n"}
+,{"stream_name":"stdout","time":89.246304742,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.246308292,"data":"   \"files\": [\n"}
+,{"stream_name":"stdout","time":89.246312073,"data":"    {\n"}
+,{"stream_name":"stdout","time":89.246315583,"data":"     \"repo\": \"timm/vit_large_patch14_dinov2.lvd142m\",\n"}
+,{"stream_name":"stdout","time":89.246319623,"data":"     \"commit\": \"4741e1cafbf45415e77074bb0cb42dba76c8684a\",\n"}
+,{"stream_name":"stdout","time":89.246323605,"data":"     \"file\": \"model.safetensors\",\n"}
+,{"stream_name":"stdout","time":89.2463335,"data":"     \"sha256\": \"0424a5d1b515278cba3c6640ccbeaacc41de59d3a93df0dd5e494285eea2b355\"\n"}
+,{"stream_name":"stdout","time":89.246337755,"data":"    }\n"}
+,{"stream_name":"stdout","time":89.246341127,"data":"   ]\n"}
+,{"stream_name":"stdout","time":89.246345355,"data":"  },\n"}
+,{"stream_name":"stdout","time":89.246349017,"data":"  \"instanseg_single_channel_nuclei\": [\n"}
+,{"stream_name":"stdout","time":89.246352847,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246356882,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/rdf.yaml\",\n"}
+,{"stream_name":"stdout","time":89.246370495,"data":"    \"sha256\": \"37e38e3ddd9d35a0b28270fe0e45590a701bdaa5c0732fdbd79b54abda9cad61\"\n"}
+,{"stream_name":"stdout","time":89.246376042,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.246379767,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246383708,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/cover.png\",\n"}
+,{"stream_name":"stdout","time":89.246388025,"data":"    \"sha256\": \"2e42afdf21f135cbb96d6e7ba3bfd5ff4de37cc45287e558a320a85db2b7c5ac\"\n"}
+,{"stream_name":"stdout","time":89.246484931,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.246507156,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246511728,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/instanseg.pt\",\n"}
+,{"stream_name":"stdout","time":89.246519842,"data":"    \"sha256\": \"118066231fb7753ffb048bcd2164186397bcc5c8fc4ad7f826efe928b515794c\"\n"}
+,{"stream_name":"stdout","time":89.246524389,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.2465282,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246532163,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/instanseg_postprocess.ijm\",\n"}
+,{"stream_name":"stdout","time":89.246536166,"data":"    \"sha256\": \"0886f52737326dba0c6d53528909d746e75e0dce7a0cb41e855a648f8133ba88\"\n"}
+,{"stream_name":"stdout","time":89.246539865,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.246543241,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246546848,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/test-output_instance_segmentation.npy\",\n"}
+,{"stream_name":"stdout","time":89.246551276,"data":"    \"sha256\": \"f4e154d1bc3c3605945e6fe736ecd6e66e0708e74168bf0b6ab787108e59c1ab\"\n"}
+,{"stream_name":"stdout","time":89.24658058,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.246601924,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246612727,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/instanseg_preprocess.ijm\",\n"}
+,{"stream_name":"stdout","time":89.24661743,"data":"    \"sha256\": \"53376aec6738fb19eab1ace9308c383ee04e46af2a3acf7e70b5862919dca86c\"\n"}
+,{"stream_name":"stdout","time":89.246621607,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.246625473,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246628791,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/test-input.npy\",\n"}
+,{"stream_name":"stdout","time":89.246632592,"data":"    \"sha256\": \"a68dc9bf2a3c4fb18804757bd13772777792959e8ab690882f2711f4d399cc24\"\n"}
+,{"stream_name":"stdout","time":89.246636411,"data":"   },\n"}
+,{"stream_name":"stdout","time":89.246640132,"data":"   {\n"}
+,{"stream_name":"stdout","time":89.246643456,"data":"    \"file\": \"bioimageio_models/single_channel_nuclei/0.1.2/single_channel_nuclei_README.md\",\n"}
+,{"stream_name":"stdout","time":89.246647679,"data":"    \"sha256\": \"f7e133872a066f75bc67b2a8ec86bcf040aa725d5a231566d815721ef3c27ad3\"\n"}
+,{"stream_name":"stdout","time":89.246663301,"data":"   }\n"}
+,{"stream_name":"stdout","time":89.24666763,"data":"  ]\n"}
+,{"stream_name":"stdout","time":89.246671236,"data":" }\n"}
+,{"stream_name":"stdout","time":89.246674937,"data":"}\n"}
+,{"stream_name":"stdout","time":89.246678806,"data":"[2026-10-07T14:05:19] run finished: status=measured, wall_seconds=46.28\n"}
+,{"stream_name":"stdout","time":89.246682675,"data":"\n"}
+,{"stream_name":"stdout","time":90.728845248,"data":"[08:35:22] kept new runs: ['20261007-140433_G01_model_and_package_versions', '20261007-140435_G02_input_gate_selfcheck']\n"}
+,{"stream_name":"stderr","time":94.230117799,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":94.23015188,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":94.781250058,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":94.781289154,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":96.137024832,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":97.736216487,"data":"[NbConvertApp] Writing 293220 bytes to __results__.html\n"}
+]

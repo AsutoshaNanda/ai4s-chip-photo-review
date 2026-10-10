@@ -1,0 +1,13 @@
+[2026-10-06T10:38:05] run 20261006-103757_X01_whole_plus_patches_grids4-5-6 started
+[2026-10-06T10:38:41] features whole: 2397 images in 18.3 s
+[2026-10-06T10:41:23] features tiles_4x4: 38352 images in 64.1 s
+[2026-10-06T10:44:05] features tiles_5x5: 59925 images in 60.7 s
+[2026-10-06T10:46:45] features tiles_6x6: 86292 images in 68.7 s
+[2026-10-06T10:48:21] patches_4x4_only                           AUC 0.863 [0.824, 0.895] AP 0.843 logloss 0.455 | within format {'L/2056x1542': 0.839, 'RGB/2048x1536': 0.837, 'RGB/640x480': 0.488}
+[2026-10-06T10:48:28] patches_5x5_only                           AUC 0.867 [0.83, 0.898] AP 0.845 logloss 0.452 | within format {'L/2056x1542': 0.85, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.436}
+[2026-10-06T10:48:35] patches_6x6_only                           AUC 0.870 [0.835, 0.9] AP 0.856 logloss 0.447 | within format {'L/2056x1542': 0.863, 'RGB/2048x1536': 0.829, 'RGB/640x480': 0.469}
+[2026-10-06T10:48:42] whole                                      AUC 0.843 [0.803, 0.884] AP 0.812 logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T10:48:49] whole_plus_patches_4x4                     AUC 0.875 [0.839, 0.906] AP 0.859 logloss 0.436 | within format {'L/2056x1542': 0.853, 'RGB/2048x1536': 0.859, 'RGB/640x480': 0.539}
+[2026-10-06T10:48:56] whole_plus_patches_5x5                     AUC 0.877 [0.843, 0.908] AP 0.859 logloss 0.434 | within format {'L/2056x1542': 0.86, 'RGB/2048x1536': 0.851, 'RGB/640x480': 0.527}
+[2026-10-06T10:49:03] whole_plus_patches_6x6                     AUC 0.876 [0.842, 0.905] AP 0.862 logloss 0.434 | within format {'L/2056x1542': 0.863, 'RGB/2048x1536': 0.851, 'RGB/640x480': 0.514}
+[2026-10-06T10:49:03] run finished: status=measured, wall_seconds=665.26

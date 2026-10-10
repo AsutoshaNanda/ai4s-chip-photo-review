@@ -1,0 +1,64 @@
+[{"stream_name":"stdout","time":34.738044329,"data":"[18:08:41] code ready: ['final_config.json', 'inference.py', 'requirements.txt', 'runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":36.613235631,"data":"[18:08:43] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":40.595892381,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 58.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":44.703954845,"data":"[18:08:51] installed scikit-image==0.26.0\n"}
+,{"stream_name":"stdout","time":6906.321989367,"data":"[20:03:12] lane0 finished with exit code 0 after 6862 s\n"}
+,{"stream_name":"stdout","time":6906.326057594,"data":"=== scripts/b_repost.py --exp B02 --seed 1\n"}
+,{"stream_name":"stdout","time":6906.326116894,"data":"[2026-10-07T23:39:18] run 20261007-233900_B02_unet_fg_repost_v2_seed1 started\n"}
+,{"stream_name":"stdout","time":6906.326125128,"data":"[2026-10-07T23:39:26] fold models: {0: '20261006-212942_B02_unet_fg_seed1', 1: '20261006-212942_B02_unet_fg_seed1', 2: '20261006-212942_B02_unet_fg_seed1', 3: '20261006-212942_B02_unet_fg_seed1', 4: '20261006-212942_B02_unet_fg_seed1'}\n"}
+,{"stream_name":"stdout","time":6906.326154216,"data":"[2026-10-08T00:27:35] fold 0: picks {best_count: thr 0.8, md 8, ms 10, best_outline: thr 0.7, md 12, ms 50}; on range edge: {'best_count': [], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326162166,"data":"[2026-10-08T00:40:06] fold 1: picks {best_count: thr 0.6, md 12, ms 0, best_outline: thr 0.5, md 12, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326167769,"data":"[2026-10-08T01:01:35] fold 2: picks {best_count: thr 0.9, md 8, ms 10, best_outline: thr 0.5, md 12, ms 25}; on range edge: {'best_count': ['thr'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326173207,"data":"[2026-10-08T01:15:24] fold 3: picks {best_count: thr 0.5, md 10, ms 0, best_outline: thr 0.6, md 12, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326178573,"data":"[2026-10-08T01:33:10] fold 4: picks {best_count: thr 0.9, md 10, ms 0, best_outline: thr 0.6, md 10, ms 50}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326184069,"data":"[2026-10-08T01:33:10] B02 v2 best_count: count MAE 4.82 (bias -2.77); pooled F1 0.25/0.50/0.75/0.90 0.933/0.905/0.842/0.652; joined 1909 split 1107 missed 274 false 349\n"}
+,{"stream_name":"stdout","time":6906.326196991,"data":"[2026-10-08T01:33:10] B02 v2 best_outline: count MAE 10.41 (bias -10.41); pooled F1 0.25/0.50/0.75/0.90 0.935/0.917/0.866/0.728; joined 2392 split 508 missed 545 false 66\n"}
+,{"stream_name":"stdout","time":6906.326200901,"data":"[2026-10-08T01:33:10] run finished: status=measured, wall_seconds=6850.05\n"}
+,{"stream_name":"stdout","time":6906.326205118,"data":"\n"}
+,{"stream_name":"stdout","time":6906.326338018,"data":"[20:03:12] lane1 finished with exit code 0 after 6862 s\n"}
+,{"stream_name":"stdout","time":6906.326660169,"data":"=== scripts/b_repost.py --exp B03 --seed 1\n"}
+,{"stream_name":"stdout","time":6906.326672566,"data":"[2026-10-07T23:39:18] run 20261007-233900_B03_unet_boundary_repost_v2_seed1 started\n"}
+,{"stream_name":"stdout","time":6906.326678506,"data":"[2026-10-07T23:39:31] fold models: {0: '20261006-212929_B03_unet_boundary_seed1', 1: '20261006-212929_B03_unet_boundary_seed1', 2: '20261006-212929_B03_unet_boundary_seed1', 3: '20261006-212929_B03_unet_boundary_seed1', 4: '20261006-212929_B03_unet_boundary_seed1'}\n"}
+,{"stream_name":"stdout","time":6906.326684378,"data":"[2026-10-07T23:48:30] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 50}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326708444,"data":"[2026-10-07T23:55:23] fold 1: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326713072,"data":"[2026-10-08T00:04:06] fold 2: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326717617,"data":"[2026-10-08T00:11:55] fold 3: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.326741927,"data":"[2026-10-08T00:19:37] fold 4: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.32674733,"data":"[2026-10-08T00:19:38] B03 v2 best_count: count MAE 5.38 (bias -3.69); pooled F1 0.25/0.50/0.75/0.90 0.950/0.931/0.864/0.420; joined 988 split 785 missed 607 false 122\n"}
+,{"stream_name":"stdout","time":6906.326752333,"data":"[2026-10-08T00:19:38] B03 v2 best_outline: count MAE 10.30 (bias -10.29); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.892/0.738; joined 1971 split 110 missed 608 false 79\n"}
+,{"stream_name":"stdout","time":6906.326757068,"data":"[2026-10-08T00:19:38] run finished: status=measured, wall_seconds=2438.03\n"}
+,{"stream_name":"stdout","time":6906.326761215,"data":"\n"}
+,{"stream_name":"stdout","time":6906.326849618,"data":"[20:03:12] lane2 finished with exit code 0 after 6862 s\n"}
+,{"stream_name":"stdout","time":6906.327077157,"data":"=== scripts/b_repost.py --exp B03 --seed 0 --thr_extra 0.96,0.97,0.98,0.99,0.995,0.999\n"}
+,{"stream_name":"stdout","time":6906.327085969,"data":"[2026-10-07T23:39:18] run 20261007-233900_B03_unet_boundary_repost_v2_thr_extended started\n"}
+,{"stream_name":"stdout","time":6906.327096807,"data":"[2026-10-07T23:39:31] fold models: {0: '20261006-101000_B03_unet_boundary_seed0_folds0', 1: '20261006-101329_B03_unet_boundary_seed0_folds1', 2: '20261006-101747_B03_unet_boundary_seed0_folds2', 3: '20261006-102219_B03_unet_boundary_seed0_folds3', 4: '20261006-102626_B03_unet_boundary_seed0_folds4'}\n"}
+,{"stream_name":"stdout","time":6906.327101729,"data":"[2026-10-07T23:49:34] fold 0: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.8, md 0, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.327106079,"data":"[2026-10-07T23:57:22] fold 1: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.327110581,"data":"[2026-10-08T00:07:14] fold 2: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.327114865,"data":"[2026-10-08T00:15:56] fold 3: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.327143855,"data":"[2026-10-08T00:23:30] fold 4: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.327149523,"data":"[2026-10-08T00:23:30] B03 v2 best_count: count MAE 4.63 (bias -3.11); pooled F1 0.25/0.50/0.75/0.90 0.948/0.925/0.860/0.485; joined 1046 split 756 missed 531 false 178\n"}
+,{"stream_name":"stdout","time":6906.327154129,"data":"[2026-10-08T00:23:31] B03 v2 best_outline: count MAE 9.86 (bias -9.86); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.891/0.739; joined 1823 split 129 missed 649 false 84\n"}
+,{"stream_name":"stdout","time":6906.327166045,"data":"[2026-10-08T00:23:31] run finished: status=measured, wall_seconds=2670.86\n"}
+,{"stream_name":"stdout","time":6906.32717023,"data":"\n"}
+,{"stream_name":"stdout","time":6906.328270167,"data":"[20:03:12] lane3 finished with exit code 0 after 6862 s\n"}
+,{"stream_name":"stdout","time":6906.328291549,"data":"=== scripts/b_repost.py --exp B03 --seed 1 --thr_extra 0.96,0.97,0.98,0.99,0.995,0.999\n"}
+,{"stream_name":"stdout","time":6906.328296816,"data":"[2026-10-07T23:39:18] run 20261007-233900_B03_unet_boundary_repost_v2_seed1_thr_extended started\n"}
+,{"stream_name":"stdout","time":6906.328301167,"data":"[2026-10-07T23:39:30] fold models: {0: '20261006-212929_B03_unet_boundary_seed1', 1: '20261006-212929_B03_unet_boundary_seed1', 2: '20261006-212929_B03_unet_boundary_seed1', 3: '20261006-212929_B03_unet_boundary_seed1', 4: '20261006-212929_B03_unet_boundary_seed1'}\n"}
+,{"stream_name":"stdout","time":6906.328306098,"data":"[2026-10-07T23:49:32] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.328310638,"data":"[2026-10-07T23:57:16] fold 1: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.328315209,"data":"[2026-10-08T00:07:30] fold 2: picks {best_count: thr 0.995, md 0, ms 10, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': [], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.328319796,"data":"[2026-10-08T00:16:11] fold 3: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.328324103,"data":"[2026-10-08T00:23:38] fold 4: picks {best_count: thr 0.96, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6906.328328803,"data":"[2026-10-08T00:23:38] B03 v2 best_count: count MAE 5.21 (bias -2.61); pooled F1 0.25/0.50/0.75/0.90 0.944/0.919/0.798/0.260; joined 776 split 1083 missed 705 false 98\n"}
+,{"stream_name":"stdout","time":6906.328334665,"data":"[2026-10-08T00:23:38] B03 v2 best_outline: count MAE 10.30 (bias -10.29); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.892/0.738; joined 1971 split 110 missed 608 false 79\n"}
+,{"stream_name":"stdout","time":6906.328338996,"data":"[2026-10-08T00:23:38] run finished: status=measured, wall_seconds=2678.46\n"}
+,{"stream_name":"stdout","time":6906.328342849,"data":"\n"}
+,{"stream_name":"stdout","time":6906.414702224,"data":"[20:03:13] kept new runs: ['20261007-233900_B02_unet_fg_repost_v2_seed1', '20261007-233900_B03_unet_boundary_repost_v2_seed1', '20261007-233900_B03_unet_boundary_repost_v2_seed1_thr_extended', '20261007-233900_B03_unet_boundary_repost_v2_thr_extended']\n"}
+,{"stream_name":"stderr","time":6909.120219366,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6909.120259391,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6909.471962463,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6909.472000628,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6910.455935494,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6911.783542069,"data":"[NbConvertApp] Writing 293714 bytes to __results__.html\n"}
+]

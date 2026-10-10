@@ -1,0 +1,10 @@
+[2026-10-07T11:53:07] run 20261007-115247_B03_unet_boundary_noisetrain_repost_v2 started
+[2026-10-07T11:53:22] fold models: {0: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 1: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 2: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 3: '20261007-025559_B03_unet_boundary_noisetrain_seed0', 4: '20261007-025559_B03_unet_boundary_noisetrain_seed0'}
+[2026-10-07T12:00:26] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 200}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': ['min_size']}
+[2026-10-07T12:06:06] fold 1: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 10}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-07T12:13:34] fold 2: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-07T12:20:00] fold 3: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}
+[2026-10-07T12:26:44] fold 4: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}
+[2026-10-07T12:26:44] B03 v2 best_count: count MAE 6.48 (bias -5.81); pooled F1 0.25/0.50/0.75/0.90 0.952/0.934/0.867/0.386; joined 1009 split 444 missed 698 false 124
+[2026-10-07T12:26:44] B03 v2 best_outline: count MAE 11.96 (bias -11.55); pooled F1 0.25/0.50/0.75/0.90 0.938/0.923/0.886/0.735; joined 1964 split 76 missed 814 false 116
+[2026-10-07T12:26:44] run finished: status=measured, wall_seconds=2036.55

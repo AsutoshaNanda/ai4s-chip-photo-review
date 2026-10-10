@@ -1,0 +1,12 @@
+{
+  "final_whole": {
+    "seconds": 32.115881057000024,
+    "images": 675,
+    "calls": 1
+  },
+  "final_tiles_3x3": {
+    "seconds": 115.15110476899986,
+    "images": 6075,
+    "calls": 1
+  }
+}

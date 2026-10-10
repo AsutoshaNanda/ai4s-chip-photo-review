@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-10-10",
+  "revision_status": "Local files ready; latest revision not uploaded",
+  "original_IDs": 36,
+  "research_IDs": 29,
+  "research_IDs_with_results": 28,
+  "blocked_research_IDs": [
+    "C04"
+  ],
+  "extra_work_items": 13,
+  "later_jobs": [
+    "F05",
+    "F06"
+  ],
+  "total_unique_ledger_rows": 51,
+  "canonical_ledger_order_unchanged": true,
+  "code_blocks_unchanged": true,
+  "project_summary_words": 238,
+  "figure_count": 16,
+  "all_local_figure_paths_exist": true,
+  "figure_captions_sequential": true,
+  "new_graphs_this_revision": 2,
+  "workflow_replaced": true,
+  "thumbnail_created": true,
+  "local_report_sha256": "7912cfd2f9befbb46cccc4c44fe5d5ad487ea2f292eb73c26e66899bcedd208e",
+  "em_dashes": 0,
+  "no_new_training": true,
+  "ASD_STE100": "STE-guided; not fully compliant. Remaining contextual word and grammar deviations are recorded.",
+  "maximum_checked_sentence_words": 21,
+  "maximum_numbered_step_words": 15,
+  "kaggle_saved": false,
+  "latest_revision_saved_on_kaggle": false,
+  "submitted": false,
+  "kaggle_url": "https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien/writeups/ai4s-writeup",
+  "last_verified_online": {
+    "figure_count": 14,
+    "rendered_tables": 20,
+    "all_figures_loaded": true,
+    "saved_date": "2026-10-10",
+    "hosted_report_sha256": "e67730547caafab8a045a2342f5059a1b565e73c2ae951ebbcdf404e33adc1e8"
+  },
+  "hosted_markdown_matches_local_source": false,
+  "browser_status": "Automatic approval review rejected browser access after usage-limit block; no bypass attempted",
+  "github_status": "User will create repository later",
+  "video": {
+    "status": "PASS: script facts, duration, codecs, subtitles, complete decode, audio levels and sampled frames checked",
+    "duration_seconds": 273.938,
+    "size_bytes": 6515566,
+    "width": 1920,
+    "height": 1080,
+    "subtitle_entries": 53,
+    "audio": "AAC, synthetic Samantha narration",
+    "video": "H.264",
+    "under_five_minutes": true,
+    "under_kaggle_100mb": true,
+    "sha256": "a0632f9aef5ef65e4a0650fadbba9c5e98693d621655a4540e403f3e1f1c3ca3",
+    "script_sha256": "8fc0cb9b6a1a9d4236fac2a69a76e9f929ef691944fcc48832c593918e742ab1",
+    "audio_mean_db": -19.5,
+    "audio_peak_db": -4.4,
+    "audio_samples": 26265168,
+    "subtitle_timing_check": "53 entries ordered; last ends 273.094 seconds, before video end",
+    "visual_review": "12 scene overview frames extracted; detailed frame checks include workflow, CSV output, photo sheet, primary results, control and credits",
+    "full_human_audio_listening": false,
+    "public_upload_completed": false,
+    "public_access_verified": false
+  },
+  "upload_pending_markdown": {
+    "existing_hosted_images": 13,
+    "new_local_images_awaiting_upload": 3
+  },
+  "evidence_zip_uploaded": false
+}

@@ -1,0 +1,18 @@
+[2026-10-06T10:37:14] run 20261006-103711_A12_heatmaps_folds0 started
+[2026-10-06T10:56:17] fold 0: explained 335 photos in 1135 s
+[2026-10-06T10:56:17] rho_real_shuffled_4_median           median -0.050 (10-90%: -0.534 .. +0.428)
+[2026-10-06T10:56:17] rho_real_random_4_median             median +0.041 (10-90%: -0.482 .. +0.472)
+[2026-10-06T10:56:17] border_share_4_median                median +0.719 (10-90%: +0.000 .. +1.000)
+[2026-10-06T10:56:17] rho_real_shuffled_4_blur             median +0.035 (10-90%: -0.562 .. +0.524)
+[2026-10-06T10:56:17] rho_real_random_4_blur               median +0.106 (10-90%: -0.403 .. +0.545)
+[2026-10-06T10:56:17] border_share_4_blur                  median +0.694 (10-90%: +0.000 .. +1.000)
+[2026-10-06T10:56:17] rho_fill_median_vs_blur_4            median +0.606 (10-90%: +0.215 .. +0.846)
+[2026-10-06T10:56:17] rho_real_shuffled_8_median           median +0.208 (10-90%: -0.233 .. +0.571)
+[2026-10-06T10:56:17] rho_real_random_8_median             median -0.365 (10-90%: -0.651 .. +0.082)
+[2026-10-06T10:56:17] border_share_8_median                median +0.259 (10-90%: +0.096 .. +0.472)
+[2026-10-06T10:56:17] rho_real_shuffled_8_blur             median -0.052 (10-90%: -0.425 .. +0.262)
+[2026-10-06T10:56:17] rho_real_random_8_blur               median +0.037 (10-90%: -0.326 .. +0.389)
+[2026-10-06T10:56:17] border_share_8_blur                  median +0.350 (10-90%: +0.033 .. +0.567)
+[2026-10-06T10:56:17] rho_fill_median_vs_blur_8            median +0.413 (10-90%: +0.039 .. +0.712)
+[2026-10-06T10:56:17] deletion (drop in 'bad' logit, median over photos), important-first vs random: 8/64: +0.16 vs -0.66, 16/64: -0.22 vs -0.97, 24/64: -0.58 vs -1.23, 32/64: -1.05 vs -1.63, 40/64: -1.69 vs -2.10, 48/64: -2.64 vs -2.82, 56/64: -3.89 vs -3.55, 64/64: -3.60 vs -3.60
+[2026-10-06T10:56:21] run finished: status=measured, wall_seconds=1150.46

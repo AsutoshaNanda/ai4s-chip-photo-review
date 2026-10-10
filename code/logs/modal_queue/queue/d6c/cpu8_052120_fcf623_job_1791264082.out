@@ -1,0 +1,8 @@
+[2026-10-06T10:51:32] run 20261006-105123_C03_allen_inspect started
+Traceback (most recent call last):
+  File "/root/code/scripts/c03_inspect.py", line 55, in <module>
+    main()
+  File "/root/code/scripts/c03_inspect.py", line 27, in main
+    "axes": c.axes, "shape": str(c.shape), "dtype": str(c.dtype)}
+            ^^^^^^
+AttributeError: 'CziFile' object has no attribute 'axes'

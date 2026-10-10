@@ -1,0 +1,25 @@
+[2026-10-06T10:28:45] run 20261006-102841_C01_rxrx1_batches started
+[2026-10-06T10:28:46] 125018 sites, 1138 siRNA classes, 128 features; train experiments 33, test 18
+[2026-10-06T10:28:46] none            new_batches              centroid site acc 0.860 well acc 0.915 | HEPG2 0.838 HUVEC 0.943 RPE 0.872 U2OS 0.543
+[2026-10-06T10:28:47] none            new_batches              lda      site acc 0.862 well acc 0.915 | HEPG2 0.839 HUVEC 0.943 RPE 0.876 U2OS 0.553
+[2026-10-06T10:28:48] none            same_batches_other_site  centroid site acc 0.970 well acc 0.970 | HEPG2 0.951 HUVEC 0.988 RPE 0.971 U2OS 0.915
+[2026-10-06T10:28:49] none            same_batches_other_site  lda      site acc 0.972 well acc 0.972 | HEPG2 0.950 HUVEC 0.989 RPE 0.975 U2OS 0.927
+[2026-10-06T10:28:49] per_experiment  new_batches              centroid site acc 0.859 well acc 0.915 | HEPG2 0.836 HUVEC 0.944 RPE 0.872 U2OS 0.539
+[2026-10-06T10:28:50] per_experiment  new_batches              lda      site acc 0.862 well acc 0.915 | HEPG2 0.840 HUVEC 0.943 RPE 0.876 U2OS 0.554
+[2026-10-06T10:28:51] per_experiment  same_batches_other_site  centroid site acc 0.970 well acc 0.970 | HEPG2 0.951 HUVEC 0.988 RPE 0.970 U2OS 0.915
+[2026-10-06T10:28:52] per_experiment  same_batches_other_site  lda      site acc 0.972 well acc 0.972 | HEPG2 0.950 HUVEC 0.989 RPE 0.975 U2OS 0.927
+[2026-10-06T10:28:52] per_plate       new_batches              centroid site acc 0.859 well acc 0.915 | HEPG2 0.837 HUVEC 0.943 RPE 0.872 U2OS 0.539
+[2026-10-06T10:28:53] per_plate       new_batches              lda      site acc 0.862 well acc 0.915 | HEPG2 0.840 HUVEC 0.944 RPE 0.876 U2OS 0.554
+[2026-10-06T10:28:54] per_plate       same_batches_other_site  centroid site acc 0.969 well acc 0.969 | HEPG2 0.951 HUVEC 0.988 RPE 0.970 U2OS 0.915
+[2026-10-06T10:28:55] per_plate       same_batches_other_site  lda      site acc 0.972 well acc 0.972 | HEPG2 0.950 HUVEC 0.989 RPE 0.975 U2OS 0.927
+[2026-10-06T10:28:56] plate_controls  new_batches              centroid site acc 0.856 well acc 0.910 | HEPG2 0.832 HUVEC 0.941 RPE 0.870 U2OS 0.538
+[2026-10-06T10:28:57] plate_controls  new_batches              lda      site acc 0.860 well acc 0.912 | HEPG2 0.836 HUVEC 0.942 RPE 0.876 U2OS 0.554
+[2026-10-06T10:28:57] plate_controls  same_batches_other_site  centroid site acc 0.967 well acc 0.967 | HEPG2 0.945 HUVEC 0.988 RPE 0.969 U2OS 0.907
+[2026-10-06T10:28:58] plate_controls  same_batches_other_site  lda      site acc 0.970 well acc 0.970 | HEPG2 0.947 HUVEC 0.989 RPE 0.973 U2OS 0.923
+[2026-10-06T10:29:00] centroid per_experiment  minus none (new batches), 95% over experiments: [-0.002, +0.000]
+[2026-10-06T10:29:01] centroid per_plate       minus none (new batches), 95% over experiments: [-0.002, +0.000]
+[2026-10-06T10:29:02] centroid plate_controls  minus none (new batches), 95% over experiments: [-0.005, -0.002]
+[2026-10-06T10:29:03] lda      per_experiment  minus none (new batches), 95% over experiments: [-0.000, +0.000]
+[2026-10-06T10:29:03] lda      per_plate       minus none (new batches), 95% over experiments: [+0.000, +0.000]
+[2026-10-06T10:29:04] lda      plate_controls  minus none (new batches), 95% over experiments: [-0.003, -0.000]
+[2026-10-06T10:29:04] run finished: status=measured, wall_seconds=23.78

@@ -1,0 +1,70 @@
+[modal-client] 2026-10-06T21:29:08+0530 Warning: Received Status.RESOURCE_EXHAUSTED
+App create rate limit exceeded. Please wait and retry.
+for /modal.client.ModalClient/AppCreate (6fa8a8b7). Retrying...
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-tWJLgEODicRN4D1K9Vnv6j
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_run.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+[modal-client] 2026-10-06T22:20:17+0530 Loop attempt for _run_app.<locals>.heartbeat failed
+Traceback (most recent call last):
+  File "/Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/modal/_utils/async_utils.py", line 588, in loop_coro
+    await asyncio.wait_for(async_f(), timeout=timeout)
+  File "/opt/anaconda3/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/modal/runner.py", line 66, in _heartbeat
+    await client._stub.AppHeartbeat(request, retry=Retry(attempt_timeout=HEARTBEAT_TIMEOUT))
+modal.exception.ConflictError: App state is APP_STATE_STOPPED
+[modal-client] 2026-10-06T16:44:18+0000 Received a cancellation signal while processing input ('in-01M48Z24C5P7YNRXM6PJ7C0AXA:1791302373766-0',)
+[modal-client] 2026-10-06T16:44:18+0000 Successfully canceled input ('in-01M48Z24C5P7YNRXM6PJ7C0AXA:1791302373766-0',)
+Stopping app - local client disconnected. Use `modal run --detach` to keep apps running even if your local client disconnects.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_run.py:77 in main       │
+│                                                                              │
+│    76 │   fn = {"cpu32": cpu32, "cpu8": cpu8, "a100": a100}[where]           │
+│ ❱  77 │   res = fn.remote(script, args)                                      │
+│    78 │   runs = CODE / "runs"                                               │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_object.py:49 in wrapped                                               │
+│                                                                              │
+│    48 │   │   await self.hydrate()                                           │
+│ ❱  49 │   │   return await method(self, *args, **kwargs)                     │
+│    50                                                                        │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:2067 in remote                                           │
+│                                                                              │
+│   2066 │   │                                                                 │
+│ ❱ 2067 │   │   return await self._call_function(args, kwargs)                │
+│   2068                                                                       │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:2004 in _call_function                                   │
+│                                                                              │
+│   2003 │   │                                                                 │
+│ ❱ 2004 │   │   return await invocation.run_function()                        │
+│   2005                                                                       │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_functions.py:496 in run_function                                      │
+│                                                                              │
+│    495 │   │   │   if await_response.output.result.status in TERMINAL_STATUS │
+│ ❱  496 │   │   │   │   return await _process_result(                         │
+│    497 │   │   │   │   │   await_response.output.result, await_response.outp │
+│                                                                              │
+│ /Users/puchku-home/Study/Comps/AI4S/code/.venv/lib/python3.12/site-packages/ │
+│ modal/_utils/function_utils.py:574 in _process_result                        │
+│                                                                              │
+│   573 │   │                                                                  │
+│ ❱ 574 │   │   raise RemoteError(result.exception)                            │
+│   575                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RemoteError: Function call was cancelled by user or a failure.

@@ -1,0 +1,7 @@
+{
+  "input_channel": 6,
+  "target_channel": 3,
+  "half_band": 2,
+  "xy_reduce": 2,
+  "depth_rule": "target"
+}

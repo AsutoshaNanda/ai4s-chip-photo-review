@@ -1,0 +1,31 @@
+[{"stream_name":"stdout","time":29.667825492,"data":"[13:33:12] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":428.673135146,"data":"[13:39:51] zenodo download 6.71 GB in 399 s, MD5 ok=True\n"}
+,{"stream_name":"stdout","time":524.148575282,"data":"[13:41:27] prepared 2397 practice photos (of 2397 listed) in 95 s\n"}
+,{"stream_name":"stdout","time":1366.358522461,"data":"[13:55:29] gpu0 finished with exit code 0 after 842 s\n"}
+,{"stream_name":"stdout","time":1366.358912786,"data":"[2026-10-07T19:12:03] run 20261007-191149_A02_light_retrain_full started\n"}
+,{"stream_name":"stdout","time":1366.358926897,"data":"[2026-10-07T19:12:07] vit_large_dinov2@518_head_only             AUC 0.845 [0.803, 0.893] AP 0.813 logloss 0.500 | within format {'L/2056x1542': 0.819, 'RGB/2048x1536': 0.815, 'RGB/640x480': 0.66}\n"}
+,{"stream_name":"stdout","time":1366.358933933,"data":"[2026-10-07T19:12:10] vit_large_dinov2@518_last_block            AUC 0.819 [0.777, 0.867] AP 0.801 logloss 0.542 | within format {'L/2056x1542': 0.798, 'RGB/2048x1536': 0.763, 'RGB/640x480': 0.718}\n"}
+,{"stream_name":"stdout","time":1366.358939124,"data":"[2026-10-07T19:12:17] head_only minus saved frozen reference (same photos): {'difference': 0.0019450337416774266, 'range_95': [-0.017090479571955152, 0.023522286065162695]}\n"}
+,{"stream_name":"stdout","time":1366.358944055,"data":"[2026-10-07T19:12:24] last_block minus saved frozen reference (same photos): {'difference': -0.023893709128531726, 'range_95': [-0.054296812416178716, -1.9687003684081634e-05]}\n"}
+,{"stream_name":"stdout","time":1366.358949036,"data":"[2026-10-07T19:12:24] run finished: status=measured, wall_seconds=34.95\n"}
+,{"stream_name":"stdout","time":1366.358953548,"data":"[2026-10-07T19:12:37] run 20261007-191234_A02_light_retrain_a03 started\n"}
+,{"stream_name":"stdout","time":1366.358958496,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":1366.358964039,"data":"[2026-10-07T19:14:54] cached last-block inputs for 2397 photos in 121.2 s; shapes [(392, 518)]; GPU memory used 6.46 GB\n"}
+,{"stream_name":"stdout","time":1366.358969873,"data":"[2026-10-07T19:14:54] fixed settings from the practice-fold searches: {'head_only': {'lr': 0.001, 'passes': 11, 'from_folds': 5}, 'last_block': {'lr': 1e-05, 'passes': 5, 'from_folds': 5}}\n"}
+,{"stream_name":"stdout","time":1366.358975151,"data":"[2026-10-07T19:16:08] A549: trained on 1098 photos, tested on 629\n"}
+,{"stream_name":"stdout","time":1366.358998524,"data":"[2026-10-07T19:18:00] CACO: trained on 1735 photos, tested on 271\n"}
+,{"stream_name":"stdout","time":1366.359003371,"data":"[2026-10-07T19:18:36] HPMEC: trained on 462 photos, tested on 1170\n"}
+,{"stream_name":"stdout","time":1366.359007862,"data":"[2026-10-07T19:20:51] HSAEC: trained on 2106 photos, tested on 193\n"}
+,{"stream_name":"stdout","time":1366.359012719,"data":"[2026-10-07T19:23:13] HUVEC: trained on 2237 photos, tested on 56\n"}
+,{"stream_name":"stdout","time":1366.359017164,"data":"[2026-10-07T19:25:20] NHBE: trained on 1980 photos, tested on 78\n"}
+,{"stream_name":"stdout","time":1366.359021584,"data":"[2026-10-07T19:25:23] A03 rule, head_only: pooled AUC 0.760; minus frozen LR {'difference': 0.003422158422857202, 'range_95': [-0.004844415406856864, 0.013582103528023063]}\n"}
+,{"stream_name":"stdout","time":1366.359026951,"data":"[2026-10-07T19:25:26] A03 rule, last_block: pooled AUC 0.728; minus frozen LR {'difference': -0.02851457575539429, 'range_95': [-0.06850322972160514, 0.008349313406427765]}\n"}
+,{"stream_name":"stdout","time":1366.359032173,"data":"[2026-10-07T19:25:26] run finished: status=measured, wall_seconds=772.21\n"}
+,{"stream_name":"stdout","time":1366.359041989,"data":"\n"}
+,{"stream_name":"stderr","time":1369.375276399,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1369.37530349,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1369.817285245,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1369.817317691,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1370.735155331,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1372.224891299,"data":"[NbConvertApp] Writing 300949 bytes to __results__.html\n"}
+]

@@ -1,0 +1,64 @@
+{
+  "chip": [
+    {
+      "role": "final_test",
+      "photo_format": "L/2056x1542",
+      "route": "automatic",
+      "photos": 451
+    },
+    {
+      "role": "final_test",
+      "photo_format": "RGB/1536x2048",
+      "route": "manual_review",
+      "photos": 3
+    },
+    {
+      "role": "final_test",
+      "photo_format": "RGB/2048x1536",
+      "route": "automatic",
+      "photos": 221
+    },
+    {
+      "role": "practice",
+      "photo_format": "L/2056x1542",
+      "route": "automatic",
+      "photos": 1597
+    },
+    {
+      "role": "practice",
+      "photo_format": "RGB/2048x1536",
+      "route": "automatic",
+      "photos": 713
+    },
+    {
+      "role": "practice",
+      "photo_format": "RGB/640x480",
+      "route": "manual_review",
+      "photos": 87
+    }
+  ],
+  "support": [
+    {
+      "photo_format": "L/2056x1542",
+      "photos": 1597,
+      "bad": 887,
+      "groups": 12
+    },
+    {
+      "photo_format": "RGB/2048x1536",
+      "photos": 713,
+      "bad": 166,
+      "groups": 33
+    },
+    {
+      "photo_format": "RGB/640x480",
+      "photos": 87,
+      "bad": 6,
+      "groups": 3
+    }
+  ],
+  "bbbc038": {
+    "automatic": 562,
+    "manual_review": 108
+  }
+}

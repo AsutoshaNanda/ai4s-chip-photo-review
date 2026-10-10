@@ -1,0 +1,50 @@
+[
+ {
+  "step": "code",
+  "seconds": 2.5,
+  "ok": true,
+  "note": "code copied: ['final_config.json', 'runs', 'scripts', 'splits', 'src']; runs/ empty"
+ },
+ {
+  "step": "venv",
+  "seconds": 263.6,
+  "ok": true,
+  "note": "installed; versions: 2.5.3 3.0.6 1.9.1 0.26.0 2.14.1+cu130 1.0.30 Error in sitecustomize; set PYTHONVERBOSE for traceback:\nModuleNotFoundError: No module named 'wrapt'"
+ },
+ {
+  "step": "download",
+  "seconds": 572.5,
+  "ok": true,
+  "note": "6.71 GB, MD5 ok"
+ },
+ {
+  "step": "prep",
+  "seconds": 120.2,
+  "ok": true,
+  "note": "prepared 3072 photos of 3072 listed (practice + final); format table rebuilt from file headers"
+ },
+ {
+  "step": "chip_features",
+  "seconds": 849.7,
+  "ok": true,
+  "note": " in 33.6 s\n[2026-10-07T20:39:52] features final_tiles_3x3: 6075 images in 136.7 s\n[2026-10-07T20:42:16] features practice_whole: 2397 images in 141.5 s\n[2026-10-07T20:50:48] features practice_tiles_3x3: 21573 images in 511.6 s\n[2026-10-07T20:50:48] run finished: status=measured, wall_seconds=845.59\n"
+ },
+ {
+  "step": "chip_eval",
+  "seconds": 64.1,
+  "ok": true,
+  "note": "7, 'HPMEC': 0.838, 'HSAEC': 0.811, 'HUVEC': 1.0, 'NHBE': 0.886}\n[2026-10-07T20:51:53] FINAL [all_photos] paired fixed_3x3 minus whole: {'difference': 0.03982778147302579, 'range_95': [0.015346441127220332, 0.06676884266081853]}\n[2026-10-07T20:51:53] run finished: status=measured, wall_seconds=61.28\n"
+ },
+ {
+  "step": "practice_check",
+  "seconds": 71.8,
+  "ok": true,
+  "note": "[2026-10-07T20:52:00] run 20261007-205157_F03_practice_folds_check_clean started\n[2026-10-07T20:53:05] clean-rebuild 5-fold practice AUC: {'whole': 0.8432659911273716, 'fixed_3x3': 0.8751240347170173}\n[2026-10-07T20:53:05] run finished: status=measured, wall_seconds=67.44\n"
+ },
+ {
+  "step": "nucleus_fold0_retrain",
+  "seconds": 589.7,
+  "ok": true,
+  "note": "82   0.935   0.894\n           1.50      11.152 -11.152   0.933   0.890\nnoise_sd   0.02      11.758 -11.758   0.932   0.887\n           0.05      13.182 -13.182   0.911   0.857\n           0.10      78.303 -78.303   0.211   0.100\n[2026-10-07T21:02:55] run finished: status=measured, wall_seconds=583.97\n"
+ }
+]

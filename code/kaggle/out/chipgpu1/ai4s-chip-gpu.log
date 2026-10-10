@@ -1,0 +1,41 @@
+[{"stream_name":"stdout","time":15.034798156,"data":"[17:24:36] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":330.124956175,"data":"[17:29:51] zenodo download 6.71 GB in 315 s, MD5 ok=True\n"}
+,{"stream_name":"stdout","time":431.949932634,"data":"[17:31:33] prepared 2397 practice photos (of 2397 listed) in 102 s\n"}
+,{"stream_name":"stdout","time":645.339920344,"data":"[17:35:06] gpu0 finished with exit code 0 after 213 s\n"}
+,{"stream_name":"stdout","time":645.340623197,"data":"[2026-10-06T23:01:56] run 20261006-230146_A02_light_retrain_timing started\n"}
+,{"stream_name":"stdout","time":645.340641085,"data":"[2026-10-06T23:04:08] cached last-block inputs for 2397 photos in 115.0 s; shapes [(392, 518)]; GPU memory used 6.46 GB\n"}
+,{"stream_name":"stdout","time":645.340646535,"data":"[2026-10-06T23:04:09] equality check: largest relative difference between full model and cached path = 1.01e-03\n"}
+,{"stream_name":"stdout","time":645.340651356,"data":"[2026-10-06T23:04:22] head_only: 4.41 s per pass over 2062 photos; peak GPU memory 7.3 GB\n"}
+,{"stream_name":"stdout","time":645.340655938,"data":"[2026-10-06T23:05:01] last_block: 13.06 s per pass over 2062 photos; peak GPU memory 8.4 GB\n"}
+,{"stream_name":"stdout","time":645.340660902,"data":"[2026-10-06T23:05:01] run finished: status=measured, wall_seconds=195.41\n"}
+,{"stream_name":"stdout","time":645.340667578,"data":"\n"}
+,{"stream_name":"stdout","time":7424.88206945,"data":"[19:28:06] gpu1 finished with exit code 0 after 6993 s\n"}
+,{"stream_name":"stdout","time":7424.882463976,"data":"[2026-10-06T23:01:56] run 20261006-230135_A05_confirm_features started\n"}
+,{"stream_name":"stdout","time":7424.882481031,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":7424.882486872,"data":"[2026-10-06T23:04:19] features hflip_whole: 2397 images in 124.7 s\n"}
+,{"stream_name":"stdout","time":7424.882492009,"data":"[2026-10-06T23:12:48] features hflip_tiles_3x3: 21573 images in 509.0 s\n"}
+,{"stream_name":"stdout","time":7424.88249702,"data":"[2026-10-06T23:21:12] features hflip_tiles_5x5: 59925 images in 503.4 s\n"}
+,{"stream_name":"stdout","time":7424.882501102,"data":"[2026-10-06T23:23:35] features vflip_whole: 2397 images in 141.3 s\n"}
+,{"stream_name":"stdout","time":7424.882506224,"data":"[2026-10-06T23:32:09] features vflip_tiles_3x3: 21573 images in 514.3 s\n"}
+,{"stream_name":"stdout","time":7424.882511473,"data":"[2026-10-06T23:40:33] features vflip_tiles_5x5: 59925 images in 504.1 s\n"}
+,{"stream_name":"stdout","time":7424.882516096,"data":"[2026-10-06T23:42:56] features rot90_whole: 2397 images in 140.7 s\n"}
+,{"stream_name":"stdout","time":7424.882526715,"data":"[2026-10-06T23:51:31] features rot90_tiles_3x3: 21573 images in 514.7 s\n"}
+,{"stream_name":"stdout","time":7424.88253182,"data":"[2026-10-06T23:59:56] features rot90_tiles_5x5: 59925 images in 504.2 s\n"}
+,{"stream_name":"stdout","time":7424.882536175,"data":"[2026-10-07T00:02:18] features rot270_whole: 2397 images in 140.7 s\n"}
+,{"stream_name":"stdout","time":7424.8825409,"data":"[2026-10-07T00:10:51] features rot270_tiles_3x3: 21573 images in 512.7 s\n"}
+,{"stream_name":"stdout","time":7424.882545511,"data":"[2026-10-07T00:19:16] features rot270_tiles_5x5: 59925 images in 504.9 s\n"}
+,{"stream_name":"stdout","time":7424.882550563,"data":"[2026-10-07T00:21:40] features bright_x0.8_whole: 2397 images in 140.8 s\n"}
+,{"stream_name":"stdout","time":7424.882555156,"data":"[2026-10-07T00:30:16] features bright_x0.8_tiles_3x3: 21573 images in 516.3 s\n"}
+,{"stream_name":"stdout","time":7424.882560012,"data":"[2026-10-07T00:38:42] features bright_x0.8_tiles_5x5: 59925 images in 505.5 s\n"}
+,{"stream_name":"stdout","time":7424.882580422,"data":"[2026-10-07T00:41:06] features bright_x1.25_whole: 2397 images in 140.9 s\n"}
+,{"stream_name":"stdout","time":7424.882584328,"data":"[2026-10-07T00:49:42] features bright_x1.25_tiles_3x3: 21573 images in 516.1 s\n"}
+,{"stream_name":"stdout","time":7424.882588396,"data":"[2026-10-07T00:58:04] features bright_x1.25_tiles_5x5: 59925 images in 501.5 s\n"}
+,{"stream_name":"stdout","time":7424.88259294,"data":"[2026-10-07T00:58:04] run finished: status=measured, wall_seconds=6989.22\n"}
+,{"stream_name":"stdout","time":7424.882596954,"data":"\n"}
+,{"stream_name":"stderr","time":7427.389019798,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7427.389050667,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7427.688753325,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7427.688774924,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7428.574943727,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7429.708277057,"data":"[NbConvertApp] Writing 300762 bytes to __results__.html\n"}
+]

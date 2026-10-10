@@ -1,0 +1,83 @@
+[2026-10-07T14:04:58] run 20261007-140433_G01_model_and_package_versions started
+[2026-10-07T14:05:19] {
+ "packages": {
+  "numpy": "2.1.3",
+  "pandas": "2.3.3",
+  "scipy": "1.16.3",
+  "sklearn": "1.6.1",
+  "skimage": "0.25.2",
+  "torch": "2.11.0+cpu",
+  "torchvision": "0.26.0+cpu",
+  "timm": "1.0.30",
+  "PIL": "12.3.0",
+  "stable_baselines3": "not installed (ModuleNotFoundError)",
+  "gymnasium": "1.2.0",
+  "instanseg": "no __version__"
+ },
+ "model_files": {
+  "vit_large_patch14_dinov2.lvd142m": {
+   "pretrained_cfg": {
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth",
+    "hf_hub_id": "timm/vit_large_patch14_dinov2.lvd142m",
+    "architecture": "vit_large_patch14_dinov2",
+    "tag": "lvd142m",
+    "custom_load": "False",
+    "input_size": "(3, 518, 518)",
+    "fixed_input_size": "True",
+    "interpolation": "bicubic",
+    "crop_pct": "1.0",
+    "crop_mode": "center",
+    "mean": "(0.485, 0.456, 0.406)",
+    "std": "(0.229, 0.224, 0.225)",
+    "num_classes": "0",
+    "pool_size": "None",
+    "first_conv": "patch_embed.proj",
+    "classifier": "head",
+    "license": "apache-2.0"
+   },
+   "files": [
+    {
+     "repo": "timm/vit_large_patch14_dinov2.lvd142m",
+     "commit": "4741e1cafbf45415e77074bb0cb42dba76c8684a",
+     "file": "model.safetensors",
+     "sha256": "0424a5d1b515278cba3c6640ccbeaacc41de59d3a93df0dd5e494285eea2b355"
+    }
+   ]
+  },
+  "instanseg_single_channel_nuclei": [
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/rdf.yaml",
+    "sha256": "37e38e3ddd9d35a0b28270fe0e45590a701bdaa5c0732fdbd79b54abda9cad61"
+   },
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/cover.png",
+    "sha256": "2e42afdf21f135cbb96d6e7ba3bfd5ff4de37cc45287e558a320a85db2b7c5ac"
+   },
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/instanseg.pt",
+    "sha256": "118066231fb7753ffb048bcd2164186397bcc5c8fc4ad7f826efe928b515794c"
+   },
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/instanseg_postprocess.ijm",
+    "sha256": "0886f52737326dba0c6d53528909d746e75e0dce7a0cb41e855a648f8133ba88"
+   },
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/test-output_instance_segmentation.npy",
+    "sha256": "f4e154d1bc3c3605945e6fe736ecd6e66e0708e74168bf0b6ab787108e59c1ab"
+   },
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/instanseg_preprocess.ijm",
+    "sha256": "53376aec6738fb19eab1ace9308c383ee04e46af2a3acf7e70b5862919dca86c"
+   },
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/test-input.npy",
+    "sha256": "a68dc9bf2a3c4fb18804757bd13772777792959e8ab690882f2711f4d399cc24"
+   },
+   {
+    "file": "bioimageio_models/single_channel_nuclei/0.1.2/single_channel_nuclei_README.md",
+    "sha256": "f7e133872a066f75bc67b2a8ec86bcf040aa725d5a231566d815721ef3c27ad3"
+   }
+  ]
+ }
+}
+[2026-10-07T14:05:19] run finished: status=measured, wall_seconds=46.28

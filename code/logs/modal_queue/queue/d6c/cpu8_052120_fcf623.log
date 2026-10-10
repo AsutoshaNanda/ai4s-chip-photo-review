@@ -1,0 +1,13 @@
+[2026-10-06 05:21:21 UTC] lane cpu8_052120_fcf623: 1 jobs; used before launch $9.50; cap $20.0; job limit 60 min
+[2026-10-06 05:21:22 UTC] START scripts/c03_inspect.py
+[2026-10-06 05:21:34 UTC] CRASHED (exit 1) -> moving to next job: scripts/c03_inspect.py | 0.2 min | session total about $12.65
+[2026-10-06T10:51:32] run 20261006-105123_C03_allen_inspect started
+Traceback (most recent call last):
+  File "/root/code/scripts/c03_inspect.py", line 55, in <module>
+    main()
+  File "/root/code/scripts/c03_inspect.py", line 27, in main
+    "axes": c.axes, "shape": str(c.shape), "dtype": str(c.dtype)}
+            ^^^^^^
+AttributeError: 'CziFile' object has no attribute 'axes'
+
+[2026-10-06 05:21:35 UTC] lane finished; session total about $12.65

@@ -1,0 +1,5 @@
+[2026-10-06T01:38:31] run 20261006-013826_A08_calibration started
+[2026-10-06T01:38:33] A08 calibration=none | vit_large_patch14_dinov2@518 AUC 0.843 [0.803, 0.884] logloss 0.486 | within format {'L/2056x1542': 0.811, 'RGB/2048x1536': 0.83, 'RGB/640x480': 0.741}
+[2026-10-06T01:38:35] A08 calibration=platt | vit_large_patch14_dinov2@518 AUC 0.829 [0.784, 0.877] logloss 0.505 | within format {'L/2056x1542': 0.79, 'RGB/2048x1536': 0.819, 'RGB/640x480': 0.751}
+[2026-10-06T01:38:36] A08 calibration=isotonic | vit_large_patch14_dinov2@518 AUC 0.825 [0.78, 0.873] logloss 0.532 | within format {'L/2056x1542': 0.786, 'RGB/2048x1536': 0.81, 'RGB/640x480': 0.724}
+[2026-10-06T01:38:36] run finished: status=measured, wall_seconds=10.35

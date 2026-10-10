@@ -1,0 +1,35 @@
+{
+  "target_method": "B02_best_count",
+  "area_left_error": {
+    "blur_warning": 0.575731343283582,
+    "disagree_B01_best_count": 0.5038407960199005,
+    "disagree_B03_best_count": 0.41032835820895525,
+    "brightness_warning": 0.44663681592039806,
+    "perfect_order_ceiling": 0.23211940298507464,
+    "random_mean": 0.49964489552238794,
+    "random_p2.5": 0.4013793532338309,
+    "random_p97.5": 0.5979161691542287
+  },
+  "area_minus_random_95": {
+    "blur_warning": [
+      -0.020263121267495642,
+      0.1842484299516908
+    ],
+    "disagree_B01_best_count": [
+      -0.051097641626785255,
+      0.08333888538735297
+    ],
+    "disagree_B03_best_count": [
+      -0.172988043403289,
+      -0.0016961669881725826
+    ],
+    "brightness_warning": [
+      -0.12228366683837893,
+      0.016228889974467097
+    ],
+    "perfect_order_ceiling": [
+      -0.3199098346050867,
+      -0.21275225508387632
+    ]
+  }
+}

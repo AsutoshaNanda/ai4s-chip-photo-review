@@ -1,0 +1,214 @@
+{
+  "FF+PI|seed-1|TRAIN_range": {
+    "d_err_mean": {
+      "mean": 1.3218805730450336,
+      "median": 1.223956555424703,
+      "p95": 2.3354651493539285,
+      "worst": 3.231426839939932
+    },
+    "d_err_settled_mean": {
+      "mean": 0.6837768904215263,
+      "median": 0.6581545996321234,
+      "p95": 0.9970381357007725,
+      "worst": 1.3187906736048738
+    },
+    "rate_err_mean": {
+      "mean": 0.17677340838691485,
+      "median": 0.15799117089670858,
+      "p95": 0.31178044008309835,
+      "worst": 0.43898541701480903
+    },
+    "violation_share": {
+      "mean": 0.11733333333333335,
+      "median": 0.023333333333333334,
+      "p95": 0.4289999999999999,
+      "worst": 0.55
+    },
+    "return": {
+      "mean": -999.3447495983849,
+      "median": -745.1760497764385,
+      "p95": -335.6495342087556,
+      "worst": -2808.077537222465
+    },
+    "episodes": 50
+  },
+  "FF+PI|seed-1|UNTOUCHED": {
+    "d_err_mean": {
+      "mean": 1.950217253803308,
+      "median": 1.7791238624012897,
+      "p95": 3.145787712085277,
+      "worst": 4.141043431570223
+    },
+    "d_err_settled_mean": {
+      "mean": 1.1204079602760824,
+      "median": 1.036229373386985,
+      "p95": 1.8720949381296208,
+      "worst": 2.146740662190577
+    },
+    "rate_err_mean": {
+      "mean": 0.26274415958817415,
+      "median": 0.23998926389222214,
+      "p95": 0.48201005005037956,
+      "worst": 0.5796346272509645
+    },
+    "violation_share": {
+      "mean": 0.07233333333333333,
+      "median": 0.023333333333333334,
+      "p95": 0.2703333333333333,
+      "worst": 0.4266666666666667
+    },
+    "return": {
+      "mean": -1185.494142532022,
+      "median": -979.2511316555273,
+      "p95": -482.21097591464223,
+      "worst": -2796.5128335393483
+    },
+    "episodes": 50
+  },
+  "PI|seed-1|TRAIN_range": {
+    "d_err_mean": {
+      "mean": 1.4374247344047126,
+      "median": 1.3852831922761863,
+      "p95": 1.9659651533172087,
+      "worst": 2.3488586446733257
+    },
+    "d_err_settled_mean": {
+      "mean": 1.0184401536305117,
+      "median": 1.0344920511768803,
+      "p95": 1.2628827459573342,
+      "worst": 1.369700797132402
+    },
+    "rate_err_mean": {
+      "mean": 0.16712820633411596,
+      "median": 0.1597446121567655,
+      "p95": 0.2510458367531192,
+      "worst": 0.30280344916924273
+    },
+    "violation_share": {
+      "mean": 0.05260000000000001,
+      "median": 0.011666666666666667,
+      "p95": 0.25366666666666665,
+      "worst": 0.27666666666666667
+    },
+    "return": {
+      "mean": -804.0159048323196,
+      "median": -720.6706562150284,
+      "p95": -431.21360030164914,
+      "worst": -1733.4268560086844
+    },
+    "episodes": 50
+  },
+  "PI|seed-1|UNTOUCHED": {
+    "d_err_mean": {
+      "mean": 2.095892224105888,
+      "median": 2.012540326221375,
+      "p95": 2.7040335663169883,
+      "worst": 3.9373840181480584
+    },
+    "d_err_settled_mean": {
+      "mean": 1.4976758891727884,
+      "median": 1.406186103127073,
+      "p95": 2.1516084037754855,
+      "worst": 2.7083110967712205
+    },
+    "rate_err_mean": {
+      "mean": 0.2696819634016973,
+      "median": 0.25024080239689483,
+      "p95": 0.4074352715647856,
+      "worst": 0.49185031916761573
+    },
+    "violation_share": {
+      "mean": 0.04866666666666667,
+      "median": 0.02666666666666667,
+      "p95": 0.18249999999999977,
+      "worst": 0.38
+    },
+    "return": {
+      "mean": -1173.2762914608772,
+      "median": -1118.9333068110657,
+      "p95": -867.898819153048,
+      "worst": -2108.6123724734316
+    },
+    "episodes": 50
+  },
+  "paired|TRAIN_range|PPO_mean_over_seeds_minus_PI": {
+    "d_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "rate_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "violation_share": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    }
+  },
+  "paired|TRAIN_range|PPO_mean_over_seeds_minus_FF+PI": {
+    "d_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "rate_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "violation_share": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    }
+  },
+  "paired|UNTOUCHED|PPO_mean_over_seeds_minus_PI": {
+    "d_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "rate_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "violation_share": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    }
+  },
+  "paired|UNTOUCHED|PPO_mean_over_seeds_minus_FF+PI": {
+    "d_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "rate_err_mean": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    },
+    "violation_share": {
+      "mean": NaN,
+      "median": NaN,
+      "share_episodes_ppo_better": NaN,
+      "worst_for_ppo": NaN
+    }
+  }
+}

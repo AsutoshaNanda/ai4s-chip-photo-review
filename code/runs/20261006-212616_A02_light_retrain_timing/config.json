@@ -1,0 +1,18 @@
+{
+  "model": "vit_large_patch14_dinov2.lvd142m@518",
+  "trained": "last block + final norm + output layer (light retraining); head_only control",
+  "start_lrs": [
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001
+  ],
+  "time_guard_seconds": 1800,
+  "start_max_passes": 30,
+  "inner_splits": 1,
+  "batch": 32,
+  "optimizer": "AdamW, weight decay 0",
+  "precision": "bfloat16",
+  "seed": 20261005,
+  "photos": "practice only"
+}

@@ -1,0 +1,26 @@
+=== scripts/b07_outside.py --posts v2 --seed 1 --skip_b01
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-07T01:31:01] run 20261007-013013_B07_bbbc038_outside_posts_v2_seed1 started
+[2026-10-07T01:31:01] 627 BBBC038 images after removing 43 copies of BBBC039 photos (gap 0.9999 -> 0.8352)
+[2026-10-07T01:54:45] B02 fold 0 done
+[2026-10-07T02:17:49] B02 fold 1 done
+[2026-10-07T02:34:12] B02 fold 2 done
+[2026-10-07T02:44:40] B02 fold 3 done
+[2026-10-07T02:55:10] B02 fold 4 done
+[2026-10-07T03:04:52] B03 fold 0 done
+[2026-10-07T03:14:34] B03 fold 1 done
+[2026-10-07T03:24:09] B03 fold 2 done
+[2026-10-07T03:33:42] B03 fold 3 done
+[2026-10-07T03:43:16] B03 fold 4 done
+[2026-10-07T03:43:18] B02_best_count|grey          images  519 | count MAE   26.85 (sd over folds 18.29) bias  +20.66 | F1@0.50 0.561 F1@0.75 0.385
+[2026-10-07T03:43:18] B02_best_count|colour        images  108 | count MAE   51.44 (sd over folds 15.48) bias  +42.67 | F1@0.50 0.004 F1@0.75 0.000
+[2026-10-07T03:43:18] B02_best_outline|grey        images  519 | count MAE   13.75 (sd over folds 3.17) bias   +1.46 | F1@0.50 0.653 F1@0.75 0.501
+[2026-10-07T03:43:19] B02_best_outline|colour      images  108 | count MAE   33.14 (sd over folds 6.29) bias   +5.21 | F1@0.50 0.008 F1@0.75 0.000
+[2026-10-07T03:43:19] B03_best_count|grey          images  519 | count MAE   18.23 (sd over folds 4.22) bias  +14.50 | F1@0.50 0.593 F1@0.75 0.345
+[2026-10-07T03:43:19] B03_best_count|colour        images  108 | count MAE   43.94 (sd over folds 10.67) bias  +37.88 | F1@0.50 0.004 F1@0.75 0.000
+[2026-10-07T03:43:19] B03_best_outline|grey        images  519 | count MAE   12.23 (sd over folds 3.90) bias   +2.89 | F1@0.50 0.680 F1@0.75 0.515
+[2026-10-07T03:43:19] B03_best_outline|colour      images  108 | count MAE   28.26 (sd over folds 6.96) bias   +4.38 | F1@0.50 0.007 F1@0.75 0.000
+[2026-10-07T03:43:19] run finished: status=measured, wall_seconds=7985.87

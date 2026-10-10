@@ -1,0 +1,26 @@
+{
+  "exp": "B02",
+  "seed": 0,
+  "variant": "_noisetrain",
+  "stress": {
+    "brightness": [
+      0.5,
+      0.75,
+      1.25,
+      1.5
+    ],
+    "noise_sd": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "blur_sigma": [
+      1.0,
+      2.0,
+      3.0
+    ]
+  },
+  "settings": "v2 best_count and best_outline per fold",
+  "models": {},
+  "settings_source": {}
+}

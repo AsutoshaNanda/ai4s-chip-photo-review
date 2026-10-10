@@ -1,0 +1,29 @@
+{
+  "lock": {
+    "final_test_n": 50,
+    "practice_n": 150,
+    "final_test_ids_sha256": "cff6c33a260121fb6f4067da26912ed125fefadc36014067fc80afaaee0a2765"
+  },
+  "fold_sizes": {
+    "0": 33,
+    "1": 33,
+    "2": 21,
+    "3": 39,
+    "4": 24
+  },
+  "fold_objects": {
+    "0": 3876,
+    "1": 4037,
+    "2": 2596,
+    "3": 4723,
+    "4": 2663
+  },
+  "plates_per_fold": {
+    "0": 4,
+    "1": 4,
+    "2": 4,
+    "3": 4,
+    "4": 4
+  },
+  "final_test_objects": 5720
+}

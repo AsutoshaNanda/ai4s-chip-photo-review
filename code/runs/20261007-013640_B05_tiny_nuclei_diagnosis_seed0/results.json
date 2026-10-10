@@ -1,0 +1,184 @@
+{
+  "stages@0.5": {
+    "B02_best_count": {
+      "clean-up/outline: kept but overlap below level": 249,
+      "clean-up: merged with a neighbour": 612,
+      "clean-up: removed by minimum-size rule": 51,
+      "found": 777,
+      "prediction: probability never reaches threshold": 125
+    },
+    "B02_best_outline": {
+      "clean-up/outline: kept but overlap below level": 68,
+      "clean-up: merged with a neighbour": 688,
+      "clean-up: removed by minimum-size rule": 409,
+      "found": 589,
+      "prediction: probability never reaches threshold": 60
+    },
+    "B03_best_count": {
+      "clean-up/outline: kept but overlap below level": 266,
+      "clean-up: merged with a neighbour": 190,
+      "clean-up: removed by minimum-size rule": 0,
+      "found": 785,
+      "prediction: probability never reaches threshold": 573
+    },
+    "B03_best_outline": {
+      "clean-up/outline: kept but overlap below level": 89,
+      "clean-up: merged with a neighbour": 367,
+      "clean-up: removed by minimum-size rule": 326,
+      "found": 676,
+      "prediction: probability never reaches threshold": 356
+    }
+  },
+  "signals@0.5": {
+    "B02_best_count|found=False": {
+      "prepared_contrast": 0.14553,
+      "raw_contrast": 164.64457,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.98929,
+      "area": 23.0
+    },
+    "B02_best_count|found=True": {
+      "prepared_contrast": 0.22825,
+      "raw_contrast": 249.16503,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.99995,
+      "area": 89.0
+    },
+    "B02_best_outline|found=False": {
+      "prepared_contrast": 0.14992,
+      "raw_contrast": 167.98846,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.98918,
+      "area": 22.0
+    },
+    "B02_best_outline|found=True": {
+      "prepared_contrast": 0.24677,
+      "raw_contrast": 264.19676,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.99998,
+      "area": 102.0
+    },
+    "B03_best_count|found=False": {
+      "prepared_contrast": 0.13602,
+      "raw_contrast": 152.77298,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.87387,
+      "area": 21.0
+    },
+    "B03_best_count|found=True": {
+      "prepared_contrast": 0.25066,
+      "raw_contrast": 264.3977,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.9994,
+      "area": 95.0
+    },
+    "B03_best_outline|found=False": {
+      "prepared_contrast": 0.14334,
+      "raw_contrast": 162.09538,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.89378,
+      "area": 21.0
+    },
+    "B03_best_outline|found=True": {
+      "prepared_contrast": 0.25308,
+      "raw_contrast": 264.57065,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.9996,
+      "area": 102.0
+    }
+  },
+  "stages@0.75": {
+    "B02_best_count": {
+      "clean-up/outline: kept but overlap below level": 453,
+      "clean-up: merged with a neighbour": 625,
+      "clean-up: removed by minimum-size rule": 51,
+      "found": 560,
+      "prediction: probability never reaches threshold": 125
+    },
+    "B02_best_outline": {
+      "clean-up/outline: kept but overlap below level": 150,
+      "clean-up: merged with a neighbour": 702,
+      "clean-up: removed by minimum-size rule": 409,
+      "found": 493,
+      "prediction: probability never reaches threshold": 60
+    },
+    "B03_best_count": {
+      "clean-up/outline: kept but overlap below level": 543,
+      "clean-up: merged with a neighbour": 224,
+      "clean-up: removed by minimum-size rule": 0,
+      "found": 474,
+      "prediction: probability never reaches threshold": 573
+    },
+    "B03_best_outline": {
+      "clean-up/outline: kept but overlap below level": 208,
+      "clean-up: merged with a neighbour": 398,
+      "clean-up: removed by minimum-size rule": 326,
+      "found": 526,
+      "prediction: probability never reaches threshold": 356
+    }
+  },
+  "signals@0.75": {
+    "B02_best_count|found=False": {
+      "prepared_contrast": 0.1488,
+      "raw_contrast": 170.92045,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.99274,
+      "area": 24.0
+    },
+    "B02_best_count|found=True": {
+      "prepared_contrast": 0.24722,
+      "raw_contrast": 261.77682,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.99998,
+      "area": 101.0
+    },
+    "B02_best_outline|found=False": {
+      "prepared_contrast": 0.15228,
+      "raw_contrast": 172.90385,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.99263,
+      "area": 24.0
+    },
+    "B02_best_outline|found=True": {
+      "prepared_contrast": 0.2569,
+      "raw_contrast": 269.51405,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.99999,
+      "area": 105.0
+    },
+    "B03_best_count|found=False": {
+      "prepared_contrast": 0.15021,
+      "raw_contrast": 170.88627,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.93537,
+      "area": 25.0
+    },
+    "B03_best_count|found=True": {
+      "prepared_contrast": 0.26691,
+      "raw_contrast": 274.23436,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.9998,
+      "area": 109.0
+    },
+    "B03_best_outline|found=False": {
+      "prepared_contrast": 0.14837,
+      "raw_contrast": 167.06667,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.92674,
+      "area": 24.0
+    },
+    "B03_best_outline|found=True": {
+      "prepared_contrast": 0.26268,
+      "raw_contrast": 277.64816,
+      "share_clipped_to_0": 0.0,
+      "max_prob_inside": 0.99976,
+      "area": 105.0
+    }
+  },
+  "small_nuclei_total": {
+    "B02_best_count": 1814,
+    "B02_best_outline": 1814,
+    "B03_best_count": 1814,
+    "B03_best_outline": 1814
+  }
+}

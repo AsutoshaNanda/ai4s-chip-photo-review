@@ -1,0 +1,1 @@
+A U C measures ranking quality. It does not mean 85 percent accuracy.

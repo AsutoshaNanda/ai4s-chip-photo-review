@@ -1,0 +1,2 @@
+=== scripts/chip_final_checks.py
+/usr/bin/python3: can't open file '/kaggle/working/code/scripts/chip_final_checks.py': [Errno 2] No such file or directory

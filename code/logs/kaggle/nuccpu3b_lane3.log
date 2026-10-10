@@ -1,0 +1,45 @@
+=== scripts/chip_final_checks.py
+[2026-10-07T11:53:07] run 20261007-115244_A08_reliability_review_and_overlap started
+[2026-10-07T11:53:08] light-retraining full run not available yet: candidates here exclude it
+[2026-10-07T11:53:08] A08 fixed_2x2                    raw ECE(10 bins) 0.022 brier 0.149 logloss 0.451 | Platt logloss 0.468 ECE 0.023 | isotonic logloss 0.477 ECE 0.026
+[2026-10-07T11:53:08] A08 fixed_3x3                    raw ECE(10 bins) 0.025 brier 0.141 logloss 0.437 | Platt logloss 0.449 ECE 0.023 | isotonic logloss 0.471 ECE 0.033
+[2026-10-07T11:53:08] A08 fixed_4x4                    raw ECE(10 bins) 0.024 brier 0.141 logloss 0.436 | Platt logloss 0.450 ECE 0.027 | isotonic logloss 0.465 ECE 0.024
+[2026-10-07T11:53:08] A08 fixed_5x5                    raw ECE(10 bins) 0.019 brier 0.140 logloss 0.434 | Platt logloss 0.448 ECE 0.016 | isotonic logloss 0.460 ECE 0.028
+[2026-10-07T11:53:09] A08 fixed_6x6                    raw ECE(10 bins) 0.033 brier 0.141 logloss 0.434 | Platt logloss 0.446 ECE 0.020 | isotonic logloss 0.455 ECE 0.030
+[2026-10-07T11:53:09] A08 formatbal_fixed_3x3          raw ECE(10 bins) 0.030 brier 0.144 logloss 0.443 | Platt logloss 0.453 ECE 0.024 | isotonic logloss 0.471 ECE 0.036
+[2026-10-07T11:53:09] A08 formatbal_fixed_5x5          raw ECE(10 bins) 0.025 brier 0.142 logloss 0.443 | Platt logloss 0.457 ECE 0.031 | isotonic logloss 0.467 ECE 0.038
+[2026-10-07T11:53:09] A08 formatbal_whole              raw ECE(10 bins) 0.027 brier 0.158 logloss 0.481 | Platt logloss 0.496 ECE 0.026 | isotonic logloss 0.522 ECE 0.035
+[2026-10-07T11:53:10] A08 sizeaware_2x2                raw ECE(10 bins) 0.017 brier 0.148 logloss 0.449 | Platt logloss 0.465 ECE 0.027 | isotonic logloss 0.474 ECE 0.034
+[2026-10-07T11:53:10] A08 sizeaware_3x3                raw ECE(10 bins) 0.025 brier 0.140 logloss 0.434 | Platt logloss 0.445 ECE 0.020 | isotonic logloss 0.459 ECE 0.026
+[2026-10-07T11:53:10] A08 sizeaware_4x4                raw ECE(10 bins) 0.016 brier 0.139 logloss 0.429 | Platt logloss 0.442 ECE 0.018 | isotonic logloss 0.453 ECE 0.020
+[2026-10-07T11:53:10] A08 sizeaware_5x5                raw ECE(10 bins) 0.020 brier 0.137 logloss 0.427 | Platt logloss 0.441 ECE 0.013 | isotonic logloss 0.454 ECE 0.033
+[2026-10-07T11:53:10] A08 sizeaware_6x6                raw ECE(10 bins) 0.027 brier 0.138 logloss 0.427 | Platt logloss 0.439 ECE 0.019 | isotonic logloss 0.454 ECE 0.037
+[2026-10-07T11:53:11] A08 smallwhole_2x2               raw ECE(10 bins) 0.024 brier 0.149 logloss 0.451 | Platt logloss 0.469 ECE 0.023 | isotonic logloss 0.478 ECE 0.033
+[2026-10-07T11:53:11] A08 smallwhole_3x3               raw ECE(10 bins) 0.023 brier 0.140 logloss 0.434 | Platt logloss 0.448 ECE 0.023 | isotonic logloss 0.469 ECE 0.037
+[2026-10-07T11:53:11] A08 smallwhole_4x4               raw ECE(10 bins) 0.025 brier 0.141 logloss 0.435 | Platt logloss 0.450 ECE 0.030 | isotonic logloss 0.465 ECE 0.026
+[2026-10-07T11:53:11] A08 smallwhole_5x5               raw ECE(10 bins) 0.019 brier 0.139 logloss 0.432 | Platt logloss 0.446 ECE 0.018 | isotonic logloss 0.459 ECE 0.028
+[2026-10-07T11:53:12] A08 smallwhole_6x6               raw ECE(10 bins) 0.027 brier 0.139 logloss 0.429 | Platt logloss 0.441 ECE 0.022 | isotonic logloss 0.451 ECE 0.041
+[2026-10-07T11:53:12] A08 whole                        raw ECE(10 bins) 0.031 brier 0.160 logloss 0.486 | Platt logloss 0.505 ECE 0.027 | isotonic logloss 0.532 ECE 0.065
+[2026-10-07T11:53:12] A08 frozen_LR_reference          raw ECE(10 bins) 0.031 brier 0.160 logloss 0.486 | Platt logloss 0.505 ECE 0.027 | isotonic logloss 0.532 ECE 0.066
+[2026-10-07T11:53:15] A09 fixed_2x2                    review area 0.704; minus simple photo-stats order 95% [0.049, 0.15]
+[2026-10-07T11:53:19] A09 fixed_3x3                    review area 0.710; minus simple photo-stats order 95% [0.055, 0.154]
+[2026-10-07T11:53:22] A09 fixed_4x4                    review area 0.709; minus simple photo-stats order 95% [0.057, 0.151]
+[2026-10-07T11:53:25] A09 fixed_5x5                    review area 0.711; minus simple photo-stats order 95% [0.057, 0.153]
+[2026-10-07T11:53:29] A09 fixed_6x6                    review area 0.710; minus simple photo-stats order 95% [0.056, 0.151]
+[2026-10-07T11:53:33] A09 formatbal_fixed_3x3          review area 0.708; minus simple photo-stats order 95% [0.053, 0.152]
+[2026-10-07T11:53:36] A09 formatbal_fixed_5x5          review area 0.709; minus simple photo-stats order 95% [0.054, 0.151]
+[2026-10-07T11:53:40] A09 formatbal_whole              review area 0.693; minus simple photo-stats order 95% [0.04, 0.136]
+[2026-10-07T11:53:43] A09 sizeaware_2x2                review area 0.705; minus simple photo-stats order 95% [0.049, 0.152]
+[2026-10-07T11:53:46] A09 sizeaware_3x3                review area 0.711; minus simple photo-stats order 95% [0.056, 0.156]
+[2026-10-07T11:53:50] A09 sizeaware_4x4                review area 0.712; minus simple photo-stats order 95% [0.06, 0.153]
+[2026-10-07T11:53:54] A09 sizeaware_5x5                review area 0.713; minus simple photo-stats order 95% [0.059, 0.156]
+[2026-10-07T11:53:57] A09 sizeaware_6x6                review area 0.713; minus simple photo-stats order 95% [0.06, 0.156]
+[2026-10-07T11:54:00] A09 smallwhole_2x2               review area 0.704; minus simple photo-stats order 95% [0.049, 0.151]
+[2026-10-07T11:54:04] A09 smallwhole_3x3               review area 0.711; minus simple photo-stats order 95% [0.056, 0.156]
+[2026-10-07T11:54:07] A09 smallwhole_4x4               review area 0.710; minus simple photo-stats order 95% [0.058, 0.151]
+[2026-10-07T11:54:11] A09 smallwhole_5x5               review area 0.712; minus simple photo-stats order 95% [0.057, 0.154]
+[2026-10-07T11:54:14] A09 smallwhole_6x6               review area 0.712; minus simple photo-stats order 95% [0.059, 0.153]
+[2026-10-07T11:54:18] A09 whole                        review area 0.692; minus simple photo-stats order 95% [0.036, 0.137]
+[2026-10-07T11:54:22] A09 frozen_LR_reference          review area 0.692; minus simple photo-stats order 95% [0.036, 0.137]
+[2026-10-07T11:54:22] A09 random order review area 0.500; simple photo-stats 0.609
+[2026-10-07T11:54:28] run finished: status=measured, wall_seconds=104.66

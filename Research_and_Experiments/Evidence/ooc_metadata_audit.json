@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-26",
+  "file": "OOC_datasheet.xlsx",
+  "sheet": "Main",
+  "worksheet_rows_including_header": 3119,
+  "nonempty_image_id_rows": 3072,
+  "unique_image_ids": 3072,
+  "duplicate_ids": {},
+  "cell_types": {
+    "HPMEC": 1462,
+    "HSAEC": 244,
+    "CACO": 346,
+    "A549": 775,
+    "HUVEC": 107,
+    "NHBE": 138
+  },
+  "decisions": {
+    "1": 1727,
+    "2": 1345
+  },
+  "columns": [
+    "imageID",
+    "cell type",
+    "seeding density, cells/ml",
+    "time after seeding, h",
+    "day",
+    "Decision 1/2 (good/bad)",
+    "flow rate"
+  ],
+  "missing_by_column": {
+    "0": 0,
+    "1": 0,
+    "2": 344,
+    "3": 2244,
+    "4": 0,
+    "5": 0,
+    "6": 859
+  },
+  "first_10_id_prefix_counts": {
+    "230320": 229,
+    "230525": 218,
+    "230529": 216,
+    "230425": 215,
+    "230405": 138,
+    "230419": 124,
+    "230523": 111,
+    "230424": 108,
+    "230524": 108,
+    "230109": 107
+  },
+  "note": "Identifier prefixes are unverified proxy groups, not confirmed chip or run IDs.",
+  "archive_file_count": 3072,
+  "archive_folder_count": 165,
+  "file_extensions": {
+    ".png": 3072
+  },
+  "published_split_counts": {
+    "test": 656,
+    "train": 2130,
+    "val": 286
+  },
+  "metadata_ids_missing_in_archive": [],
+  "archive_ids_missing_in_metadata": [],
+  "repeated_archive_image_ids": {},
+  "folder_label_metadata_mismatches": [],
+  "crc32_and_size_duplicate_candidate_groups": [],
+  "unique_id_prefixes": 59,
+  "id_prefixes_present_in_multiple_splits": 59,
+  "id_prefixes_present_in_all_three_splits": 49,
+  "per_cell_type_and_label": {
+    "A549": {
+      "1": 537,
+      "2": 238
+    },
+    "CACO": {
+      "2": 237,
+      "1": 109
+    },
+    "HPMEC": {
+      "1": 798,
+      "2": 664
+    },
+    "HSAEC": {
+      "1": 163,
+      "2": 81
+    },
+    "HUVEC": {
+      "1": 15,
+      "2": 92
+    },
+    "NHBE": {
+      "1": 105,
+      "2": 33
+    }
+  },
+  "limitations": [
+    "Image pixels not downloaded, opened, or hashed. CRC32 plus size is only a duplicate candidate check.",
+    "Identifier prefixes have not been confirmed as chip or experiment identifiers. Their cross-split overlap is an audit signal, not proof of leakage.",
+    "Published train/val/test labels reconciled with metadata without model fitting or prediction inspection."
+  ],
+  "flow_rate_values": {
+    "None": 859,
+    "2uL/min": 865,
+    "1.66uL/min": 131,
+    "1.71uL/min": 100,
+    "2ul/min": 8,
+    "2.33 uL/min": 109,
+    "2 uL/min": 390,
+    "2.77 uL/min": 38,
+    "1.74 uL/min": 572
+  },
+  "day_values": {
+    "1": 759,
+    "4": 223,
+    "5": 400,
+    "3": 201,
+    "8": 241,
+    "11": 22,
+    "22": 6,
+    "2": 597,
+    "6": 46,
+    "7": 338,
+    "16": 12,
+    "9": 98,
+    "0": 93,
+    "10": 36
+  },
+  "missing_by_column_name": {
+    "imageID": 0,
+    "cell type": 0,
+    "seeding density, cells/ml": 344,
+    "time after seeding, h": 2244,
+    "day": 0,
+    "Decision 1/2 (good/bad)": 0,
+    "flow rate": 859
+  }
+}

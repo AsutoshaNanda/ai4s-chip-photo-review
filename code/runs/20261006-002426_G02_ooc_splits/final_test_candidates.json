@@ -1,0 +1,37 @@
+[
+  {
+    "fold": 0,
+    "n": 675,
+    "share": 0.2197265625,
+    "cell_types_with_both_classes": 6,
+    "cell_types_present": 6
+  },
+  {
+    "fold": 1,
+    "n": 614,
+    "share": 0.19986979166666666,
+    "cell_types_with_both_classes": 6,
+    "cell_types_present": 6
+  },
+  {
+    "fold": 2,
+    "n": 730,
+    "share": 0.23763020833333334,
+    "cell_types_with_both_classes": 5,
+    "cell_types_present": 6
+  },
+  {
+    "fold": 3,
+    "n": 491,
+    "share": 0.15983072916666666,
+    "cell_types_with_both_classes": 3,
+    "cell_types_present": 5
+  },
+  {
+    "fold": 4,
+    "n": 562,
+    "share": 0.18294270833333334,
+    "cell_types_with_both_classes": 4,
+    "cell_types_present": 4
+  }
+]

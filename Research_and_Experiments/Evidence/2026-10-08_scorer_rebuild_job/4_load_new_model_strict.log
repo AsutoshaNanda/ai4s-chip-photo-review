@@ -1,0 +1,9 @@
+$ /tmp/ai4s_f05/venv/bin/python -W error::sklearn.exceptions.InconsistentVersionWarning -c import joblib, sys; m = joblib.load(sys.argv[1]); print(type(m).__name__, 'loaded') /kaggle/working/new_model/model_x01_3x3.joblib
+[exit 0, 2.0 s]
+--- stdout ---
+Pipeline loaded
+
+--- stderr ---
+Invalid -W option ignored: invalid module name: 'sklearn.exceptions'
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+ModuleNotFoundError: No module named 'wrapt'

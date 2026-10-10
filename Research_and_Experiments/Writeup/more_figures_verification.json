@@ -1,0 +1,93 @@
+{
+  "checks": {
+    "A03": [
+      {
+        "method": "Whole photo",
+        "shared_groups_auc": 0.859791014734548,
+        "excluded_groups_auc": 0.7561770347692425
+      },
+      {
+        "method": "Whole + 3\u00d73",
+        "shared_groups_auc": 0.8855634175569643,
+        "excluded_groups_auc": 0.7991936155467197
+      },
+      {
+        "method": "Whole + 5\u00d75",
+        "shared_groups_auc": 0.8751910805099996,
+        "excluded_groups_auc": 0.8120572331118705
+      }
+    ],
+    "F02_error_removed_at_10": 0.36932391523713426,
+    "B06_shared": {
+      "seed0": {
+        "images": 150,
+        "spearman_abs_errors": 0.3698117049256442,
+        "images_both_wrong_same_direction": 83,
+        "share_of_b02_error_in_shared_failures": 0.7810650887573964
+      },
+      "seed1": {
+        "images": 150,
+        "spearman_abs_errors": 0.25581713116123805,
+        "images_both_wrong_same_direction": 76,
+        "share_of_b02_error_in_shared_failures": 0.7053941908713693
+      }
+    },
+    "color_scores_both_seeds": {
+      "seed0": {
+        "B02_best_count|colour": 0.00017089635136289838,
+        "B02_best_outline|colour": 0.00010122738200683285,
+        "B03_best_count|colour": 0.0001262223462215332,
+        "B03_best_outline|colour": 9.95148650329643e-05
+      },
+      "seed1": {
+        "B02_best_count|colour": 0.00013307619713843967,
+        "B02_best_outline|colour": 0.0,
+        "B03_best_count|colour": 0.00029460718171614827,
+        "B03_best_outline|colour": 0.0002877843541854055
+      }
+    },
+    "C02_replicate_mAP": {
+      "raw": 0.00600204678459024,
+      "selected": 0.05877073171623124
+    },
+    "C02_batch_info": {
+      "raw": 0.40356684509931523,
+      "selected": 0.8598273160441184
+    },
+    "C03_exact_count_errors": {
+      "direct": 7.255,
+      "predict_then_measure": 12.09
+    },
+    "R03_harder_means": {
+      "ordinary": 1.3331477101392766,
+      "staged": 1.401211921269714,
+      "nominal_only": 1.5681762001422632
+    },
+    "new_figures": [
+      "09_validation_and_formats.png",
+      "10_review_and_shared_failures.png",
+      "11_outside_nucleus_test.png",
+      "12_b03_outline_examples.png",
+      "13_supporting_route_comparisons.png",
+      "14_rl_training_and_inputs.png"
+    ]
+  },
+  "source_sha256": {
+    "code/runs/20261006-212404_A03_unseen_cell_types_groups_excluded/results.json": "4413afa6f5b408d65bfd95ba514ba16ac8f75e5a0cf8939c920796e01764b330",
+    "code/runs/20261006-212925_X01_small_photos_and_formats/results.json": "e8cd4ab3c4d3733cdba65eb25c5ddd9f495904fcb98468919ccd8a5d8811a41b",
+    "code/runs/20261007-200641_F01_nucleus_final_eval/workload_curve_B02_count.csv": "732efbb7176c595b95e2ec7cd15f56611aa84b56642e6ba922844a65e0eb08ba",
+    "code/runs/20261007-124801_B06_shared_failures/results.json": "2749ccba2bd451af0898602d899d56bf72ed2ec30e242e11b4420bc63a15964d",
+    "code/runs/20261007-012406_B07_bbbc038_outside_posts_v2/results.json": "004717b4b39850e718c4f6d7baf9257809d4ca7a30389cb6af60a3589df43f6e",
+    "code/runs/20261007-013013_B07_bbbc038_outside_posts_v2_seed1/results.json": "c459536a0ca1a69cb38a726a87a4be88083130ac8b5cae1c611797ff2016cf47",
+    "code/runs/20261006-161349_B02_unet_fg_repost_v2/results.json": "5280a8feecb13a40af6cda7213ec777c00c31fd4c250e011b268b9deacdb0c11",
+    "code/runs/20261006-161337_B03_unet_boundary_repost_v2/results.json": "918b4a69cfd9ad3400dea692a9cc9470bf45f7c02b54595a51061116823d2294",
+    "code/runs/20261007-013014_B05_crowding_tiny_nuclei_posts_v2/B05_gallery/B03_best_outline.png": "918c35a3b996024f6cf3c649a548faf547e3df4a8c933a6c5db5fb63b7e9b326",
+    "code/runs/20261006-230650_C02_jump_batch_rescaling_v2_fold2/per_fold.csv": "9fc69f0f14039eee33bc0266806d37b12050443c9b51bff0efc46356b5c8a893",
+    "code/runs/20261006-230651_C02_jump_batch_rescaling_v2_fold1/per_fold.csv": "7334d53cd107ac8de7261417b1e886049199b58086aa3f8c08ac28f68a348432",
+    "code/runs/20261006-230703_C02_jump_batch_rescaling_v2_fold0/per_fold.csv": "b6314a25c241fd07e35c359ed6233e8ae3c20a757845961ee478c28a8d074802",
+    "code/runs/20261006-230708_C02_jump_batch_rescaling_v2_fold3/per_fold.csv": "2d7c5322ed0f593b3f84dbdff4f2904a9de016f5f9b91df766eee2af9ad5fcdd",
+    "code/runs/20261007-003607_C02_jump_batch_rescaling_v2_fold4/per_fold.csv": "6b67f653ce4c60ffcc156e81b0df9c3a488ecc3187242d6b9db96d3d72f4ea91",
+    "code/runs/20261007-142534_C03_dic_to_lamin_v3_inputonly/results.json": "a04a3310644b599f39946e729ac5de66311417d78b721ec7fc294270162c61da",
+    "code/runs/20261007-234732_R02_repaired_evaluation_v2/episodes.csv": "7226afa402413a58f1cde0fcea103e09d86d287a400aa008ccc608eba7d34c1a"
+  }
+}

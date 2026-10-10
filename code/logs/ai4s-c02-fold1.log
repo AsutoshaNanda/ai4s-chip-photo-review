@@ -1,0 +1,35 @@
+[{"stream_name":"stdout","time":2.358822486,"data":"[10:43:35] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":19.290599891,"data":"[2026-10-06T16:13:52] run 20261006-161337_C02_jump_batch_rescaling_fold1 started\n"}
+,{"stream_name":"stdout","time":108.560042038,"data":"[2026-10-06T16:15:22] downloaded profiles 1.82 GB in 89 s\n"}
+,{"stream_name":"stdout","time":112.974277354,"data":"[2026-10-06T16:15:26] 81660 wells, 3636 usable features (of 3636), 12 batches, pert types {'trt': 76050, 'negcon': 3680, 'poscon': 1930}\n"}
+,{"stream_name":"stdout","time":1756.484088478,"data":"[2026-10-06T16:42:50] fold 1 raw                    batch info 0.401 (chance 0.089) | replicate mAP 0.0013 (120 queries)\n"}
+,{"stream_name":"stdout","time":2079.956195337,"data":"[2026-10-06T16:48:13] fold 1 sphering_eps0.0001     batch info 0.988 (chance 0.089) | replicate mAP 0.0280 (120 queries)\n"}
+,{"stream_name":"stdout","time":2403.89935565,"data":"[2026-10-06T16:53:37] fold 1 sphering_eps0.001      batch info 0.979 (chance 0.089) | replicate mAP 0.0350 (120 queries)  \u003c- chosen on training batches\n"}
+,{"stream_name":"stdout","time":2727.650708032,"data":"[2026-10-06T16:59:01] fold 1 sphering_eps0.01       batch info 0.960 (chance 0.089) | replicate mAP 0.0366 (120 queries)\n"}
+,{"stream_name":"stdout","time":3051.726050172,"data":"[2026-10-06T17:04:25] fold 1 sphering_eps0.1        batch info 0.924 (chance 0.089) | replicate mAP 0.0404 (120 queries)\n"}
+,{"stream_name":"stdout","time":3376.522762121,"data":"[2026-10-06T17:09:50] fold 1 sphering_eps1          batch info 0.839 (chance 0.089) | replicate mAP 0.0414 (120 queries)\n"}
+,{"stream_name":"stdout","time":3376.549615461,"data":"[2026-10-06T17:09:50] fold 1: inner choice {0.0001: 0.043732287978291304, 0.001: 0.0712959402922928, 0.01: 0.05161055241015635, 0.1: 0.06313488156823932, 1.0: 0.047964654528220046} -\u003e eps 0.001\n"}
+,{"stream_name":"stdout","time":3376.63241817,"data":"[2026-10-06T17:09:50] C02 summary over the folds run here (held-out batches):\n"}
+,{"stream_name":"stdout","time":3376.63245327,"data":"                batch_info     batch_chance     replicate_mAP    \n"}
+,{"stream_name":"stdout","time":3376.63245923,"data":"                      mean std         mean std          mean std\n"}
+,{"stream_name":"stdout","time":3376.63246439,"data":"method                                                           \n"}
+,{"stream_name":"stdout","time":3376.632468941,"data":"raw                 0.4006 NaN       0.0891 NaN        0.0013 NaN\n"}
+,{"stream_name":"stdout","time":3376.632473541,"data":"sphering_chosen     0.9785 NaN       0.0891 NaN        0.0350 NaN\n"}
+,{"stream_name":"stdout","time":3376.6353314,"data":"[2026-10-06T17:09:50] full curve over eps:\n"}
+,{"stream_name":"stdout","time":3376.63537145,"data":"                    batch_info  replicate_mAP\n"}
+,{"stream_name":"stdout","time":3376.63537703,"data":"method                                       \n"}
+,{"stream_name":"stdout","time":3376.63538123,"data":"raw                     0.4006         0.0013\n"}
+,{"stream_name":"stdout","time":3376.635385361,"data":"sphering_eps0.0001      0.9880         0.0280\n"}
+,{"stream_name":"stdout","time":3376.63538985,"data":"sphering_eps0.001       0.9785         0.0350\n"}
+,{"stream_name":"stdout","time":3376.63539475,"data":"sphering_eps0.01        0.9603         0.0366\n"}
+,{"stream_name":"stdout","time":3376.635398681,"data":"sphering_eps0.1         0.9235         0.0404\n"}
+,{"stream_name":"stdout","time":3376.63540289,"data":"sphering_eps1           0.8386         0.0414\n"}
+,{"stream_name":"stdout","time":3376.64830354,"data":"[2026-10-06T17:09:50] run finished: status=measured, wall_seconds=3372.52\n"}
+,{"stream_name":"stdout","time":3379.222070094,"data":"[11:39:52] job 'scripts/c02_jump.py --fold 1' exit 0 after 3377 s\n"}
+,{"stream_name":"stderr","time":3381.752801937,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3381.752836337,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3382.135792976,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3382.135817076,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3382.957044584,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3384.058054632,"data":"[NbConvertApp] Writing 282064 bytes to __results__.html\n"}
+]

@@ -1,0 +1,2 @@
+[2026-10-06T23:10:06] run 20261006-230950_B06_warning_flags_posts_v2 started
+[2026-10-06T23:10:07] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']

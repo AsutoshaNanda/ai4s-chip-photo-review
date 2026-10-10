@@ -1,0 +1,19 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/theehidddenone/main/ap-1fwYPq3Dwh67e5YfCfwRgW
+✓ Created objects.
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/cloud/modal_queue.py
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/splits
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/src
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/scripts
+├── ✓ Uploaded /Users/puchku-home/Study/Comps/AI4S/code/runs
+├── ✓ Created Function cpu32.
+├── ✓ Created Function cpu8.
+└── ✓ Created Function a100.
+[2026-10-06 05:07:50 UTC] lane a100_050750_a9c6b4: 1 jobs; used before launch $9.50; cap $20.0; job limit 60 min
+[2026-10-06 05:07:51 UTC] START scripts/a_views.py --exp X01 --grids 4,5,6
+[2026-10-06 05:19:07 UTC] OK: scripts/a_views.py --exp X01 --grids 4,5,6 | 11.3 min | session total about $12.33
+
+[2026-10-06 05:19:08 UTC] lane finished; session total about $12.33
+✓ App completed. View run at 
+https://modal.com/apps/theehidddenone/main/ap-1fwYPq3Dwh67e5YfCfwRgW

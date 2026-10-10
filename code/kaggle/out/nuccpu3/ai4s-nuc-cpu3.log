@@ -1,0 +1,100 @@
+[{"stream_name":"stdout","time":17.270243682,"data":"[06:18:59] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":23.462011121,"data":"[06:19:05] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":29.344790393,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 83.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":33.899343981,"data":"[06:19:15] installed scikit-image==0.26.0\n"}
+,{"stream_name":"stdout","time":78.574255236,"data":"[06:20:00] lane0 finished with exit code 1 after 45 s\n"}
+,{"stream_name":"stdout","time":78.574337022,"data":"=== scripts/b_repost.py --exp B02 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":78.574351871,"data":"[2026-10-07T11:49:39] run 20261007-114925_B02_unet_fg_noisetrain_repost_v2 started\n"}
+,{"stream_name":"stdout","time":78.574357643,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":78.574362544,"data":"  File \"/kaggle/working/code/scripts/b_repost.py\", line 108, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":78.574368374,"data":"    main()\n"}
+,{"stream_name":"stdout","time":78.574373104,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":78.574377937,"data":"  File \"/kaggle/working/code/scripts/b_repost.py\", line 68, in main\n"}
+,{"stream_name":"stdout","time":78.574383502,"data":"    assert sorted(fm) == folds, f\"expected fold models {folds}, found {sorted(fm)}\"\n"}
+,{"stream_name":"stdout","time":78.574388564,"data":"           ^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":78.574393183,"data":"AssertionError: expected fold models [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4)], found []\n"}
+,{"stream_name":"stdout","time":78.574397578,"data":"=== scripts/b04_refresh.py --exp B02 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":78.574402214,"data":"[2026-10-07T11:49:53] run 20261007-114950_B04_stress_refresh_B02_noisetrain_seed0 started\n"}
+,{"stream_name":"stdout","time":78.57440588,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":78.574408788,"data":"  File \"/kaggle/working/code/scripts/b04_refresh.py\", line 71, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":78.574412074,"data":"    main()\n"}
+,{"stream_name":"stdout","time":78.574415278,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":78.574418204,"data":"  File \"/kaggle/working/code/scripts/b04_refresh.py\", line 61, in main\n"}
+,{"stream_name":"stdout","time":78.574421353,"data":"    agg = D.groupby([\"setting\", \"stress\", \"level\"]).agg(images=(\"stem\", \"size\"), count_mae=(\"abs_count_error\", \"mean\"),\n"}
+,{"stream_name":"stdout","time":78.574425354,"data":"          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":78.574428413,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/frame.py\", line 9210, in groupby\n"}
+,{"stream_name":"stdout","time":78.574431502,"data":"    return DataFrameGroupBy(\n"}
+,{"stream_name":"stdout","time":78.574434395,"data":"        obj=self,\n"}
+,{"stream_name":"stdout","time":78.574437275,"data":"    ...\u003c7 lines\u003e...\n"}
+,{"stream_name":"stdout","time":78.574440568,"data":"        dropna=dropna,\n"}
+,{"stream_name":"stdout","time":78.574443508,"data":"    )\n"}
+,{"stream_name":"stdout","time":78.574446465,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/groupby.py\", line 1331, in __init__\n"}
+,{"stream_name":"stdout","time":78.574449614,"data":"    grouper, exclusions, obj = get_grouper(\n"}
+,{"stream_name":"stdout","time":78.57445273,"data":"                               ~~~~~~~~~~~^\n"}
+,{"stream_name":"stdout","time":78.574467854,"data":"        obj,\n"}
+,{"stream_name":"stdout","time":78.574470496,"data":"        ^^^^\n"}
+,{"stream_name":"stdout","time":78.574491472,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stdout","time":78.57449561,"data":"        dropna=self.dropna,\n"}
+,{"stream_name":"stdout","time":78.574499516,"data":"        ^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":78.574503036,"data":"    )\n"}
+,{"stream_name":"stdout","time":78.574506355,"data":"    ^\n"}
+,{"stream_name":"stdout","time":78.574510211,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/grouper.py\", line 1043, in get_grouper\n"}
+,{"stream_name":"stdout","time":78.574514197,"data":"    raise KeyError(gpr)\n"}
+,{"stream_name":"stdout","time":78.574518412,"data":"KeyError: 'setting'\n"}
+,{"stream_name":"stdout","time":78.574522195,"data":"\n"}
+,{"stream_name":"stdout","time":81.800853249,"data":"[06:20:03] lane1 finished with exit code 1 after 48 s\n"}
+,{"stream_name":"stdout","time":81.801122505,"data":"=== scripts/b_repost.py --exp B03 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":81.801138335,"data":"[2026-10-07T11:49:39] run 20261007-114925_B03_unet_boundary_noisetrain_repost_v2 started\n"}
+,{"stream_name":"stdout","time":81.801193211,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":81.801199865,"data":"  File \"/kaggle/working/code/scripts/b_repost.py\", line 108, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":81.801204971,"data":"    main()\n"}
+,{"stream_name":"stdout","time":81.80120882,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":81.801212553,"data":"  File \"/kaggle/working/code/scripts/b_repost.py\", line 68, in main\n"}
+,{"stream_name":"stdout","time":81.801216714,"data":"    assert sorted(fm) == folds, f\"expected fold models {folds}, found {sorted(fm)}\"\n"}
+,{"stream_name":"stdout","time":81.801220788,"data":"           ^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":81.801224485,"data":"AssertionError: expected fold models [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4)], found []\n"}
+,{"stream_name":"stdout","time":81.801242112,"data":"=== scripts/b04_refresh.py --exp B03 --variant _noisetrain --seed 0\n"}
+,{"stream_name":"stdout","time":81.801246272,"data":"[2026-10-07T11:49:55] run 20261007-114952_B04_stress_refresh_B03_noisetrain_seed0 started\n"}
+,{"stream_name":"stdout","time":81.801250292,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":81.801254152,"data":"  File \"/kaggle/working/code/scripts/b04_refresh.py\", line 71, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":81.801258446,"data":"    main()\n"}
+,{"stream_name":"stdout","time":81.80126184,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":81.80126533,"data":"  File \"/kaggle/working/code/scripts/b04_refresh.py\", line 61, in main\n"}
+,{"stream_name":"stdout","time":81.801269598,"data":"    agg = D.groupby([\"setting\", \"stress\", \"level\"]).agg(images=(\"stem\", \"size\"), count_mae=(\"abs_count_error\", \"mean\"),\n"}
+,{"stream_name":"stdout","time":81.80130886,"data":"          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":81.801314349,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/frame.py\", line 9210, in groupby\n"}
+,{"stream_name":"stdout","time":81.801318615,"data":"    return DataFrameGroupBy(\n"}
+,{"stream_name":"stdout","time":81.801322389,"data":"        obj=self,\n"}
+,{"stream_name":"stdout","time":81.801341199,"data":"    ...\u003c7 lines\u003e...\n"}
+,{"stream_name":"stdout","time":81.801345728,"data":"        dropna=dropna,\n"}
+,{"stream_name":"stdout","time":81.801349432,"data":"    )\n"}
+,{"stream_name":"stdout","time":81.80135335,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/groupby.py\", line 1331, in __init__\n"}
+,{"stream_name":"stdout","time":81.801357884,"data":"    grouper, exclusions, obj = get_grouper(\n"}
+,{"stream_name":"stdout","time":81.801361657,"data":"                               ~~~~~~~~~~~^\n"}
+,{"stream_name":"stdout","time":81.801365434,"data":"        obj,\n"}
+,{"stream_name":"stdout","time":81.801369242,"data":"        ^^^^\n"}
+,{"stream_name":"stdout","time":81.801372807,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stdout","time":81.801376648,"data":"        dropna=self.dropna,\n"}
+,{"stream_name":"stdout","time":81.801387887,"data":"        ^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":81.801392092,"data":"    )\n"}
+,{"stream_name":"stdout","time":81.801395723,"data":"    ^\n"}
+,{"stream_name":"stdout","time":81.801399522,"data":"  File \"/usr/local/lib/python3.13/dist-packages/pandas/core/groupby/grouper.py\", line 1043, in get_grouper\n"}
+,{"stream_name":"stdout","time":81.801403684,"data":"    raise KeyError(gpr)\n"}
+,{"stream_name":"stdout","time":81.80140767,"data":"KeyError: 'setting'\n"}
+,{"stream_name":"stdout","time":81.801411479,"data":"\n"}
+,{"stream_name":"stdout","time":81.801415312,"data":"[06:20:03] lane2 finished with exit code 2 after 48 s\n"}
+,{"stream_name":"stdout","time":81.8014333,"data":"=== scripts/b_tiny_sweep.py --seed 0\n"}
+,{"stream_name":"stdout","time":81.801437229,"data":"/usr/bin/python3: can't open file '/kaggle/working/code/scripts/b_tiny_sweep.py': [Errno 2] No such file or directory\n"}
+,{"stream_name":"stdout","time":81.801441467,"data":"\n"}
+,{"stream_name":"stdout","time":81.801445268,"data":"[06:20:03] lane3 finished with exit code 2 after 48 s\n"}
+,{"stream_name":"stdout","time":81.801449256,"data":"=== scripts/chip_final_checks.py\n"}
+,{"stream_name":"stdout","time":81.801453255,"data":"/usr/bin/python3: can't open file '/kaggle/working/code/scripts/chip_final_checks.py': [Errno 2] No such file or directory\n"}
+,{"stream_name":"stdout","time":81.801457651,"data":"\n"}
+,{"stream_name":"stdout","time":81.878419139,"data":"[06:20:03] kept new runs: ['20261007-114925_B02_unet_fg_noisetrain_repost_v2', '20261007-114925_B03_unet_boundary_noisetrain_repost_v2', '20261007-114950_B04_stress_refresh_B02_noisetrain_seed0', '20261007-114952_B04_stress_refresh_B03_noisetrain_seed0']\n"}
+,{"stream_name":"stderr","time":84.798539999,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":84.798575439,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":85.180737421,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":85.180770709,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":86.157454831,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":87.738107368,"data":"[NbConvertApp] Writing 293882 bytes to __results__.html\n"}
+]

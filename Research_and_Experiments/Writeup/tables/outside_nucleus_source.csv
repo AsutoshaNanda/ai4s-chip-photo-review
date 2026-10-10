@@ -1,0 +1,13 @@
+model,setting,metric,group,value
+B02,best_count,count_mae,development_gray,4.506666666666667
+B02,best_count,count_mae,outside_gray,21.308285163776493
+B02,best_count,count_mae,outside_color,39.25370370370371
+B02,best_outline,pooled_f1@0.75,development_gray,0.8672401224668319
+B02,best_outline,pooled_f1@0.75,outside_gray,0.5018234709633971
+B02,best_outline,pooled_f1@0.75,outside_color,0.00010122738200683285
+B03,best_count,count_mae,development_gray,4.68
+B03,best_count,count_mae,outside_gray,14.185356454720615
+B03,best_count,count_mae,outside_color,31.185185185185183
+B03,best_outline,pooled_f1@0.75,development_gray,0.8913759435749468
+B03,best_outline,pooled_f1@0.75,outside_gray,0.5130566502700511
+B03,best_outline,pooled_f1@0.75,outside_color,9.95148650329643e-05

@@ -1,0 +1,9 @@
+{
+  "parts": [
+    "20261006-101000_B03_unet_boundary_seed0_folds0",
+    "20261006-101329_B03_unet_boundary_seed0_folds1",
+    "20261006-101747_B03_unet_boundary_seed0_folds2",
+    "20261006-102219_B03_unet_boundary_seed0_folds3",
+    "20261006-102626_B03_unet_boundary_seed0_folds4"
+  ]
+}

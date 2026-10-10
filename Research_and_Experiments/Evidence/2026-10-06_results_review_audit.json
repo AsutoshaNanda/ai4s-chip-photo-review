@@ -1,0 +1,523 @@
+{
+  "date": "2026-10-06",
+  "scope": "Saved development predictions and code audit only; no training or final-test scoring",
+  "seed": 20261006,
+  "bootstrap_replicates": 2000,
+  "coverage": {
+    "ids_found": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09",
+      "A10",
+      "A11",
+      "A12",
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "G01",
+      "G02",
+      "G03",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "X01"
+    ],
+    "missing_ids": [],
+    "status": "31 IDs have measured parts; C04 blocked; F01-F04 unstarted. Substeps are not all complete.",
+    "explicit_run_paths_checked": {
+      "20261005-233524_G01_bbbc039_check": true,
+      "20261005-233829_G02_scoring_tests": true,
+      "20261006-003232_A01_simple_baselines": true,
+      "20261006-003501_R01_droplet_model_check": true,
+      "20261006-005904_G03_real_data_pilot": true,
+      "20261006-011158_R02_pi_vs_ppo": true,
+      "20261006-012654_A02_frozen_features": true,
+      "20261006-012739_R03_staged_vs_ordinary_ppo": true,
+      "20261006-013213_A03_unseen_cell_types": true,
+      "20261006-013244_R04_input_sets": true,
+      "20261006-013353_A06_class_weighting": true,
+      "20261006-013554_A07_photos_plus_details": true,
+      "20261006-013826_A08_calibration": true,
+      "20261006-013846_A09_review_order": true,
+      "20261006-013905_A10_two_models_guard": true,
+      "20261006-013926_A11_label_efficiency": true,
+      "20261006-100550_B01_cv_threshold_watershed": true,
+      "20261006-102436_A05_safe_changes_frozen": true,
+      "20261006-102723_G01_bbbc038_check": true,
+      "20261006-102841_C01_rxrx1_batches": true,
+      "20261006-103241_B03_unet_boundary_seed0_combined": true,
+      "20261006-103251_X01_whole_plus_patches": true,
+      "20261006-103553_A04_crop_vs_edges": true,
+      "20261006-103711_A12_heatmaps_folds0": true,
+      "20261006-103757_X01_whole_plus_patches_grids4-5-6": true,
+      "20261006-104800_C02_jump_batch_rescaling_fold0": true,
+      "20261006-105952_B02_unet_fg_seed0_combined": true,
+      "20261006-110006_B05_crowding_tiny_nuclei": true,
+      "20261006-110006_B06_warning_flags": true,
+      "20261006-110006_B07_bbbc038_outside": true,
+      "20261006-160015_A12_heatmaps_folds1": true,
+      "20261006-161337_B03_unet_boundary_repost_v2": true,
+      "20261006-161349_B02_unet_fg_repost_v2": true,
+      "20261006-162515_C03_dic_to_lamin_v2": true,
+      "_incomplete": true,
+      "g03_kaggle_t4": true,
+      "g03_modal_A100": true,
+      "registry": true
+    },
+    "extra_substeps_pending": [
+      "A02 light fine-tuning comparison",
+      "B02 eligible ready-made modern segmentation model comparison",
+      "B04 justified robustness training change after observed noise failure",
+      "B04-B07 refresh for retained v2 post-processing settings",
+      "F01 independent confirmation and fixed final evaluation",
+      "F02 practical workload evaluation of final candidates",
+      "F03 clean reproduction",
+      "F04 claim, rights, access and final decision checks"
+    ]
+  },
+  "a03_overlap": {
+    "A549": {
+      "test_groups": 18,
+      "shared_groups": 15,
+      "test_photos": 629,
+      "shared_group_photos": 583,
+      "training_photos_after_group_exclusion": 1098
+    },
+    "CACO": {
+      "test_groups": 13,
+      "shared_groups": 11,
+      "test_photos": 271,
+      "shared_group_photos": 235,
+      "training_photos_after_group_exclusion": 1735
+    },
+    "HPMEC": {
+      "test_groups": 24,
+      "shared_groups": 17,
+      "test_photos": 1170,
+      "shared_group_photos": 761,
+      "training_photos_after_group_exclusion": 462
+    },
+    "HSAEC": {
+      "test_groups": 16,
+      "shared_groups": 8,
+      "test_photos": 193,
+      "shared_group_photos": 100,
+      "training_photos_after_group_exclusion": 2106
+    },
+    "HUVEC": {
+      "test_groups": 2,
+      "shared_groups": 2,
+      "test_photos": 56,
+      "shared_group_photos": 56,
+      "training_photos_after_group_exclusion": 2237
+    },
+    "NHBE": {
+      "test_groups": 5,
+      "shared_groups": 5,
+      "test_photos": 78,
+      "shared_group_photos": 78,
+      "training_photos_after_group_exclusion": 1980
+    }
+  },
+  "auc": {
+    "A02_whole": {
+      "overall": 0.8432836347571037,
+      "formats": {
+        "L/2056x1542": {
+          "n": 1597,
+          "bad": 887,
+          "groups": 12,
+          "auc": 0.8112961874970227
+        },
+        "RGB/2048x1536": {
+          "n": 713,
+          "bad": 166,
+          "groups": 33,
+          "auc": 0.8303121076628268
+        },
+        "RGB/640x480": {
+          "n": 87,
+          "bad": 6,
+          "groups": 3,
+          "auc": 0.7407407407407407
+        }
+      }
+    },
+    "X01_3x3": {
+      "overall": 0.8751317979140995,
+      "formats": {
+        "L/2056x1542": {
+          "n": 1597,
+          "bad": 887,
+          "groups": 12,
+          "auc": 0.8554059418517872
+        },
+        "RGB/2048x1536": {
+          "n": 713,
+          "bad": 166,
+          "groups": 33,
+          "auc": 0.8691548644302989
+        },
+        "RGB/640x480": {
+          "n": 87,
+          "bad": 6,
+          "groups": 3,
+          "auc": 0.537037037037037
+        }
+      }
+    },
+    "X01_5x5": {
+      "overall": 0.8774889868463212,
+      "formats": {
+        "L/2056x1542": {
+          "n": 1597,
+          "bad": 887,
+          "groups": 12,
+          "auc": 0.8601568826714515
+        },
+        "RGB/2048x1536": {
+          "n": 713,
+          "bad": 166,
+          "groups": 33,
+          "auc": 0.8514460033919958
+        },
+        "RGB/640x480": {
+          "n": 87,
+          "bad": 6,
+          "groups": 3,
+          "auc": 0.5267489711934157
+        }
+      }
+    },
+    "A05_all": {
+      "overall": 0.8485244985327558,
+      "formats": {
+        "L/2056x1542": {
+          "n": 1597,
+          "bad": 887,
+          "groups": 12,
+          "auc": 0.8152277815710498
+        },
+        "RGB/2048x1536": {
+          "n": 713,
+          "bad": 166,
+          "groups": 33,
+          "auc": 0.8361159445827184
+        },
+        "RGB/640x480": {
+          "n": 87,
+          "bad": 6,
+          "groups": 3,
+          "auc": 0.757201646090535
+        }
+      }
+    }
+  },
+  "source_hashes": {
+    "code/runs/20261006-012654_A02_frozen_features/oof_predictions.csv": "0ae68a3eee3a8972e87c28237f24f8edbdaaa7e6174f9b5cc4d7f84767a34650",
+    "code/runs/20261006-103251_X01_whole_plus_patches/oof_predictions.csv": "c7958db9d36eea4f47381f5d2f1518294260cb6b69fffa57716cb1f7c4c4e0cb",
+    "code/runs/20261006-103757_X01_whole_plus_patches_grids4-5-6/oof_predictions.csv": "9d8fb3175f3dfec4cd1aea110885895399c6a73872e7d4d45b4f5df2d0b32c13",
+    "code/runs/20261006-102436_A05_safe_changes_frozen/oof_predictions.csv": "0de5c1994afd1415df352c79c5efaf98618900b28cfd46e4bd75498b2890d9f5",
+    "code/runs/20261006-100550_B01_cv_threshold_watershed/oof_per_image_best_count.csv": "541747066ce3362e08060039a31cf0af3e6e5dba5c616423060724ae52c68441",
+    "code/runs/20261006-105952_B02_unet_fg_seed0_combined/oof_per_image_best_count.csv": "bfc6ebe31d52cffb9ed2ded677c09549186d7c235b137daf3f2ae4238bf1c645",
+    "code/runs/20261006-161349_B02_unet_fg_repost_v2/oof_per_image_best_count.csv": "9d40153fdf0c9c1733b586830df6340a0777ac0c6226aabf48bcb74794a8bc80",
+    "code/runs/20261006-161337_B03_unet_boundary_repost_v2/oof_per_image_best_count.csv": "e4b34b0a07b9eec12b308c732329cc2d2618b074c6ce1db4ea201ed5e9284730",
+    "code/runs/20261006-161337_B03_unet_boundary_repost_v2/oof_per_image_best_outline.csv": "df94cfacd5279b866d25844b1cd32192d60e93195175802663debfb3f41b34c9",
+    "code/scripts/c03_prep.py": "df1bdbf794ef5f5eab94055ff7c8b92fc0dde76a892dfaecafb53930cdbbe895",
+    "code/scripts/c03_translate.py": "14ea18f47ba9f92454c3aa349e77846124df29e36d9225454d29e96f9b7baf6c",
+    "code/scripts/c02_jump.py": "22ebf80faf03fd400e5e97e114dcf1714754373cbbd9349dee88567147c405d2"
+  },
+  "paired_auc": {
+    "X01_3x3_minus_A02_whole": {
+      "delta": 0.03184816315699579,
+      "ci95": [
+        0.007643915483211855,
+        0.05668708841310082
+      ],
+      "valid_resamples": 2000,
+      "unit": "filename group, not verified physical chip"
+    },
+    "X01_5x5_minus_A02_whole": {
+      "delta": 0.03420535208921749,
+      "ci95": [
+        0.0127448886899692,
+        0.05914265201604004
+      ],
+      "valid_resamples": 2000,
+      "unit": "filename group, not verified physical chip"
+    },
+    "X01_5x5_minus_X01_3x3": {
+      "delta": 0.002357188932221699,
+      "ci95": [
+        -0.009506080124658561,
+        0.017101328982116665
+      ],
+      "valid_resamples": 2000,
+      "unit": "filename group, not verified physical chip"
+    },
+    "A05_all_minus_A02_whole": {
+      "delta": 0.005240863775652138,
+      "ci95": [
+        0.0003493841033255785,
+        0.011650136973550296
+      ],
+      "valid_resamples": 2000,
+      "unit": "filename group, not verified physical chip"
+    },
+    "X01_5x5_minus_A02_whole_small_photos": {
+      "delta": -0.21399176954732502,
+      "ci95": [
+        -0.375,
+        -0.04044117647058809
+      ],
+      "valid_resamples": 2000,
+      "unit": "filename group, not verified physical chip"
+    }
+  },
+  "b_counts": {
+    "B01_count": {
+      "count_mae": 6.733333333333333,
+      "mean_image_f1_075": 0.7728539563327331,
+      "source": "code/runs/20261006-100550_B01_cv_threshold_watershed/oof_per_image_best_count.csv"
+    },
+    "B02_count": {
+      "count_mae": 4.453333333333333,
+      "mean_image_f1_075": 0.8447434434488159,
+      "source": "code/runs/20261006-105952_B02_unet_fg_seed0_combined/oof_per_image_best_count.csv"
+    },
+    "B02_v2_count": {
+      "count_mae": 4.506666666666667,
+      "mean_image_f1_075": 0.8426654111744473,
+      "source": "code/runs/20261006-161349_B02_unet_fg_repost_v2/oof_per_image_best_count.csv"
+    },
+    "B03_v2_count": {
+      "count_mae": 4.68,
+      "mean_image_f1_075": 0.8699111799209085,
+      "source": "code/runs/20261006-161337_B03_unet_boundary_repost_v2/oof_per_image_best_count.csv"
+    },
+    "B03_v2_outline": {
+      "count_mae": 9.86,
+      "mean_image_f1_075": 0.8953086976196308,
+      "source": "code/runs/20261006-161337_B03_unet_boundary_repost_v2/oof_per_image_best_outline.csv"
+    }
+  },
+  "paired_b_count_error": {
+    "B02_count_minus_B01_count": {
+      "difference": -2.28,
+      "ci95": [
+        -4.682440587138863,
+        -0.5227349560513869
+      ],
+      "plates": 20,
+      "unit": "plate"
+    },
+    "B03_v2_count_minus_B01_count": {
+      "difference": -2.0533333333333332,
+      "ci95": [
+        -4.493672863924051,
+        -0.295202927654178
+      ],
+      "plates": 20,
+      "unit": "plate"
+    },
+    "B03_v2_count_minus_B02_count": {
+      "difference": 0.22666666666666666,
+      "ci95": [
+        -0.4892233152253707,
+        0.8705409356725137
+      ],
+      "plates": 20,
+      "unit": "plate"
+    }
+  },
+  "tiny_nuclei": {
+    "B01_best_count": {
+      "objects": 1809,
+      "median_area": 39.0,
+      "found@0.50": 0.3880597014925373,
+      "found@0.75": 0.2222222222222222
+    },
+    "B01_best_outline": {
+      "objects": 1809,
+      "median_area": 39.0,
+      "found@0.50": 0.2703150912106136,
+      "found@0.75": 0.2150359314538419
+    },
+    "B02_best_count": {
+      "objects": 1809,
+      "median_area": 39.0,
+      "found@0.50": 0.4521835268103925,
+      "found@0.75": 0.32172470978441126
+    },
+    "B02_best_outline": {
+      "objects": 1809,
+      "median_area": 39.0,
+      "found@0.50": 0.3327805417357656,
+      "found@0.75": 0.27750138197899393
+    },
+    "B03_best_count": {
+      "objects": 1809,
+      "median_area": 39.0,
+      "found@0.50": 0.4886677722498618,
+      "found@0.75": 0.326147042564953
+    },
+    "B03_best_outline": {
+      "objects": 1809,
+      "median_area": 39.0,
+      "found@0.50": 0.37202874516307355,
+      "found@0.75": 0.2974018794914317
+    }
+  },
+  "final_test_metadata": {
+    "ooc_final_n": 675,
+    "small_photos_by_role": {
+      "practice": 87
+    },
+    "small_bad_by_role": {
+      "practice": 6
+    },
+    "note": "Metadata and membership only. Final images and final predictions were not opened."
+  },
+  "limitations": [
+    "Development-only comparisons after multiple methods were tried; intervals are exploratory, not independent confirmation.",
+    "AUC intervals resample filename groups; physical chip identity is unknown.",
+    "Counting intervals resample plates; final BBBC039 images share plates with development images.",
+    "B04-B07 were run using original post-processing settings and do not validate the later v2 settings."
+  ],
+  "decisions": [
+    {
+      "observation": "A03 shares groups for all held-out types, covering 1813 of 2397 test predictions.",
+      "quality": "Direct source and split audit",
+      "hypothesis": "Group-independent transfer to unseen types not established",
+      "changed_decision": "Reopen A03 no-drop claim",
+      "next_action": "Exclude held-out type and its groups; report each type and remaining training support."
+    },
+    {
+      "observation": "X01 5x5 beats whole by 0.0342 with exploratory group interval excluding zero, but its small-photo AUC is 0.5267 versus 0.7407.",
+      "quality": "Saved development predictions independently re-scored",
+      "hypothesis": "Patch benefit supported on large formats; universal input support rejected",
+      "changed_decision": "Provisional lead, preserve whole-image fallback candidate",
+      "next_action": "Test scale-aware or whole-image handling of small images, otherwise require manual review for this format."
+    },
+    {
+      "observation": "5x5 minus 3x3 AUC interval crosses zero.",
+      "quality": "Paired group bootstrap of saved development predictions",
+      "hypothesis": "5x5 superiority unconfirmed",
+      "changed_decision": "Retain both for final development selection",
+      "next_action": "Compare worst-format performance, review curves and measured runtime before freezing one."
+    },
+    {
+      "observation": "B02 and B03-v2 count beat B01 in paired plate bootstrap; B03-v2 minus B02 interval crosses zero.",
+      "quality": "Saved per-image errors re-scored; one training seed",
+      "hypothesis": "Both improve this benchmark; counting superiority between them unresolved",
+      "changed_decision": "Retain both as candidates rather than choosing by 0.23 count gap",
+      "next_action": "Repeat training with new seeds and run exact retained settings on stress and outside-data checks."
+    },
+    {
+      "observation": "B03-v2 counting setting gives MAE 4.68 / F1@0.75 0.872; outline setting gives 9.86 / 0.891.",
+      "quality": "Direct saved results and per-image checks",
+      "hypothesis": "Best count and best outline values are not one configuration",
+      "changed_decision": "Report separate operating settings",
+      "next_action": "Choose or expose explicit modes before final validation."
+    },
+    {
+      "observation": "B05 B02 count detection is 45.22% at overlap 0.50 and 32.17% at overlap 0.75 for the smallest tenth.",
+      "quality": "Saved per-object size-decile results",
+      "hypothesis": "Weakness remains; stated 0.50 number in original report is wrong",
+      "changed_decision": "Correct overlap label in subsequent claims",
+      "next_action": "Refresh small-object curves using retained model settings."
+    },
+    {
+      "observation": "B07 original B02 counting model has grey-image MAE 48.84 versus B03 original outline 9.56 and B01 outline 11.16. Colour F1 approaches zero.",
+      "quality": "Stored external-data scores; original settings only",
+      "hypothesis": "Benchmark-best B02 is not a general outside-data solution",
+      "changed_decision": "Keep B01 and B03 as distinct comparison/backup candidates; restrict colour inputs",
+      "next_action": "Repeat outside-data evaluation using exact retained v2 settings before choosing a guard."
+    },
+    {
+      "observation": "A05 has a small positive paired development gain; training transformations do not change the inference path.",
+      "quality": "Saved predictions re-scored; many variants tried",
+      "hypothesis": "Potential gain not confirmed independently",
+      "changed_decision": "Do not discard solely as too small; lower priority than validity fixes",
+      "next_action": "Confirm after core repairs if resources permit."
+    },
+    {
+      "observation": "All 36 IDs appear but C04 and F01-F04 have no completed performance result and some substeps remain pending.",
+      "quality": "Report, schedule and artifact inspection",
+      "hypothesis": "Rejects claiming the full original plan is complete",
+      "changed_decision": "Preserve pending work explicitly",
+      "next_action": "Finish selection, confirmation and delivery gates with bounded claims."
+    },
+    {
+      "observation": "C03 chooses the central depth using the real fluorescent target; all five retained planes depend on that selection. The reference object masks are produced automatically from fluorescence.",
+      "quality": "Direct inspection of c03_prep.py and c03_translate.py",
+      "hypothesis": "Does not establish input-only plane selection or independent true-count validation",
+      "changed_decision": "Reopen C03 deployment/generalization gate; retain original numbers only with target-assisted-selection and reference-mask limitations",
+      "next_action": "Select planes from the plain input alone or a fixed acquisition rule, rebuild data and rerun both routes."
+    },
+    {
+      "observation": "C02 calls rng.permutation(tr_batches)[:4] inside the candidate-strength loop. Candidates can use different training batch subsets.",
+      "quality": "Direct inspection of c02_jump.py",
+      "hypothesis": "The chosen strength is not supported by a fully matched inner comparison; this alone is not final-test leakage",
+      "changed_decision": "Treat selected-strength result as provisional",
+      "next_action": "Compare every candidate on the same complete eligible training batches, then rerun held-out evaluation."
+    },
+    {
+      "observation": "The approved A02 plan already includes light retraining, while inspected A02/X01 results use frozen features.",
+      "quality": "Approved plan plus saved configurations and code",
+      "hypothesis": "Retraining benefit remains unmeasured; patches alone do not prove it",
+      "changed_decision": "Move a controlled retraining comparison forward after validity repair",
+      "next_action": "Compare frozen versus light retraining on matching development groups with resource measurements and worst-format checks."
+    }
+  ],
+  "screenshot_followup": {
+    "date": "2026-10-06",
+    "scope": "Source inspection and recommendation only; no model training or paid jobs",
+    "decisions": [
+      {
+        "observation": "C03 chooses the central depth using the real fluorescent target; all five retained planes depend on that selection. The reference object masks are produced automatically from fluorescence.",
+        "quality": "Direct inspection of c03_prep.py and c03_translate.py",
+        "hypothesis": "Does not establish input-only plane selection or independent true-count validation",
+        "changed_decision": "Reopen C03 deployment/generalization gate; retain original numbers only with target-assisted-selection and reference-mask limitations",
+        "next_action": "Select planes from the plain input alone or a fixed acquisition rule, rebuild data and rerun both routes."
+      },
+      {
+        "observation": "C02 calls rng.permutation(tr_batches)[:4] inside the candidate-strength loop. Candidates can use different training batch subsets.",
+        "quality": "Direct inspection of c02_jump.py",
+        "hypothesis": "The chosen strength is not supported by a fully matched inner comparison; this alone is not final-test leakage",
+        "changed_decision": "Treat selected-strength result as provisional",
+        "next_action": "Compare every candidate on the same complete eligible training batches, then rerun held-out evaluation."
+      },
+      {
+        "observation": "The approved A02 plan already includes light retraining, while inspected A02/X01 results use frozen features.",
+        "quality": "Approved plan plus saved configurations and code",
+        "hypothesis": "Retraining benefit remains unmeasured; patches alone do not prove it",
+        "changed_decision": "Move a controlled retraining comparison forward after validity repair",
+        "next_action": "Compare frozen versus light retraining on matching development groups with resource measurements and worst-format checks."
+      }
+    ],
+    "unverified_claims": [
+      "The screenshot report of an incorrect Modal price causing overspend was not reconciled against billing in this review."
+    ]
+  }
+}

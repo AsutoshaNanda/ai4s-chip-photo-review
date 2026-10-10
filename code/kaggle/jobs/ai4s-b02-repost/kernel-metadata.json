@@ -1,0 +1,16 @@
+{
+  "id": "itsasup/ai4s-b02-repost",
+  "title": "ai4s-b02-repost",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "itsasup/ai4s-code"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,22 @@
+{
+  "final_whole": {
+    "seconds": 33.55606917499995,
+    "images": 675,
+    "calls": 1
+  },
+  "final_tiles_3x3": {
+    "seconds": 136.7285356929999,
+    "images": 6075,
+    "calls": 1
+  },
+  "practice_whole": {
+    "seconds": 141.51825156199993,
+    "images": 2397,
+    "calls": 1
+  },
+  "practice_tiles_3x3": {
+    "seconds": 511.64619770800005,
+    "images": 21573,
+    "calls": 1
+  }
+}

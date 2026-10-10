@@ -1,0 +1,44 @@
+{
+  "grid": {
+    "sigma": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "otsu_factor": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.4
+    ],
+    "min_distance": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      15
+    ],
+    "min_size": [
+      0,
+      5,
+      10,
+      20,
+      40,
+      80
+    ]
+  },
+  "tune_on": "provider training (100)",
+  "report_on": "provider validation (50)",
+  "test": "locked"
+}

@@ -1,0 +1,6 @@
+[2026-10-07T12:48:09] run 20261007-124801_B06_shared_failures started
+[2026-10-07T12:48:09] seed 0: 150 images; Spearman of absolute count errors B02 vs B03 = 0.370; both wrong in the same direction on 83 images carrying 78% of B02's total error
+[2026-10-07T12:48:09] seed 0: top-75 overlap 0.60 (chance 0.50); error left unflagged after flagging 75 most-disagreeing images: 0.40 of B02's total (of which shared failures 0.37)
+[2026-10-07T12:48:09] seed 1: 150 images; Spearman of absolute count errors B02 vs B03 = 0.256; both wrong in the same direction on 76 images carrying 71% of B02's total error
+[2026-10-07T12:48:09] seed 1: top-75 overlap 0.56 (chance 0.50); error left unflagged after flagging 75 most-disagreeing images: 0.42 of B02's total (of which shared failures 0.39)
+[2026-10-07T12:48:09] run finished: status=measured, wall_seconds=8.12

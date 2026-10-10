@@ -1,0 +1,6 @@
+[2026-10-07T20:36:48] run 20261007-203642_F03_chip_features_clean started
+[2026-10-07T20:37:36] features final_whole: 675 images in 33.6 s
+[2026-10-07T20:39:52] features final_tiles_3x3: 6075 images in 136.7 s
+[2026-10-07T20:42:16] features practice_whole: 2397 images in 141.5 s
+[2026-10-07T20:50:48] features practice_tiles_3x3: 21573 images in 511.6 s
+[2026-10-07T20:50:48] run finished: status=measured, wall_seconds=845.59

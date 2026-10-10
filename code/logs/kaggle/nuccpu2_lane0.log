@@ -1,0 +1,111 @@
+=== scripts/b_analysis.py --exp B05 --posts v2 --seed 0
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-07T01:31:01] run 20261007-013014_B05_crowding_tiny_nuclei_posts_v2 started
+[2026-10-07T01:31:02] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+/usr/local/lib/python3.13/dist-packages/skimage/_shared/utils.py:386: UserWarning: Only one label was provided to `remove_small_objects`. Did you mean to use a boolean array?
+  return func(*args, **kwargs)
+[2026-10-07T01:31:48] B05 B01_best_count: segmented 150 held-out images
+[2026-10-07T01:32:38] B05 B01_best_outline: segmented 150 held-out images
+[2026-10-07T01:45:39] B05 B02_best_count: segmented 150 held-out images
+[2026-10-07T01:46:23] B05 B02_best_outline: segmented 150 held-out images
+[2026-10-07T01:59:27] B05 B03_best_count: segmented 150 held-out images
+[2026-10-07T01:59:45] B05 B03_best_outline: segmented 150 held-out images
+[2026-10-07T01:59:47] B05 share of reference nuclei found, by size decile (0 = smallest; training-fold deciles), at IoU 0.50 / 0.75 (all levels in B05_found_by_size_decile.csv):
+method       B01_best_count  B01_best_outline  B02_best_count  B02_best_outline  B03_best_count  B03_best_outline
+size_decile                                                                                                      
+0                     0.388             0.270           0.429             0.324           0.431             0.371
+1                     0.800             0.750           0.873             0.831           0.900             0.869
+2                     0.870             0.862           0.921             0.897           0.957             0.932
+3                     0.914             0.903           0.952             0.931           0.971             0.943
+4                     0.930             0.921           0.949             0.944           0.970             0.959
+5                     0.937             0.939           0.963             0.955           0.977             0.962
+6                     0.958             0.954           0.976             0.971           0.981             0.971
+7                     0.962             0.965           0.986             0.983           0.983             0.977
+8                     0.967             0.968           0.980             0.980           0.989             0.982
+9                     0.971             0.972           0.974             0.982           0.987             0.986
+method       B01_best_count  B01_best_outline  B02_best_count  B02_best_outline  B03_best_count  B03_best_outline
+size_decile                                                                                                      
+0                     0.222             0.215           0.308             0.271           0.261             0.289
+1                     0.632             0.655           0.786             0.761           0.772             0.795
+2                     0.770             0.809           0.862             0.843           0.891             0.890
+3                     0.839             0.849           0.891             0.878           0.928             0.900
+4                     0.869             0.882           0.909             0.908           0.942             0.927
+5                     0.875             0.890           0.909             0.904           0.948             0.936
+6                     0.910             0.911           0.932             0.933           0.960             0.949
+7                     0.908             0.928           0.951             0.948           0.962             0.952
+8                     0.905             0.910           0.932             0.940           0.968             0.955
+9                     0.895             0.918           0.915             0.931           0.967             0.958
+[2026-10-07T01:59:48] B05 crowding (quartiles of reference count on training folds; 4 = most crowded):
+                                    images  count_mae    bias  f1_050
+method           crowding_quartile                                   
+B01_best_count   1                      36      3.528   0.750   0.801
+                 2                      39      4.718   0.615   0.903
+                 3                      39      4.077   0.487   0.901
+                 4                      36     15.000  -7.778   0.816
+B01_best_outline 1                      36      6.361  -5.750   0.826
+                 2                      39      8.769  -8.769   0.920
+                 3                      39     10.256 -10.256   0.923
+                 4                      36     26.972 -26.972   0.833
+B02_best_count   1                      36      2.639  -0.250   0.892
+                 2                      39      4.026  -0.385   0.923
+                 3                      39      3.308  -0.692   0.920
+                 4                      36      8.194  -6.194   0.877
+B02_best_outline 1                      36      4.917  -4.806   0.899
+                 2                      39      7.051  -7.000   0.935
+                 3                      39      8.974  -8.974   0.936
+                 4                      36     19.417 -19.417   0.879
+B03_best_count   1                      36      3.278  -2.667   0.912
+                 2                      39      4.231  -2.949   0.948
+                 3                      39      3.795  -3.077   0.948
+                 4                      36      7.528  -5.417   0.889
+B03_best_outline 1                      36      5.722  -5.722   0.943
+                 2                      39      7.538  -7.538   0.951
+                 3                      39      9.308  -9.308   0.951
+                 4                      36     17.111 -17.111   0.894
+[2026-10-07T02:00:13] run finished: status=measured, wall_seconds=1799.55
+=== scripts/b_analysis.py --exp B06 --posts v2 --seed 0
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-07T02:00:44] run 20261007-020025_B06_warning_flags_posts_v2 started
+[2026-10-07T02:00:46] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']
+/usr/local/lib/python3.13/dist-packages/skimage/_shared/utils.py:386: UserWarning: Only one label was provided to `remove_small_objects`. Did you mean to use a boolean array?
+  return func(*args, **kwargs)
+[2026-10-07T02:27:25] B06 warning scores for B02_best_count (area under 'error left' curve; lower = better; random 0.499):
+[2026-10-07T02:27:25]    blur_warning                             area 0.579; minus random 95% [-0.020, +0.185]
+[2026-10-07T02:27:25]    disagree_B01_best_count                  area 0.522; minus random 95% [-0.040, +0.100]
+[2026-10-07T02:27:25]    disagree_B03_best_count                  area 0.388; minus random 95% [-0.202, -0.009]
+[2026-10-07T02:27:25]    brightness_warning                       area 0.429; minus random 95% [-0.140, +0.005]
+[2026-10-07T02:27:25]    perfect_order_ceiling                    area 0.218; minus random 95% [-0.330, -0.228]
+[2026-10-07T02:27:25] run finished: status=measured, wall_seconds=1619.3
+=== scripts/r02_confirm.py
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[2026-10-07T02:27:52] run 20261007-022746_R02_confirm_fresh_conditions started
+[2026-10-07T02:28:16] saved PPO policies: ['PPO_all_seed0', 'PPO_all_seed1', 'PPO_all_seed2', 'PPO_all_seed3', 'PPO_all_seed4']
+[2026-10-07T02:28:48] PPO seed 0 evaluated
+[2026-10-07T02:29:20] PPO seed 1 evaluated
+[2026-10-07T02:29:51] PPO seed 2 evaluated
+[2026-10-07T02:30:23] PPO seed 3 evaluated
+[2026-10-07T02:30:54] PPO seed 4 evaluated
+[2026-10-07T02:30:54] TRAIN_range: PPO (mean of 5 seeds) minus PI, diameter error: mean -0.319 um, PPO better in 94% of fresh episodes; worst +0.198
+[2026-10-07T02:30:54] TRAIN_range: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean -0.203 um, PPO better in 64% of fresh episodes; worst +0.426
+[2026-10-07T02:30:54] UNTOUCHED: PPO (mean of 5 seeds) minus PI, diameter error: mean -0.612 um, PPO better in 96% of fresh episodes; worst +0.299
+[2026-10-07T02:30:54] UNTOUCHED: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean -0.466 um, PPO better in 82% of fresh episodes; worst +0.808
+[2026-10-07T02:30:54] fresh-condition results (mean and worst episode):
+                       d_err_mean        rate_err_mean        violation_share       
+                             mean    max          mean    max            mean    max
+controller condition                                                                
+FF+PI      TRAIN_range      1.322  3.231         0.177  0.439           0.117  0.550
+           UNTOUCHED        1.950  4.141         0.263  0.580           0.072  0.427
+PI         TRAIN_range      1.437  2.349         0.167  0.303           0.053  0.277
+           UNTOUCHED        2.096  3.937         0.270  0.492           0.049  0.380
+PPO_all    TRAIN_range      1.118  2.375         0.085  0.288           0.003  0.097
+           UNTOUCHED        1.484  3.350         0.126  0.454           0.005  0.173
+[2026-10-07T02:30:54] run finished: status=measured, wall_seconds=187.9

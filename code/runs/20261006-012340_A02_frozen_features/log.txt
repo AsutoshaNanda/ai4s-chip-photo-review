@@ -1,0 +1,2 @@
+[2026-10-06T01:23:50] run 20261006-012340_A02_frozen_features started
+[2026-10-06T01:24:33] resnet18.tv_in1k@224: 2397 photos in 5.0 s (481.8/s), dim 512, shapes [(168, 224)]

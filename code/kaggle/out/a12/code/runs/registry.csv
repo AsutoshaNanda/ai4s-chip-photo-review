@@ -1,0 +1,5 @@
+run_id,plan_id,name,status,started,finished,seconds,machine,notes
+20261006-160015_A12_heatmaps_folds3,A12,heatmaps_folds3,measured,2026-10-06T16:00:15,2026-10-06T17:04:31,3855.85,0c56477d13a2,A12 heat maps for folds [3]; practice only
+20261006-160015_A12_heatmaps_folds1,A12,heatmaps_folds1,measured,2026-10-06T16:00:15,2026-10-06T17:57:49,7053.69,0c56477d13a2,A12 heat maps for folds [1]; practice only
+20261006-170439_A12_heatmaps_folds4,A12,heatmaps_folds4,measured,2026-10-06T17:04:39,2026-10-06T18:25:54,4875.58,0c56477d13a2,A12 heat maps for folds [4]; practice only
+20261006-175753_A12_heatmaps_folds2,A12,heatmaps_folds2,measured,2026-10-06T17:57:53,2026-10-06T19:18:36,4842.93,0c56477d13a2,A12 heat maps for folds [2]; practice only

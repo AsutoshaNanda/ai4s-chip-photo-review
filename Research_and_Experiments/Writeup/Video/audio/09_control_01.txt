@@ -1,0 +1,1 @@
+On harder conditions, learned control had mean size error of 1.333 micrometers, versus 1.946 and 2.062 for two rule controllers.

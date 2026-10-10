@@ -1,0 +1,34 @@
+[{"stream_name":"stdout","time":17.511847694,"data":"[19:58:52] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":23.262948358,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 77.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":27.655988483,"data":"[19:59:02] installed scikit-image==0.26.0\n"}
+,{"stream_name":"stdout","time":2113.105664986,"data":"[20:33:47] lane0 finished with exit code 0 after 2085 s\n"}
+,{"stream_name":"stdout","time":2113.106654974,"data":"=== scripts/a05_confirm.py --part fit\n"}
+,{"stream_name":"stdout","time":2113.106681514,"data":"[2026-10-07T01:29:26] run 20261007-012904_A05_confirm_fit started\n"}
+,{"stream_name":"stdout","time":2113.106688252,"data":"[2026-10-07T01:29:53] practice folds whole                            AUC 0.8432\n"}
+,{"stream_name":"stdout","time":2113.106693503,"data":"[2026-10-07T01:32:33] practice folds whole_plus_all_changes           AUC 0.8464\n"}
+,{"stream_name":"stdout","time":2113.10670446,"data":"[2026-10-07T01:33:18] practice folds x01_3x3                          AUC 0.8755\n"}
+,{"stream_name":"stdout","time":2113.106709201,"data":"[2026-10-07T01:37:47] practice folds x01_3x3_plus_all_changes         AUC 0.8727\n"}
+,{"stream_name":"stdout","time":2113.106712545,"data":"[2026-10-07T01:38:32] practice folds x01_5x5                          AUC 0.8775\n"}
+,{"stream_name":"stdout","time":2113.106715926,"data":"[2026-10-07T01:43:05] practice folds x01_5x5_plus_all_changes         AUC 0.8741\n"}
+,{"stream_name":"stdout","time":2113.106719406,"data":"[2026-10-07T01:44:29] A03 rule A549: done\n"}
+,{"stream_name":"stdout","time":2113.106722997,"data":"[2026-10-07T01:47:14] A03 rule CACO: done\n"}
+,{"stream_name":"stdout","time":2113.106726316,"data":"[2026-10-07T01:47:47] A03 rule HPMEC: done\n"}
+,{"stream_name":"stdout","time":2113.106729755,"data":"[2026-10-07T01:50:52] A03 rule HSAEC: done\n"}
+,{"stream_name":"stdout","time":2113.106733033,"data":"[2026-10-07T01:54:29] A03 rule HUVEC: done\n"}
+,{"stream_name":"stdout","time":2113.106736211,"data":"[2026-10-07T01:57:20] A03 rule NHBE: done\n"}
+,{"stream_name":"stdout","time":2113.106739543,"data":"[2026-10-07T01:58:25] a03_groups_excluded    whole: all changes minus none, pooled {'difference': 0.0024835173211040784, 'n_groups': 46, 'n_bad': 1059, 'range_95': [-0.001869188067972194, 0.006515052748893453]}\n"}
+,{"stream_name":"stdout","time":2113.106744211,"data":"[2026-10-07T01:59:28] a03_groups_excluded    x01_3x3: all changes minus none, pooled {'difference': -0.0018913971072916924, 'n_groups': 46, 'n_bad': 1059, 'range_95': [-0.011319694930604423, 0.00840802974578816]}\n"}
+,{"stream_name":"stdout","time":2113.106747879,"data":"[2026-10-07T02:00:31] a03_groups_excluded    x01_5x5: all changes minus none, pooled {'difference': 0.0007297405257237211, 'n_groups': 46, 'n_bad': 1059, 'range_95': [-0.005585717858401726, 0.008890641167114712]}\n"}
+,{"stream_name":"stdout","time":2113.106751601,"data":"[2026-10-07T02:01:35] practice_folds         whole: all changes minus none, pooled {'difference': 0.003194908471906288, 'n_groups': 46, 'n_bad': 1059, 'range_95': [-0.003314778172689067, 0.011979265838051508]}\n"}
+,{"stream_name":"stdout","time":2113.106755187,"data":"[2026-10-07T02:02:41] practice_folds         x01_3x3: all changes minus none, pooled {'difference': -0.0027735785939014823, 'n_groups': 46, 'n_bad': 1059, 'range_95': [-0.009539265034008978, 0.0037453960195432175]}\n"}
+,{"stream_name":"stdout","time":2113.106759464,"data":"[2026-10-07T02:03:45] practice_folds         x01_5x5: all changes minus none, pooled {'difference': -0.0034073377738821353, 'n_groups': 46, 'n_bad': 1059, 'range_95': [-0.01020763212547105, 0.0036644351422029367]}\n"}
+,{"stream_name":"stdout","time":2113.106779837,"data":"[2026-10-07T02:03:45] run finished: status=measured, wall_seconds=2080.77\n"}
+,{"stream_name":"stdout","time":2113.106783094,"data":"\n"}
+,{"stream_name":"stdout","time":2113.246876365,"data":"[20:33:48] kept new runs: ['20261007-012904_A05_confirm_fit']\n"}
+,{"stream_name":"stderr","time":2116.320634882,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2116.3206999,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2116.799570535,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2116.799601141,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2117.904419436,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2119.587148005,"data":"[NbConvertApp] Writing 292987 bytes to __results__.html\n"}
+]

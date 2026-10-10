@@ -1,0 +1,139 @@
+[{"stream_name":"stdout","time":20.447790122,"data":"[17:38:42] code ready: ['runs', 'scripts', 'splits', 'src']\n"}
+,{"stream_name":"stdout","time":25.002631242,"data":"[17:38:47] BBBC039 (CC0) downloaded\n"}
+,{"stream_name":"stdout","time":28.894818536,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 187.6/187.6 kB 4.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.938624147,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 476.3/476.3 kB 14.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":32.311429852,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":32.31146293,"data":"kaggle-environments 1.27.3 requires gymnasium==1.2.0, but you have gymnasium 1.4.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.311523449,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":32.453152256,"data":"[17:38:54] installed stable-baselines3==2.9.0,gymnasium==1.4.0\n"}
+,{"stream_name":"stdout","time":6663.240930805,"data":"[19:29:25] lane0 finished with exit code 0 after 6631 s\n"}
+,{"stream_name":"stdout","time":6663.24224641,"data":"=== scripts/b_repost.py --exp B02 --seed 1\n"}
+,{"stream_name":"stdout","time":6663.242287202,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":6663.242293951,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":6663.242300651,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":6663.242306747,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":6663.242313325,"data":"[2026-10-06T23:09:38] run 20261006-230901_B02_unet_fg_repost_v2_seed1 started\n"}
+,{"stream_name":"stdout","time":6663.242319458,"data":"[2026-10-06T23:09:44] fold models: {0: '20261006-212942_B02_unet_fg_seed1', 1: '20261006-212942_B02_unet_fg_seed1', 2: '20261006-212942_B02_unet_fg_seed1', 3: '20261006-212942_B02_unet_fg_seed1', 4: '20261006-212942_B02_unet_fg_seed1'}\n"}
+,{"stream_name":"stdout","time":6663.242327532,"data":"[2026-10-06T23:38:43] fold 0: picks {best_count: thr 0.8, md 8, ms 10, best_outline: thr 0.7, md 12, ms 50}; on range edge: {'best_count': [], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.2423339,"data":"[2026-10-06T23:58:08] fold 1: picks {best_count: thr 0.6, md 12, ms 0, best_outline: thr 0.5, md 12, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242340318,"data":"[2026-10-07T00:27:04] fold 2: picks {best_count: thr 0.9, md 8, ms 10, best_outline: thr 0.5, md 12, ms 25}; on range edge: {'best_count': ['thr'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242346587,"data":"[2026-10-07T00:41:06] fold 3: picks {best_count: thr 0.5, md 10, ms 0, best_outline: thr 0.6, md 12, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242352436,"data":"[2026-10-07T00:59:21] fold 4: picks {best_count: thr 0.9, md 10, ms 0, best_outline: thr 0.6, md 10, ms 50}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242358255,"data":"[2026-10-07T00:59:21] B02 v2 best_count: count MAE 4.82 (bias -2.77); pooled F1 0.25/0.50/0.75/0.90 0.933/0.905/0.842/0.652; joined 1909 split 1107 missed 274 false 349\n"}
+,{"stream_name":"stdout","time":6663.242383904,"data":"[2026-10-07T00:59:21] B02 v2 best_outline: count MAE 10.41 (bias -10.41); pooled F1 0.25/0.50/0.75/0.90 0.935/0.917/0.866/0.728; joined 2392 split 508 missed 545 false 66\n"}
+,{"stream_name":"stdout","time":6663.242388278,"data":"[2026-10-07T00:59:21] run finished: status=measured, wall_seconds=6619.26\n"}
+,{"stream_name":"stdout","time":6663.242392136,"data":"\n"}
+,{"stream_name":"stdout","time":6663.242395726,"data":"[19:29:25] lane1 finished with exit code 0 after 6631 s\n"}
+,{"stream_name":"stdout","time":6663.242881037,"data":"models: {0: '20261006-212929_B03_unet_boundary_seed1', 1: '20261006-212929_B03_unet_boundary_seed1', 2: '20261006-212929_B03_unet_boundary_seed1', 3: '20261006-212929_B03_unet_boundary_seed1', 4: '20261006-212929_B03_unet_boundary_seed1'}\n"}
+,{"stream_name":"stdout","time":6663.242910935,"data":"[2026-10-06T23:14:50] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 50}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.24291916,"data":"[2026-10-06T23:18:24] fold 1: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242925488,"data":"[2026-10-06T23:22:58] fold 2: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242931638,"data":"[2026-10-06T23:27:02] fold 3: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['thr', 'min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242939086,"data":"[2026-10-06T23:31:11] fold 4: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.242945711,"data":"[2026-10-06T23:31:11] B03 v2 best_count: count MAE 5.38 (bias -3.69); pooled F1 0.25/0.50/0.75/0.90 0.950/0.931/0.864/0.420; joined 988 split 785 missed 607 false 122\n"}
+,{"stream_name":"stdout","time":6663.242952588,"data":"[2026-10-06T23:31:11] B03 v2 best_outline: count MAE 10.30 (bias -10.29); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.892/0.738; joined 1971 split 110 missed 608 false 79\n"}
+,{"stream_name":"stdout","time":6663.242959361,"data":"[2026-10-06T23:31:11] run finished: status=measured, wall_seconds=1329.82\n"}
+,{"stream_name":"stdout","time":6663.242965662,"data":"=== scripts/b_repost.py --exp B03 --seed 0 --thr_extra 0.96,0.97,0.98,0.99,0.995,0.999\n"}
+,{"stream_name":"stdout","time":6663.24297259,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":6663.242978425,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":6663.242984846,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":6663.242992269,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":6663.24299875,"data":"[2026-10-06T23:31:31] run 20261006-233119_B03_unet_boundary_repost_v2_thr_extended started\n"}
+,{"stream_name":"stdout","time":6663.243006278,"data":"[2026-10-06T23:31:42] fold models: {0: '20261006-101000_B03_unet_boundary_seed0_folds0', 1: '20261006-101329_B03_unet_boundary_seed0_folds1', 2: '20261006-101747_B03_unet_boundary_seed0_folds2', 3: '20261006-102219_B03_unet_boundary_seed0_folds3', 4: '20261006-102626_B03_unet_boundary_seed0_folds4'}\n"}
+,{"stream_name":"stdout","time":6663.243028639,"data":"[2026-10-06T23:37:00] fold 0: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.8, md 0, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243036192,"data":"[2026-10-06T23:41:01] fold 1: picks {best_count: thr 0.9, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243042648,"data":"[2026-10-06T23:46:19] fold 2: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243049346,"data":"[2026-10-06T23:50:41] fold 3: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243056202,"data":"[2026-10-06T23:55:26] fold 4: picks {best_count: thr 0.85, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.24306303,"data":"[2026-10-06T23:55:26] B03 v2 best_count: count MAE 4.63 (bias -3.11); pooled F1 0.25/0.50/0.75/0.90 0.948/0.925/0.860/0.485; joined 1046 split 756 missed 531 false 178\n"}
+,{"stream_name":"stdout","time":6663.243070422,"data":"[2026-10-06T23:55:27] B03 v2 best_outline: count MAE 9.86 (bias -9.86); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.891/0.739; joined 1823 split 129 missed 649 false 84\n"}
+,{"stream_name":"stdout","time":6663.243077051,"data":"[2026-10-06T23:55:27] run finished: status=measured, wall_seconds=1447.53\n"}
+,{"stream_name":"stdout","time":6663.243083656,"data":"=== scripts/b_repost.py --exp B03 --seed 1 --thr_extra 0.96,0.97,0.98,0.99,0.995,0.999\n"}
+,{"stream_name":"stdout","time":6663.24309031,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":6663.243098365,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":6663.243105235,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":6663.243112174,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":6663.243119217,"data":"[2026-10-06T23:55:42] run 20261006-235533_B03_unet_boundary_repost_v2_seed1_thr_extended started\n"}
+,{"stream_name":"stdout","time":6663.243125676,"data":"[2026-10-06T23:55:52] fold models: {0: '20261006-212929_B03_unet_boundary_seed1', 1: '20261006-212929_B03_unet_boundary_seed1', 2: '20261006-212929_B03_unet_boundary_seed1', 3: '20261006-212929_B03_unet_boundary_seed1', 4: '20261006-212929_B03_unet_boundary_seed1'}\n"}
+,{"stream_name":"stdout","time":6663.243132951,"data":"[2026-10-07T00:01:17] fold 0: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.75, md 0, ms 50}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243139846,"data":"[2026-10-07T00:05:25] fold 1: picks {best_count: thr 0.95, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243153311,"data":"[2026-10-07T00:10:38] fold 2: picks {best_count: thr 0.995, md 0, ms 10, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': [], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243160362,"data":"[2026-10-07T00:15:10] fold 3: picks {best_count: thr 0.97, md 0, ms 0, best_outline: thr 0.7, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243167086,"data":"[2026-10-07T00:19:46] fold 4: picks {best_count: thr 0.96, md 0, ms 0, best_outline: thr 0.75, md 0, ms 25}; on range edge: {'best_count': ['min_size'], 'best_outline': []}\n"}
+,{"stream_name":"stdout","time":6663.243173795,"data":"[2026-10-07T00:19:46] B03 v2 best_count: count MAE 5.21 (bias -2.61); pooled F1 0.25/0.50/0.75/0.90 0.944/0.919/0.798/0.260; joined 776 split 1083 missed 705 false 98\n"}
+,{"stream_name":"stdout","time":6663.243180849,"data":"[2026-10-07T00:19:46] B03 v2 best_outline: count MAE 10.30 (bias -10.29); pooled F1 0.25/0.50/0.75/0.90 0.946/0.933/0.892/0.738; joined 1971 split 110 missed 608 false 79\n"}
+,{"stream_name":"stdout","time":6663.243187685,"data":"[2026-10-07T00:19:46] run finished: status=measured, wall_seconds=1453.49\n"}
+,{"stream_name":"stdout","time":6663.24319427,"data":"\n"}
+,{"stream_name":"stdout","time":6663.243200386,"data":"[19:29:25] lane2 finished with exit code 0 after 6631 s\n"}
+,{"stream_name":"stdout","time":6663.24321415,"data":"=== scripts/b_analysis.py --exp B05 --posts v2 --seed 0\n"}
+,{"stream_name":"stdout","time":6663.243220893,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":6663.24322738,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":6663.243234283,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":6663.243241095,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":6663.243247879,"data":"[2026-10-06T23:09:38] run 20261006-230901_B05_crowding_tiny_nuclei_posts_v2 started\n"}
+,{"stream_name":"stdout","time":6663.243254937,"data":"[2026-10-06T23:09:39] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']\n"}
+,{"stream_name":"stdout","time":6663.243261595,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":6663.243267436,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 238, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":6663.243274172,"data":"    main()\n"}
+,{"stream_name":"stdout","time":6663.24328022,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":6663.243286441,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 232, in main\n"}
+,{"stream_name":"stdout","time":6663.243292805,"data":"    res = b05(run, prac, preds) if a.exp == \"B05\" else b06(run, prac, preds)\n"}
+,{"stream_name":"stdout","time":6663.24329961,"data":"          ~~~^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":6663.243315424,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 107, in b05\n"}
+,{"stream_name":"stdout","time":6663.24332257,"data":"    lab = fn(s, k)\n"}
+,{"stream_name":"stdout","time":6663.243334052,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 59, in \u003clambda\u003e\n"}
+,{"stream_name":"stdout","time":6663.243359242,"data":"    preds[f\"B01_{name}\"] = (lambda stem, k, name=name: T.segment(B.read_image(stem), **chosen[str(k)][name]))\n"}
+,{"stream_name":"stdout","time":6663.243372939,"data":"                                                       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":6663.243380616,"data":"  File \"/kaggle/working/code/scripts/b01_threshold_watershed.py\", line 43, in segment\n"}
+,{"stream_name":"stdout","time":6663.24338766,"data":"    fg = remove_small_objects(fg, max_size=min_size)\n"}
+,{"stream_name":"stdout","time":6663.243393992,"data":"TypeError: remove_small_objects() got an unexpected keyword argument 'max_size'. Did you mean 'min_size'?\n"}
+,{"stream_name":"stdout","time":6663.243400681,"data":"=== scripts/b_analysis.py --exp B06 --posts v2 --seed 0\n"}
+,{"stream_name":"stdout","time":6663.243406692,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":6663.243413154,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":6663.243468561,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":6663.243475631,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":6663.24348219,"data":"[2026-10-06T23:10:06] run 20261006-230950_B06_warning_flags_posts_v2 started\n"}
+,{"stream_name":"stdout","time":6663.243488805,"data":"[2026-10-06T23:10:07] methods available: ['B01_best_count', 'B01_best_outline', 'B02_best_count', 'B02_best_outline', 'B03_best_count', 'B03_best_outline']\n"}
+,{"stream_name":"stdout","time":6663.243495387,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":6663.243501431,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 238, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":6663.243508371,"data":"    main()\n"}
+,{"stream_name":"stdout","time":6663.243514681,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":6663.24352096,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 232, in main\n"}
+,{"stream_name":"stdout","time":6663.243527731,"data":"    res = b05(run, prac, preds) if a.exp == \"B05\" else b06(run, prac, preds)\n"}
+,{"stream_name":"stdout","time":6663.243534378,"data":"                                                       ~~~^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":6663.243551376,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 178, in b06\n"}
+,{"stream_name":"stdout","time":6663.243557915,"data":"    r[f\"disagree_{o}\"] = abs(int(S._relabel(preds[o](s, k)).max()) - r[\"n_pred\"])\n"}
+,{"stream_name":"stdout","time":6663.2435646,"data":"                                            ~~~~~~~~^^^^^^\n"}
+,{"stream_name":"stdout","time":6663.243570664,"data":"  File \"/kaggle/working/code/scripts/b_analysis.py\", line 59, in \u003clambda\u003e\n"}
+,{"stream_name":"stdout","time":6663.243577507,"data":"    preds[f\"B01_{name}\"] = (lambda stem, k, name=name: T.segment(B.read_image(stem), **chosen[str(k)][name]))\n"}
+,{"stream_name":"stdout","time":6663.243584224,"data":"                                                       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":6663.24359099,"data":"  File \"/kaggle/working/code/scripts/b01_threshold_watershed.py\", line 43, in segment\n"}
+,{"stream_name":"stdout","time":6663.243597626,"data":"    fg = remove_small_objects(fg, max_size=min_size)\n"}
+,{"stream_name":"stdout","time":6663.24361151,"data":"TypeError: remove_small_objects() got an unexpected keyword argument 'max_size'. Did you mean 'min_size'?\n"}
+,{"stream_name":"stdout","time":6663.243618545,"data":"=== scripts/r02_confirm.py\n"}
+,{"stream_name":"stdout","time":6663.243625058,"data":"Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.\n"}
+,{"stream_name":"stdout","time":6663.243632741,"data":"Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.\n"}
+,{"stream_name":"stdout","time":6663.243639675,"data":"Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.\n"}
+,{"stream_name":"stdout","time":6663.24364746,"data":"See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.\n"}
+,{"stream_name":"stdout","time":6663.24365359,"data":"[2026-10-06T23:10:38] run 20261006-231032_R02_confirm_fresh_conditions started\n"}
+,{"stream_name":"stdout","time":6663.24367324,"data":"[2026-10-06T23:11:11] TRAIN_range: PPO (mean of 5 seeds) minus PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan\n"}
+,{"stream_name":"stdout","time":6663.243679788,"data":"[2026-10-06T23:11:11] TRAIN_range: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan\n"}
+,{"stream_name":"stdout","time":6663.243686314,"data":"[2026-10-06T23:11:11] UNTOUCHED: PPO (mean of 5 seeds) minus PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan\n"}
+,{"stream_name":"stdout","time":6663.243693033,"data":"[2026-10-06T23:11:11] UNTOUCHED: PPO (mean of 5 seeds) minus FF+PI, diameter error: mean +nan um, PPO better in nan% of fresh episodes; worst +nan\n"}
+,{"stream_name":"stdout","time":6663.243699608,"data":"[2026-10-06T23:11:11] fresh-condition results (mean and worst episode):\n"}
+,{"stream_name":"stdout","time":6663.243705988,"data":"                       d_err_mean        rate_err_mean        violation_share       \n"}
+,{"stream_name":"stdout","time":6663.243734601,"data":"                             mean    max          mean    max            mean    max\n"}
+,{"stream_name":"stdout","time":6663.243741415,"data":"controller condition                                                                \n"}
+,{"stream_name":"stdout","time":6663.243747355,"data":"FF+PI      TRAIN_range      1.322  3.231         0.177  0.439           0.117  0.550\n"}
+,{"stream_name":"stdout","time":6663.243754105,"data":"           UNTOUCHED        1.950  4.141         0.263  0.580           0.072  0.427\n"}
+,{"stream_name":"stdout","time":6663.243760544,"data":"PI         TRAIN_range      1.437  2.349         0.167  0.303           0.053  0.277\n"}
+,{"stream_name":"stdout","time":6663.243767265,"data":"           UNTOUCHED        2.096  3.937         0.270  0.492           0.049  0.380\n"}
+,{"stream_name":"stdout","time":6663.243774608,"data":"[2026-10-06T23:11:11] run finished: status=measured, wall_seconds=39.24\n"}
+,{"stream_name":"stdout","time":6663.243780731,"data":"\n"}
+,{"stream_name":"stderr","time":6665.769767058,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6665.769805085,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6666.082211206,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6666.08224281,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6667.082595399,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6667.768237509,"data":"[NbConvertApp] Writing 290628 bytes to __results__.html\n"}
+]

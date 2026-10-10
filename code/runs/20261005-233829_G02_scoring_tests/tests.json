@@ -1,0 +1,102 @@
+[
+  {
+    "test": "perfect: F1=1 at every level",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "perfect: no count error / joins / splits",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "empty prediction: F1=0, all missed",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "both empty: F1=1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "reference empty, prediction not: F1=0, all false",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "merged pair: 1 join event joining 2 nuclei",
+    "passed": true,
+    "detail": "{'n_ref': 3, 'n_pred': 2, 'count_error': -1, 'abs_count_error': 1, 'tp@0.05': 2, 'fp@0.05': 0, 'fn@0.05': 1, 'f1@0.05': 0.8, 'tp@0.10': 2, 'fp@0.10': 0, 'fn@0.10': 1, 'f1@0.10': 0.8, 'tp@0.15': 2, 'fp@0.15': 0, 'fn@0.15': 1, 'f1@0.15': 0.8, 'tp@0.20': 2, 'fp@0.20': 0, 'fn@0.20': 1, 'f1@0.20': 0.8, 'tp@0.25': 2, 'fp@0.25': 0, 'fn@0.25': 1, 'f1@0.25': 0.8, 'tp@0.30': 2, 'fp@0.30': 0, 'fn@0.30': 1, 'f1@0.30': 0.8, 'tp@0.35': 2, 'fp@0.35': 0, 'fn@0.35': 1, 'f1@0.35': 0.8, 'tp@0.40': 2, 'fp@0.40': 0, 'fn@0.40': 1, 'f1@0.40': 0.8, 'tp@0.45': 2, 'fp@0.45': 0, 'fn@0.45': 1, 'f1@0.45': 0.8, 'tp@0.50': 2, 'fp@0.50': 0, 'fn@0.50': 1, 'f1@0.50': 0.8, 'tp@0.55': 1, 'fp@0.55': 1, 'fn@0.55': 2, 'f1@0.55': 0.4, 'tp@0.60': 1, 'fp@0.60': 1, 'fn@0.60': 2, 'f1@0.60': 0.4, 'tp@0.65': 1, 'fp@0.65': 1, 'fn@0.65': 2, 'f1@0.65': 0.4, 'tp@0.70': 1, 'fp@0.70': 1, 'fn@0.70': 2, 'f1@0.70': 0.4, 'tp@0.75': 1, 'fp@0.75': 1, 'fn@0.75': 2, 'f1@0.75': 0.4, 'tp@0.80': 1, 'fp@0.80': 1, 'fn@0.80': 2, 'f1@0.80': 0.4, 'tp@0.85': 1, 'fp@0.85': 1, 'fn@0.85': 2, 'f1@0.85': 0.4, 'tp@0.90': 1, 'fp@0.90': 1, 'fn@0.90': 2, 'f1@0.90': 0.4, 'tp@0.95': 1, 'fp@0.95': 1, 'fn@0.95': 2, 'f1@0.95': 0.4, 'joined_ref': 2, 'join_events': 1, 'split_pred': 0, 'split_events': 0, 'missed': 0, 'false': 0}"
+  },
+  {
+    "test": "merged pair: count error -1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "split object: 1 split event made of 2 predictions",
+    "passed": true,
+    "detail": "{'n_ref': 3, 'n_pred': 4, 'count_error': 1, 'abs_count_error': 1, 'tp@0.05': 3, 'fp@0.05': 1, 'fn@0.05': 0, 'f1@0.05': 0.8571428571428571, 'tp@0.10': 3, 'fp@0.10': 1, 'fn@0.10': 0, 'f1@0.10': 0.8571428571428571, 'tp@0.15': 3, 'fp@0.15': 1, 'fn@0.15': 0, 'f1@0.15': 0.8571428571428571, 'tp@0.20': 3, 'fp@0.20': 1, 'fn@0.20': 0, 'f1@0.20': 0.8571428571428571, 'tp@0.25': 3, 'fp@0.25': 1, 'fn@0.25': 0, 'f1@0.25': 0.8571428571428571, 'tp@0.30': 3, 'fp@0.30': 1, 'fn@0.30': 0, 'f1@0.30': 0.8571428571428571, 'tp@0.35': 3, 'fp@0.35': 1, 'fn@0.35': 0, 'f1@0.35': 0.8571428571428571, 'tp@0.40': 3, 'fp@0.40': 1, 'fn@0.40': 0, 'f1@0.40': 0.8571428571428571, 'tp@0.45': 3, 'fp@0.45': 1, 'fn@0.45': 0, 'f1@0.45': 0.8571428571428571, 'tp@0.50': 3, 'fp@0.50': 1, 'fn@0.50': 0, 'f1@0.50': 0.8571428571428571, 'tp@0.55': 2, 'fp@0.55': 2, 'fn@0.55': 1, 'f1@0.55': 0.5714285714285714, 'tp@0.60': 2, 'fp@0.60': 2, 'fn@0.60': 1, 'f1@0.60': 0.5714285714285714, 'tp@0.65': 2, 'fp@0.65': 2, 'fn@0.65': 1, 'f1@0.65': 0.5714285714285714, 'tp@0.70': 2, 'fp@0.70': 2, 'fn@0.70': 1, 'f1@0.70': 0.5714285714285714, 'tp@0.75': 2, 'fp@0.75': 2, 'fn@0.75': 1, 'f1@0.75': 0.5714285714285714, 'tp@0.80': 2, 'fp@0.80': 2, 'fn@0.80': 1, 'f1@0.80': 0.5714285714285714, 'tp@0.85': 2, 'fp@0.85': 2, 'fn@0.85': 1, 'f1@0.85': 0.5714285714285714, 'tp@0.90': 2, 'fp@0.90': 2, 'fn@0.90': 1, 'f1@0.90': 0.5714285714285714, 'tp@0.95': 2, 'fp@0.95': 2, 'fn@0.95': 1, 'f1@0.95': 0.5714285714285714, 'joined_ref': 0, 'join_events': 0, 'split_pred': 2, 'split_events': 1, 'missed': 0, 'false': 0}"
+  },
+  {
+    "test": "partial overlap: F1 never increases as the level gets stricter",
+    "passed": true,
+    "detail": "[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]"
+  },
+  {
+    "test": "partial overlap: matched exactly when IoU >= level",
+    "passed": true,
+    "detail": "IoU=0.471"
+  },
+  {
+    "test": "ids can be any numbers (relabelling gives the same scores)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "real BBBC039 mask vs itself: perfect",
+    "passed": true,
+    "detail": "objects=71"
+  },
+  {
+    "test": "perfect: AUC=1, AP=1, Brier=0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "perfect: all bad caught after reviewing exactly n_bad photos",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "all wrong: AUC=0, Brier=1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "constant score: AUC=0.5",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "one-class group: AUC and AP unavailable (None), not 0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "cut-off chosen on practice data separates perfectly",
+    "passed": true,
+    "detail": "{'rule': 'max_balanced_accuracy', 'cutoff': 1.0, 'sensitivity_bad': np.float64(1.0), 'specificity_good': np.float64(1.0), 'balanced_accuracy': np.float64(1.0), 'false_pass_rate': np.float64(0.0)}"
+  },
+  {
+    "test": "grouped bootstrap runs and keeps perfect Brier at 0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "random scores: review area near 0.5",
+    "passed": true,
+    "detail": "0.500"
+  }
+]

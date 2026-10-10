@@ -1,0 +1,26 @@
+{
+  "target": "fg",
+  "max_steps": 6000,
+  "seed": 0,
+  "folds": "5 plate-grouped (splits/bbbc039_splits.csv)",
+  "stress": {
+    "brightness": [
+      0.5,
+      0.75,
+      1.25,
+      1.5
+    ],
+    "noise_sd": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "blur_sigma": [
+      1.0,
+      2.0,
+      3.0
+    ]
+  },
+  "device": "cpu",
+  "early_stopping": "inner validation loss every 250 steps"
+}

@@ -1,0 +1,19 @@
+# Pinned versions used for the clean rebuild (Linux, Python 3.12/3.13; same pins as cloud/modal_run.py and kaggle/jobs/ai4s-f03)
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+scikit-image==0.26.0
+tifffile==2026.9.20
+pillow==12.3.0
+openpyxl==3.1.5
+matplotlib==3.11.2
+pyarrow==25.0.1
+torch==2.14.1
+torchvision==0.29.1
+timm==1.0.30
+joblib
+psutil
+# only for the control-simulator studies (R02-R05):
+gymnasium==1.4.0
+stable-baselines3==2.9.0

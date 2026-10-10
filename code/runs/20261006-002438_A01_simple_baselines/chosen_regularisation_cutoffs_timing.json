@@ -1,0 +1,82 @@
+[
+  {
+    "fold": 0,
+    "method": "details_only",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.44200455465944594,
+    "fit_seconds": 0.13943254200421507,
+    "predict_seconds_per_photo": 4.6973880562833994e-06
+  },
+  {
+    "fold": 0,
+    "method": "photo_stats",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.48360384881177015,
+    "fit_seconds": 0.34544337499391986,
+    "predict_seconds_per_photo": 2.8055970063572055e-06
+  },
+  {
+    "fold": 1,
+    "method": "details_only",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.4841792525108603,
+    "fit_seconds": 0.07349166600033641,
+    "predict_seconds_per_photo": 2.310650566890368e-06
+  },
+  {
+    "fold": 1,
+    "method": "photo_stats",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.44479394952129625,
+    "fit_seconds": 0.3738300420009182,
+    "predict_seconds_per_photo": 1.9983899654662346e-06
+  },
+  {
+    "fold": 2,
+    "method": "details_only",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.4596891718473382,
+    "fit_seconds": 0.07068499999877531,
+    "predict_seconds_per_photo": 2.2462418462880913e-06
+  },
+  {
+    "fold": 2,
+    "method": "photo_stats",
+    "C": 0.01,
+    "cutoff_from_training_fold": 0.3985155873199448,
+    "fit_seconds": 0.33204679200571263,
+    "predict_seconds_per_photo": 1.843650668350919e-06
+  },
+  {
+    "fold": 3,
+    "method": "details_only",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.39133370725384575,
+    "fit_seconds": 0.07208141700539272,
+    "predict_seconds_per_photo": 2.5792869805537213e-06
+  },
+  {
+    "fold": 3,
+    "method": "photo_stats",
+    "C": 0.03162277660168379,
+    "cutoff_from_training_fold": 0.3815194177564221,
+    "fit_seconds": 0.31854254200152354,
+    "predict_seconds_per_photo": 2.091059607847349e-06
+  },
+  {
+    "fold": 4,
+    "method": "details_only",
+    "C": 0.0031622776601683794,
+    "cutoff_from_training_fold": 0.38805771871940425,
+    "fit_seconds": 0.07261995899898466,
+    "predict_seconds_per_photo": 2.29846491333375e-06
+  },
+  {
+    "fold": 4,
+    "method": "photo_stats",
+    "C": 0.03162277660168379,
+    "cutoff_from_training_fold": 0.41253067628873336,
+    "fit_seconds": 0.339387167005043,
+    "predict_seconds_per_photo": 1.7681280727980234e-06
+  }
+]
