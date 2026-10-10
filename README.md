@@ -1,10 +1,10 @@
-# AI4S: Chip Photo Review with Local Image Tiles
+# Breaking the Frame: Seeing More in Every Chip
 
 This repository contains the code, saved results and research records for one competition entry. The competition is [AI4S Open Innovation: AI for Life Science](https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien) on Kaggle. The category is Model & Algorithm.
 
 | Item | Location |
 |---|---|
-| Technical report | [Kaggle writeup](https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien/writeups/ai4s-writeup). The report text is also in `Research_and_Experiments/Writeup/kaggle_writeup.md`. |
+| Technical report | [Kaggle writeup](https://www.kaggle.com/competitions/ai-4-s-open-innovation-artificial-intelligence-for-life-scien/writeups/breaking-the-frame-seeing-more-in-every-chip). The report text is also in `Research_and_Experiments/Writeup/kaggle_writeup.md`. |
 | Demo video | [YouTube video](https://youtu.be/HXp1MqyvRRE), 4 minutes 34 seconds. The file is `Research_and_Experiments/Writeup/Video/AI4S_Demo.mp4`. |
 | Tool entry point | `code/inference.py` |
 | Map from each experiment to its saved records | `Research_and_Experiments/Writeup/source_map.md` |

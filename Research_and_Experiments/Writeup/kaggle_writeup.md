@@ -1,20 +1,20 @@
 ## Category Declaration: Model & Algorithm
 
-**Project:** AI4S: Chip Photo Review with Local Image Tiles
-
-**Report date:** 10 October 2026. **Evidence cutoff:** 8 October 2026.
+**Project:** Breaking the Frame: Seeing More in Every Chip
 
 **Team:** My team name is Striker. I am the only member and the team leader. My Kaggle profile is [Its_Asup](https://www.kaggle.com/itsasup).
 
 ## Demo Video
 
-I made a short demo video of 4 minutes 34 seconds. It is in 1080p and has a synthetic voice and English subtitles.
+I made a short demo video of 4 minutes 34 seconds. It is in 1080p and has a synthetic voice. The attached MP4 contains English subtitles.
 
 You can watch it on [YouTube](https://youtu.be/HXp1MqyvRRE) without login or payment. The same file, `AI4S_Demo.mp4`, is attached to this writeup.
 
 ## Code Repository Link
 
-**Repository:** [github.com/AsutoshaNanda/ai4s-chip-photo-review](https://github.com/AsutoshaNanda/ai4s-chip-photo-review). The entry point is `code/inference.py`. The repository contains a saved scorer, installation requirements, experiment scripts and test records. The code license is Apache-2.0. Nine public Kaggle notebooks with the recorded reproduction runs are listed under Project Links. Public access to the repository was examined without login on 10 October 2026.
+**Repository:** [Code, models and reproduction instructions](https://github.com/AsutoshaNanda/ai4s-chip-photo-review). The entry point is `code/inference.py`. The repository contains a saved scorer, installation requirements, experiment scripts and test records. The code license is Apache-2.0.
+
+Three public Kaggle notebooks are listed under Project Links. They cover the scorer rebuild, clean reproduction and simulator evaluation. Public access to the repository was examined without login on 10 October 2026.
 
 ## Project Summary
 
@@ -388,7 +388,17 @@ Useful reproduction entry points include `code/kaggle/jobs/ai4s-f03/run.py`, `co
 
 G03 records speed and memory measurements for specific computers and tasks. Whole-photo feature extraction measured 167 photos/second in the recorded A100 run and 15.5 in the T4 speed test. These are different runs. They are not the speed of the complete nine-tile tool. The older claimed Mac rate lacks a saved measurement and is excluded.
 
-The 8 October account check reported $17.17 metered Modal usage and $0 billed. This is a historical account reading, not a total project-cost estimate. Earlier readings remain unreconciled. Paid compute was used during research; the tested inference path does not require a paid API.
+Paid compute was used during research. The tested inference path does not require a paid API.
+
+#### 7.3 Start with these recorded runs
+
+| Notebook | Purpose and limit |
+|---|---|
+| [F05: saved scorer and CPU demonstration](https://www.kaggle.com/code/itsasup/ai4s-f05-scorer) | Rebuilds the scorer and runs the 17-photo demonstration. The ordinary installation passed. The strict-warning claim does not apply. |
+| [F03: clean reproduction](https://www.kaggle.com/code/itsasup/ai4s-f03) | Rebuilds chip features and evaluates them. It also trains one B03 split. It does not reproduce every study. |
+| [Repaired simulator evaluation](https://www.kaggle.com/code/itsasup/ai4s-rl-eval) | Examines saved controllers in the simulator. This is not a physical-chip demonstration. |
+
+The repository README also lists the earlier demo and four nucleus cleanup runs. Those records remain available for detailed review. F06 has no saved notebook version and did not pass. Its failure remains recorded above and in Appendix B.
 
 ### 8. Decisions, limits and next tests
 
